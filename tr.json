@@ -1,0 +1,1577 @@
+{
+    "LABEL": "Türkçe",
+    "SEARCH": "Ara",
+    "CANCEL": "İptal",
+    "NOW": "now",
+    "D": "d",
+    "H": "h",
+    "M": "m",
+    "S": "s",
+
+    "APP_NAMES": {
+        "Police": "Polis",
+        "Ambulance": "Ambulans",
+        "Registration": "Kayıt",
+        "Notes": "Notlar",
+        "Browser": "Tarayıcı",
+        "Settings": "Ayarlar",
+        "Photos": "Fotoğraflar",
+        "Camera": "Kamera",
+        "Calculator": "Hesap Makinesi",
+        "Apps": "Uygulamalar",
+        "Clock": "Saat",
+        "Maps": "Haritalar",
+        "Mail": "Posta",
+        "Services": "Hizmetler",
+        "VoiceMemo": "Sesli Notlar"
+    },
+
+    "APPS": {
+        "SETTINGS": {
+            "TITLE": "Ayarlar",
+            "BACK": "Geri",
+            "DONE": "Bitti",
+            "EDIT": "Düzenle",
+            "AIRPLANE_MODE": "Uçak Modu",
+            "AIRPLANE_MODE_DESCRIPTION": "Aramaları, hücresel veriyi vb. devre dışı bırak.",
+            "STREAMER_MODE": "Yayıncı Modu",
+            "STREAMER_MODE_DESCRIPTION": "Hassas bilgileri bulanıklaştırır.",
+            "GENERAL": "Genel",
+            "GENERAL_DESCRIPTION": "Tabletiniz için genel ayarlar",
+            "ABOUT": "Hakkında",
+            "NAME": "İsim",
+            "VERSION": "Sürüm",
+            "MODEL_NAME": "Model Adı",
+            "SERIAL_NUMBER": "Seri Numarası",
+            "DEVELOPED_BY": "Tarafından Geliştirildi",
+            "PURCHASE_AT": "Satın Alındığı Yer",
+            "SONGS": "Şarkılar",
+            "VIDEOS": "Videolar",
+            "PHOTOS": "Fotoğraflar",
+            "APPLICATIONS": "Uygulamalar",
+            "CAPACITY": "Kapasite",
+            "AVAILABLE": "Kullanılabilir",
+            "SOFTWARE_UPDATE": "Yazılım Güncellemesi",
+            "AUTOMATIC_UPDATES": "Otomatik Güncellemeler",
+            "DATE_TIME": "Tarih & Saat",
+            "24_HOUR_TIME": "24 Saatlik Zaman",
+            "SET_AUTOMATICALLY": "Otomatik Ayarla",
+            "TIME_ZONE": "Saat Dilimi",
+            "LANGUAGE_REGION": "Dil & Bölge",
+            "LANGUAGE": "Dil",
+            "TEMPERATURE": "Sıcaklık",
+            "CELCIUS": "Santigrat",
+            "FAHRENHEIT": "Fahrenheit",
+            "BATTERY": "Pil",
+            "BATTERY_DESCRIPTION": "Pil ömrünü ve kullanımını görüntüle",
+            "SOUND_HAPTICS": "Ses & Haptikler",
+            "SOUND_HAPTICS_DESCRIPTION": "Sesleri ve titreşimleri değiştir",
+            "SOUND_HAPTICS_PATTERNS": "Ses ve haptik desenleri",
+            "RINGTONE": "Zil Sesi",
+            "RINGTONE_VOLUME": "Zil Sesi Seviyesi",
+            "TEXT_TONE": "Mesaj Sesi",
+            "DEFAULT": "Varsayılan",
+            "PHONE_STORAGE": "Tablet Depolama",
+            "STORAGE": "Depolama",
+            "USED": "Kullanılan",
+            "OF": "of",
+            "DISPLAY_BRIGHTNESS": "Ekran & Parlaklık",
+            "DISPLAY_BRIGHTNESS_DESCRIPTION": "Ekranı ve parlaklığı ayarla",
+            "DARK": "Koyu",
+            "LIGHT": "Açık",
+            "APPEARANCE": "Görünüm",
+            "AUTOMATIC": "Otomatik",
+            "BRIGHTNESS": "Parlaklık",
+            "FRAME_COLOR": "Çerçeve Rengi",
+            "TABLET_SCALE": "Tablet Ölçeği",
+            "WALLPAPER": "Duvar Kağıdı",
+            "WALLPAPER_DESCRIPTION": "Duvar kağıdını ve diğer arka plan ayarlarını değiştir",
+            "WALLPAPERS": "Duvar Kağıtları",
+            "CHOOSE_NEW_WALLPAPER": "Yeni Bir Duvar Kağıdı Seç",
+            "NOTIFICATIONS": "Bildirimler",
+            "NOTIFICATIONS_DESCRIPTION": "Hangi uygulamaların bildirim gönderebileceğini seç",
+            "ALLOW_NOTIFICATIONS": "Bildirimlere İzin Ver",
+            "SOUNDS": "Sesler",
+            "CLOUD_BACKUP": "Bulut Yedekleme",
+            "YOUR_PROFILE": "Profiliniz",
+            "SUCCESS": "Başarılı",
+            "SUCCESS_TEXT": "Tablet 5 saniye içinde yeniden başlayacak...",
+            "OK": "Tamam",
+            "ON": "Açık",
+            "OFF": "Kapalı",
+            "RESET_POPUP": {
+                "TITLE": "Tableti Sıfırla",
+                "TEXT": "Tabletinizin sıfırlanmasını istediğinizden emin misiniz? [BU, HERŞEYİ SİLECEK]",
+                "CANCEL": "İptal",
+                "CONFIRM": "Sıfırla"
+            },
+            "UP_TO_DATE": "Tabletiniz güncel",
+            "BLUR_HOMESCREEN": "Ana Ekranı Bulanıklaştır"
+        },
+        "NOTES": {
+            "TITLE": "Notlar",
+            "SEARCH_PLACEHOLDER": "Ara",
+            "FOOTER": "{amount} Notlar",
+            "NEW_NOTE": "Yeni Not",
+            "LAST_EDITED": "Son Düzenleme: {date}",
+            "DELETE_TITLE": "{title} Sil",
+            "DELETE_TEXT": "'{title}' öğesini silmek istediğinizden emin misiniz?",
+            "BUTTON_CANCEL": "İptal",
+            "BUTTON_DELETE": "Sil"
+        },
+
+        "CLOCK": {
+            "WORLDCLOCK": {
+                "TITLE": "Dünya Saati",
+                "TODAY": "Bugün",
+                "TOMORROW": "Yarın",
+                "YESTERDAY": "Dün",
+                "LOCAL_TIME": "Yerel Saat",
+                "HRS": "{time} saat"
+            },
+            "ALARM": {
+                "TITLE": "Alarm",
+                "ADD": "Alarm Ekle",
+                "CANCEL": "İptal",
+                "EDIT": "Düzenle",
+                "DONE": "Bitti",
+                "SAVE": "Kaydet",
+                "LABEL": "Etiket",
+                "SOUND": "Ses",
+                "SNOOZE": "Ertele",
+                "DELETE_TITLE": "Alarmı Sil",
+                "DELETE_TEXT": "Bu alarmı silmek istediğinizden emin misiniz?",
+                "BUTTON_CANCEL": "İptal",
+                "BUTTON_DELETE": "Sil",
+                "ALARMS": "Alarmlar",
+                "NEW_ALARM": "Yeni Alarm",
+                "EDIT_ALARM": "Alarmı Düzenle"
+            },
+            "STOPWATCH": {
+                "TITLE": "Kronometre",
+                "START": "Başlat",
+                "STOP": "Durdur",
+                "RESET": "Sıfırla",
+                "LAP": "Tur",
+                "TIME": "Zaman",
+                "TOTAL": "Toplam",
+                "NO_LAPS": "Tur Yok"
+            },
+            "TIMER": {
+                "TITLE": "Zamanlayıcı",
+                "START": "Başlat",
+                "STOP": "Durdur",
+                "CANCEL": "İptal",
+                "HOURS": "Saatler",
+                "MINUTES": "Dakikalar",
+                "SECONDS": "Saniyeler",
+                "NO_RECENTS": "Son Kullanımlar Yok"
+            },
+            "ALERT": {
+                "STOP": "Durdur",
+                "RESTART": "Yeniden Başlat"
+            }
+        },
+
+        "CAMERA": {
+            "VIDEO": "Video",
+            "PHOTO": "Fotoğraf",
+            "LANDSCAPE": "Manzara",
+            "UPLOADING": "Yükleniyor"
+        },
+
+        "APPSTORE": {
+            "TITLE": "Uygulamalar",
+            "SEARCH": "Ara",
+            "GET": "Al",
+            "OPEN": "Aç",
+            "TODAY": "Bugün",
+            "POPULAR_APPS": "Popüler Uygulamalar",
+            "GAMES": "Oyunlar",
+            "APPS": "Uygulamalar",
+            "WHAT_WE_PLAYING": "Ne oynuyoruz",
+            "INFORMATION": "Bilgi",
+            "PROVIDER": "Sağlayıcı",
+            "SIZE": "Boyut",
+            "COMPATIBILITY": "Uyumluluk",
+            "IN_APP_PURCHASES": "Uygulama İçi Satın Alımlar",
+            "WORKS_WITH_PHONE": "Bu tabletle çalışır",
+            "NO": "Hayır",
+            "YES": "Evet",
+            "PURCHASE_APP_POPUP": {
+                "TITLE": "Uygulama Satın Al",
+                "DESCRIPTION": "{app} uygulamasını {price} karşılığında satın almak istiyor musunuz?",
+                "CANCEL": "İptal",
+                "PROCEED": "Satın Al"
+            }
+        },
+        "PHOTOS": {
+            "TITLE": "Fotoğraflar",
+            "SELECT": "Seç",
+            "CANCEL": "İptal",
+            "EDIT": "Düzenle",
+            "DONE": "Bitti",
+            "DELETE": "Sil",
+            "SELECT_ITEMS": "Öğeleri Seç",
+            "SELECTED_COUNT": "{count} Öğe seçildi",
+
+            "PHOTOS": "Fotoğraflar",
+            "ALBUMS": "Albümler",
+            "LIBRARY": "Kütüphane",
+            "GALLERY": "Galeri",
+            "MY_ALBUMS": "Albümlerim",
+            "MEDIA_TYPES": "Medya Türleri",
+            
+            "NEW_ALBUM_POPUP": {
+                "TITLE": "Yeni Albüm",
+                "DESCRIPTION": "Bu albüm için bir ad girin",
+                "PLACEHOLDER": "Başlık",
+                "CANCEL": "İptal",
+                "PROCEED": "Kaydet"
+            },
+            "REMOVE_ALBUM": {
+                "TITLE": "\"{name}\" Albümünü Kaldır",
+                "DESCRIPTION": "\"{name}\" albümünü silmek istediğinizden emin misiniz? Fotoğraflar silinmeyecek",
+                "CANCEL": "İptal",
+                "PROCEED": "Kaldır"
+            },
+            "RENAME_ALBUM_POPUP": {
+                "TITLE": "Albümü Yeniden Adlandır",
+                "DESCRIPTION": "Bu albüm için yeni bir ad girin",
+                "PLACEHOLDER": "Yeni albüm adı",
+                "CANCEL": "İptal",
+                "PROCEED": "Devam Et"
+            },
+            "DELETE_IMAGE_POPUP": {
+                "TITLE": "Görseli Sil",
+                "DESCRIPTION": "Bu görseli silmek istediğinizden emin misiniz?",
+                "CANCEL": "İptal",
+                "PROCEED": "Sil"
+            },
+            "IMPORT_IMAGE_POPUP": {
+                "TITLE": "Albümüne İçe Aktar",
+                "DESCRIPTION": "Bu albüme bir görsel aktar",
+                "CANCEL": "İptal",
+                "PROCEED": "İçe Aktar",
+                "PLACEHOLDER": "Görsel URL"
+            },
+
+            "NO_PHOTOS": "Fotoğraf veya Video Yok",
+            "NO_PHOTOS_INSTRUCTIONS": "Kamera kullanarak fotoğraf ve video çekebilirsiniz",
+            "PHOTO_COUNT": "{amount} Fotoğraf",
+            "VIDEO_COUNT": "{amount} Video",
+
+            "DELETE_CONTEXT_TITLE": "{type} silmek mi yoksa bu albümden kaldırmak mı istiyorsunuz?",
+            "THESE_PHOTOS": "bu fotoğraflar",
+            "THIS_PHOTO": "bu fotoğraf",
+            "REMOVE_FROM_ALBUM": "Albümden Kaldır",
+            "ADD_TO_ALBUM": "Albüme Ekle",
+            "ADD_TO_FAVOURITES": "Favorilere Ekle",
+            "REMOVE_FROM_FAVOURITES": "Favorilerden Kaldır",
+            "VIDEOS": "Videolar",
+            "SELFIES": "Selfieler",
+            "SCREENSHOTS": "Ekran Görüntüleri",
+            "IMPORTS": "İçe Aktarılanlar",
+            "DUPLICATES": "Çiftler",
+            "YEARS": "Yıllar",
+            "MONTHS": "Aylar",
+            "DAYS": "Günler",
+            "ALL_PHOTOS": "Tüm Fotoğraflar",
+
+            "FAVOURITES": "Favoriler",
+            "RECENTS": "Son Eklenenler"
+        },
+        "MAIL": {
+            "TITLE": "Mail",
+            "YOU": "Sen",
+            "UPDATED_NOW": "Şimdi güncellendi",
+            "NEW_MESSAGE": "Yeni Mesaj",
+            "INBOX": "Gelen Kutusu",
+            "TO": "Kime",
+            "FROM": "Kimden",
+            "SUBJECT": "Konu",
+            "MESSAGE": "Mesaj",
+            "CANCEL": "İptal",
+            "SEND": "Gönder",
+            "EMAIL": "E-posta",
+            "EMAIL_INVALID": "Geçersiz e-posta adresi",
+            "EMAIL_EXISTS": "E-posta zaten mevcut",
+            "PASSWORD": "Şifre",
+            "WRONG_PASSWORD": "Yanlış şifre",
+            "LOGIN": "Giriş Yap",
+            "NO_EMAIL": "E-posta adresin yok mu?",
+            "CREATE_ONE": "Bir tane oluştur",
+            "UNREAD": "Okunmamış",
+            "CREATE_MAIL": "E-posta Oluştur",
+            "ALREADY_HAVE": "Zaten bir e-posta adresin var mı?",
+            "ADD_EMAIL": "E-posta Ekle",
+            "RE": "Re: {subject}",
+            "CHANGE_ACCOUNT": "Hesap Değiştir",
+            "CHANGE_PASSWORD": "Şifre Değiştir",
+            "DELETE_ACCOUNT": "Hesabı Sil",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Oturumu Kapat",
+                "DESCRIPTION": "Oturumu kapatmak istediğinizden emin misiniz?",
+                "CANCEL": "İptal",
+                "PROCEED": "Devam Et"
+            },
+            "DELETE_MAIL_POPUP": {
+                "TITLE": "E-postayı Sil",
+                "DESCRIPTION": "Bu e-postayı silmek istediğinizden emin misiniz?",
+                "CANCEL": "İptal",
+                "DELETE": "Sil"
+            }
+        },
+        "VOICEMEMO": {
+            "TITLE": "Sesli Not",
+            "VOICE_RECORDINGS": "Ses Kayıtları",
+            "SEARCH_RECORDINGS": "Kayıtlarda Ara",
+            "DEFAULT_NAME": "Yeni Kayıt",
+            "DELETE_POPUP": {
+                "TITLE": "Sesli Notu Sil",
+                "DESCRIPTION": "Bu sesli notu silmek istediğinizden emin misiniz?",
+                "CANCEL": "İptal",
+                "PROCEED": "Devam Et"
+            },
+            "NO_MICROPHONE_POPUP": {
+                "TITLE": "Mikrofon Yok",
+                "DESCRIPTION": "Mikrofona erişim iznimiz yok, bir mikrofonun bağlı olduğundan emin olun ve ekranın sağ üst köşesindeki açılır pencereyi kabul edin",
+                "OK": "Tamam"
+            },
+            "EMPTY_RECORDING_POPUP": {
+                "TITLE": "Boş Kayıt",
+                "DESCRIPTION": "Ses içermeyen bir kaydı saklayamazsınız",
+                "OK": "Tamam"
+            }
+        },
+        "SERVICES": {
+            "ACTIONS": "Eylemler",
+            "COMPANIES": "Şirketler",
+            "MESSAGES": "Mesajlar",
+            "SETTINGS": "Ayarlar",
+            
+            "CLOSED": "Kapalı",
+            "YOUR_MESSAGES": "Mesajların",
+            "JOB_MESSAGES": "İş Mesajları",
+            
+            "DUTY": "Görev",
+            "DUTY_DESCRIPTION": "Görev durumunu değiştir",
+            "GO_ON_DUTY": "Göreve Başla",
+            "GO_OFF_DUTY": "Görevden Çık",
+            "JOB_CALLS": "İş Çağrıları",
+            "JOB_CALLS_DESCRIPTION": "{toggle} müşterilerden çağrı almayı.",
+            
+            "ENABLE": "Etkinleştir",
+            "DISABLE": "Devre Dışı Bırak",
+            
+            "DISABLE_CALLS": "Çağrıları Kapat",
+            "ENABLE_CALLS": "Çağrıları Aç",
+            "BALANCE": "Bakiye",
+            "CURRENT_BALANCE": "Şirketin mevcut bakiyesi",
+            "MANAGE_EMPLOYEES": "Çalışanları Yönet",
+            "HIRE": "İşe Al",
+            "SET_GRADE": "Pozisyonu Belirle",
+            "UNEMPLOYED": "İşsizsin",
+            
+            "ALL": "Tümü",
+            "AVAILABLE": "Müsait",
+            "SEARCH_EMPLOYEES": "Çalışan Ara",
+            
+            "PERSONAL": "Kişisel",
+            "JOB": "İş",
+            "PLACEHOLDER": "Mesaj Yaz",
+            "NOT_DELIVERED": "Teslim Edilmedi",
+            "SENT_LOCATION": "Konumunu paylaştı, haritada açmak için tıkla",
+            "SENT_LOCATION_SHORT": "Konumunu paylaştı",
+            "SEND_LOCATION_POPUP": {
+                "TITLE": "Konum Paylaş",
+                "TEXT": "Konumunu paylaşmak istiyor musun?",
+                "CANCEL": "İptal",
+                "SEND": "Gönder"
+            },
+            "DELETE_CONVERSATION": {
+                "TITLE": "Sohbeti Sil",
+                "DESCRIPTION": "Bu sohbeti silmek istediğinden emin misin?",
+                "CANCEL": "İptal",
+                "DELETE": "Sil"
+            },
+
+            "DEPOSIT_POPUP": {
+                "TITLE": "Para Yatır",
+                "DESCRIPTION": "Şirket hesabına para yatır",
+                "AMOUNT": "Miktar",
+                "CANCEL": "İptal",
+                "PROCEED": "Devam Et"
+            },
+            "WITHDRAW_POPUP": {
+                "TITLE": "Para Çek",
+                "DESCRIPTION": "Şirket hesabından para çek",
+                "NOT_ENOUGH_MONEY": "Şirket hesabında yeterli para yok",
+                "AMOUNT": "Miktar",
+                "CANCEL": "İptal",
+                "PROCEED": "Devam Et"
+            },
+            "HIRE_POPUP": {
+                "TITLE": "İşe Al",
+                "DESCRIPTION": "Yeni bir çalışan işe al",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "İptal",
+                "PROCEED": "Devam Et"
+            },
+            "FIRE_POPUP": {
+                "TITLE": "İşten Çıkar",
+                "DESCRIPTION": "{name} kişisini işten çıkarmak istediğine emin misin?",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "İptal",
+                "PROCEED": "Devam Et"
+            }
+        },
+        "POLICE": {
+            "CANCEL": "İptal",
+            "CLOSE": "Kapat",
+            "BACK": "Geri",
+            "EDIT": "Düzenle",
+            "DELETE": "Sil",
+            "REMOVE": "Kaldır",
+            "SAVE": "Kaydet",
+            "CREATE": "Oluştur",
+            "OK": "Tamam",
+            "ADD": "Ekle",
+            "NEW": "Yeni",
+            "PROCEED": "Devam Et",
+                
+            "SEARCH": "Ara",
+            "SEARCH_FOR": "{query} için arama yap",
+            "NO_RESULTS_FOR": "'{query}' için sonuç bulunamadı",
+            "CLEAR_HISTORY": "Geçmişi Temizle",
+                
+            "HOME": {
+                "TITLE": "Ana Sayfa",
+                "CREATE": "Oluştur",
+                
+                "RECENT_REPORTS": "Son Raporlar",
+                "REPORT_FOOTER": "{timestamp} - {author}",
+                "BULLETIN_BOARD": "Duyuru Panosu",
+                "PIN": "Sabitle",
+                "UNPIN": "Sabitlemeyi Kaldır",
+                "SEARCH_BULLETIN": "Duyuru Ara",
+                "SEARCH_UNITS": "Birim Ara",
+                "ADD_BULLETIN": {
+                    "TITLE": "Duyuru Ekle",
+                    "DESCRIPTION": "Yeni bir duyuru oluştur",
+                    "PLACEHOLDER": "Başlık",
+                    "CONTENT": "İçerik",
+                    "CANCEL": "İptal",
+                    "PROCEED": "Devam Et"
+                },
+                "DELETE_BULLETIN": {
+                    "TITLE": "Duyuruyu Sil",
+                    "DESCRIPTION": "Bu duyuruyu silmek istediğine emin misin?",
+                    "CANCEL": "İptal",
+                    "DELETE": "Sil"
+                },
+                "RECENT_WARRANTS": "Son Arama Emirleri",
+                "ACTIVE_UNITS": "Aktif Birimler"
+            },
+
+            "DISPATCH": {
+                "TITLE": "Sevk",
+                "TOGGLE_OFFICERS": "Memurları Aç/Kapat",
+                "TOGGLE_ALARMS": "Alarmları Aç/Kapat",
+                "OFFICERS": "Memurlar",
+                "ALARMS": "Alarmlar",
+                
+                "RESPOND": "Yanıtla",
+                "RESPONDED": "Yanıtlandı",
+                "COLLAPSE": "Daralt",
+                "EXPAND": "Genişlet",
+                "DISMISS": "Kapat",
+                "VIEW_IN_TABLET": "Tablette Görüntüle",
+                "SET_WAYPOINT": "Hedef Noktası Belirle",
+
+                "PRIORITY": {
+                    "HIGH": "Yüksek",
+                    "MEDIUM": "Orta",
+                    "LOW": "Düşük"
+                },
+
+                "JUST_NOW": "Az önce",
+                "MINUTES_AGO": "{minutes} dk önce",
+                "HOURS_AGO": "{hours} saat önce"
+            },
+
+            "PROFILES": {
+                "TITLE": "Profil",
+                "PERSON": "Kişi",
+                "SEARCH": "Profilleri Ara",
+                "REMOVE_AVATAR": "Avatarı Kaldır",
+                "IDENTIFIER": "Kimlik Numarası",
+                "FINGERPRINT": "Parmak İzi",
+                "DOB": "Doğum Tarihi",
+                "PHONE_NR": "Telefon Numarası",
+                "GENDER": "Cinsiyet",
+                "JOB": "Meslek",
+                "MALE": "Erkek",
+                "FEMALE": "Kadın",
+                "NOTES": "Notlar",
+                "NOTES_PLACEHOLDER": "Buraya not girin...",
+
+                "LICENSES": {
+                    "TITLE": "Lisanslar",
+                    "ADD_LICENSE": "Lisans Ekle",
+                    "ADD": "Ekle",
+                    "NO_LICENSES": "Lisans Yok",
+                    "REVOKE_LICENSE": {
+                        "TITLE": "Lisansı İptal Et",
+                        "DESCRIPTION": "{license} lisansını iptal etmek istediğine emin misin?",
+                        "CANCEL": "İptal",
+                        "REVOKE": "İptal Et"
+                    }
+                },
+
+                "ADD_AVATAR": {
+                    "TITLE": "Avatar Ekle",
+                    "SET_PHOTO": "Fotoğraf Ayarla",
+                    "PASTE_URL": "URL Yapıştır",
+                    "PASTE_URL_DESCRIPTION": "Bir resim URL'si girin",
+                    "PASTE_URL_PLACEHOLDER": "Resim URL'si",
+                    "INVALID_URL": "Geçersiz URL",
+                    "INVALID_URL_DESCRIPTION": "Girdiğin URL geçerli bir resim bağlantısı değil",
+                    "OK": "Tamam"
+                },
+
+                "VEHICLES": "Araçlar",
+                "NO_VEHICLES": "Araç Yok",
+                "PROPERTIES": "Mülkler",
+                "NO_PROPERTIES": "Mülk Yok",
+                "REPORTS": "Raporlar",
+                "NO_REPORTS": "Rapor Yok",
+                "CASES": "Vakalar",
+                "NO_CASES": "Vaka Yok",
+                "WEAPONS": "Silahlar",
+                "NO_WEAPONS": "Silah Yok"
+            },
+
+            "VEHICLES": {
+                "TITLE": "Araçlar",
+                "VEHICLE": "Araç",
+                "SEARCH": "Araç Ara",
+                "REMOVE_PICTURE": "Resmi Kaldır",
+                "DETAILS": "Detaylar",
+
+                "ADD_PHOTO": {
+                    "TITLE": "Fotoğraf Ekle",
+                    "SELECT_PHOTO": "Fotoğraf Seç",
+                    "PASTE_URL": "URL Yapıştır",
+                    "PASTE_URL_DESCRIPTION": "Bir resim URL'si girin",
+                    "PASTE_URL_PLACEHOLDER": "Resim URL'si",
+                    "INVALID_URL": "Geçersiz URL",
+                    "INVALID_URL_DESCRIPTION": "Girdiğin URL geçerli bir resim bağlantısı değil",
+                    "OK": "Tamam"
+                },
+                "MODEL": "Model",
+                "PLATE": "Plaka",
+                "COLOR": "Renk",
+                "LOCATION": "Konum",
+                "OWNER": "Sahip",
+                "NOTES": "Notlar",
+                "NOTES_PLACEHOLDER": "Buraya not girin...",
+                "SET_WAYPOINT": "Hedef Noktası Belirle",
+                "OPEN_IN_MAPS": "Haritalarda Aç",
+                "WAYPOINT_SET": "Hedef Noktası Ayarlandı",
+                "WAYPOINT_SET_DESCRIPTION": "Araç konumuna hedef noktası belirlendi",
+                "CASES": "Vakalar",
+                "NO_CASES": "Vaka Yok"
+            },
+            "PROPERTIES": {
+                "TITLE": "Mülkler",
+                "PROPERTY": "Mülk",
+                "SEARCH": "Mülk Ara",
+                "REMOVE_PICTURE": "Resmi Kaldır",
+                "DETAILS": "Detaylar",
+                "ADD_PHOTO": {
+                    "TITLE": "Fotoğraf Ekle",
+                    "SELECT_PHOTO": "Fotoğraf Seç",
+                    "PASTE_URL": "URL Yapıştır",
+                    "PASTE_URL_DESCRIPTION": "Bir resim URL'si girin",
+                    "PASTE_URL_PLACEHOLDER": "Resim URL'si",
+                    "INVALID_URL": "Geçersiz URL",
+                    "INVALID_URL_DESCRIPTION": "Girdiğin URL geçerli bir resim bağlantısı değil",
+                    "OK": "Tamam"
+                },
+                "LABEL": "Etiket",
+                "ADDRESS": "Adres",
+                "OWNER": "Sahip",
+                "LOCATION": "Konum",
+                "OPEN_IN_MAPS": "Haritalarda Aç",
+                "NOTES": "Notlar",
+                "NOTES_PLACEHOLDER": "Buraya not girin..."
+            },
+            "WEAPONS": {
+                "TITLE": "Silahlar",
+                "WEAPON": "Silah",
+                "SEARCH": "Silah Ara",
+                "REMOVE_PICTURE": "Resmi Kaldır",
+                "DETAILS": "Detaylar",
+                "ADD_PHOTO": {
+                    "TITLE": "Fotoğraf Ekle",
+                    "SELECT_PHOTO": "Fotoğraf Seç",
+                    "PASTE_URL": "URL Yapıştır",
+                    "PASTE_URL_DESCRIPTION": "Bir resim URL'si girin",
+                    "PASTE_URL_PLACEHOLDER": "Resim URL'si",
+                    "INVALID_URL": "Geçersiz URL",
+                    "INVALID_URL_DESCRIPTION": "Girdiğin URL geçerli bir resim bağlantısı değil",
+                    "OK": "Tamam"
+                },
+                "MODEL_MAKE": "Model / Marka",
+                "SERIAL_NUMBER": "Seri Numarası",
+                "NOTES": "Notlar",
+                "NOTES_PLACEHOLDER": "Buraya not girin...",
+                "LINKED_REPORTS": "Bağlantılı Raporlar",
+                "NO_LINKED_REPORTS": "Bağlantılı Rapor Yok",
+                "LINKED_CASES": "Bağlantılı Vakalar",
+                "NO_LINKED_CASES": "Bağlantılı Vaka Yok",
+                "UNREGISTERED": "Kayıtsız",
+                "OWNER": "Sahip"
+            },
+
+            "REPORTS": {
+                "TITLE": "Raporlar",
+                "REPORT": "Rapor",
+                "SEARCH": "Rapor Ara",
+                "FOOTER": "{author} - Rapor ID: {id}",
+                "NEW_REPORT_TITLE": "Yeni Rapor",
+                "TYPE": "Tür",
+                "DESCRIPTION": "Açıklama",
+                "DESCRIPTION_PLACEHOLDER": "Bir açıklama girin...",
+                "GALLERY": "Galeri",
+                "NO_ATTACHMENTS": "Ek Yok",
+                "WEAPONS_INVOLVED": "Olayda Kullanılan Silahlar",
+                "NO_WEAPONS_INVOLVED": "Olayda Silah Kullanılmadı",
+                "REMOVE_WEAPON": {
+                    "TITLE": "Silahı Kaldır",
+                    "DESCRIPTION": "Silahı rapordan çıkarmak istediğine emin misin?"
+                },
+                "OFFICERS_INVOLVED": "İlgili Memurlar",
+                "NO_OFFICERS_INVOLVED": "İlgili Memur Yok",
+                "REMOVE_OFFICER": {
+                    "TITLE": "Memuru Kaldır",
+                    "DESCRIPTION": "{name} adlı memuru rapordan çıkarmak istediğine emin misin?"
+                },
+                "CIVILLIANS_INVOLVED": "İlgili Siviller",
+                "NO_CIVILLIANS_INVOLVED": "İlgili Sivil Yok",
+                "REMOVE_CIVILIAN": {
+                    "TITLE": "Sivili Kaldır",
+                    "DESCRIPTION": "{name} adlı sivili rapordan çıkarmak istediğine emin misin?"
+                },
+                "SUSPECTS_INVOLVED": "Şüpheliler",
+                "NO_SUSPECTS_INVOLVED": "Şüpheli Yok",
+                "REMOVE_SUSPECT": {
+                    "TITLE": "Şüpheliyi Kaldır",
+                    "DESCRIPTION": "{name} adlı şüpheliyi rapordan çıkarmak istediğine emin misin?"
+                },
+                "ERROR": {
+                    "TITLE": "Hata",
+                    "NO_TYPE": "Bir rapor türü seçmelisin",
+                    "TITLE_LENGTH": "Başlık en az 3 karakter olmalı",
+                    "DESCRIPTION_LENGTH": "Açıklama en az 10 karakter olmalı"
+                }
+            },
+
+            "CASES": {
+                "TITLE": "Davanın Başlıkları",
+                "SEARCH": "Davalarda Ara",
+                "CASE": "Dava",
+                "FOOTER": "{author} - Dava Kimliği: {id}",
+                "TITLE_PLACEHOLDER": "Yeni Dava",
+                "DESCRIPTION": "Açıklama",
+                "DESCRIPTION_PLACEHOLDER": "Bir açıklama girin...",
+                "EVIDENCE": "Delil",
+                "NO_EVIDENCE": "Eklenmiş Delil Yok",
+                "OPEN_STASH": "Kasa Aç",
+                "VEHICLES_INVOLVED": "İlgili Araçlar",
+                "NO_VEHICLES_INVOLVED": "İlgili Araç Yok",
+                "REMOVE_VEHICLE": {
+                    "TITLE": "Aracı Kaldır",
+                    "DESCRIPTION": "Aracı davadan kaldırmak istediğinizden emin misiniz?"
+                },
+                "OFFICERS_INVOLVED": "İlgili Görevliler",
+                "NO_OFFICERS_INVOLVED": "İlgili Görevli Yok",
+                "REMOVE_OFFICER": {
+                    "TITLE": "Görevlisini Kaldır",
+                    "DESCRIPTION": "Görevlisini davadan kaldırmak istediğinizden emin misiniz?"
+                },
+                "CIVILLIANS_INVOLVED": "İlgili Sivil Kişiler",
+                "NO_CIVILLIANS_INVOLVED": "İlgili Sivil Kişi Yok",
+                "REMOVE_CIVILIAN": {
+                    "TITLE": "Sivili Kaldır",
+                    "DESCRIPTION": "Sivili davadan kaldırmak istediğinizden emin misiniz?"
+                },
+                "CRIMINALS_INVOLVED": "İlgili Suçlular",
+                "NO_CRIMINALS_INVOLVED": "İlgili Suçlu Yok",
+                "REMOVE_CRIMINAL": {
+                    "TITLE": "Suçluyu Kaldır",
+                    "DESCRIPTION": "Suçluyu davadan kaldırmak istediğinizden emin misiniz?"
+                },
+                "ADD_CHARGE": "Suç Ekle",
+                "RECOMMENDED_FINE": "Önerilen Ceza ({currency})",
+                "RECOMMENDED_SENTENCE": "Önerilen Ceza Süresi (ay olarak)",
+                "FINE": "Ceza ({currency})",
+                "SENTENCE": "Ceza Süresi (ay olarak)",
+                "ERROR": {
+                    "TITLE": "Hata",
+                    "TITLE_LENGTH": "Başlık en az 3 karakter olmalıdır",
+                    "DESCRIPTION_LENGTH": "Açıklama en az 10 karakter olmalıdır",
+                    "OK": "Tamam"
+                }
+            },
+
+            "WARRANTS": {
+                "TITLE": "Mazeretler",
+                "SEARCH": "Mazeretlerde Ara",
+
+                "HIGH_PRIORITY": "Yüksek Öncelik",
+                "MEDIUM_PRIORITY": "Orta Öncelik",
+                "LOW_PRIORITY": "Düşük Öncelik",
+                "ACTIVE": "Aktif",
+                "EXPIRED": "Süresi Dolmuş",
+                "CANCELLED": "İptal Edilmiş",
+                "FOOTER": "{author} - Mazeret Kimliği: {id}",
+                "TITLE_PLACEHOLDER": "Yeni Mazeret",
+                "DESCRIPTION": "Açıklama",
+                "DESCRIPTION_PLACEHOLDER": "Bir açıklama girin...",
+                "TYPE": "Tür",
+                "STATUS": "Durum",
+                "PRIORITY": "Öncelik",
+                "GALLERY": "Galeri",
+                "NO_ATTACHMENTS": "Ek Yok",
+                "LINKED_REPORTS": "Bağlantılı Raporlar",
+                "NO_LINKED_REPORTS": "Bağlantılı Rapor Yok",
+                "REMOVE_REPORT": {
+                    "TITLE": "Raporu Kaldır",
+                    "DESCRIPTION": "Raporu mazaretten kaldırmak istediğinizden emin misiniz?"
+                },
+                "ERROR": {
+                    "TITLE": "Hata",
+                    "TITLE_LENGTH": "Başlık en az 3 karakter olmalıdır",
+                    "DESCRIPTION_LENGTH": "Açıklama en az 10 karakter olmalıdır",
+                    "NO_TYPE": "Bir mazeret türü seçmelisiniz",
+                    "OK": "Tamam"
+                }
+            },
+
+            "OFFENCES": {
+                "TITLE": "Suçlar",
+                "SEARCH": "Suçlarda Ara",
+                "MONTHS": "{amount} Ay",
+                "FINE": "{amount} Ceza",
+
+                "SELECT_SEVERITY": "Ciddiyet Seçin",
+                "SEVERITIES": {
+                    "INFRACTION": "İhlal",
+                    "MISDEMEANOR": "Kabahat",
+                    "FELONY": "Suç"
+                },
+                "NO_OFFENCES_FOUND": "Suç Bulunamadı",
+                "ADD_OFFENCE": {
+                    "TITLE": "Suç Ekle",
+                    "DESCRIPTION": "Yeni bir suç oluşturun",
+                    "PLACEHOLDER": "Suç başlığını girin",
+                    "DESCRIPTION_PLACEHOLDER": "Bir açıklama girin..."
+                },
+                "SET_JAILTIME": {
+                    "TITLE": "Önerilen Hapis Süresi",
+                    "DESCRIPTION": "Suç için önerilen hapis süresini belirleyin",
+                    "PLACEHOLDER": "Önerilen hapis süresi (ay olarak) (sadece ceza için 0)"
+                },
+                "SET_FINE": {
+                    "TITLE": "Önerilen Ceza",
+                    "DESCRIPTION": "Suç için önerilen cezayı belirleyin",
+                    "PLACEHOLDER": "Önerilen ceza miktarı (sadece hapis süresi için 0)"
+                },
+
+                "DELETE_OFFENCE": {
+                    "TITLE": "Suçu Sil",
+                    "DESCRIPTION": "Bu suçu silmek istediğinizden emin misiniz?"
+                },
+                "ADD_CATEGORY": {
+                    "TITLE": "Kategori Ekle",
+                    "DESCRIPTION": "Suçlar listesine yeni bir kategori ekleyin",
+                    "PLACEHOLDER": "Kategori adı girin"
+                },
+                "DELETE_CATEGORY": {
+                    "TITLE": "Kategoriyi Sil",
+                    "DESCRIPTION": "Bu kategoriyi silmek istediğinizden emin misiniz?"
+                }
+            },
+
+            "EMPLOYEES": {
+                "TITLE": "Çalışanlar",
+                "SEARCH": "Çalışanlarda Ara"
+            },
+
+            "CHAT": {
+                "TITLE": "Sohbet",
+                "SEARCH": "Sohbetlerde Ara",
+                "PLACEHOLDER": "Mesaj gönderin...",
+                "JOINED_CHATS": "Katılınan Sohbetler",
+                "PUBLIC_CHATS": "Açık Sohbetler",
+                "JOINED": "Katıldı",
+                "PUBLIC": "Açık",
+                "PRIVATE_CHATS": "Özel Sohbetler",
+                "ROOM_ID": "Oda Kimliği: {id}",
+                "TOGGLE_PRIVATE": "Özel Durum Değiştir",
+                "CHANGE_AVATAR": "Avatarı Değiştir",
+                "SET_AVATAR": "Avatar Ayarla",
+                "REMOVE_AVATAR": "Avatarı Kaldır",
+                "MANAGE": "Yönet",
+                "LEAVE": {
+                    "TITLE": "Ayrıl",
+                    "DESCRIPTION": "Sohbet odasından ayrılmak istediğinizden emin misiniz?"
+                },
+                "KICK": {
+                    "TITLE": "At",
+                    "DESCRIPTION": "{name} kişisini sohbet odasından atmak istediğinizden emin misiniz?"
+                },
+
+                "CREATE_CHATROOM": {
+                    "TITLE": "Sohbet Odası Oluştur",
+                    "DESCRIPTION": "Sohbet odası için bir isim girin",
+                    "PLACEHOLDER": "Sohbet Odası Adı",
+                    "CREATE": "Oluştur",
+                    "SET_VISIBILITY": "Görünürlük Ayarla",
+                    "PUBLIC": "Açık",
+                    "PRIVATE": "Özel"
+                },
+                "JOIN_CHAT": {
+                    "TITLE": "Sohbete Katıl",
+                    "DESCRIPTION": "{channel} sohbetine katılmak istediğinizden emin misiniz?",
+                    "JOIN": "Katıl"
+                },
+                "ERROR": {
+                    "TITLE": "Hata",
+                    "FAILED_JOIN": "Sohbet odasına katılınamadı",
+                    "FAILED_INVITE": "{name} kişisini sohbet odasına davet edemediniz",
+                    "FAILED_SET_AVATAR": "Sohbet odası avatarı ayarlanamadı",
+                    "FAILED_REMOVE_AVATAR": "Sohbet odası avatarı kaldırılamadı",
+                    "FAILED_GET_MEMBERS": "Sohbet odası üyeleri alınamadı",
+                    "FAILED_KICK": "{name} kişisi sohbet odasından atılamadı",
+                    "FAILED_LEAVE": "Sohbet odasından ayrılamadı"
+                },
+                "SUCCESS": {
+                    "TITLE": "Başarı",
+                    "INVITED": "{name} kişisini sohbet odasına davet ettiniz",
+                    "KICKED": "{name} kişisini sohbet odasından attınız"
+                }
+            },
+
+            "PHONE": {
+                "TITLE": "Telefon",
+                "TRIANGULATE": "Üçgenleme",
+                "MESSAGES": "Mesajlar",
+                "CALLS": "Aramalar",
+                "UNLOCK": "Kilidi Aç"
+            },
+
+            "JAIL": {
+                "TITLE": "Hapishane",
+                "SEARCH": "Mahkum Arama",
+                "JAILED_PERSON": "Hapisteki Kişi",
+                "JAILED_BY": "Hapse Atan Kişi",
+                "JAILED_BY_NAME": "{name} Tarafından Hapse Atıldı",
+                "REMAINING_TIME": "Kalan Zaman",
+                "REMAINING_TIME_DATE": "Kalan zaman {time} ({date})",
+                "ORIGINAL_SENTENCE": "Asıl Ceza",
+                "RELEASE_DATE": "Tahliye Tarihi",
+                "DESCRIPTION": "Açıklama",
+                "DESCRIPTION_PLACEHOLDER": "Bir açıklama girin...",
+                "RELEASED": "Tahliye Edildi",
+                "LESS_THAN_MINUTE": "Bir dakikadan az",
+                "UNJAIL": "Serbest Bırak",
+                "PROFILE": "Profil",
+                "JAILED_AT": "Hapsedildiği Yer",
+                "LINKED_CASE": "Bağlantılı Durum",
+                "NO_LINKED_CASE": "Bağlantılı Durum Yok",
+                "REMOVE_LINKED_CASE": {
+                    "TITLE": "Bağlantılı Durumu Kaldır",
+                    "DESCRIPTION": "Bağlantılı durumu kaldırmak istediğinizden emin misiniz?"
+                },
+                "JAIL_PERSON": {
+                    "TITLE": "Hapse At",
+                    "DESCRIPTION": "{name} kişisini hapse atmak için bilgileri doldurun",
+                    "SENTENCE_PLACEHOLDER": "Ceza (dakika olarak)",
+                    "REASON_PLACEHOLDER": "Sebep",
+                    "JAIL_WITH_INCIDENT": "Bağlantılı olayla birlikte hapse at",
+                    "JAIL_WITHOUT_INCIDENT": "Bağlantılı olay olmadan hapse at",
+                    "PROCEED": "Devam Et"
+                },
+                "UNJAIL_PERSON": {
+                    "TITLE": "Serbest Bırak",
+                    "DESCRIPTION": "{name} kişisini serbest bırakmak istediğinizden emin misiniz?",
+                    "PROCEED": "Devam Et"
+                },
+                "ERROR": {
+                    "TITLE": "Hata",
+                    "MISSING_DETAILS": "Ceza ve sebep girilmelidir"
+                }
+            },
+
+            "LOGS": {
+                "TITLE": "Kayıtlar",
+                "SEARCH": "Kayıtlarda Ara",
+                "FILTER": "Filtrele",
+                "CREATED": "Oluşturuldu",
+                "UPDATED": "Güncellendi",
+                "DELETED": "Silindi",
+                "VIEW_FOOTER": "Görünüm {type} ({id})",
+                "TAG_TYPES": {
+                    "PROFILE": "profil",
+                    "VEHICLE": "araç",
+                    "REPORT": "rapor",
+                    "WARRANT": "mazeret",
+                    "INCIDENT": "olay"
+                },
+
+                "CREATE_TAG_TITLE": "Bir Etiket Oluşturdu",
+                "CREATE_TAG_DESCRIPTION": "Bir {type} etiketi \"{name}\" oluşturdu",
+                "DELETE_TAG_TITLE": "Bir Etiket Sildi",
+                "DELETE_TAG_DESCRIPTION": "Bir {type} etiketini \"{name}\" sildi",
+                "UPDATE_PROFILE_TITLE": "Bir Profili Güncelledi",
+                "UPDATE_PROFILE_DESCRIPTION": "{name}'in profilini güncelledi",
+                "UPDATE_VEHICLE_TITLE": "Bir Aracı Güncelledi",
+                "UPDATE_VEHICLE_DESCRIPTION": "{plate} plakalı aracı güncelledi",
+                "UPDATE_PROPERTY_TITLE": "Bir Emlakı Güncelledi",
+                "UPDATE_PROPERTY_DESCRIPTION": "Bir emlak güncellendi",
+                "UPDATE_WEAPON_TITLE": "Bir Silahı Güncelledi",
+                "UPDATE_WEAPON_DESCRIPTION": "{serial} seri numaralı silahı güncelledi",
+                "CREATE_REPORT_TITLE": "Bir Rapor Oluşturdu",
+                "CREATE_REPORT_DESCRIPTION": "Bir {type} raporu oluşturdu, başlık: \"{title}\"",
+                "UPDATE_REPORT_TITLE": "Bir Rapor Güncelledi",
+                "UPDATE_REPORT_DESCRIPTION": "{type} raporunu güncelledi, başlık: \"{title}\"",
+                "DELETE_REPORT_TITLE": "Bir Rapor Sildi",
+                "DELETE_REPORT_DESCRIPTION": "{id} kimlik numaralı raporu sildi",
+                "ISSUED_LICENSE_TITLE": "Bir Lisans Verdi",
+                "ISSUED_LICENSE_DESCRIPTION": "{license} lisansını {name}'e verdi",
+                "REVOKED_LICENSE_TITLE": "Bir Lisans İptal Edildi",
+                "REVOKED_LICENSE_DESCRIPTION": "{license} lisansını {name}'den iptal etti",
+                "PINNED_BULLETIN_TITLE": "Bir Bülten Gönderisini Sabitledi",
+                "PINNED_BULLETIN_DESCRIPTION": "Bülten gönderisini sabitledi, kimlik: {id}",
+                "UNPINNED_BULLETIN_TITLE": "Bir Bülten Gönderisini Sabitlemeyi Kaldırdı",
+                "UNPINNED_BULLETIN_DESCRIPTION": "Bülten gönderisini sabitlemeyi kaldırdı, kimlik: {id}",
+                "CREATE_BULLETIN_TITLE": "Bir Bülten Gönderisi Oluşturdu",
+                "CREATE_BULLETIN_DESCRIPTION": "Bir bülten gönderisi oluşturdu, başlık: \"{title}\"",
+                "DELETE_BULLETIN_TITLE": "Bir Bülten Gönderisini Sildi",
+                "DELETE_BULLETIN_DESCRIPTION": "Bülten gönderisini sildi, kimlik: {id}",
+                "CREATE_WARRANT_TITLE": "Bir Mazeret Oluşturdu",
+                "CREATE_WARRANT_DESCRIPTION": "Bir {type} mazeret oluşturdu, başlık: \"{title}\"",
+                "UPDATE_WARRANT_TITLE": "Bir Mazeret Güncelledi",
+                "UPDATE_WARRANT_DESCRIPTION": "Mazereti güncelledi, başlık: \"{title}\"",
+                "CREATE_CASE_TITLE": "Bir Durum Oluşturdu",
+                "CREATE_CASE_DESCRIPTION": "Bir durum oluşturdu, başlık: \"{title}\"",
+                "UPDATE_CASE_TITLE": "Bir Durumu Güncelledi",
+                "UPDATE_CASE_DESCRIPTION": "Durumu güncelledi, başlık: \"{title}\"",
+                "DELETE_CASE_TITLE": "Bir Durumu Sildi",
+                "DELETE_CASE_DESCRIPTION": "Bir durumu sildi, kimlik: {id}"
+            },
+
+            "TAGS": {
+                "TITLE": "Etiketler",
+                "ADD": "Ekle",
+                "NO_TAGS": "Hiç Etiket Yok",
+                "CREATE_TAG": {
+                    "TITLE": "Etiket Oluştur",
+                    "DESCRIPTION": "Bir etiket adı girin",
+                    "PLACEHOLDER": "Etiket Adı",
+                    "CANCEL": "İptal",
+                    "NEXT": "İleri",
+                    "SELECT_COLOR": "Bir renk seçin"
+                },
+                "DELETE_TAG": {
+                    "TITLE": "Etiketi Sil",
+                    "DESCRIPTION": "Bu etiketi silmek istediğinizden emin misiniz?",
+                    "CANCEL": "İptal",
+                    "DELETE": "Sil"
+                },
+                "REMOVE_TAG": {
+                    "TITLE": "Etiketi Kaldır",
+                    "DESCRIPTION": "Etiket '{tag}'i kaldırmak istediğinizden emin misiniz?",
+                    "CANCEL": "İptal",
+                    "REMOVE": "Kaldır"
+                }
+            },
+            "MISC": {
+                "SOON": "Yakında",
+                "UNKNOWN": "Bilinmiyor",
+                "MINUTES": "{minutes}d",
+                "HOURS": "{hours}s",
+                "DAYS": "{days}g",
+                "FORMATTED_DATE": "{day} {month} {year} tarihinde {hours}:{minutes}",
+                "CHANGE_AVATAR": "Avatarı Değiştir",
+                "REMOVE_AVATAR": "Avatarı Kaldır",
+                "SET_CALLSIGN": "Çağrı İşareti Belirle",
+                "CALLSIGN": {
+                    "TITLE": "Çağrı İşareti",
+                    "DESCRIPTION": "Bir çağrı işareti girin",
+                    "CANCEL": "İptal",
+                    "PROCEED": "Devam Et"
+                }
+            }
+        },
+        "AMBULANCE": {
+            "TITLE": "Ambulans",
+
+            "SEARCH": "Ara",
+            "CANCEL": "İptal",
+            "CLOSE": "Kapat",
+            "BACK": "Geri",
+            "EDIT": "Düzenle",
+            "DELETE": "Sil",
+            "REMOVE": "Kaldır",
+            "SAVE": "Kaydet",
+            "CREATE": "Oluştur",
+            "PROCEED": "Devam Et",
+            "OK": "Tamam",
+            "ADD": "Ekle",
+            "NEW": "Yeni",
+
+            "SEARCH_FOR": "{query} araması yaparak başlayın",
+            "NO_RESULTS_FOR": "'{query}' için sonuç bulunamadı",
+            "CLEAR_HISTORY": "Geçmişi Temizle",
+
+            "HOME": {
+                "TITLE": "Ana Sayfa",
+                "CREATE": "Oluştur",
+
+                "RECENT_REPORTS": "Son Raporlar",
+                "REPORT_FOOTER": "{timestamp} - {author}",
+                "BULLETIN_BOARD": "Duyuru Panosu",
+                "PIN": "Sabitle",
+                "UNPIN": "Sabitlemeyi Kaldır",
+                "SEARCH_BULLETIN": "Duyuru Ara",
+                "SEARCH_UNITS": "Birimleri Ara",
+                "ADD_BULLETIN": {
+                    "TITLE": "Duyuru Ekle",
+                    "DESCRIPTION": "Yeni bir duyuru oluştur",
+                    "PLACEHOLDER": "Başlık",
+                    "CONTENT": "İçerik",
+                    "CANCEL": "İptal",
+                    "PROCEED": "Devam Et"
+                },
+                "DELETE_BULLETIN": {
+                    "TITLE": "Duyuru Sil",
+                    "DESCRIPTION": "Bu duyuru gönderisini silmek istediğinizden emin misiniz?",
+                    "CANCEL": "İptal",
+                    "DELETE": "Sil"
+                },
+                "ACTIVE_UNITS": "Aktif Birimler"
+            },
+
+            "DISPATCH": {
+                "TITLE": "Gönderim",
+                "TOGGLE_EMPLOYEES": "Çalışanları Göster/Gizle",
+                "TOGGLE_ALARMS": "Alarmı Göster/Gizle",
+                "EMPLOYEES": "Çalışanlar",
+                "ALARMS": "Alarmlar",
+
+                "RESPOND": "Yanıtla",
+                "RESPONDED": "Yanıtlandı",
+                "COLLAPSE": "Daralt",
+                "EXPAND": "Genişlet",
+                "DISMISS": "Kapat",
+                "VIEW_IN_TABLET": "Tablet'te Görüntüle",
+                "SET_WAYPOINT": "Yol Noktası Belirle",
+
+                "PRIORITY": {
+                    "HIGH": "Yüksek",
+                    "MEDIUM": "Orta",
+                    "LOW": "Düşük"
+                },
+
+                "JUST_NOW": "Az önce",
+                "MINUTES_AGO": "{minutes} dakika önce",
+                "HOURS_AGO": "{hours} saat önce"
+            },
+
+            "JOURNALS": {
+                "TITLE": "Jurnaller",
+                "PROFILES": "Profiller",
+                "PERSON": "Kişi",
+                "SEARCH": "Profillerde Ara",
+                "REMOVE_AVATAR": "Avatarı Kaldır",
+                "IDENTIFIER": "Kimlik",
+                "FINGERPRINT": "Parmak İzi",
+                "DOB": "Doğum Tarihi",
+                "PHONE_NR": "Telefon Numarası",
+                "GENDER": "Cinsiyet",
+                "JOB": "Meslek",
+                "MALE": "Erkek",
+                "FEMALE": "Kadın",
+                "HEIGHT": "Boy",
+                "HEIGHT_FORMAT": "{height}cm",
+                "BLOOD_TYPE": "Kan Grubu",
+                "NOTES": "Notlar",
+                "NOTES_PLACEHOLDER": "Notlarınızı buraya girin...",
+                "DIAGNOSES_DISEASES": "Teşhisler / Hastalıklar",
+                "NO_DIAGNOSES": "Teşhis / Hastalık Yok",
+                "REPORTS": "Raporlar",
+                "NO_REPORTS": "Rapor Yok",
+
+                "ADD_AVATAR": {
+                    "TITLE": "Avatar Ekle",
+                    "SET_PHOTO": "Fotoğraf Belirle",
+                    "PASTE_URL": "URL Yapıştır",
+                    "PASTE_URL_DESCRIPTION": "Bir görsele ait URL girin",
+                    "PASTE_URL_PLACEHOLDER": "Görsel URL",
+                    "INVALID_URL": "Geçersiz URL",
+                    "INVALID_URL_DESCRIPTION": "Girdiğiniz URL geçerli bir görsel URL'si değil",
+                    "OK": "Tamam"
+                }
+            },
+
+            "REPORTS": {
+                "TITLE": "Raporlar",
+                "REPORT": "Rapor",
+                "SEARCH": "Rapor Ara",
+                "FOOTER": "{author} - Rapor ID: {id}",
+                "NEW_REPORT_TITLE": "Yeni Rapor",
+                "TYPE": "Tür",
+                "DESCRIPTION": "Açıklama",
+                "DESCRIPTION_PLACEHOLDER": "Bir açıklama girin...",
+                "GALLERY": "Galeri",
+                "NO_ATTACHMENTS": "Eklenti Yok",
+                "INJURIES_CONDITIONS": "Yaralanmalar / Durumlar",
+                "NO_INJURIES": "Yaralanma / Durum Yok",
+                "DOCTORS_INVOLVED": "İlgili Doktorlar",
+                "NO_DOCTORS_INVOLVED": "İlgili Doktor Yok",
+                "ADD_PATIENT": "Hasta Ekle",
+
+                "REMOVE_INJURY": {
+                    "TITLE": "Yaralanmayı Kaldır",
+                    "DESCRIPTION": "Bu yaralanmayı rapordan kaldırmak istediğinizden emin misiniz?"
+                },
+                "REMOVE_DOCTOR": {
+                    "TITLE": "Doktoru Kaldır",
+                    "DESCRIPTION": "{name} adlı doktoru rapordan kaldırmak istediğinizden emin misiniz?"
+                },
+
+                "ERROR": {
+                    "TITLE": "Hata",
+                    "NO_TYPE": "Bir rapor türü seçmelisiniz",
+                    "TITLE_LENGTH": "Başlık en az 3 karakter olmalıdır",
+                    "DESCRIPTION_LENGTH": "Açıklama en az 10 karakter olmalıdır"
+                }
+            },
+
+            "EMPLOYEES": {
+                "TITLE": "Çalışanlar",
+                "SEARCH": "Çalışanlarda Ara"
+            },
+
+            "CHAT": {
+                "TITLE": "Sohbet",
+                "SEARCH": "Sohbet Ara",
+                "PLACEHOLDER": "Mesaj gönder...",
+                "JOINED_CHATS": "Katıldığınız Sohbetler",
+                "PUBLIC_CHATS": "Genel Sohbetler",
+                "JOINED": "Katıldı",
+                "PUBLIC": "Genel",
+                "PRIVATE_CHATS": "Özel Sohbetler",
+                "ROOM_ID": "Oda ID: {id}",
+                "TOGGLE_PRIVATE": "Özel Yap",
+                "CHANGE_AVATAR": "Avatarı Değiştir",
+                "SET_AVATAR": "Avatar Belirle",
+                "REMOVE_AVATAR": "Avatarı Kaldır",
+                "MANAGE": "Yönet",
+                "LEAVE": {
+                    "TITLE": "Ayrıl",
+                    "DESCRIPTION": "Sohbet odasından ayrılmak istediğinizden emin misiniz?"
+                },
+                "KICK": {
+                    "TITLE": "At",
+                    "DESCRIPTION": "{name}'i sohbet odasından atmak istediğinizden emin misiniz?"
+                },
+
+                "CREATE_CHATROOM": {
+                    "TITLE": "Sohbet Odası Oluştur",
+                    "DESCRIPTION": "Sohbet odası için bir isim girin",
+                    "PLACEHOLDER": "Sohbet Odası Adı",
+                    "CREATE": "Oluştur",
+                    "SET_VISIBILITY": "Gizlilik Ayarla",
+                    "PUBLIC": "Herkese Açık",
+                    "PRIVATE": "Özel"
+                },
+                "JOIN_CHAT": {
+                    "TITLE": "Sohbete Katıl",
+                    "DESCRIPTION": "{channel} sohbetine katılmak istediğinizden emin misiniz?",
+                    "JOIN": "Katıl"
+                },
+                "ERROR": {
+                    "TITLE": "Hata",
+                    "FAILED_JOIN": "Sohbet odasına katılamadı",
+                    "FAILED_INVITE": "{name} kişisini sohbet odasına davet edemediniz",
+                    "FAILED_SET_AVATAR": "Sohbet odası avatarı ayarlanamadı",
+                    "FAILED_REMOVE_AVATAR": "Sohbet odası avatarı kaldırılamadı",
+                    "FAILED_GET_MEMBERS": "Sohbet odası üyeleri alınamadı",
+                    "FAILED_KICK": "{name} kişisini sohbet odasından atamadınız",
+                    "FAILED_LEAVE": "Sohbet odasından çıkılamadı"
+                },
+                "SUCCESS": {
+                    "TITLE": "Başarı",
+                    "INVITED": "{name} kişisini sohbet odasına davet ettiniz",
+                    "KICKED": "{name} kişisini sohbet odasından attınız"
+                }
+            },
+
+            "CONDITIONS": {
+                "TITLE": "Koşullar",
+                "CONDITION": "Koşul",
+                "SEARCH": "Koşulları Ara",
+                "SELECT_SEVERITY": "Ciddiyet Seçin",
+                "SEVERITIES": {
+                    "MINOR": "Hafif",
+                    "MODERATE": "Orta",
+                    "SEVERE": "Şiddetli",
+                    "CRITICAL": "Kritik"
+                },
+                    "NO_CONDITIONS_FOUND": "Koşul Bulunamadı",
+                    "ADD_CONDITION": {
+                    "TITLE": "Koşul Ekle",
+                    "DESCRIPTION": "Yeni bir koşul oluştur",
+                    "PLACEHOLDER": "Koşul başlığını girin"
+                },
+                    "DELETE_CONDITION": {
+                    "TITLE": "Koşul Sil",
+                    "DESCRIPTION": "Bu koşulu silmek istediğinizden emin misiniz?"
+                },
+                "ADD_CATEGORY": {
+                    "TITLE": "Kategori Ekle",
+                    "DESCRIPTION": "Koşul listesine yeni bir kategori ekle",
+                    "PLACEHOLDER": "Kategori adını girin"
+                },
+                "DELETE_CATEGORY": {
+                    "TITLE": "Kategoriyi Sil",
+                    "DESCRIPTION": "Bu kategoriyi silmek istediğinizden emin misiniz?"
+                }
+            },
+
+            "LOGS": {
+                "TITLE": "Kayıtlar"
+            }
+        },
+        "BROWSER": {
+            "TITLE": "Tarayıcı",
+            "SEARCH_PLACEHOLDER": "Arama yapın veya URL girin",
+            "FAILED_LOAD_PAGE": "Sayfa yüklenemedi, belki iframing desteği yok?"
+        },
+        "REGISTRATION": {
+            "TITLE": "Kayıt",
+            "SELECT_CHARACTER": " Karakter Seç",
+            "PLEASE_SELECT_CHARACTER": "Lütfen bir karakter seçin",
+            "CREATE_NEW": "Yeni Oluştur",
+            "EDIT": "Düzenle",
+            "SAVE": "Kaydet",
+            "DELETE": "Sil",
+            "CANCEL": "İptal",
+            "DELETE_CHARACTER": "Karakteri Sil",
+            "DESCRIPTION": "Açıklama",
+            "DESCRIPTION_PLACEHOLDER": "Bu bir açıklamadır...",
+            "ADD": "Ekle",
+            "CHARACTER_INFO": "Karakter Bilgisi",
+            "REMOVE_AVATAR": "Avatarı Kaldır",
+            "FIRSTNAME": "Ad",
+            "LASTNAME": "Soyad",
+            "DOB": "Doğum Tarihi",
+            "PHONE_NUMBER": "Telefon Numarası",
+            "GENDER": "Cinsiyet",
+            "MALE": "Erkek",
+            "FEMALE": "Kadın",
+            "JOB": "Meslek",
+            "HEIGHT": "Boy",
+            "FORMATTED_HEIGHT": "{height}cm",
+            "VEHICLES": "Araçlar",
+            "VEHICLE": "Araç",
+            "REMOVE_PICTURE": "Resmi Kaldır",
+            "SEARCH_VEHICLES": "Araç Ara",
+            "MODEL": "Model",
+            "PLATE": "Plaka",
+            "COLOR": "Renk",
+            "CREATE": "Oluştur",
+            "DELETE_VEHICLE": "Aracı Sil",
+            "DELETE_VEHICLE_POPUP": {
+                "TITLE": "Aracı Sil",
+                "DESCRIPTION": "Bu aracı silmek istediğinizden emin misiniz?"
+            },
+            "LICENSES": "Lisanslar",
+            "ADD_LICENSE": "Lisans Ekle",
+            "DELETE_LICENSE_POPUP": {
+                "TITLE": "Lisansı Sil",
+                "DESCRIPTION": "Bu lisansı silmek istediğinizden emin misiniz?"
+            },
+            "PROPERTIES": "Mülkler",
+            "ADD_PROPERTY_POPUP": {
+                "TITLE": "Yeni Mülk",
+                "DESCRIPTION": "Yeni bir mülk oluştur",
+                "LABEL": "Mülk Etiketi",
+                "ADDRESS": "Mülk Adresi"
+            },
+            "DELETE_PROPERTY_POPUP": {
+                "TITLE": "Mülkü Sil",
+                "DESCRIPTION": "Bu mülkü silmek istediğinizden emin misiniz?"
+            },
+            "ERROR": {
+                "TITLE": "Hata",
+                "MISSING_FIELDS": "Eksik olan alanlar: {fields}",
+                "OK": "Tamam"
+            }
+        }
+    },
+    "COMPONENTS": {
+        "CONTEXT_MENU": {
+            "CANCEL": "İptal"
+        },
+        "IMAGE": {
+                "SAVE_TO_GALLERY": "Galeriyi Kaydet"
+        },
+        "GALLERY": {
+                "CANCEL": "İptal",
+                "EXTERNAL_URL": "Dış URL",
+                "EXTERNAL_URL_BLACKLISTED": "Bu URL kara listeye alınmış",
+                "NO_IMAGES": "Resim yok"
+        },
+        "NOTIFICATIONS": {
+                "SENT_PHOTO": "Bir fotoğraf gönderildi",
+                "SENT_GIF": "Bir GIF gönderildi",
+                "NOW": "şimdi"
+        },
+        "SHARE": {
+            "COPY_PHOTO": "Fotoğrafı Kopyala",
+            "COPY_VIDEO": "Videoyu Kopyala",
+            "USE_WALLPAPER": "Duvar Kağıdı Olarak Kullan",
+            "COPY_NUMBER": "Numarayı Kopyala",
+            "COPY_LINK": "Bağlantıyı Kopyala",
+            "AIRDROP_SENT": "Gönderildi",
+            "AIRDROP_ACCEPTED": "Kabul Edildi",
+            "AIRDROP_DECLINED": "Reddedildi",
+            "AIRDROP_NO_USERS": "Yakınlarda telefon yok",
+            "WALLPAPER_POPUP": {
+                "TITLE": "Duvar Kağıdı Olarak Kullan",
+                "TEXT": "Bu resmi duvar kağıdınız olarak ayarlamak istediğinizden emin misiniz?",
+                "CANCEL": "İptal",
+                "PROCEED": "Devam Et"
+                },
+            "COPY_POPUP": {
+                "TITLE": "Başarı",
+                "DESCRIPTION": "Panoya başarıyla kopyalandı",
+                "OK": "Tamam"
+            }
+        },
+        "AIRDROP": {
+                "TITLE": "AirShare",
+                "TEXT": "{sender} bir {type} paylaşmak istiyor",
+                "VIDEO": "video",
+                "PHOTO": "fotoğraf",
+                "CONTACT": "iletişim",
+                "LOCATION": "konum",
+                "NOTE": "not",
+                "VOICEMEMO": "sesli mesaj",
+                "PLAYLIST": "çalara",
+                "DECLINE": "Reddet",
+                "ACCEPT": "Kabul Et"
+            },
+            "BATTERY": {
+                "LOW_BATTERY": "Düşük Pil",
+                "BATTERY_REMAINING": "{percent}% pil kaldı",
+                "LOW_POWER_MODE": "Düşük Güç Modu",
+                "CLOSE": "Kapat"
+            },
+            "COLOR_PICKER": {
+                "COLOR": "Renk"
+            }
+        },
+        "SETUP": {
+            "HELLO": "Merhaba",
+            "SELECT_LANGUAGE": "Dilini seç",
+            "NEXT": "Açmak için tıklayın",
+            "APPEARANCE": "Tema",
+            "APPEARANCE_TEXT": "Cihazınız için koyu veya açık tema seçin",
+            "CONTINUE": "Devam Et",
+            "WELCOME_TO": "Hoş geldiniz",
+            "CLICK": "Başlamak için tıklayın"
+        },
+        "HOMESCREEN": {
+            "DONE": "Tamam",
+            "CLOSE_ALL": "Hepsini Kapat",
+            "REMOVE_APP_POPUP": {
+                "TITLE": "'{app}' kaldırilsin mi?",
+                "DESCRIPTION": "Bu uygulamayı silmek, verilerini silmez. Uygulama daha sonra App Store'dan yeniden yüklenebilir.",
+                "CANCEL": "İptal",
+                "PROCEED": "Sil"
+            }
+        },    
+    "LOCKSCREEN": {
+        "DELETE": "Sil",
+        "FONT_AND_COLOR": "Yazı Tipi ve Renk"
+    },
+    "MISC": {
+        "AIRPLANE_MODE_POPUP": {
+            "TITLE": "Hata",
+            "DESCRIPTION": "İnternet erişimi gerektiren bir işlem yapıyorsunuz, devam etmek için uçak modunu kapatın.",
+            "OK": "Tamam"
+        }
+    },
+    "BACKEND": {
+        "CAMERA": {
+            "TAKE_PHOTO": "{key} Fotoğraf Çek",
+            "FLIP_CAMERA": "{key} Kamerayı Çevir",
+            "TOGGLE_FLASH": "{key} Flaş",
+            "TOGGLE_CURSOR": "{key} İmleç",
+            "CHANGE_MODE": "{key} {key2} Modu",
+            "ROLL": "{key} {key2} Dönüş",
+            "FREEZE": "{key} Dondur",
+            "UNFREEZE": "{key} Çöz",
+            "TOGGLE_TIP": "{key} Gizle"
+        },
+        "SERVICES": {
+            "NEW_MESSAGE": "Yeni Mesaj",
+            "ANONYMOUS": "Anonim"
+        },
+        "MISC": {
+            "X_TABLET": "{firstname}'in Tablet'i"
+        },
+        "MAIL": {
+            "AUTOMATIC_PASSWORD": {
+                "SENDER": "Sistem",
+                "SUBJECT": "Şifreniz",
+                "MESSAGE": "Merhaba,\n\nSizin otomatik e-posta adresiniz {address} ve şifreniz {password}"
+            }
+        },
+        "LOGS": {
+            "TOOK_PHOTO": "Bir fotoğraf çekildi",
+            "TOOK_VIDEO": "Bir video çekildi",
+            "NEW_DISPATCH": "Yeni Gönderi: {title}"
+        },
+        "POLICE": {
+            "EVIDENCE_LABEL": "Delil: Vaka {id}",
+            "NEW_BULLETIN_NOTIFICATION": {
+                "TITLE": "Yeni Bülten",
+                "CONTENT": "{title}"
+            },
+            "NEW_CASE_NOTIFICATION": {
+                "TITLE": "Yeni Vaka",
+                "CONTENT": "{title}"
+            },
+            "NEW_REPORT_NOTIFICATION": {
+                "TITLE": "Yeni Rapor",
+                "CONTENT": "{title}"
+            },
+            "NEW_WARRANT_NOTIFICATION": {
+                "TITLE": "Yeni Arama Kararı",
+                "CONTENT": "{title}"
+            },
+            "NEW_CHAT_CHANNEL_NOTIFICATION": {
+                "TITLE": "Yeni Konuşma",
+                "CONTENT": "{channel}"
+            },
+            "CHAT_MESSAGE_NOTIFICATION": {
+                "TITLE": "{channel}'de Yeni Mesaj",
+                "CONTENT": "{message}"
+            },
+            "LOGS": {
+                "CREATE_OFFENCE_CATEGORY": {
+                    "TITLE": "Bir suç kategorisi oluşturuldu",
+                    "DESCRIPTION": "'{name}' kategorisi oluşturuldu"
+                },
+                "DELETE_OFFENCE_CATEGORY": {
+                    "TITLE": "Bir suç kategorisi silindi",
+                    "DESCRIPTION": "'{name}' kategorisi silindi"
+                },
+                "CREATE_OFFENCE": {
+                    "TITLE": "Bir suç oluşturuldu",
+                    "DESCRIPTION": "'{category}' kategorisinde '{name}' adında {class} suç oluşturuldu"
+                },
+                "DELETE_OFFENCE": {
+                    "TITLE": "Bir suç silindi",
+                    "DESCRIPTION": "'{category}' kategorisinde '{name}' suçu silindi"
+                }
+            }
+        },
+        "AMBULANCE": {
+            "NOTIFICATIONS": {
+                "CHAT": {
+                    "NEW_CHANNEL": {
+                        "TITLE": "Yeni Konuşma",
+                        "CONTENT": "{channel}"
+                    },
+                    "NEW_MESSAGE": {
+                        "TITLE": "{channel}'de Yeni Mesaj",
+                        "CONTENT": "{message}"
+                    }
+                },
+                "NEW_BULLETIN": {
+                    "TITLE": "Yeni Bülten",
+                    "CONTENT": "{title}"
+                },
+                "NEW_REPORT": {
+                    "TITLE": "Yeni Rapor",
+                    "CONTENT": "{title}"
+                }
+            },
+            "TAG_TYPES": {
+                "PROFILE": "profil",
+                "REPORT": "rapor",
+                "PROPERTY": "mülk",
+                "WEAPON": "silah"
+            },
+            "LOGS": {
+                "CREATE_CONDITION_CATEGORY": {
+                    "TITLE": "Bir durum kategorisi oluşturuldu",
+                    "DESCRIPTION": "'{name}' kategorisi oluşturuldu"
+                },
+                "DELETE_CONDITION_CATEGORY": {
+                    "TITLE": "Bir durum kategorisi silindi",
+                    "DESCRIPTION": "'{name}' kategorisi silindi"
+                },
+                "CREATE_CONDITION": {
+                    "TITLE": "Bir durum oluşturuldu",
+                    "DESCRIPTION": "'{category}' kategorisinde '{name}' adında {severity} durum oluşturuldu"
+                },
+                "DELETE_CONDITION": {
+                    "TITLE": "Bir durum silindi",
+                    "DESCRIPTION": "'{category}' kategorisinde '{name}' durumu silindi"
+                },
+                "CREATE_BULLETIN": {
+                    "TITLE": "Bir bülten gönderisi oluşturuldu",
+                    "DESCRIPTION": "'{title}' başlıklı bir bülten gönderisi oluşturuldu"
+                },
+                "DELETE_BULLETIN": {
+                    "TITLE": "Bir bülten gönderisi silindi",
+                    "DESCRIPTION": "{id} ID'li bülten gönderisi silindi"
+                },
+                "PIN_BULLETIN": {
+                    "TITLE": "Bir bülten gönderisi sabitlendi",
+                    "DESCRIPTION": "{id} ID'li bülten gönderisi sabitlendi"
+                },
+                "UNPIN_BULLETIN": {
+                    "TITLE": "Bir bülten gönderisi sabitlenmesi kaldırıldı",
+                    "DESCRIPTION": "{id} ID'li bülten gönderisi sabitlenmesi kaldırıldı"
+                },
+                "DELETE_TAG": {
+                    "TITLE": "Bir etiket silindi",
+                    "DESCRIPTION": "'{name}' etiketi silindi"
+                },
+                "UPDATE_PROFILE": {
+                    "TITLE": "Bir profil güncellendi",
+                    "DESCRIPTION": "{name}'in profili güncellendi"
+                },
+                "CREATE_REPORT": {
+                    "TITLE": "Bir rapor oluşturuldu",
+                    "DESCRIPTION": "{type} raporu '{title}' oluşturuldu, {patient} hastası ile {id} ID'siyle"
+                },
+                "UPDATE_REPORT": {
+                    "TITLE": "Bir rapor güncellendi",
+                    "DESCRIPTION": "{type} raporu '{title}' güncellendi, {id} ID'siyle"
+                }
+            }
+        }
+    }
+}
