@@ -7,7 +7,7 @@
     "H": "س",
     "M": "د",
     "S": "ث",
-    
+
     "APP_NAMES": {
         "Police": "الشرطة",
         "Ambulance": "الإسعاف",
@@ -23,7 +23,7 @@
         "Maps": "الخرائط",
         "Mail": "البريد",
         "Services": "الخدمات",
-        "VoiceMemo": "مذكرات صوتية"
+        "VoiceMemo": "المذكرات الصوتية"
     },
 
     "APPS": {
@@ -32,12 +32,12 @@
             "BACK": "رجوع",
             "DONE": "تم",
             "EDIT": "تعديل",
-            "AIRPLANE_MODE": "وضع الطيران",
-            "AIRPLANE_MODE_DESCRIPTION": "تعطيل المكالمات وبيانات الهاتف الخلوي وغيرها.",
-            "STREAMER_MODE": "وضع الستريمر",
-            "STREAMER_MODE_DESCRIPTION": "يشوش المعلومات الحساسة",
+            "AIRPLANE_MODE": "وضع الطائرة",
+            "AIRPLANE_MODE_DESCRIPTION": "تعطيل المكالمات والبيانات الخلوية إلخ.",
+            "STREAMER_MODE": "وضع البث",
+            "STREAMER_MODE_DESCRIPTION": "يطمس المعلومات الحساسة",
             "GENERAL": "عام",
-            "GENERAL_DESCRIPTION": "الإعدادات العامة لجهازك اللوحي",
+            "GENERAL_DESCRIPTION": "إعدادات عامة لجهازك اللوحي",
             "ABOUT": "حول",
             "NAME": "الاسم",
             "VERSION": "الإصدار",
@@ -46,67 +46,68 @@
             "DEVELOPED_BY": "تم التطوير بواسطة",
             "PURCHASE_AT": "تم الشراء من",
             "SONGS": "الأغاني",
-            "VIDEOS": "الفيديوهات",
+            "VIDEOS": "مقاطع الفيديو",
             "PHOTOS": "الصور",
             "APPLICATIONS": "التطبيقات",
             "CAPACITY": "السعة",
-            "AVAILABLE": "متاح",
+            "AVAILABLE": "المتاح",
             "SOFTWARE_UPDATE": "تحديث البرنامج",
             "AUTOMATIC_UPDATES": "التحديثات التلقائية",
             "DATE_TIME": "التاريخ والوقت",
-            "24_HOUR_TIME": "وقت 24 ساعة",
-            "SET_AUTOMATICALLY": "تعيين تلقائيًا",
+            "24_HOUR_TIME": "تنسيق 24 ساعة",
+            "SET_AUTOMATICALLY": "الضبط تلقائيًا",
             "TIME_ZONE": "المنطقة الزمنية",
             "LANGUAGE_REGION": "اللغة والمنطقة",
             "LANGUAGE": "اللغة",
             "TEMPERATURE": "درجة الحرارة",
-            "CELCIUS": "سيلسيوس",
+            "CELCIUS": "مئوية",
             "FAHRENHEIT": "فهرنهايت",
             "BATTERY": "البطارية",
             "BATTERY_DESCRIPTION": "عرض عمر البطارية والاستخدام",
-            "SOUND_HAPTICS": "الصوت والاهتزازات",
+            "SOUND_HAPTICS": "الصوت والاهتزاز",
             "SOUND_HAPTICS_DESCRIPTION": "تغيير الأصوات والاهتزازات",
-            "SOUND_HAPTICS_PATTERNS": "أنماط الصوت والاهتزازات",
+            "SOUND_HAPTICS_PATTERNS": "أنماط الصوت والاهتزاز",
             "RINGTONE": "نغمة الرنين",
-            "RINGTONE_VOLUME": "حجم نغمة الرنين",
-            "TEXT_TONE": "نغمة النص",
+            "RINGTONE_VOLUME": "مستوى صوت النغمة",
+            "TEXT_TONE": "نغمة الرسائل",
             "DEFAULT": "افتراضي",
             "PHONE_STORAGE": "تخزين الجهاز اللوحي",
             "STORAGE": "التخزين",
-            "USED": "مستخدم",
-            "OF": "من",
-            "DISPLAY_BRIGHTNESS": "العرض والسطوع",
-            "DISPLAY_BRIGHTNESS_DESCRIPTION": "ضبط العرض والسطوع",
+            "USED": "المستخدم",
+            "OF": "من أصل",
+            "DISPLAY_BRIGHTNESS": "الشاشة والسطوع",
+            "DISPLAY_BRIGHTNESS_DESCRIPTION": "ضبط الشاشة والسطوع",
             "DARK": "داكن",
             "LIGHT": "فاتح",
             "APPEARANCE": "المظهر",
             "AUTOMATIC": "تلقائي",
             "BRIGHTNESS": "السطوع",
             "FRAME_COLOR": "لون الإطار",
-            "WALLPAPER": "خلفية الشاشة",
-            "WALLPAPER_DESCRIPTION": "تغيير خلفية الشاشة وإعدادات الخلفية الأخرى",
-            "WALLPAPERS": "خلفيات الشاشة",
-            "CHOOSE_NEW_WALLPAPER": "اختر خلفية شاشة جديدة",
+            "TABLET_SCALE": "مقياس الجهاز اللوحي",
+            "WALLPAPER": "الخلفية",
+            "WALLPAPER_DESCRIPTION": "تغيير الخلفية وإعدادات أخرى",
+            "WALLPAPERS": "الخلفيات",
+            "CHOOSE_NEW_WALLPAPER": "اختر خلفية جديدة",
             "NOTIFICATIONS": "الإشعارات",
             "NOTIFICATIONS_DESCRIPTION": "اختر التطبيقات التي يمكنها إرسال الإشعارات",
             "ALLOW_NOTIFICATIONS": "السماح بالإشعارات",
             "SOUNDS": "الأصوات",
             "CLOUD_BACKUP": "النسخ الاحتياطي السحابي",
             "YOUR_PROFILE": "ملفك الشخصي",
-            "SUCCESS": "نجاح",
-            "SUCCESS_TEXT": "سيتم إعادة تشغيل الجهاز اللوحي في 5 ثوانٍ...",
-            "OK": "حسنًا",
+            "SUCCESS": "تم بنجاح",
+            "SUCCESS_TEXT": "سيُعاد تشغيل الجهاز اللوحي خلال 5 ثواني...",
+            "OK": "موافق",
             "ON": "تشغيل",
             "OFF": "إيقاف",
 
             "RESET_POPUP": {
-                "TITLE": "إعادة تعيين الجهاز اللوحي",
-                "TEXT": "هل أنت متأكد أنك تريد إعادة تعيين جهازك اللوحي؟ [سيتم حذف كل شيء]",
+                "TITLE": "إعادة ضبط الجهاز اللوحي",
+                "TEXT": "هل أنت متأكد أنك تريد إعادة ضبط جهازك اللوحي؟ [سيؤدي هذا إلى إزالة كل شيء]",
                 "CANCEL": "إلغاء",
-                "CONFIRM": "إعادة تعيين"
+                "CONFIRM": "إعادة ضبط"
             },
-            "UP_TO_DATE": "جهازك اللوحي محدث",
-            "BLUR_HOMESCREEN": "طمس شاشة الرئيسية"
+            "UP_TO_DATE": "جهازك اللوحي محدّث",
+            "BLUR_HOMESCREEN": "تمويه الشاشة الرئيسية"
         },
         "NOTES": {
             "TITLE": "الملاحظات",
@@ -121,15 +122,15 @@
         },
         "CLOCK": {
             "WORLDCLOCK": {
-                "TITLE": "ساعة العالم",
+                "TITLE": "الساعة العالمية",
                 "TODAY": "اليوم",
                 "TOMORROW": "غدًا",
                 "YESTERDAY": "أمس",
-                "LOCAL_TIME": "الوقت المحلي",
-                "HRS": "{time} ساعة"
+                "LOCAL_TIME": "التوقيت المحلي",
+                "HRS": "{time} ساعات"
             },
             "ALARM": {
-                "TITLE": "المنبه",
+                "TITLE": "منبه",
                 "ADD": "إضافة منبه",
                 "CANCEL": "إلغاء",
                 "EDIT": "تعديل",
@@ -137,19 +138,19 @@
                 "SAVE": "حفظ",
                 "LABEL": "التسمية",
                 "SOUND": "الصوت",
-                "SNOOZE": "تأجيل",
+                "SNOOZE": "غفوة",
                 "DELETE_TITLE": "حذف المنبه",
                 "DELETE_TEXT": "هل أنت متأكد أنك تريد حذف هذا المنبه؟",
                 "BUTTON_CANCEL": "إلغاء",
                 "BUTTON_DELETE": "حذف",
-                "ALARMS": "المنبهات",
+                "ALARMS": "منبهات",
                 "NEW_ALARM": "منبه جديد",
                 "EDIT_ALARM": "تعديل المنبه"
             },
             "STOPWATCH": {
-                "TITLE": "الموقت",
+                "TITLE": "ساعة الإيقاف",
                 "START": "ابدأ",
-                "STOP": "أوقف",
+                "STOP": "إيقاف",
                 "RESET": "إعادة ضبط",
                 "LAP": "لفة",
                 "TIME": "الوقت",
@@ -159,16 +160,16 @@
             "TIMER": {
                 "TITLE": "المؤقت",
                 "START": "ابدأ",
-                "STOP": "أوقف",
+                "STOP": "إيقاف",
                 "CANCEL": "إلغاء",
                 "HOURS": "ساعات",
                 "MINUTES": "دقائق",
-                "SECONDS": "ثوانٍ",
-                "NO_RECENTS": "لا يوجد حديث"
+                "SECONDS": "ثواني",
+                "NO_RECENTS": "لا توجد عناصر حديثة"
             },
             "ALERT": {
                 "STOP": "إيقاف",
-                "RESTART": "إعادة تشغيل"
+                "RESTART": "إعادة التشغيل"
             }
         },
         "CAMERA": {
@@ -180,18 +181,18 @@
         "APPSTORE": {
             "TITLE": "التطبيقات",
             "SEARCH": "بحث",
-            "GET": "احصل على",
-            "OPEN": "افتح",
+            "GET": "احصل",
+            "OPEN": "فتح",
             "TODAY": "اليوم",
-            "POPULAR_APPS": "التطبيقات الشعبية",
-            "GAMES": "الألعاب",
+            "POPULAR_APPS": "تطبيقات شائعة",
+            "GAMES": "ألعاب",
             "APPS": "التطبيقات",
-            "WHAT_WE_PLAYING": "ما نلعبه",
+            "WHAT_WE_PLAYING": "ما نلعبه الآن",
             "INFORMATION": "معلومات",
-            "PROVIDER": "المزود",
+            "PROVIDER": "المزوّد",
             "SIZE": "الحجم",
             "COMPATIBILITY": "التوافق",
-            "IN_APP_PURCHASES": "مشتريات داخل التطبيق",
+            "IN_APP_PURCHASES": "عمليات الشراء داخل التطبيق",
             "WORKS_WITH_PHONE": "يعمل مع هذا الجهاز اللوحي",
             "NO": "لا",
             "YES": "نعم",
@@ -210,7 +211,7 @@
             "DONE": "تم",
             "DELETE": "حذف",
             "SELECT_ITEMS": "تحديد العناصر",
-            "SELECTED_COUNT": "{count} عناصر محددة",
+            "SELECTED_COUNT": "تم تحديد {count} عنصر",
 
             "PHOTOS": "الصور",
             "ALBUMS": "الألبومات",
@@ -227,7 +228,7 @@
             },
             "REMOVE_ALBUM": {
                 "TITLE": "إزالة \"{name}\"",
-                "DESCRIPTION": "هل أنت متأكد أنك تريد حذف ألبوم \"{name}\"؟ لن يتم حذف الصور",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد حذف الألبوم \"{name}\"؟ لن يتم حذف الصور",
                 "CANCEL": "إلغاء",
                 "PROCEED": "إزالة"
             },
@@ -249,13 +250,13 @@
                 "DESCRIPTION": "استيراد صورة إلى هذا الألبوم",
                 "CANCEL": "إلغاء",
                 "PROCEED": "استيراد",
-                "PLACEHOLDER": "عنوان الصورة"
+                "PLACEHOLDER": "عنوان URL للصورة"
             },
 
-            "NO_PHOTOS": "لا توجد صور أو فيديوهات",
-            "NO_PHOTOS_INSTRUCTIONS": "يمكنك التقاط الصور والفيديوهات باستخدام الكاميرا",
+            "NO_PHOTOS": "لا توجد صور أو مقاطع فيديو",
+            "NO_PHOTOS_INSTRUCTIONS": "يمكنك التقاط الصور ومقاطع الفيديو باستخدام الكاميرا",
             "PHOTO_COUNT": "{amount} صور",
-            "VIDEO_COUNT": "{amount} فيديوهات",
+            "VIDEO_COUNT": "{amount} مقاطع فيديو",
 
             "DELETE_CONTEXT_TITLE": "هل تريد حذف {type} أو إزالتها من هذا الألبوم",
             "THESE_PHOTOS": "هذه الصور",
@@ -264,15 +265,15 @@
             "ADD_TO_ALBUM": "إضافة إلى الألبوم",
             "ADD_TO_FAVOURITES": "إضافة إلى المفضلة",
             "REMOVE_FROM_FAVOURITES": "إزالة من المفضلة",
-            "VIDEOS": "فيديوهات",
-            "SELFIES": "سيلفي",
+            "VIDEOS": "الفيديوهات",
+            "SELFIES": "صور السيلفي",
             "SCREENSHOTS": "لقطات الشاشة",
-            "IMPORTS": "استيرادات",
-            "DUPLICATES": "مكررات",
+            "IMPORTS": "الواردات",
+            "DUPLICATES": "النسخ المكررة",
             "YEARS": "سنوات",
             "MONTHS": "أشهر",
             "DAYS": "أيام",
-            "ALL_PHOTOS": "كل الصور",
+            "ALL_PHOTOS": "جميع الصور",
 
             "FAVOURITES": "المفضلة",
             "RECENTS": "الأخيرة"
@@ -280,7 +281,7 @@
         "MAIL": {
             "TITLE": "البريد",
             "YOU": "أنت",
-            "UPDATED_NOW": "تم التحديث للتو",
+            "UPDATED_NOW": "تم التحديث الآن",
             "NEW_MESSAGE": "رسالة جديدة",
             "INBOX": "الوارد",
             "TO": "إلى",
@@ -295,11 +296,11 @@
             "PASSWORD": "كلمة المرور",
             "WRONG_PASSWORD": "كلمة مرور خاطئة",
             "LOGIN": "تسجيل الدخول",
-            "NO_EMAIL": "لا تملك عنوان بريد إلكتروني؟",
+            "NO_EMAIL": "ليس لديك عنوان بريد إلكتروني؟",
             "CREATE_ONE": "أنشئ واحدًا",
-            "UNREAD": "غير مقروء",
+            "UNREAD": "غير مقروءة",
             "CREATE_MAIL": "إنشاء بريد إلكتروني",
-            "ALREADY_HAVE": "هل لديك بالفعل عنوان بريد إلكتروني؟",
+            "ALREADY_HAVE": "هل لديك عنوان بريد إلكتروني بالفعل؟",
             "ADD_EMAIL": "إضافة بريد إلكتروني",
             "RE": "رد: {subject}",
             "CHANGE_ACCOUNT": "تغيير الحساب",
@@ -319,9 +320,9 @@
             }
         },
         "VOICEMEMO": {
-            "TITLE": "مذكرة صوتية",
-            "VOICE_RECORDINGS": "التسجيلات الصوتية",
-            "SEARCH_RECORDINGS": "بحث في التسجيلات",
+            "TITLE": "المذكرة الصوتية",
+            "VOICE_RECORDINGS": "تسجيلات صوتية",
+            "SEARCH_RECORDINGS": "البحث في التسجيلات",
             "DEFAULT_NAME": "تسجيل جديد",
             "DELETE_POPUP": {
                 "TITLE": "حذف المذكرة الصوتية",
@@ -331,30 +332,30 @@
             },
             "NO_MICROPHONE_POPUP": {
                 "TITLE": "لا يوجد ميكروفون",
-                "DESCRIPTION": "لا يمكننا الوصول إلى الميكروفون الخاص بك، تأكد من توصيل واحد وقبول النافذة المنبثقة في أعلى يمين الشاشة",
-                "OK": "حسنًا"
+                "DESCRIPTION": "لا يمكننا الوصول إلى الميكروفون الخاص بك. تأكد من توصيل ميكروفون وقبول النافذة المنبثقة أعلى يمين الشاشة",
+                "OK": "موافق"
             },
             "EMPTY_RECORDING_POPUP": {
                 "TITLE": "تسجيل فارغ",
-                "DESCRIPTION": "لا يمكنك تخزين تسجيل بدون صوت",
-                "OK": "حسنًا"
+                "DESCRIPTION": "لا يمكنك حفظ تسجيل بدون أي صوت",
+                "OK": "موافق"
             }
         },
         "SERVICES": {
-            "ACTIONS": "الإجراءات",
+            "ACTIONS": "إجراءات",
             "COMPANIES": "الشركات",
             "MESSAGES": "الرسائل",
             "SETTINGS": "الإعدادات",
 
             "CLOSED": "مغلق",
             "YOUR_MESSAGES": "رسائلك",
-            "JOB_MESSAGES": "رسائل الوظيفة",
+            "JOB_MESSAGES": "رسائل العمل",
 
-            "DUTY": "الواجب",
-            "DUTY_DESCRIPTION": "تبديل حالة الواجب الخاصة بك",
-            "GO_ON_DUTY": "البدء في الواجب",
-            "GO_OFF_DUTY": "إنهاء الواجب",
-            "JOB_CALLS": "مكالمات الوظيفة",
+            "DUTY": "الدوام",
+            "DUTY_DESCRIPTION": "تبديل حالة دوامك",
+            "GO_ON_DUTY": "باشر العمل",
+            "GO_OFF_DUTY": "إنهاء العمل",
+            "JOB_CALLS": "اتصالات العمل",
             "JOB_CALLS_DESCRIPTION": "{toggle} استقبال المكالمات من العملاء.",
 
             "ENABLE": "تمكين",
@@ -366,27 +367,43 @@
             "CURRENT_BALANCE": "الرصيد الحالي للشركة",
             "MANAGE_EMPLOYEES": "إدارة الموظفين",
             "HIRE": "توظيف",
-            "SET_GRADE": "تعيين الدرجة",
-            "UNEMPLOYED": "أنت بلا عمل",
+            "SET_GRADE": "تعيين رتبة",
+            "UNEMPLOYED": "أنت عاطل عن العمل",
 
             "ALL": "الكل",
             "AVAILABLE": "متاح",
-            "SEARCH_EMPLOYEES": "بحث الموظفين",
+            "SEARCH_EMPLOYEES": "البحث عن موظفين",
 
             "PERSONAL": "شخصي",
-            "JOB": "وظيفة",
+            "JOB": "العمل",
+            "PLACEHOLDER": "رسالة نصية",
+            "NOT_DELIVERED": "لم يتم التسليم",
+            "SENT_LOCATION": "قام بمشاركة موقعه. انقر لفتحه في الخرائط.",
+            "SENT_LOCATION_SHORT": "تمت مشاركة الموقع",
+            "SEND_LOCATION_POPUP": {
+                "TITLE": "مشاركة الموقع",
+                "TEXT": "هل تريد مشاركة موقعك؟",
+                "CANCEL": "إلغاء",
+                "SEND": "إرسال"
+            },
+            "DELETE_CONVERSATION": {
+                "TITLE": "حذف المحادثة",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد حذف هذه المحادثة؟",
+                "CANCEL": "إلغاء",
+                "DELETE": "حذف"
+            },
 
             "DEPOSIT_POPUP": {
                 "TITLE": "إيداع",
-                "DESCRIPTION": "إيداع المال في حساب الشركة",
+                "DESCRIPTION": "قم بإيداع المال في حساب الشركة",
                 "AMOUNT": "المبلغ",
                 "CANCEL": "إلغاء",
                 "PROCEED": "متابعة"
             },
             "WITHDRAW_POPUP": {
                 "TITLE": "سحب",
-                "DESCRIPTION": "سحب المال من حساب الشركة",
-                "NOT_ENOUGH_MONEY": "لا يوجد ما يكفي من المال في حساب الشركة",
+                "DESCRIPTION": "قم بسحب المال من حساب الشركة",
+                "NOT_ENOUGH_MONEY": "لا يوجد مال كافٍ في حساب الشركة",
                 "AMOUNT": "المبلغ",
                 "CANCEL": "إلغاء",
                 "PROCEED": "متابعة"
@@ -394,14 +411,14 @@
             "HIRE_POPUP": {
                 "TITLE": "توظيف",
                 "DESCRIPTION": "توظيف موظف جديد",
-                "PLACEHOLDER": "الرقم التعريفي",
+                "PLACEHOLDER": "ID",
                 "CANCEL": "إلغاء",
                 "PROCEED": "متابعة"
             },
             "FIRE_POPUP": {
-                "TITLE": "فصل",
-                "DESCRIPTION": "هل أنت متأكد أنك تريد فصل {name}؟",
-                "PLACEHOLDER": "الرقم التعريفي",
+                "TITLE": "طرد",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد طرد {name}؟",
+                "PLACEHOLDER": "ID",
                 "CANCEL": "إلغاء",
                 "PROCEED": "متابعة"
             }
@@ -415,7 +432,7 @@
             "REMOVE": "إزالة",
             "SAVE": "حفظ",
             "CREATE": "إنشاء",
-            "OK": "حسنًا",
+            "OK": "موافق",
             "ADD": "إضافة",
             "NEW": "جديد",
             "PROCEED": "متابعة",
@@ -423,10 +440,10 @@
             "SEARCH": "بحث",
             "SEARCH_FOR": "ابحث عن {query} للبدء",
             "NO_RESULTS_FOR": "لم يتم العثور على نتائج لـ '{query}'",
-            "CLEAR_HISTORY": "مسح التاريخ",
+            "CLEAR_HISTORY": "مسح السجل",
 
             "HOME": {
-                "TITLE": "الصفحة الرئيسية",
+                "TITLE": "الرئيسية",
                 "CREATE": "إنشاء",
 
                 "RECENT_REPORTS": "التقارير الأخيرة",
@@ -434,8 +451,8 @@
                 "BULLETIN_BOARD": "لوحة الإعلانات",
                 "PIN": "تثبيت",
                 "UNPIN": "إلغاء التثبيت",
-                "SEARCH_BULLETIN": "بحث في الإعلانات",
-                "SEARCH_UNITS": "بحث في الوحدات",
+                "SEARCH_BULLETIN": "البحث في الإعلانات",
+                "SEARCH_UNITS": "البحث عن الوحدات",
                 "ADD_BULLETIN": {
                     "TITLE": "إضافة إعلان",
                     "DESCRIPTION": "إنشاء منشور إعلان جديد",
@@ -445,45 +462,54 @@
                     "PROCEED": "متابعة"
                 },
                 "DELETE_BULLETIN": {
-                    "TITLE": "حذف إعلان",
-                    "DESCRIPTION": "هل أنت متأكد أنك تريد حذف هذا المنشور الإعلاني؟",
+                    "TITLE": "حذف الإعلان",
+                    "DESCRIPTION": "هل أنت متأكد أنك تريد حذف هذا المنشور؟",
                     "CANCEL": "إلغاء",
                     "DELETE": "حذف"
                 },
-                "RECENT_WARRANTS": "أوامر التفتيش الأخيرة",
+                "RECENT_WARRANTS": "المذكرات الأخيرة",
                 "ACTIVE_UNITS": "الوحدات النشطة"
             },
 
             "DISPATCH": {
-                "TITLE": "إرسال",
+                "TITLE": "العمليات",
                 "TOGGLE_OFFICERS": "تبديل الضباط",
                 "TOGGLE_ALARMS": "تبديل الإنذارات",
                 "OFFICERS": "الضباط",
                 "ALARMS": "الإنذارات",
 
-                "RESPOND": "الاستجابة",
-                "COLLAPSE": "طي",
+                "RESPOND": "استجابة",
+                "RESPONDED": "تمت الاستجابة",
+                "COLLAPSE": "طيّ",
                 "EXPAND": "توسيع",
                 "DISMISS": "رفض",
-                "VIEW_IN_TABLET": "عرض في الجهاز اللوحي",
-                "SET_WAYPOINT": "تعيين نقطة الاتجاه",
+                "VIEW_IN_TABLET": "عرض على الجهاز اللوحي",
+                "SET_WAYPOINT": "تعيين نقطة طريق",
 
                 "PRIORITY": {
-                    "HIGH": "عالي",
-                    "MEDIUM": "متوسط",
-                    "LOW": "منخفض"
+                    "HIGH": "عالية",
+                    "MEDIUM": "متوسطة",
+                    "LOW": "منخفضة"
                 },
 
-                "JUST_NOW": "الآن",
-                "MINUTES_AGO": "{minutes} دقيقة مضت",
-                "HOURS_AGO": "{hours} ساعة مضت"
+                "JUST_NOW": "حالًا",
+                "MINUTES_AGO": "قبل {minutes} دقيقة",
+                "HOURS_AGO": "قبل {hours} ساعة",
+                "REMOVE_ALARM": {
+                    "TITLE": "إزالة الإنذار",
+                    "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة الإنذار؟ (سيؤدي هذا إلى إزالة البلاغ لجميع الموظفين)",
+                    "CANCEL": "إلغاء",
+                    "REMOVE": "إزالة"
+                }
             },
 
             "PROFILES": {
                 "TITLE": "الملف الشخصي",
                 "PERSON": "شخص",
-                "SEARCH": "بحث في الملفات الشخصية",
+                "SEARCH": "البحث في الملفات الشخصية",
                 "REMOVE_AVATAR": "إزالة الصورة الرمزية",
+                "IDENTIFIER": "المعرّف",
+                "FINGERPRINT": "بصمة الإصبع",
                 "DOB": "تاريخ الميلاد",
                 "PHONE_NR": "رقم الهاتف",
                 "GENDER": "الجنس",
@@ -514,14 +540,14 @@
                     "PASTE_URL_PLACEHOLDER": "عنوان URL للصورة",
 
                     "INVALID_URL": "عنوان URL غير صالح",
-                    "INVALID_URL_DESCRIPTION": "عنوان URL الذي أدخلته ليس عنوان URL صالح لصورة",
-                    "OK": "حسنًا"
+                    "INVALID_URL_DESCRIPTION": "عنوان URL الذي أدخلته ليس عنوان صورة صالحًا",
+                    "OK": "موافق"
                 },
 
                 "VEHICLES": "المركبات",
                 "NO_VEHICLES": "لا توجد مركبات",
-                "PROPERTIES": "العقارات",
-                "NO_PROPERTIES": "لا توجد عقارات",
+                "PROPERTIES": "الممتلكات",
+                "NO_PROPERTIES": "لا توجد ممتلكات",
                 "REPORTS": "التقارير",
                 "NO_REPORTS": "لا توجد تقارير",
                 "CASES": "القضايا",
@@ -533,51 +559,51 @@
             "VEHICLES": {
                 "TITLE": "المركبات",
                 "VEHICLE": "مركبة",
-                "SEARCH": "بحث في المركبات",
+                "SEARCH": "البحث عن مركبات",
                 "REMOVE_PICTURE": "إزالة الصورة",
                 "DETAILS": "التفاصيل",
 
                 "ADD_PHOTO": {
                     "TITLE": "إضافة صورة",
-                    "SELECT_PHOTO": "اختيار صورة",
+                    "SELECT_PHOTO": "اختر صورة",
                     "PASTE_URL": "لصق عنوان URL",
                     "PASTE_URL_DESCRIPTION": "أدخل عنوان URL لصورة",
                     "PASTE_URL_PLACEHOLDER": "عنوان URL للصورة",
 
                     "INVALID_URL": "عنوان URL غير صالح",
-                    "INVALID_URL_DESCRIPTION": "عنوان URL الذي أدخلته ليس عنوان URL صالح لصورة",
-                    "OK": "حسنًا"
+                    "INVALID_URL_DESCRIPTION": "عنوان URL الذي أدخلته ليس عنوان صورة صالحًا",
+                    "OK": "موافق"
                 },
-                "MODEL": "النموذج",
+                "MODEL": "الطراز",
                 "PLATE": "اللوحة",
                 "COLOR": "اللون",
                 "LOCATION": "الموقع",
                 "OWNER": "المالك",
                 "NOTES": "ملاحظات",
                 "NOTES_PLACEHOLDER": "أدخل الملاحظات هنا...",
-                "SET_WAYPOINT": "تعيين نقطة الاتجاه",
+                "SET_WAYPOINT": "تعيين نقطة طريق",
                 "OPEN_IN_MAPS": "فتح في الخرائط",
-                "WAYPOINT_SET": "تم تعيين نقطة الاتجاه",
-                "WAYPOINT_SET_DESCRIPTION": "تم تعيين نقطة الاتجاه إلى موقع المركبة",
+                "WAYPOINT_SET": "تم تعيين نقطة الطريق",
+                "WAYPOINT_SET_DESCRIPTION": "تم تعيين نقطة الطريق على موقع المركبة",
                 "CASES": "القضايا",
                 "NO_CASES": "لا توجد قضايا"
             },
             "PROPERTIES": {
-                "TITLE": "العقارات",
+                "TITLE": "الممتلكات",
                 "PROPERTY": "عقار",
-                "SEARCH": "بحث في العقارات",
+                "SEARCH": "البحث عن ممتلكات",
                 "REMOVE_PICTURE": "إزالة الصورة",
                 "DETAILS": "التفاصيل",
                 "ADD_PHOTO": {
                     "TITLE": "إضافة صورة",
-                    "SELECT_PHOTO": "اختيار صورة",
+                    "SELECT_PHOTO": "اختر صورة",
                     "PASTE_URL": "لصق عنوان URL",
                     "PASTE_URL_DESCRIPTION": "أدخل عنوان URL لصورة",
                     "PASTE_URL_PLACEHOLDER": "عنوان URL للصورة",
 
                     "INVALID_URL": "عنوان URL غير صالح",
-                    "INVALID_URL_DESCRIPTION": "عنوان URL الذي أدخلته ليس عنوان URL صالح لصورة",
-                    "OK": "حسنًا"
+                    "INVALID_URL_DESCRIPTION": "عنوان URL الذي أدخلته ليس عنوان صورة صالحًا",
+                    "OK": "موافق"
                 },
                 "LABEL": "التسمية",
                 "ADDRESS": "العنوان",
@@ -590,162 +616,169 @@
             "WEAPONS": {
                 "TITLE": "الأسلحة",
                 "WEAPON": "سلاح",
-                "SEARCH": "بحث في الأسلحة",
+                "SEARCH": "البحث عن أسلحة",
                 "REMOVE_PICTURE": "إزالة الصورة",
                 "DETAILS": "التفاصيل",
                 "ADD_PHOTO": {
                     "TITLE": "إضافة صورة",
-                    "SELECT_PHOTO": "اختيار صورة",
+                    "SELECT_PHOTO": "اختر صورة",
                     "PASTE_URL": "لصق عنوان URL",
                     "PASTE_URL_DESCRIPTION": "أدخل عنوان URL لصورة",
                     "PASTE_URL_PLACEHOLDER": "عنوان URL للصورة",
 
                     "INVALID_URL": "عنوان URL غير صالح",
-                    "INVALID_URL_DESCRIPTION": "عنوان URL الذي أدخلته ليس عنوان URL صالح لصورة",
-                    "OK": "حسنًا"
+                    "INVALID_URL_DESCRIPTION": "عنوان URL الذي أدخلته ليس عنوان صورة صالحًا",
+                    "OK": "موافق"
                 },
-                "MODEL_MAKE": "النموذج / الصانع",
+                "MODEL_MAKE": "الطراز",
                 "SERIAL_NUMBER": "الرقم التسلسلي",
                 "NOTES": "ملاحظات",
                 "NOTES_PLACEHOLDER": "أدخل الملاحظات هنا...",
-                "LINKED_REPORTS": "التقارير المرتبطة",
+                "LINKED_REPORTS": "تقارير مرتبطة",
                 "NO_LINKED_REPORTS": "لا توجد تقارير مرتبطة",
-                "LINKED_CASES": "القضايا المرتبطة",
+                "LINKED_CASES": "قضايا مرتبطة",
                 "NO_LINKED_CASES": "لا توجد قضايا مرتبطة",
-                "UNREGISTERED": "غير مسجل",
-                "OWNER": "المالك"
+                "UNREGISTERED": "غير مسجلة",
+                "OWNER": "المالك",
+                "SELECT_MODEL": "اختر الطراز",
+                "SELECT_OWNER": "اختر المالك"
             },
 
             "REPORTS": {
                 "TITLE": "التقارير",
                 "REPORT": "تقرير",
-                "SEARCH": "بحث في التقارير",
-                "FOOTER": "{author} - معرف التقرير: {id}",
+                "SEARCH": "البحث عن تقارير",
+                "FOOTER": "{author} - رقم التقرير: {id}",
                 "NEW_REPORT_TITLE": "تقرير جديد",
                 "TYPE": "النوع",
                 "DESCRIPTION": "الوصف",
-                "DESCRIPTION_PLACEHOLDER": "أدخل الوصف...",
+                "DESCRIPTION_PLACEHOLDER": "أدخل وصفًا...",
                 "GALLERY": "المعرض",
                 "NO_ATTACHMENTS": "لا توجد مرفقات",
-                "WEAPONS_INVOLVED": "الأسلحة المشاركة",
-                "NO_WEAPONS_INVOLVED": "لا توجد أسلحة مشاركة",
+                "WEAPONS_INVOLVED": "الأسلحة المتورطة",
+                "NO_WEAPONS_INVOLVED": "لا توجد أسلحة متورطة",
                 "REMOVE_WEAPON": {
                     "TITLE": "إزالة السلاح",
                     "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة السلاح من التقرير؟"
                 },
-                "OFFICERS_INVOLVED": "الضباط المشاركين",
+                "OFFICERS_INVOLVED": "الضباط المشاركون",
                 "NO_OFFICERS_INVOLVED": "لا يوجد ضباط مشاركون",
                 "REMOVE_OFFICER": {
                     "TITLE": "إزالة الضابط",
                     "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة {name} من التقرير؟"
                 },
-                "CIVILLIANS_INVOLVED": "المدنيين المشاركين",
+                "CIVILLIANS_INVOLVED": "المدنيون المشاركون",
                 "NO_CIVILLIANS_INVOLVED": "لا يوجد مدنيون مشاركون",
                 "REMOVE_CIVILIAN": {
                     "TITLE": "إزالة المدني",
-                    "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة المدني {name} من التقرير؟"
+                    "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة {name} من التقرير؟"
                 },
-                "SUSPECTS_INVOLVED": "المشتبه بهم المشاركين",
-                "NO_SUSPECTS_INVOLVED": "لا يوجد مشتبه بهم مشاركون",
+                "SUSPECTS_INVOLVED": "المشتبه بهم المتورطون",
+                "NO_SUSPECTS_INVOLVED": "لا يوجد مشتبه بهم متورطون",
                 "REMOVE_SUSPECT": {
                     "TITLE": "إزالة المشتبه به",
-                    "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة المشتبه به {name} من التقرير؟"
+                    "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة {name} من التقرير؟"
                 },
                 "ERROR": {
                     "TITLE": "خطأ",
-                    "NO_TYPE": "يجب عليك اختيار نوع التقرير",
-                    "TITLE_LENGTH": "يجب أن يكون العنوان 3 أحرف على الأقل",
-                    "DESCRIPTION_LENGTH": "يجب أن يكون الوصف 10 أحرف على الأقل"
+                    "NO_TYPE": "يجب أن تختار نوع التقرير",
+                    "TITLE_LENGTH": "يجب ألا يقل طول العنوان عن 3 أحرف",
+                    "DESCRIPTION_LENGTH": "يجب ألا يقل طول الوصف عن 10 أحرف"
                 }
             },
 
             "CASES": {
                 "TITLE": "القضايا",
-                "SEARCH": "بحث في القضايا",
+                "SEARCH": "البحث عن قضايا",
                 "CASE": "قضية",
-                "FOOTER": "{author} - معرف القضية: {id}",
+                "FOOTER": "{author} - رقم القضية: {id}",
                 "TITLE_PLACEHOLDER": "قضية جديدة",
                 "DESCRIPTION": "الوصف",
-                "DESCRIPTION_PLACEHOLDER": "أدخل الوصف...",
+                "DESCRIPTION_PLACEHOLDER": "أدخل وصفًا...",
                 "EVIDENCE": "الأدلة",
                 "NO_EVIDENCE": "لا توجد أدلة مرفقة",
-                "VEHICLES_INVOLVED": "المركبات المشاركة",
-                "OPEN_STASH": "فتح الخزنة",
-                "NO_VEHICLES_INVOLVED": "لا توجد مركبات مشاركة",
+                "OPEN_STASH": "فتح المخزن",
+                "VEHICLES_INVOLVED": "المركبات المتورطة",
+                "NO_VEHICLES_INVOLVED": "لا توجد مركبات متورطة",
                 "REMOVE_VEHICLE": {
                     "TITLE": "إزالة المركبة",
                     "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة المركبة من القضية؟"
                 },
-                "OFFICERS_INVOLVED": "الضباط المشاركين",
+                "OFFICERS_INVOLVED": "الضباط المشاركون",
                 "NO_OFFICERS_INVOLVED": "لا يوجد ضباط مشاركون",
                 "REMOVE_OFFICER": {
                     "TITLE": "إزالة الضابط",
                     "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة الضابط من القضية؟"
                 },
-                "CIVILLIANS_INVOLVED": "المدنيين المشاركين",
+                "CIVILLIANS_INVOLVED": "المدنيون المشاركون",
                 "NO_CIVILLIANS_INVOLVED": "لا يوجد مدنيون مشاركون",
                 "REMOVE_CIVILIAN": {
                     "TITLE": "إزالة المدني",
                     "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة المدني من القضية؟"
                 },
-                "CRIMINALS_INVOLVED": "المجرمين المشاركين",
-                "NO_CRIMINALS_INVOLVED": "لا يوجد مجرمون مشاركون",
+                "CRIMINALS_INVOLVED": "المجرمون المتورطون",
+                "NO_CRIMINALS_INVOLVED": "لا يوجد مجرمون متورطون",
                 "REMOVE_CRIMINAL": {
                     "TITLE": "إزالة المجرم",
                     "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة المجرم من القضية؟"
                 },
                 "ADD_CHARGE": "إضافة تهمة",
                 "RECOMMENDED_FINE": "الغرامة الموصى بها ({currency})",
-                "RECOMMENDED_SENTENCE": "الحكم الموصى به (بالأشهر)",
+                "RECOMMENDED_SENTENCE": "العقوبة الموصى بها (بالأشهر)",
                 "FINE": "الغرامة ({currency})",
-                "SENTENCE": "الحكم (بالأشهر)",
+                "SENTENCE": "العقوبة (بالأشهر)",
 
                 "ERROR": {
                     "TITLE": "خطأ",
-                    "TITLE_LENGTH": "يجب أن يكون العنوان 3 أحرف على الأقل",
-                    "DESCRIPTION_LENGTH": "يجب أن يكون الوصف 10 أحرف على الأقل",
-                    "OK": "حسنًا"
+                    "TITLE_LENGTH": "يجب ألا يقل طول العنوان عن 3 أحرف",
+                    "DESCRIPTION_LENGTH": "يجب ألا يقل طول الوصف عن 10 أحرف",
+                    "OK": "موافق"
                 }
             },
 
             "WARRANTS": {
-                "TITLE": "أوامر التفتيش",
-                "SEARCH": "بحث في أوامر التفتيش",
+                "TITLE": "المذكرات",
+                "SEARCH": "البحث عن مذكرات",
 
                 "HIGH_PRIORITY": "أولوية عالية",
                 "MEDIUM_PRIORITY": "أولوية متوسطة",
                 "LOW_PRIORITY": "أولوية منخفضة",
-                "FOOTER": "{author} - معرف الأمر: {id}",
-                "TITLE_PLACEHOLDER": "أمر تفتيش جديد",
+                "FOOTER": "{author} - رقم المذكرة: {id}",
+                "TITLE_PLACEHOLDER": "مذكرة جديدة",
                 "DESCRIPTION": "الوصف",
-                "DESCRIPTION_PLACEHOLDER": "أدخل الوصف...",
+                "DESCRIPTION_PLACEHOLDER": "أدخل وصفًا...",
                 "TYPE": "النوع",
                 "STATUS": "الحالة",
                 "PRIORITY": "الأولوية",
                 "GALLERY": "المعرض",
                 "NO_ATTACHMENTS": "لا توجد مرفقات",
-                "LINKED_REPORTS": "التقارير المرتبطة",
+                "LINKED_REPORTS": "تقارير مرتبطة",
                 "NO_LINKED_REPORTS": "لا توجد تقارير مرتبطة",
+                "SELECT_VEHICLE": "اختر مركبة",
+                "NO_VEHICLE_SELECTED": "لم يتم اختيار مركبة",
+                "SELECT_PERSON": "اختر شخصًا",
+                "NO_PERSON_SELECTED": "لم يتم اختيار أي شخص",
                 "REMOVE_REPORT": {
                     "TITLE": "إزالة التقرير",
-                    "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة التقرير من الأمر؟"
+                    "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة التقرير من المذكرة؟"
                 },
                 "ERROR": {
                     "TITLE": "خطأ",
-                    "TITLE_LENGTH": "يجب أن يكون العنوان 3 أحرف على الأقل",
-                    "DESCRIPTION_LENGTH": "يجب أن يكون الوصف 10 أحرف على الأقل",
-                    "NO_TYPE": "يجب عليك اختيار نوع الأمر",
-                    "OK": "حسنًا"
+                    "TITLE_LENGTH": "يجب ألا يقل طول العنوان عن 3 أحرف",
+                    "DESCRIPTION_LENGTH": "يجب ألا يقل طول الوصف عن 10 أحرف",
+                    "NO_TYPE": "يجب أن تختار نوع المذكرة",
+                    "NO_TARGET": "يجب أن تختار هدفًا للمذكرة",
+                    "OK": "موافق"
                 }
             },
 
             "OFFENCES": {
                 "TITLE": "المخالفات",
-                "SEARCH": "بحث في المخالفات",
+                "SEARCH": "البحث عن مخالفات",
                 "MONTHS": "{amount} أشهر",
                 "FINE": "{amount} غرامة",
 
-                "SELECT_SEVERITY": "اختر الشدة",
+                "SELECT_SEVERITY": "اختر مستوى الخطورة",
                 "SEVERITIES": {
                     "INFRACTION": "مخالفة",
                     "MISDEMEANOR": "جنحة",
@@ -759,13 +792,13 @@
                     "DESCRIPTION_PLACEHOLDER": "أدخل وصفًا..."
                 },
                 "SET_JAILTIME": {
-                    "TITLE": "المدة الموصى بها للسجن",
-                    "DESCRIPTION": "حدد المدة الموصى بها للسجن للمخالفة",
-                    "PLACEHOLDER": "مدة السجن الموصى بها (بالأشهر) (0 لغرامة فقط)"
+                    "TITLE": "مدة السجن الموصى بها",
+                    "DESCRIPTION": "عيّن مدة السجن الموصى بها للمخالفة",
+                    "PLACEHOLDER": "مدة السجن الموصى بها (بالأشهر) (0 للغرامة فقط)"
                 },
                 "SET_FINE": {
                     "TITLE": "الغرامة الموصى بها",
-                    "DESCRIPTION": "حدد الغرامة الموصى بها للمخالفة",
+                    "DESCRIPTION": "عيّن الغرامة الموصى بها للمخالفة",
                     "PLACEHOLDER": "مبلغ الغرامة الموصى بها (0 للسجن فقط)"
                 },
 
@@ -785,21 +818,21 @@
             },
 
             "EMPLOYEES": {
-                "TITLE": "الموظفين",
-                "SEARCH": "بحث في الموظفين"
+                "TITLE": "الموظفون",
+                "SEARCH": "البحث عن موظفين"
             },
 
             "CHAT": {
                 "TITLE": "الدردشة",
-                "SEARCH": "بحث في الدردشات",
-                "PLACEHOLDER": "أرسل رسالة...",
-                "JOINED_CHATS": "الدردشات التي انضممت إليها",
+                "SEARCH": "البحث في الدردشات",
+                "PLACEHOLDER": "اكتب رسالة...",
+                "JOINED_CHATS": "الدردشات المشتركة",
                 "PUBLIC_CHATS": "الدردشات العامة",
-                "JOINED": "منضم",
+                "JOINED": "مشتركة",
                 "PUBLIC": "عام",
                 "PRIVATE_CHATS": "الدردشات الخاصة",
                 "ROOM_ID": "معرف الغرفة: {id}",
-                "TOGGLE_PRIVATE": "تبديل الخاص",
+                "TOGGLE_PRIVATE": "تبديل الخصوصية",
                 "CHANGE_AVATAR": "تغيير الصورة الرمزية",
                 "SET_AVATAR": "تعيين الصورة الرمزية",
                 "REMOVE_AVATAR": "إزالة الصورة الرمزية",
@@ -823,27 +856,28 @@
                     "PRIVATE": "خاص"
                 },
                 "JOIN_CHAT": {
-                    "TITLE": "انضم إلى الدردشة",
+                    "TITLE": "الانضمام للدردشة",
                     "DESCRIPTION": "هل أنت متأكد أنك تريد الانضمام إلى {channel}؟",
-                    "JOIN": "انضم"
+                    "JOIN": "انضمام"
                 },
                 "ERROR": {
                     "TITLE": "خطأ",
-                    "FAILED_JOIN": "فشل الانضمام إلى غرفة الدردشة",
-                    "FAILED_INVITE": "فشل دعوة {name} إلى غرفة الدردشة",
-                    "FAILED_SET_AVATAR": "فشل تعيين الصورة الرمزية لغرفة الدردشة",
-                    "FAILED_REMOVE_AVATAR": "فشل إزالة الصورة الرمزية لغرفة الدردشة",
-                    "FAILED_GET_MEMBERS": "فشل الحصول على أعضاء غرفة الدردشة",
-                    "FAILED_KICK": "فشل طرد {name} من غرفة الدردشة",
-                    "FAILED_LEAVE": "فشل مغادرة غرفة الدردشة"
+                    "FAILED_JOIN": "تعذرت المشاركة في غرفة الدردشة",
+                    "FAILED_INVITE": "تعذرت دعوة {name} إلى غرفة الدردشة",
+                    "FAILED_SET_AVATAR": "تعذر تعيين الصورة الرمزية لغرفة الدردشة",
+                    "FAILED_REMOVE_AVATAR": "تعذر إزالة الصورة الرمزية لغرفة الدردشة",
+                    "FAILED_GET_MEMBERS": "تعذر الحصول على أعضاء غرفة الدردشة",
+                    "FAILED_KICK": "تعذر طرد {name} من غرفة الدردشة",
+                    "FAILED_LEAVE": "تعذرت مغادرة غرفة الدردشة"
                 },
                 "SUCCESS": {
-                    "TITLE": "نجاح",
-                    "INVITED": "لقد دعوت {name} إلى غرفة الدردشة",
-                    "KICKED": "لقد طردت {name} من غرفة الدردشة"
+                    "TITLE": "تم بنجاح",
+                    "INVITED": "لقد قمت بدعوة {name} إلى غرفة الدردشة",
+                    "KICKED": "لقد قمت بطرد {name} من غرفة الدردشة"
                 }
             },
 
+            
             "PHONE": {
                 "TITLE": "الهاتف",
                 "TRIANGULATE": "تثليث",
@@ -895,6 +929,39 @@
                 }
             },
 
+            "CONDITIONS": {
+                "TITLE": "الحالات",
+                "CONDITION": "حالة",
+                "SEARCH": "البحث عن حالات",
+
+                "SELECT_SEVERITY": "اختر مستوى الخطورة",
+                "SEVERITIES": {
+                    "MINOR": "طفيفة",
+                    "MODERATE": "متوسطة",
+                    "SEVERE": "شديدة",
+                    "CRITICAL": "حرجة"
+                },
+                "NO_CONDITIONS_FOUND": "لم يتم العثور على حالات",
+                "ADD_CONDITION": {
+                    "TITLE": "إضافة حالة",
+                    "DESCRIPTION": "إنشاء حالة جديدة",
+                    "PLACEHOLDER": "أدخل عنوان الحالة"
+                },
+                "DELETE_CONDITION": {
+                    "TITLE": "حذف الحالة",
+                    "DESCRIPTION": "هل أنت متأكد أنك تريد حذف هذه الحالة؟"
+                },
+                "ADD_CATEGORY": {
+                    "TITLE": "إضافة فئة",
+                    "DESCRIPTION": "إضافة فئة جديدة إلى قائمة الحالات",
+                    "PLACEHOLDER": "أدخل اسم الفئة"
+                },
+                "DELETE_CATEGORY": {
+                    "TITLE": "حذف الفئة",
+                    "DESCRIPTION": "هل أنت متأكد أنك تريد حذف هذه الفئة؟"
+                }
+            },
+
             "LOGS": {
                 "TITLE": "السجلات",
                 "SEARCH": "بحث في السجلات",
@@ -910,7 +977,6 @@
                     "WARRANT": "أمر تفتيش",
                     "INCIDENT": "حادثة"
                 },
-
                 "CREATE_TAG_TITLE": "تم إنشاء وسم",
                 "CREATE_TAG_DESCRIPTION": "تم إنشاء وسم {type} \"{name}\"",
                 "DELETE_TAG_TITLE": "تم حذف وسم",
@@ -951,200 +1017,194 @@
                 "UPDATE_CASE_DESCRIPTION": "تم تحديث القضية بعنوان \"{title}\"",
                 "DELETE_CASE_TITLE": "تم حذف القضية",
                 "DELETE_CASE_DESCRIPTION": "تم حذف قضية بالمعرف {id}"
-            },
+        },
 
-            "TAGS": {
-                "TITLE": "الوسوم",
-                "ADD": "إضافة",
-                "NO_TAGS": "لا توجد وسوم",
-                "CREATE_TAG": {
-                    "TITLE": "إنشاء وسم",
-                    "DESCRIPTION": "أدخل اسم وسم",
-                    "PLACEHOLDER": "اسم الوسم",
-                    "CANCEL": "إلغاء",
-                    "NEXT": "التالي",
-                    "SELECT_COLOR": "اختر لونًا"
-                },
-                "DELETE_TAG": {
-                    "TITLE": "حذف وسم",
-                    "DESCRIPTION": "هل أنت متأكد أنك تريد حذف هذا الوسم؟",
-                    "CANCEL": "إلغاء",
-                    "DELETE": "حذف"
-                },
-                "REMOVE_TAG": {
-                    "TITLE": "إزالة وسم",
-                    "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة الوسم '{tag}'؟",
-                    "CANCEL": "إلغاء",
-                    "REMOVE": "إزالة"
-                }
+        "TAGS": {
+            "TITLE": "الوسوم",
+            "ADD": "إضافة",
+            "NO_TAGS": "لا توجد وسوم",
+            "CREATE_TAG": {
+                "TITLE": "إنشاء وسم",
+                "DESCRIPTION": "أدخل اسم وسم",
+                "PLACEHOLDER": "اسم الوسم",
+                "CANCEL": "إلغاء",
+                "NEXT": "التالي",
+                "SELECT_COLOR": "اختر لونًا"
             },
-            "MISC": {
-                "SOON": "قريبًا",
-                "UNKNOWN": "غير معروف",
-                "MINUTES": "{minutes}د",
-                "HOURS": "{hours}س",
-                "DAYS": "{days}ي",
-                "FORMATTED_DATE": "{day} {month} {year} في {hours}:{minutes}",
-                "CHANGE_AVATAR": "تغيير الصورة الرمزية",
-                "REMOVE_AVATAR": "إزالة الصورة الرمزية",
-                "SET_CALLSIGN": "تعيين لقب الاتصال",
-                "CALLSIGN": {
-                    "TITLE": "لقب الاتصال",
-                    "DESCRIPTION": "أدخل لقب الاتصال",
-                    "CANCEL": "إلغاء",
-                    "PROCEED": "متابعة"
-                }
+            "DELETE_TAG": {
+                "TITLE": "حذف وسم",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد حذف هذا الوسم؟",
+                "CANCEL": "إلغاء",
+                "DELETE": "حذف"
+            },
+            "REMOVE_TAG": {
+                "TITLE": "إزالة وسم",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة الوسم '{tag}'؟",
+                "CANCEL": "إلغاء",
+                "REMOVE": "إزالة"
             }
         },
-        "AMBULANCE": {
-            "TITLE": "الإسعاف",
+        "MISC": {
+            "SOON": "قريبًا",
+            "UNKNOWN": "غير معروف",
+            "MINUTES": "{minutes}د",
+            "HOURS": "{hours}س",
+            "DAYS": "{days}ي",
+            "FORMATTED_DATE": "{day} {month} {year} في {hours}:{minutes}",
+            "CHANGE_AVATAR": "تغيير الصورة الرمزية",
+            "REMOVE_AVATAR": "إزالة الصورة الرمزية",
+            "SET_CALLSIGN": "تعيين لقب الاتصال",
+            "CALLSIGN": {
+                "TITLE": "لقب الاتصال",
+                "DESCRIPTION": "أدخل لقب الاتصال",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            }
+        }
+    },
+    "AMBULANCE": {
+        "TITLE": "الإسعاف",
 
-            "SEARCH": "بحث",
-            "CANCEL": "إلغاء",
-            "CLOSE": "إغلاق",
-            "BACK": "رجوع",
-            "EDIT": "تعديل",
-            "DELETE": "حذف",
-            "REMOVE": "إزالة",
-            "SAVE": "حفظ",
+        "SEARCH": "بحث",
+        "CANCEL": "إلغاء",
+        "CLOSE": "إغلاق",
+        "BACK": "رجوع",
+        "EDIT": "تعديل",
+        "DELETE": "حذف",
+        "REMOVE": "إزالة",
+        "SAVE": "حفظ",
+        "CREATE": "إنشاء",
+        "PROCEED": "متابعة",
+        "OK": "حسنًا",
+        "ADD": "إضافة",
+        "NEW": "جديد",
+
+        "SEARCH_FOR": "ابحث عن {query} للبدء",
+        "NO_RESULTS_FOR": "لم يتم العثور على نتائج لـ '{query}'",
+        "CLEAR_HISTORY": "مسح التاريخ",
+
+        "HOME": {
+            "TITLE": "الصفحة الرئيسية",
             "CREATE": "إنشاء",
-            "PROCEED": "متابعة",
-            "OK": "حسنًا",
-            "ADD": "إضافة",
-            "NEW": "جديد",
 
-            "SEARCH_FOR": "ابحث عن {query} للبدء",
-            "NO_RESULTS_FOR": "لم يتم العثور على نتائج لـ '{query}'",
-            "CLEAR_HISTORY": "مسح التاريخ",
+            "RECENT_REPORTS": "التقارير الأخيرة",
+            "REPORT_FOOTER": "{timestamp} - {author}",
+            "BULLETIN_BOARD": "لوحة الإعلانات",
+            "PIN": "تثبيت",
+            "UNPIN": "إلغاء التثبيت",
+            "SEARCH_BULLETIN": "بحث في الإعلانات",
+            "SEARCH_UNITS": "بحث في الوحدات",
+            "ADD_BULLETIN": {
+                "TITLE": "إضافة إعلان",
+                "DESCRIPTION": "إنشاء منشور إعلان جديد",
+                "PLACEHOLDER": "العنوان",
+                "CONTENT": "المحتوى",
+                "CANCEL": "إلغاء",
+                "PROCEED": "متابعة"
+            },
+            "DELETE_BULLETIN": {
+                "TITLE": "حذف إعلان",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد حذف هذا المنشور الإعلاني؟",
+                "CANCEL": "إلغاء",
+                "DELETE": "حذف"
+            },
+            "ACTIVE_UNITS": "الوحدات النشطة"
+        },
 
-            "HOME": {
-                "TITLE": "الصفحة الرئيسية",
-                "CREATE": "إنشاء",
+        "DISPATCH": {
+            "TITLE": "إرسال",
+            "TOGGLE_EMPLOYEES": "تبديل الموظفين",
+            "TOGGLE_ALARMS": "تبديل الإنذارات",
+            "EMPLOYEES": "الموظفين",
+            "ALARMS": "الإنذارات",
 
-                "RECENT_REPORTS": "التقارير الأخيرة",
-                "REPORT_FOOTER": "{timestamp} - {author}",
-                "BULLETIN_BOARD": "لوحة الإعلانات",
-                "PIN": "تثبيت",
-                "UNPIN": "إلغاء التثبيت",
-                "SEARCH_BULLETIN": "بحث في الإعلانات",
-                "SEARCH_UNITS": "بحث في الوحدات",
-                "ADD_BULLETIN": {
-                    "TITLE": "إضافة إعلان",
-                    "DESCRIPTION": "إنشاء منشور إعلان جديد",
-                    "PLACEHOLDER": "العنوان",
-                    "CONTENT": "المحتوى",
-                    "CANCEL": "إلغاء",
-                    "PROCEED": "متابعة"
-                },
-                "DELETE_BULLETIN": {
-                    "TITLE": "حذف إعلان",
-                    "DESCRIPTION": "هل أنت متأكد أنك تريد حذف هذا المنشور الإعلاني؟",
-                    "CANCEL": "إلغاء",
-                    "DELETE": "حذف"
-                },
-                "ACTIVE_UNITS": "الوحدات النشطة"
+            "RESPOND": "الاستجابة",
+            "COLLAPSE": "طي",
+            "EXPAND": "توسيع",
+            "DISMISS": "رفض",
+            "VIEW_IN_TABLET": "عرض في الجهاز اللوحي",
+            "SET_WAYPOINT": "تعيين نقطة الاتجاه",
+
+            "PRIORITY": {
+                "HIGH": "عالي",
+                "MEDIUM": "متوسط",
+                "LOW": "منخفض"
             },
 
-            "DISPATCH": {
-                "TITLE": "إرسال",
-                "TOGGLE_EMPLOYEES": "تبديل الموظفين",
-                "TOGGLE_ALARMS": "تبديل الإنذارات",
-                "EMPLOYEES": "الموظفين",
-                "ALARMS": "الإنذارات",
+            "JUST_NOW": "الآن",
+            "MINUTES_AGO": "{minutes} دقيقة مضت",
+            "HOURS_AGO": "{hours} ساعة مضت"
+        },
 
-                "RESPOND": "الاستجابة",
-                "COLLAPSE": "طي",
-                "EXPAND": "توسيع",
-                "DISMISS": "رفض",
-                "VIEW_IN_TABLET": "عرض في الجهاز اللوحي",
-                "SET_WAYPOINT": "تعيين نقطة الاتجاه",
+        "JOURNALS": {
+            "TITLE": "السجلات",
+            "PROFILES": "الملفات الشخصية",
+            "PERSON": "شخص",
+            "SEARCH": "بحث في الملفات الشخصية",
+            "REMOVE_AVATAR": "إزالة الصورة الرمزية",
+            "DOB": "تاريخ الميلاد",
+            "PHONE_NR": "رقم الهاتف",
+            "GENDER": "الجنس",
+            "JOB": "الوظيفة",
+            "MALE": "ذكر",
+            "FEMALE": "أنثى",
+            "HEIGHT": "الطول",
+            "HEIGHT_FORMAT": "{height}سم",
+            "BLOOD_TYPE": "فصيلة الدم",
+            "NOTES": "ملاحظات",
+            "NOTES_PLACEHOLDER": "أدخل الملاحظات هنا...",
+            "DIAGNOSES_DISEASES": "التشخيصات / الأمراض",
+            "NO_DIAGNOSES": "لا توجد تشخيصات / أمراض",
+            "REPORTS": "التقارير",
+            "NO_REPORTS": "لا توجد تقارير",
 
-                "PRIORITY": {
-                    "HIGH": "عالي",
-                    "MEDIUM": "متوسط",
-                    "LOW": "منخفض"
-                },
+            "ADD_AVATAR": {
+                "TITLE": "إضافة صورة رمزية",
+                "SET_PHOTO": "تعيين صورة",
+                "PASTE_URL": "لصق عنوان URL",
+                "PASTE_URL_DESCRIPTION": "أدخل عنوان URL لصورة",
+                "PASTE_URL_PLACEHOLDER": "عنوان URL للصورة",
 
-                "JUST_NOW": "الآن",
-                "MINUTES_AGO": "{minutes} دقيقة مضت",
-                "HOURS_AGO": "{hours} ساعة مضت"
+                "INVALID_URL": "عنوان URL غير صالح",
+                "INVALID_URL_DESCRIPTION": "عنوان URL الذي أدخلته ليس عنوان URL صالح لصورة",
+                "OK": "حسنًا"
+            }
+        },
+
+        "REPORTS": {
+            "TITLE": "التقارير",
+            "REPORT": "تقرير",
+            "SEARCH": "بحث في التقارير",
+            "FOOTER": "{author} - معرف التقرير: {id}",
+            "NEW_REPORT_TITLE": "تقرير جديد",
+            "TYPE": "النوع",
+            "DESCRIPTION": "الوصف",
+            "DESCRIPTION_PLACEHOLDER": "أدخل الوصف...",
+            "GALLERY": "المعرض",
+            "NO_ATTACHMENTS": "لا توجد مرفقات",
+            "INJURIES_CONDITIONS": "الإصابات / الحالات",
+            "NO_INJURIES": "لا توجد إصابات / حالات",
+            "DOCTORS_INVOLVED": "الأطباء المشاركين",
+            "NO_DOCTORS_INVOLVED": "لا يوجد أطباء مشاركون",
+            "ADD_PATIENT": "إضافة مريض",
+
+            "REMOVE_INJURY": {
+                "TITLE": "إزالة الإصابة",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة الإصابة من التقرير؟"
+            },
+            "REMOVE_DOCTOR": {
+                "TITLE": "إزالة الطبيب",
+                "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة {name} من التقرير؟"
             },
 
-            "JOURNALS": {
-                "TITLE": "السجلات",
-                "PROFILES": "الملفات الشخصية",
-                "PERSON": "شخص",
-                "SEARCH": "بحث في الملفات الشخصية",
-                "REMOVE_AVATAR": "إزالة الصورة الرمزية",
-                "DOB": "تاريخ الميلاد",
-                "PHONE_NR": "رقم الهاتف",
-                "GENDER": "الجنس",
-                "JOB": "الوظيفة",
-                "MALE": "ذكر",
-                "FEMALE": "أنثى",
-                "HEIGHT": "الطول",
-                "HEIGHT_FORMAT": "{height}سم",
-                "BLOOD_TYPE": "فصيلة الدم",
-                "NOTES": "ملاحظات",
-                "NOTES_PLACEHOLDER": "أدخل الملاحظات هنا...",
-                "DIAGNOSES_DISEASES": "التشخيصات / الأمراض",
-                "NO_DIAGNOSES": "لا توجد تشخيصات / أمراض",
-                "REPORTS": "التقارير",
-                "NO_REPORTS": "لا توجد تقارير",
-
-                "ADD_AVATAR": {
-                    "TITLE": "إضافة صورة رمزية",
-                    "SET_PHOTO": "تعيين صورة",
-                    "PASTE_URL": "لصق عنوان URL",
-                    "PASTE_URL_DESCRIPTION": "أدخل عنوان URL لصورة",
-                    "PASTE_URL_PLACEHOLDER": "عنوان URL للصورة",
-
-                    "INVALID_URL": "عنوان URL غير صالح",
-                    "INVALID_URL_DESCRIPTION": "عنوان URL الذي أدخلته ليس عنوان URL صالح لصورة",
-                    "OK": "حسنًا"
-                }
-            },
-
-            "REPORTS": {
-                "TITLE": "التقارير",
-                "REPORT": "تقرير",
-                "SEARCH": "بحث في التقارير",
-                "FOOTER": "{author} - معرف التقرير: {id}",
-                "NEW_REPORT_TITLE": "تقرير جديد",
-                "TYPE": "النوع",
-                "DESCRIPTION": "الوصف",
-                "DESCRIPTION_PLACEHOLDER": "أدخل الوصف...",
-                "GALLERY": "المعرض",
-                "NO_ATTACHMENTS": "لا توجد مرفقات",
-                "INJURIES_CONDITIONS": "الإصابات / الحالات",
-                "NO_INJURIES": "لا توجد إصابات / حالات",
-                "DOCTORS_INVOLVED": "الأطباء المشاركين",
-                "NO_DOCTORS_INVOLVED": "لا يوجد أطباء مشاركون",
-                "ADD_PATIENT": "إضافة مريض",
-
-                "REMOVE_INJURY": {
-                    "TITLE": "إزالة الإصابة",
-                    "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة الإصابة من التقرير؟"
-                },
-                "REMOVE_DOCTOR": {
-                    "TITLE": "إزالة الطبيب",
-                    "DESCRIPTION": "هل أنت متأكد أنك تريد إزالة {name} من التقرير؟"
-                },
-
-                "ERROR": {
-                    "TITLE": "خطأ",
-                    "NO_TYPE": "يجب عليك اختيار نوع التقرير",
-                    "TITLE_LENGTH": "يجب أن يكون العنوان 3 أحرف على الأقل",
-                    "DESCRIPTION_LENGTH": "يجب أن يكون الوصف 10 أحرف على الأقل"
-                }
-            },
-
-            "EMPLOYEES": {
-                "TITLE": "الموظفين",
-                "SEARCH": "بحث في الموظفين"
-            },
-
-            "CHAT": {
+            "ERROR": {
+                "TITLE": "خطأ",
+                "NO_TYPE": "يجب عليك اختيار نوع التقرير",
+                "TITLE_LENGTH": "يجب أن يكون العنوان 3 أحرف على الأقل",
+                "DESCRIPTION_LENGTH": "يجب أن يكون الوصف 10 أحرف على الأقل"
+            }
+        },
+"CHAT": {
                 "TITLE": "الدردشة",
                 "SEARCH": "بحث في الدردشات",
                 "PLACEHOLDER": "أرسل رسالة...",
@@ -1199,43 +1259,15 @@
                 }
             },
 
-            "CONDITIONS": {
-                "TITLE": "الحالات",
-                "CONDITION": "حالة",
-                "SEARCH": "بحث في الحالات",
-
-                "SELECT_SEVERITY": "اختر الشدة",
-                "SEVERITIES": {
-                    "MINOR": "طفيف",
-                    "MODERATE": "متوسط",
-                    "SEVERE": "خطير",
-                    "CRITICAL": "حرج"
-                },
-                "NO_CONDITIONS_FOUND": "لم يتم العثور على حالات",
-                "ADD_CONDITION": {
-                    "TITLE": "إضافة حالة",
-                    "DESCRIPTION": "إنشاء حالة جديدة",
-                    "PLACEHOLDER": "أدخل عنوان الحالة"
-                },
-                "DELETE_CONDITION": {
-                    "TITLE": "حذف الحالة",
-                    "DESCRIPTION": "هل أنت متأكد أنك تريد حذف هذه الحالة؟"
-                },
-                "ADD_CATEGORY": {
-                    "TITLE": "إضافة فئة",
-                    "DESCRIPTION": "إضافة فئة جديدة إلى قائمة الحالات",
-                    "PLACEHOLDER": "أدخل اسم الفئة"
-                },
-                "DELETE_CATEGORY": {
-                    "TITLE": "حذف الفئة",
-                    "DESCRIPTION": "هل أنت متأكد أنك تريد حذف هذه الفئة؟"
-                }
-            }
-        },
+            "EMPLOYEES": {
+                "TITLE": "الموظفين",
+                "SEARCH": "بحث في الموظفين"
+            },
+            
         "BROWSER": {
             "TITLE": "المتصفح",
-            "SEARCH_PLACEHOLDER": "بحث أو اكتب عنوان URL",
-            "FAILED_LOAD_PAGE": "فشل تحميل الصفحة، ربما لا تدعم التضمين؟"
+            "SEARCH_PLACEHOLDER": "ابحث أو اكتب عنوان URL",
+            "FAILED_LOAD_PAGE": "فشل تحميل الصفحة، ربما لا تدعم التضمين في إطار؟"
         },
         "REGISTRATION": {
             "TITLE": "التسجيل",
@@ -1262,13 +1294,13 @@
             "FEMALE": "أنثى",
             "JOB": "الوظيفة",
             "HEIGHT": "الطول",
-            "FORMATTED_HEIGHT": "{height}سم",
+            "FORMATTED_HEIGHT": "{height} سم",
 
             "VEHICLES": "المركبات",
             "VEHICLE": "مركبة",
             "REMOVE_PICTURE": "إزالة الصورة",
-            "SEARCH_VEHICLES": "بحث في المركبات",
-            "MODEL": "النموذج",
+            "SEARCH_VEHICLES": "البحث عن مركبات",
+            "MODEL": "الطراز",
             "PLATE": "اللوحة",
             "COLOR": "اللون",
             "CREATE": "إنشاء",
@@ -1285,21 +1317,22 @@
                 "DESCRIPTION": "هل أنت متأكد أنك تريد حذف هذه الرخصة؟"
             },
 
-            "PROPERTIES": "العقارات",
+            "PROPERTIES": "الممتلكات",
             "ADD_PROPERTY_POPUP": {
                 "TITLE": "عقار جديد",
                 "DESCRIPTION": "إنشاء عقار جديد",
-                "LABEL": "تسمية العقار",
+                "LABEL": "اسم العقار",
                 "ADDRESS": "عنوان العقار"
             },
             "DELETE_PROPERTY_POPUP": {
                 "TITLE": "حذف العقار",
                 "DESCRIPTION": "هل أنت متأكد أنك تريد حذف هذا العقار؟"
             },
+
             "ERROR": {
                 "TITLE": "خطأ",
-                "MISSING_FIELDS": "الحقول التالية مفقودة: {fields}",
-                "OK": "حسنًا"
+                "MISSING_FIELDS": "الحقول التالية مطلوبة: {fields}",
+                "OK": "موافق"
             }
         }
     },
@@ -1308,17 +1341,17 @@
             "CANCEL": "إلغاء"
         },
         "IMAGE": {
-            "SAVE_TO_GALLERY": "حفظ في المعرض"
+            "SAVE_TO_GALLERY": "حفظ إلى المعرض"
         },
         "GALLERY": {
             "CANCEL": "إلغاء",
             "EXTERNAL_URL": "عنوان URL خارجي",
-            "EXTERNAL_URL_BLACKLISTED": "هذا العنوان محظور",
+            "EXTERNAL_URL_BLACKLISTED": "هذا الرابط محظور",
             "NO_IMAGES": "لا توجد صور"
         },
         "NOTIFICATIONS": {
-            "SENT_PHOTO": "تم إرسال صورة",
-            "SENT_GIF": "تم إرسال ملف GIF",
+            "SENT_PHOTO": "أرسل صورة",
+            "SENT_GIF": "أرسل صورة GIF",
             "NOW": "الآن"
         },
         "SHARE": {
@@ -1338,14 +1371,14 @@
                 "PROCEED": "متابعة"
             },
             "COPY_POPUP": {
-                "TITLE": "نجاح",
-                "DESCRIPTION": "تم النسخ بنجاح إلى الحافظة",
-                "OK": "حسنًا"
+                "TITLE": "تم بنجاح",
+                "DESCRIPTION": "تم النسخ إلى الحافظة بنجاح",
+                "OK": "موافق"
             }
         },
         "AIRDROP": {
             "TITLE": "AirShare",
-            "TEXT": "{sender} يرغب في مشاركة {type}",
+            "TEXT": "{sender} يود مشاركة {type}",
             "VIDEO": "فيديو",
             "PHOTO": "صورة",
             "CONTACT": "جهة اتصال",
@@ -1358,8 +1391,8 @@
         },
 
         "BATTERY": {
-            "LOW_BATTERY": "بطارية منخفضة",
-            "BATTERY_REMAINING": "{percent}% بطارية متبقية",
+            "LOW_BATTERY": "البطارية منخفضة",
+            "BATTERY_REMAINING": "{percent}% من البطارية متبقية",
             "LOW_POWER_MODE": "وضع الطاقة المنخفضة",
             "CLOSE": "إغلاق"
         },
@@ -1371,10 +1404,10 @@
         "HELLO": "مرحبًا",
         "SELECT_LANGUAGE": "اختر لغتك",
         "NEXT": "انقر للفتح",
-        "APPEARANCE": "المظهر",
-        "APPEARANCE_TEXT": "اختر موضوعًا داكنًا أو فاتحًا لجهازك",
+        "APPEARANCE": "السمة",
+        "APPEARANCE_TEXT": "اختر سمة داكنة أو فاتحة لجهازك",
         "CONTINUE": "متابعة",
-        "WELCOME_TO": "مرحبا بك في",
+        "WELCOME_TO": "مرحبًا بك في",
         "CLICK": "انقر للبدء"
     },
     "HOMESCREEN": {
@@ -1382,7 +1415,7 @@
         "CLOSE_ALL": "إغلاق الكل",
         "REMOVE_APP_POPUP": {
             "TITLE": "إزالة '{app}'؟",
-            "DESCRIPTION": "سيؤدي حذف هذا التطبيق إلى عدم حذف بياناته. يمكن إعادة تثبيت التطبيق لاحقًا من متجر التطبيقات.",
+            "DESCRIPTION": "إن حذف هذا التطبيق لن يحذف بياناته. يمكن إعادة تثبيت التطبيق لاحقًا من متجر التطبيقات.",
             "CANCEL": "إلغاء",
             "PROCEED": "حذف"
         }
@@ -1394,20 +1427,20 @@
     "MISC": {
         "AIRPLANE_MODE_POPUP": {
             "TITLE": "خطأ",
-            "DESCRIPTION": "أنت تحاول تنفيذ إجراء يتطلب الوصول إلى الإنترنت، قم بإيقاف وضع الطيران للمتابعة.",
-            "OK": "حسنًا"
+            "DESCRIPTION": "أنت تحاول تنفيذ إجراء يتطلب اتصالًا بالإنترنت، عطّل وضع الطائرة للمتابعة.",
+            "OK": "موافق"
         }
     },
     "BACKEND": {
         "CAMERA": {
-            "TAKE_PHOTO": "{key} التقاط",
+            "TAKE_PHOTO": "{key} تصوير",
             "FLIP_CAMERA": "{key} قلب",
-            "TOGGLE_FLASH": "{key} وميض",
+            "TOGGLE_FLASH": "{key} فلاش",
             "TOGGLE_CURSOR": "{key} مؤشر",
-            "CHANGE_MODE": "{key} {key2} وضع",
-            "ROLL": "{key} {key2} لفة",
+            "CHANGE_MODE": "{key} {key2} الوضع",
+            "ROLL": "{key} {key2} استدارة",
             "FREEZE": "{key} تجميد",
-            "UNFREEZE": "{key} فك التجميد",
+            "UNFREEZE": "{key} إلغاء التجميد",
             "TOGGLE_TIP": "{key} إخفاء"
         },
         "SERVICES": {
@@ -1415,28 +1448,19 @@
             "ANONYMOUS": "مجهول"
         },
         "MISC": {
-            "X_TABLET": "جهاز لوحي {firstname}"
+            "X_TABLET": "الجهاز اللوحي لـ {firstname}"
         },
         "MAIL": {
             "AUTOMATIC_PASSWORD": {
                 "SENDER": "النظام",
-                "SUBJECT": "كلمة مرورك",
+                "SUBJECT": "كلمة المرور الخاصة بك",
                 "MESSAGE": "مرحبًا،\n\nعنوان بريدك الإلكتروني التلقائي هو {address} وكلمة المرور الخاصة بك هي {password}"
             }
         },
         "LOGS": {
-            "MAIL_TITLE": "البريد الإلكتروني",
-            "NEW_MAIL": "{sender} أرسل بريدًا إلكترونيًا إلى {recipient}",
-            "MESSAGE_TITLE": "رسالة نصية",
-            "NEW_MESSAGE": "{sender} أرسل رسالة إلى {recipient}: {message}",
-            "NEW_SERVICE_TITLE": "رسالة جديدة",
-            "NEW_SERVICE_CONTENT": "{sender} أرسل رسالة إلى {channel}: {message}",
-            "RECEIVED_TITLE": "تم استلام ${amount}",
-            "PAID_TITLE": "تم الدفع ${amount}",
-            "TRANSACTION": "{number} قام بمعاملة بقيمة ${amount} إلى {company}",
-
-            "TOOK_PHOTO": "التقط صورة",
-            "TOOK_VIDEO": "التقط فيديو"
+            "TOOK_PHOTO": "تم التقاط صورة",
+            "TOOK_VIDEO": "تم تسجيل فيديو",
+            "NEW_DISPATCH": "بلاغ جديد: {title}"
         },
         "POLICE": {
             "EVIDENCE_LABEL": "دليل: القضية {id}",
@@ -1453,7 +1477,7 @@
                 "CONTENT": "{title}"
             },
             "NEW_WARRANT_NOTIFICATION": {
-                "TITLE": "أمر تفتيش جديد",
+                "TITLE": "مذكرة جديدة",
                 "CONTENT": "{title}"
             },
             "NEW_CHAT_CHANNEL_NOTIFICATION": {
@@ -1466,20 +1490,20 @@
             },
             "LOGS": {
                 "CREATE_OFFENCE_CATEGORY": {
-                    "TITLE": "تم إنشاء فئة مخالفة",
+                    "TITLE": "تم إنشاء فئة مخالفات",
                     "DESCRIPTION": "تم إنشاء الفئة '{name}'"
                 },
                 "DELETE_OFFENCE_CATEGORY": {
-                    "TITLE": "تم حذف فئة مخالفة",
+                    "TITLE": "تم حذف فئة مخالفات",
                     "DESCRIPTION": "تم حذف الفئة '{name}'"
                 },
                 "CREATE_OFFENCE": {
                     "TITLE": "تم إنشاء مخالفة",
-                    "DESCRIPTION": "تم إنشاء مخالفة {class} '{name}' في '{category}'"
+                    "DESCRIPTION": "تم إنشاء مخالفة {class} باسم '{name}' ضمن الفئة '{category}'"
                 },
                 "DELETE_OFFENCE": {
                     "TITLE": "تم حذف مخالفة",
-                    "DESCRIPTION": "تم حذف مخالفة '{name}' في '{category}'"
+                    "DESCRIPTION": "تم حذف المخالفة '{name}' ضمن الفئة '{category}'"
                 }
             }
         },
@@ -1505,61 +1529,62 @@
                 }
             },
             "TAG_TYPES": {
-                "PROFILE": "الملف الشخصي",
-                "REPORT": "التقرير",
-                "PROPERTY": "العقار",
-                "WEAPON": "السلاح"
+                "PROFILE": "ملف شخصي",
+                "REPORT": "تقرير",
+                "PROPERTY": "ملكية",
+                "WEAPON": "سلاح"
             },
             "LOGS": {
                 "CREATE_CONDITION_CATEGORY": {
-                    "TITLE": "تم إنشاء فئة حالة",
+                    "TITLE": "تم إنشاء فئة حالات",
                     "DESCRIPTION": "تم إنشاء الفئة '{name}'"
                 },
                 "DELETE_CONDITION_CATEGORY": {
-                    "TITLE": "تم حذف فئة حالة",
+                    "TITLE": "تم حذف فئة حالات",
                     "DESCRIPTION": "تم حذف الفئة '{name}'"
                 },
                 "CREATE_CONDITION": {
                     "TITLE": "تم إنشاء حالة",
-                    "DESCRIPTION": "تم إنشاء حالة {severity} '{name}' في '{category}'"
+                    "DESCRIPTION": "تم إنشاء حالة {severity} '{name}' ضمن الفئة '{category}'"
                 },
                 "DELETE_CONDITION": {
                     "TITLE": "تم حذف حالة",
-                    "DESCRIPTION": "تم حذف الحالة '{name}' في '{category}'"
+                    "DESCRIPTION": "تم حذف الحالة '{name}' ضمن الفئة '{category}'"
                 },
                 "CREATE_BULLETIN": {
-                    "TITLE": "تم إنشاء منشور إعلان",
-                    "DESCRIPTION": "تم إنشاء منشور إعلان '{title}'"
+                    "TITLE": "تم إنشاء منشور إعلاني",
+                    "DESCRIPTION": "تم إنشاء المنشور الإعلاني '{title}'"
                 },
                 "DELETE_BULLETIN": {
-                    "TITLE": "تم حذف منشور إعلان",
-                    "DESCRIPTION": "تم حذف منشور إعلان بالمعرف {id}"
+                    "TITLE": "تم حذف منشور إعلاني",
+                    "DESCRIPTION": "تم حذف المنشور الإعلاني بالمعرف {id}"
                 },
                 "PIN_BULLETIN": {
-                    "TITLE": "تم تثبيت منشور إعلان",
-                    "DESCRIPTION": "تم تثبيت منشور إعلان بالمعرف {id}"
+                    "TITLE": "تم تثبيت منشور إعلاني",
+                    "DESCRIPTION": "تم تثبيت منشور إعلاني بالمعرف {id}"
                 },
                 "UNPIN_BULLETIN": {
-                    "TITLE": "تم إلغاء تثبيت منشور إعلان",
-                    "DESCRIPTION": "تم إلغاء تثبيت منشور إعلان بالمعرف {id}"
+                    "TITLE": "تم إزالة تثبيت منشور إعلاني",
+                    "DESCRIPTION": "تم إزالة تثبيت المنشور الإعلاني بالمعرف {id}"
                 },
                 "DELETE_TAG": {
                     "TITLE": "تم حذف وسم",
                     "DESCRIPTION": "تم حذف الوسم '{name}'"
                 },
                 "UPDATE_PROFILE": {
-                    "TITLE": "تم تحديث الملف الشخصي",
-                    "DESCRIPTION": "تم تحديث ملف {name} الشخصي"
+                    "TITLE": "تم تحديث ملف شخصي",
+                    "DESCRIPTION": "تم تحديث الملف الشخصي لـ {name}"
                 },
                 "CREATE_REPORT": {
                     "TITLE": "تم إنشاء تقرير",
                     "DESCRIPTION": "تم إنشاء تقرير {type} '{title}' للمريض {patient} بالمعرف {id}"
                 },
                 "UPDATE_REPORT": {
-                    "TITLE": "تم تحديث التقرير",
+                    "TITLE": "تم تحديث تقرير",
                     "DESCRIPTION": "تم تحديث تقرير {type} '{title}' بالمعرف {id}"
-                }
-            }
-        }
-    }
-}
+                   }
+               }
+          }
+     }
+    }}
+
