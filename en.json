@@ -436,6 +436,10 @@
             "ADD": "Add",
             "NEW": "New",
             "PROCEED": "Proceed",
+            "YES": "Yes",
+            "NO": "No",
+            "ALL": "All",
+            "ADD_TAB": "Add Tab",
 
             "SEARCH": "Search",
             "SEARCH_FOR": "Search for {query} to get started",
@@ -453,14 +457,6 @@
                 "UNPIN": "Unpin",
                 "SEARCH_BULLETIN": "Search Bulletin",
                 "SEARCH_UNITS": "Search Units",
-                "ADD_BULLETIN": {
-                    "TITLE": "Add Bulletin",
-                    "DESCRIPTION": "Create a new bulletin post",
-                    "PLACEHOLDER": "Title",
-                    "CONTENT": "Content",
-                    "CANCEL": "Cancel",
-                    "PROCEED": "Proceed"
-                },
                 "DELETE_BULLETIN": {
                     "TITLE": "Delete Bulletin",
                     "DESCRIPTION": "Are you sure you want to delete this bulletin post?",
@@ -470,13 +466,33 @@
                 "RECENT_WARRANTS": "Recent Warrants",
                 "ACTIVE_UNITS": "Active Units"
             },
+            "BULLETIN": {
+                "TITLE": "Bulletin",
+                "LABEL": "Bulletin Board",
+                "SEARCH": "Search Bulletin",
+                "SEARCH_PLACEHOLDER": "Search Bulletin",
+                "SEARCH_FOR": "Search for {query} to get started",
+                "NO_RESULTS_FOR": "No results found for '{query}'",
+                "NEW_BULLETIN": "New Bulletin",
+
+                "DELETE_BULLETIN": {
+                    "TITLE": "Delete Bulletin",
+                    "DESCRIPTION": "Are you sure you want to delete this bulletin post?"
+                }
+            },
 
             "DISPATCH": {
                 "TITLE": "Dispatch",
-                "TOGGLE_OFFICERS": "Toggle Officers",
-                "TOGGLE_ALARMS": "Toggle Alarms",
+                "SEARCH_ALARMS": "Search Alarms",
+                "SHOW_OFFICERS": "Show Officers",
+                "SHOW_EMPLOYEES": "Show Employees",
+                "SHOW_ALARMS": "Show Alarms",
+                "SHOW_POPUPS": "Show Popups",
+                "OPTIONS": "Options",
                 "OFFICERS": "Officers",
                 "ALARMS": "Alarms",
+                "MAP": "Map",
+                "LIST": "List",
 
                 "RESPOND": "Respond",
                 "RESPONDED": "Responded",
@@ -485,12 +501,28 @@
                 "DISMISS": "Dismiss",
                 "VIEW_IN_TABLET": "View in Tablet",
                 "SET_WAYPOINT": "Set Waypoint",
+                "LOS_SANTOS": "Los Santos",
+                "CAYO_PERICO": "Cayo Perico",
+                "OLD_NOTIFICATION": "{count} old notification",
+                "OLD_NOTIFICATIONS": "{count} old notifications",
+                "NEW_NOTIFICATION": "{count} new notification",
+                "NEW_NOTIFICATIONS": "{count} new notifications",
 
-                "PRIORITY": {
+                "PRIORITY_LEVELS": {
                     "HIGH": "High",
                     "MEDIUM": "Medium",
                     "LOW": "Low"
                 },
+                "PRIORITY": "Priority",
+                "TIME": "Time",
+                "CODE": "Code",
+                "LOCATION": "Location",
+                "RESPONDERS": "Responders",
+                "ACTIONS": "Actions",
+                "NONE": "None",
+                "REMOVE": "Remove",
+                "REMOVE_ALL": "Remove All",
+                "VIEW": "View",
 
                 "JUST_NOW": "Just now",
                 "MINUTES_AGO": "{minutes}m ago",
@@ -500,6 +532,37 @@
                     "DESCRIPTION": "Are you sure you want to remove the alarm? (This will remove the dispatch for all employees)",
                     "CANCEL": "Cancel",
                     "REMOVE": "Remove"
+                },
+                "REMOVE_ALL_ALARMS": {
+                    "TITLE": "Remove All Alarms",
+                    "DESCRIPTION": "Are you sure you want to remove all alarms? (This will remove the dispatch for all employees)"
+                },
+
+                "REMOVE_FOR_YOURSELF": "Remove for yourself",
+                "REMOVE_FOR_EVERYONE": "Remove for everyone"
+            },
+            "UNITS": {
+                "TITLE": "Units",
+                "AVALIABLE_OFFICERS": "Avaliable Officers",
+                "SEARCH_OFFICERS": "Search Officers",
+                "DROP_OFFICER": "Drop officer here",
+                "DROP_OFFICER_AVAILABLE": "Drop officer here to make available",
+                "OFFICER": "Officer",
+                "OFFICERS": "Officers",
+                "NO_UNITS": "Add a unit to get started",
+                "ADD_UNIT": {
+                    "TITLE": "Add Unit",
+                    "DESCRIPTION": "Create a new unit",
+                    "PLACEHOLDER": "Unit Name"
+                },
+                "RENAME_UNIT": {
+                    "TITLE": "Rename Unit",
+                    "DESCRIPTION": "Rename the unit",
+                    "PLACEHOLDER": "Unit Name"
+                },
+                "DELETE_UNIT": {
+                    "TITLE": "Delete Unit",
+                    "DESCRIPTION": "Are you sure you want to delete this unit?"
                 }
             },
 
@@ -553,7 +616,13 @@
                 "CASES": "Cases",
                 "NO_CASES": "No Cases",
                 "WEAPONS": "Weapons",
-                "NO_WEAPONS": "No weapons"
+                "NO_WEAPONS": "No weapons",
+                "WARRANTS": "Warrants",
+                "NO_WARRANTS": "No Warrants",
+                "ACTIVE_WARRANTS": "Active Warrants",
+                "INVOLVED": "Involved",
+                "CHARGES": "Charges",
+                "NO_CHARGES": "No Charges"
             },
 
             "VEHICLES": {
@@ -586,7 +655,10 @@
                 "WAYPOINT_SET": "Waypoint set",
                 "WAYPOINT_SET_DESCRIPTION": "The waypoint has been set to the vehicle's location",
                 "CASES": "Cases",
-                "NO_CASES": "No Cases"
+                "NO_CASES": "No Cases",
+                "WARRANTS": "Warrants",
+                "NO_WARRANTS": "No Warrants",
+                "ACTIVE_WARRANTS": "Active Warrants"
             },
             "PROPERTIES": {
                 "TITLE": "Properties",
@@ -641,7 +713,11 @@
                 "UNREGISTERED": "Unregistered",
                 "OWNER": "Owner",
                 "SELECT_MODEL": "Select Model",
-                "SELECT_OWNER": "Select Owner"
+                "SELECT_OWNER": "Select Owner",
+                "DELETE_WEAPON": {
+                    "TITLE": "Delete Weapon",
+                    "DESCRIPTION": "Are you sure you want to delete this weapon?"
+                }
             },
 
             "REPORTS": {
@@ -679,6 +755,10 @@
                     "TITLE": "Remove Suspect",
                     "DESCRIPTION": "Are you sure you want to remove {name} from the report?"
                 },
+                "DELETE_REPORT": {
+                    "TITLE": "Delete Report",
+                    "DESCRIPTION": "Are you sure you want to delete this report?"
+                },
                 "ERROR": {
                     "TITLE": "Error",
                     "NO_TYPE": "You must select a report type",
@@ -700,9 +780,17 @@
                 "OPEN_STASH": "Open Stash",
                 "VEHICLES_INVOLVED": "Vehicles Involved",
                 "NO_VEHICLES_INVOLVED": "No Vehicles Involved",
+                "VIEW_PROFILE": "View Profile",
+                "CHARGES": "{amount} charges",
+                "NO_CHARGES": "No Charges",
                 "REMOVE_VEHICLE": {
                     "TITLE": "Remove Vehicle",
                     "DESCRIPTION": "Are you sure you want to remove the vehicle from the case?"
+                },
+
+                "REMOVE_WARRANT": {
+                    "TITLE": "Remove Warrant",
+                    "DESCRIPTION": "Are you sure you want to remove the warrant from the case?"
                 },
                 "OFFICERS_INVOLVED": "Officers Involved",
                 "NO_OFFICERS_INVOLVED": "No Officers Involved",
@@ -723,10 +811,21 @@
                     "DESCRIPTION": "Are you sure you want to remove the criminal from the case?"
                 },
                 "ADD_CHARGE": "Add Charge",
-                "RECOMMENDED_FINE": "Recommended Fine ({currency})",
-                "RECOMMENDED_SENTENCE": "Recommended Sentence (in months)",
-                "FINE": "Fine ({currency})",
-                "SENTENCE": "Sentence (in months)",
+                "FINE": "Fine ({amount} recommended)",
+                "SENTENCE": "Sentence ({amount} months recommended)",
+                "SEND_FINE": {
+                    "TITLE": "Send Fine",
+                    "DESCRIPTION": "Do you want to send {fine} fine to {name}?"
+                },
+                "JAIL_PLAYER": {
+                    "TITLE": "Jail Player",
+                    "DESCRIPTION": "Do you want to send {name} to jail for {sentence} months?",
+                    "JAILED_DESCRIPTION": "Automatically jailed for {charges}"
+                },
+                "DELETE_CASE": {
+                    "TITLE": "Delete Case",
+                    "DESCRIPTION": "Are you sure you want to delete this case?"
+                },
 
                 "ERROR": {
                     "TITLE": "Error",
@@ -758,9 +857,16 @@
                 "NO_VEHICLE_SELECTED": "No Vehicle Selected",
                 "SELECT_PERSON": "Select Person",
                 "NO_PERSON_SELECTED": "No Person Selected",
+                "ACTIVE": "Active",
+                "INACTIVE": "Inactive",
+                "CLOSED": "Closed",
                 "REMOVE_REPORT": {
                     "TITLE": "Remove Report",
                     "DESCRIPTION": "Are you sure you want to remove the report from the warrant?"
+                },
+                "DELETE_WARRANT": {
+                    "TITLE": "Delete Warrant",
+                    "DESCRIPTION": "Are you sure you want to delete this warrant?"
                 },
                 "ERROR": {
                     "TITLE": "Error",
@@ -770,6 +876,9 @@
                     "NO_TARGET": "You must select a target for the warrant",
                     "OK": "OK"
                 }
+            },
+            "EVIDENCE": {
+                "TITLE": "Evidence"
             },
 
             "OFFENCES": {
@@ -791,6 +900,10 @@
                     "PLACEHOLDER": "Enter the offence title",
                     "DESCRIPTION_PLACEHOLDER": "Enter a description..."
                 },
+                "EDIT_OFFENCE": {
+                    "TITLE": "Edit Offence",
+                    "DESCRIPTION": "Edit the offence details"
+                },
                 "SET_JAILTIME": {
                     "TITLE": "Recommended Jail Time",
                     "DESCRIPTION": "Set the recommended jail time for the offence",
@@ -810,6 +923,11 @@
                     "TITLE": "Add Category",
                     "DESCRIPTION": "Add a new category to the offences list",
                     "PLACEHOLDER": "Enter the category name"
+                },
+                "EDIT_CATEGORY": {
+                    "TITLE": "Edit Category",
+                    "DESCRIPTION": "Edit the category details",
+                    "PLACEHOLDER": "Enter the new category name"
                 },
                 "DELETE_CATEGORY": {
                     "TITLE": "Delete Category",
@@ -879,10 +997,90 @@
 
             "PHONE": {
                 "TITLE": "Phone",
-                "TRIANGULATE": "Triangulate",
                 "MESSAGES": "Messages",
-                "CALLS": "Calls",
-                "UNLOCK": "Unlock"
+
+                "TRIANGULATE": {
+                    "TITLE": "Triangulate",
+                    "DESCRIPTION": "Enter the phone number you want to triangulate",
+                    "PLACEHOLDER": "Phone Number",
+
+                    "SUCCESS": {
+                        "TITLE": "Triangulation Success",
+                        "DESCRIPTION": "The phone number you are trying to triangulate is registered on a cell tower in the area. Check the map for the location."
+                    },
+                    "FAILED": {
+                        "TITLE": "Triangulation Failed",
+                        "DESCRIPTION": "The phone number you are trying to triangulate is not registered on any cell tower in the area."
+                    }
+                },
+                "CALLS": {
+                    "TITLE": "Calls",
+                    "CALL_HISTORY": "Call History",
+                    "CALL_STATUS": "Call Status",
+                    "SEARCH": "Search Calls",
+                    "NO_CALLER_ID": "No Caller ID",
+                    "UNKNOWN": "Unknown",
+                    "INCOMING": "Incoming",
+                    "OUTGOING": "Outgoing",
+                    "IN_CALL": "In Call",
+                    "NOT_IN_CALL": "Not in Call",
+                    "SUBSCRIBED": "Subscribed",
+                    "NOT_SUBSCRIBED": "Not Subscribed",
+                    "YES": "Yes",
+                    "NO": "No",
+                    "GET_NOTIFIED": "Get Notified",
+                    "LISTEN_TO_CALL": "Listen to Call",
+                    "LISTEN_TO_CALL_DESCRIPTION": "Are you sure you want to listen to this call?",
+                    "STOP_LISTENING": "Stop Listening",
+                    "STOP_LISTENING_DESCRIPTION": "Are you sure you want to stop listening to this call?",
+                    "SUBSCRIBE_TO_CALLS": "Subscribe to Calls",
+                    "SUBSCRIBE_TO_CALLS_DESCRIPTION": "Are you sure you want to subscribe to calls?",
+                    "UNSUBSCRIBE_FROM_CALLS": "Unsubscribe from Calls",
+                    "UNSUBSCRIBE_FROM_CALLS_DESCRIPTION": "Are you sure you want to unsubscribe from calls?",
+                    "FOOTER": "by {name}",
+
+                    "WIRETAP_PHONENUMBER": {
+                        "TITLE": "Wiretap Phone Number",
+                        "DESCRIPTION": "Enter the phone number you want to wiretap",
+                        "PLACEHOLDER": "Phone Number"
+                    },
+                    "REMOVE_WIRETAP": {
+                        "TITLE": "Remove Wiretap",
+                        "DESCRIPTION": "Are you sure you want to remove the wiretap from the phone number {phoneNumber}?"
+                    },
+
+                    "CALL_ENDED": {
+                        "TITLE": "Call Ended",
+                        "DESCRIPTION": "The call you wiretapped has ended."
+                    }
+                },
+                "UNLOCK": {
+                    "TITLE": "Unlock",
+                    "NO_PHONES": "There's no phones in your inventory",
+                    "SEARCH": "Search for a Phone",
+                    "SELECT_PHONE": "Select a Phone",
+                    "PHONE": "Phone",
+                    "PROCESSED": "Processed",
+                    "PROCESSING": "Processing",
+                    "LOCKED": "Locked",
+                    "PROCESS_PHONE": "Process Phone",
+                    "PHONE_PROCESSED": "Phone Processed",
+                    "REMAINING_TIME": "Remaining: {time}",
+                    "PROCESSING_PHONE": "Processing {phone}...",
+                    "ATTEMPTS": "Attempts: {attempts}/{maxAttempts}",
+                    "RESET_PIN": {
+                        "TITLE": "Reset Pin",
+                        "SUCCESS": "Successfully reset the pin for the phone."
+                    },
+                    "SUCCESS": {
+                        "TITLE": "Phone Processed",
+                        "DESCRIPTION": "The phone has been successfully processed."
+                    },
+                    "FAILED": {
+                        "TITLE": "Phone Processing Failed",
+                        "DESCRIPTION": "The phone could not be processed. Please try again."
+                    }
+                }
             },
 
             "JAIL": {
@@ -913,8 +1111,8 @@
                     "DESCRIPTION": "Fill in the details below to jail {name}",
                     "SENTENCE_PLACEHOLDER": "Sentence (in minutes)",
                     "REASON_PLACEHOLDER": "Reason",
-                    "JAIL_WITH_INCIDENT": "Jail with linked incident",
-                    "JAIL_WITHOUT_INCIDENT": "Jail without linked incident",
+                    "JAIL_WITH_CASE": "Jail with linked case",
+                    "JAIL_WITHOUT_CASE": "Jail without linked case",
                     "PROCEED": "Proceed"
                 },
                 "UNJAIL_PERSON": {
@@ -941,7 +1139,7 @@
                     "VEHICLE": "vehicle",
                     "REPORT": "report",
                     "WARRANT": "warrant",
-                    "INCIDENT": "incident"
+                    "INCIDENT": "case"
                 },
 
                 "CREATE_TAG_TITLE": "Created a Tag",
@@ -972,6 +1170,8 @@
                 "UNPINNED_BULLETIN_DESCRIPTION": "Unpinned the bulletin post with the id {id}",
                 "CREATE_BULLETIN_TITLE": "Created a bulletin post",
                 "CREATE_BULLETIN_DESCRIPTION": "Created a bulletin post with the title \"{title}\"",
+                "UPDATE_BULLETIN_TITLE": "Updated a bulletin post",
+                "UPDATE_BULLETIN_DESCRIPTION": "Updated the bulletin post with the title \"{title}\"",
                 "DELETE_BULLETIN_TITLE": "Deleted a bulletin post",
                 "DELETE_BULLETIN_DESCRIPTION": "Deleted the bulletin post with the id {id}",
                 "CREATE_WARRANT_TITLE": "Created a warrant",
@@ -1025,7 +1225,11 @@
                     "TITLE": "Callsign",
                     "DESCRIPTION": "Enter a callsign",
                     "CANCEL": "Cancel",
-                    "PROCEED": "Proceed"
+                    "PROCEED": "Proceed",
+                    "ERROR": {
+                        "TITLE": "Error",
+                        "DESCRIPTION": "The callsign you entered does not follow the required format ({format}). Please try again."
+                    }
                 }
             }
         },
@@ -1077,7 +1281,9 @@
                 },
                 "ACTIVE_UNITS": "Active Units"
             },
-
+            "BULLETIN": {
+                "TITLE": "Bulletin"
+            },
             "DISPATCH": {
                 "TITLE": "Dispatch",
                 "TOGGLE_EMPLOYEES": "Toggle Employees",
@@ -1092,8 +1298,12 @@
                 "DISMISS": "Dismiss",
                 "VIEW_IN_TABLET": "View in Tablet",
                 "SET_WAYPOINT": "Set Waypoint",
+                "OLD_NOTIFICATION": "{count} old notification",
+                "OLD_NOTIFICATIONS": "{count} old notifications",
+                "NEW_NOTIFICATION": "{count} new notification",
+                "NEW_NOTIFICATIONS": "{count} new notifications",
 
-                "PRIORITY": {
+                "PRIORITY_LEVELS": {
                     "HIGH": "High",
                     "MEDIUM": "Medium",
                     "LOW": "Low"
@@ -1102,6 +1312,15 @@
                 "JUST_NOW": "Just now",
                 "MINUTES_AGO": "{minutes}m ago",
                 "HOURS_AGO": "{hours}h ago"
+            },
+            "UNITS": {
+                "TITLE": "Units",
+                "EMPLOYEE": "Employee",
+                "EMPLOYEES": "Employees",
+                "AVALIABLE_EMPLOYEES": "Avaliable Employees",
+                "SEARCH_EMPLOYEES": "Search Employees",
+                "DROP_EMPLOYEE": "Drop employee",
+                "DROP_EMPLOYEE_AVAILABLE": "Drop employee here to make available"
             },
 
             "JOURNALS": {
@@ -1342,6 +1561,9 @@
                 "MISSING_FIELDS": "You're missing the following fields: {fields}",
                 "OK": "OK"
             }
+        },
+        "MAPS": {
+            "GO": "Go"
         }
     },
     "COMPONENTS": {
@@ -1433,6 +1655,10 @@
         "FONT_AND_COLOR": "Font & Color"
     },
     "MISC": {
+        "GENDERS": {
+            "MALE": "Male",
+            "FEMALE": "Female"
+        },
         "AIRPLANE_MODE_POPUP": {
             "TITLE": "Error",
             "DESCRIPTION": "You're trying to perform a action that requires internet access, disable airplane mode to continue.",
@@ -1470,6 +1696,87 @@
             "TOOK_VIDEO": "Took a video",
             "NEW_DISPATCH": "New Dispatch: {title}"
         },
+        "BASE_DISPATCH": {
+            "VEHICLE_CLASSES": {
+                "0": "compact",
+                "1": "sedan",
+                "2": "SUV",
+                "3": "coupe",
+                "4": "muscle car",
+                "5": "sports classic",
+                "6": "sports car",
+                "7": "supercar",
+                "8": "motorcycle",
+                "9": "off-road vehicle",
+                "10": "industrial vehicle",
+                "11": "utility vehicle",
+                "12": "van",
+                "13": "bicycle",
+                "14": "boat",
+                "15": "helicopter",
+                "16": "plane",
+                "17": "service vehicle",
+                "18": "emergency vehicle",
+                "19": "military vehicle",
+                "20": "commercial vehicle",
+                "21": "train",
+                "22": "open-wheel car"
+            },
+            "VEHICLE_DATA": {
+                "BODY_TYPE": "Body Type",
+                "MANUFACTURER": "Manufacturer",
+                "MODEL": "Model",
+                "COLOR": "Color",
+                "PLATE": "Plate"
+            },
+            "VEHICLE_THEFT": {
+                "CODE": "10-31",
+                "TITLE": "Vehicle Theft - {plate}",
+                "DESCRIPTION": "A {gender_lower} has been seen stealing a {color_lower} {class} {manufacturer} {model} with the plate {plate}."
+            },
+            "VEHICLE_JACKING": {
+                "CODE": "10-31",
+                "TITLE": "Car Jacking - {plate}",
+                "DESCRIPTION": "A {gender_lower} has been seen jacking a {color_lower} {class} {manufacturer} {model} with the plate {plate}."
+            },
+            "WEAPON_TYPES": {
+                "DIGISCANNER": "Digiscanner",
+                "FIREEXTINGUISHER": "Fire Extinguisher",
+                "HACKINGDEVICE": "Hacking Device",
+                "HEAVY": "Heavy",
+                "MELEE": "Melee",
+                "METALDETECTOR": "Metal Detector",
+                "MG": "Machine Gun",
+                "NIGHTVISION": "Night Vision",
+                "PARACHUTE": "Parachute",
+                "PETROLCAN": "Petrol Can",
+                "PISTOL": "Pistol",
+                "RIFLE": "Rifle",
+                "SHOTGUN": "Shotgun",
+                "SMG": "SMG",
+                "SNIPER": "Sniper",
+                "STUNGUN": "Stun Gun",
+                "THROWN": "Thrown",
+                "TRANQILIZER": "Tranquilizer",
+                "UNARMED": "Unarmed",
+                "UNKNOWN": "Firearm"
+            },
+            "GUNSHOT": {
+                "CODE": "10-31",
+                "TITLE": "Gunshot - {location}",
+                "DESCRIPTION": "A {gender_lower} has been seen shooting a {weapon_type_lower} at {location}."
+            },
+            "EXPLOSION": {
+                "TITLE": "Explosion",
+                "DESCRIPTION": "An explosion has been heard at {location}.",
+                "CODE": "10-31"
+            },
+            "ARMED": {
+                "TITLE": "Armed {gender}",
+                "DESCRIPTION": "A {gender_lower} has been seen armed with a {weapon_type_lower} at {location}.",
+                "CODE": "10-31"
+            }
+        },
         "POLICE": {
             "EVIDENCE_LABEL": "Evidence: Case {id}",
             "NEW_BULLETIN_NOTIFICATION": {
@@ -1498,21 +1805,33 @@
             },
             "LOGS": {
                 "CREATE_OFFENCE_CATEGORY": {
-                    "TITLE": "Created a offence category",
+                    "TITLE": "Created an offence category",
                     "DESCRIPTION": "Created the category '{name}'"
                 },
                 "DELETE_OFFENCE_CATEGORY": {
-                    "TITLE": "Deleted a offence category",
+                    "TITLE": "Deleted an offence category",
                     "DESCRIPTION": "Deleted the category '{name}'"
                 },
+                "UPDATE_OFFENCE_CATEGORY": {
+                    "TITLE": "Updated an offence category",
+                    "DESCRIPTION": "Renamed the offence category '{oldName}' to {newName}"
+                },
                 "CREATE_OFFENCE": {
-                    "TITLE": "Created a offence",
+                    "TITLE": "Created an offence",
                     "DESCRIPTION": "Created a {class} offence '{name}' in '{category}'"
                 },
                 "DELETE_OFFENCE": {
-                    "TITLE": "Deleted a offence",
+                    "TITLE": "Deleted an offence",
                     "DESCRIPTION": "Deleted the offence '{name}' in '{category}'"
+                },
+                "UPDATE_OFFENCE": {
+                    "TITLE": "Updated an offence",
+                    "DESCRIPTION": "Updated the offence '{name}' in '{category}'"
                 }
+            },
+            "WIRETAP_NOTIFICATION": {
+                "TITLE": "Wiretapped Call",
+                "CONTENT": "The wiretapped phone number {number} is in a call."
             }
         },
         "AMBULANCE": {
@@ -1551,6 +1870,10 @@
                     "TITLE": "Deleted a condition category",
                     "DESCRIPTION": "Deleted the category '{name}'"
                 },
+                "UPDATE_CONDITION_CATEGORY": {
+                    "TITLE": "Updated a condition category",
+                    "DESCRIPTION": "Renamed the condition category '{oldName}' to {newName}"
+                },
                 "CREATE_CONDITION": {
                     "TITLE": "Created a condition",
                     "DESCRIPTION": "Created a {severity} condition '{name}' in '{category}'"
@@ -1559,9 +1882,17 @@
                     "TITLE": "Deleted a condition",
                     "DESCRIPTION": "Deleted the condition '{name}' in '{category}'"
                 },
+                "UPDATE_CONDITION": {
+                    "TITLE": "Updated a condition",
+                    "DESCRIPTION": "Updated the condition '{name}' in '{category}'"
+                },
                 "CREATE_BULLETIN": {
                     "TITLE": "Created a bulletin post",
                     "DESCRIPTION": "Created a bulletin post '{title}'"
+                },
+                "UPDATE_BULLETIN": {
+                    "TITLE": "Updated a bulletin post",
+                    "DESCRIPTION": "Updated the bulletin post '{title}'"
                 },
                 "DELETE_BULLETIN": {
                     "TITLE": "Deleted a bulletin post",
