@@ -814,8 +814,8 @@
                     "DESCRIPTION": "Preencha os detalhes abaixo para prender {name}",
                     "SENTENCE_PLACEHOLDER": "Sentença (em minutos)",
                     "REASON_PLACEHOLDER": "Motivo",
-                    "JAIL_WITH_INCIDENT": "Prender com incidente vinculado",
-                    "JAIL_WITHOUT_INCIDENT": "Prender sem incidente vinculado",
+                    "JAIL_WITH_CASE": "Prender com incidente vinculado",
+                    "JAIL_WITHOUT_CASE": "Prender sem incidente vinculado",
                     "PROCEED": "Continuar"
                 },
                 "UNJAIL_PERSON": {

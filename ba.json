@@ -913,8 +913,8 @@
                     "DESCRIPTION": "Unesite podatke ispod da uhapsite {name}",
                     "SENTENCE_PLACEHOLDER": "Osuda (u minutama)",
                     "REASON_PLACEHOLDER": "Razlog",
-                    "JAIL_WITH_INCIDENT": "Hapšenje sa povezanim incidentom",
-                    "JAIL_WITHOUT_INCIDENT": "Hapšenje bez povezanog incidenta",
+                    "JAIL_WITH_CASE": "Hapšenje sa povezanim incidentom",
+                    "JAIL_WITHOUT_CASE": "Hapšenje bez povezanog incidenta",
                     "PROCEED": "Nastavi"
                 },
                 "UNJAIL_PERSON": {

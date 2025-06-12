@@ -880,8 +880,8 @@
                     "DESCRIPTION": "املأ التفاصيل أدناه لسجن {name}",
                     "SENTENCE_PLACEHOLDER": "الحكم (بالدقائق)",
                     "REASON_PLACEHOLDER": "السبب",
-                    "JAIL_WITH_INCIDENT": "سجن مع حادثة مرتبطة",
-                    "JAIL_WITHOUT_INCIDENT": "سجن بدون حادثة مرتبطة",
+                    "JAIL_WITH_CASE": "سجن مع حادثة مرتبطة",
+                    "JAIL_WITHOUT_CASE": "سجن بدون حادثة مرتبطة",
                     "PROCEED": "متابعة"
                 },
                 "UNJAIL_PERSON": {

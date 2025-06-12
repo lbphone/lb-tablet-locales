@@ -1,0 +1,1589 @@
+{
+    "LABEL": "简体中文",
+    "SEARCH": "搜索",
+    "CANCEL": "取消",
+    "NOW": "now",
+    "D": "d",
+    "H": "h",
+    "M": "m",
+    "S": "s",
+
+    "APP_NAMES": {
+        "Police": "警察",
+        "Ambulance": "救护车",
+        "Registration": "注册",
+        "Notes": "笔记",
+        "Browser": "浏览器",
+        "Settings": "设置",
+        "Photos": "照片",
+        "Camera": "相机",
+        "Calculator": "计算器",
+        "Apps": "应用",
+        "Clock": "时钟",
+        "Maps": "地图",
+        "Mail": "邮件",
+        "Services": "服务",
+        "VoiceMemo": "语音备忘录"
+    },
+    
+    "APPS": {
+        "SETTINGS": {
+            "TITLE": "设置",
+            "BACK": "返回",
+            "DONE": "完成",
+            "EDIT": "编辑",
+            "AIRPLANE_MODE": "飞行模式",
+            "AIRPLANE_MODE_DESCRIPTION": "禁用通话、蜂窝数据等。",
+            "STREAMER_MODE": "直播模式",
+            "STREAMER_MODE_DESCRIPTION": "模糊敏感信息",
+            "GENERAL": "通用",
+            "GENERAL_DESCRIPTION": "平板的常规设置",
+            "ABOUT": "关于",
+            "NAME": "名称",
+            "VERSION": "版本",
+            "MODEL_NAME": "型号",
+            "SERIAL_NUMBER": "序列号",
+            "DEVELOPED_BY": "开发者",
+            "PURCHASE_AT": "购买于",
+            "SONGS": "歌曲",
+            "VIDEOS": "视频",
+            "PHOTOS": "照片",
+            "APPLICATIONS": "应用",
+            "CAPACITY": "容量",
+            "AVAILABLE": "可用",
+            "SOFTWARE_UPDATE": "软件更新",
+            "AUTOMATIC_UPDATES": "自动更新",
+            "DATE_TIME": "日期和时间",
+            "24_HOUR_TIME": "24小时制",
+            "SET_AUTOMATICALLY": "自动设置",
+            "TIME_ZONE": "时区",
+            "LANGUAGE_REGION": "语言与地区",
+            "LANGUAGE": "语言",
+            "TEMPERATURE": "温度",
+            "CELCIUS": "摄氏度",
+            "FAHRENHEIT": "华氏度",
+            "BATTERY": "电池",
+            "BATTERY_DESCRIPTION": "查看电池使用情况和电量",
+            "SOUND_HAPTICS": "声音与触觉",
+            "SOUND_HAPTICS_DESCRIPTION": "更改声音和振动",
+            "SOUND_HAPTICS_PATTERNS": "声音和触觉模式",
+            "RINGTONE": "铃声",
+            "RINGTONE_VOLUME": "铃声音量",
+            "TEXT_TONE": "短信音",
+            "DEFAULT": "默认",
+            "PHONE_STORAGE": "平板存储",
+            "STORAGE": "存储",
+            "USED": "已用",
+            "OF": "的",
+            "DISPLAY_BRIGHTNESS": "显示与亮度",
+            "DISPLAY_BRIGHTNESS_DESCRIPTION": "调整显示亮度",
+            "DARK": "暗色",
+            "LIGHT": "亮色",
+            "APPEARANCE": "外观",
+            "AUTOMATIC": "自动",
+            "BRIGHTNESS": "亮度",
+            "FRAME_COLOR": "框架颜色",
+            "TABLET_SCALE": "平板缩放",
+            "WALLPAPER": "壁纸",
+            "WALLPAPER_DESCRIPTION": "更改壁纸和背景设置",
+            "WALLPAPERS": "壁纸",
+            "CHOOSE_NEW_WALLPAPER": "选择新壁纸",
+            "NOTIFICATIONS": "通知",
+            "NOTIFICATIONS_DESCRIPTION": "选择哪些应用可以发送通知",
+            "ALLOW_NOTIFICATIONS": "允许通知",
+            "SOUNDS": "声音",
+            "CLOUD_BACKUP": "云备份",
+            "YOUR_PROFILE": "您的个人资料",
+            "SUCCESS": "成功",
+            "SUCCESS_TEXT": "平板将在5秒钟内重启...",
+            "OK": "确定",
+            "ON": "开",
+            "OFF": "关",
+
+            "RESET_POPUP": {
+                "TITLE": "重置平板",
+                "TEXT": "您确定要重置平板吗？[这将删除所有内容]",
+                "CANCEL": "取消",
+                "CONFIRM": "重置"
+            },
+            "UP_TO_DATE": "您的平板已是最新",
+            "BLUR_HOMESCREEN": "模糊主屏幕"
+        },
+        "NOTES": {
+            "TITLE": "笔记",
+            "SEARCH_PLACEHOLDER": "搜索",
+            "FOOTER": "{amount} 条笔记",
+            "NEW_NOTE": "新建笔记",
+            "LAST_EDITED": "最后编辑时间: {date}",
+            "DELETE_TITLE": "删除 {title}",
+            "DELETE_TEXT": "您确定要删除 '{title}' 吗？",
+            "BUTTON_CANCEL": "取消",
+            "BUTTON_DELETE": "删除"
+        },    
+        "CLOCK": {
+            "WORLDCLOCK": {
+                "TITLE": "世界时钟",
+                "TODAY": "今天",
+                "TOMORROW": "明天",
+                "YESTERDAY": "昨天",
+                "LOCAL_TIME": "本地时间",
+                "HRS": "{time} 小时"
+            },
+            "ALARM": {
+                "TITLE": "闹钟",
+                "ADD": "添加闹钟",
+                "CANCEL": "取消",
+                "EDIT": "编辑",
+                "DONE": "完成",
+                "SAVE": "保存",
+                "LABEL": "标签",
+                "SOUND": "声音",
+                "SNOOZE": "稍后再响",
+                "DELETE_TITLE": "删除闹钟",
+                "DELETE_TEXT": "您确定要删除此闹钟吗？",
+                "BUTTON_CANCEL": "取消",
+                "BUTTON_DELETE": "删除",
+                "ALARMS": "闹钟",
+                "NEW_ALARM": "新建闹钟",
+                "EDIT_ALARM": "编辑闹钟"
+            },
+            "STOPWATCH": {
+                "TITLE": "秒表",
+                "START": "开始",
+                "STOP": "停止",
+                "RESET": "重置",
+                "LAP": "圈",
+                "TIME": "时间",
+                "TOTAL": "总计",
+                "NO_LAPS": "没有圈数"
+            },
+            "TIMER": {
+                "TITLE": "计时器",
+                "START": "开始",
+                "STOP": "停止",
+                "CANCEL": "取消",
+                "HOURS": "小时",
+                "MINUTES": "分钟",
+                "SECONDS": "秒",
+                "NO_RECENTS": "没有最近使用"
+            },
+            "ALERT": {
+                "STOP": "停止",
+                "RESTART": "重启"
+            }
+        },
+        "CAMERA": {
+            "VIDEO": "视频",
+            "PHOTO": "照片",
+            "LANDSCAPE": "横屏",
+            "UPLOADING": "上传中"
+        },
+        "APPSTORE": {
+            "TITLE": "应用",
+            "SEARCH": "搜索",
+            "GET": "获取",
+            "OPEN": "打开",
+            "TODAY": "今日",
+            "POPULAR_APPS": "热门应用",
+            "GAMES": "游戏",
+            "APPS": "应用",
+            "WHAT_WE_PLAYING": "我们正在玩的",
+            "INFORMATION": "信息",
+            "PROVIDER": "提供商",
+            "SIZE": "大小",
+            "COMPATIBILITY": "兼容性",
+            "IN_APP_PURCHASES": "应用内购买",
+            "WORKS_WITH_PHONE": "支持此平板",
+            "NO": "否",
+            "YES": "是",
+            "PURCHASE_APP_POPUP": {
+                "TITLE": "购买应用",
+                "DESCRIPTION": "您要以 {price} 购买 {app} 吗？",
+                "CANCEL": "取消",
+                "PROCEED": "购买"
+            }
+        },
+        "PHOTOS": {
+            "TITLE": "照片",
+            "SELECT": "选择",
+            "CANCEL": "取消",
+            "EDIT": "编辑",
+            "DONE": "完成",
+            "DELETE": "删除",
+            "SELECT_ITEMS": "选择项目",
+            "SELECTED_COUNT": "已选择 {count} 项",
+    
+            "PHOTOS": "照片",
+            "ALBUMS": "相册",
+            "LIBRARY": "图库",
+            "GALLERY": "画廊",
+            "MY_ALBUMS": "我的相册",
+            "MEDIA_TYPES": "媒体类型",
+            "NEW_ALBUM_POPUP": {
+                "TITLE": "新建相册",
+                "DESCRIPTION": "输入此相册的名称",
+                "PLACEHOLDER": "标题",
+                "CANCEL": "取消",
+                "PROCEED": "保存"
+            },
+            "REMOVE_ALBUM": {
+                "TITLE": "移除 \"{name}\"",
+                "DESCRIPTION": "您确定要删除相册 \"{name}\" 吗？照片将不会被删除",
+                "CANCEL": "取消",
+                "PROCEED": "移除"
+            },
+            "RENAME_ALBUM_POPUP": {
+                "TITLE": "重命名相册",
+                "DESCRIPTION": "输入新名称",
+                "PLACEHOLDER": "新相册名称",
+                "CANCEL": "取消",
+                "PROCEED": "继续"
+            },
+            "DELETE_IMAGE_POPUP": {
+                "TITLE": "删除图片",
+                "DESCRIPTION": "您确定要删除这张图片吗？",
+                "CANCEL": "取消",
+                "PROCEED": "删除"
+            },
+            "IMPORT_IMAGE_POPUP": {
+                "TITLE": "导入到相册",
+                "DESCRIPTION": "将图片导入到此相册",
+                "CANCEL": "取消",
+                "PROCEED": "导入",
+                "PLACEHOLDER": "图片网址"
+            },
+    
+            "NO_PHOTOS": "没有照片或视频",
+            "NO_PHOTOS_INSTRUCTIONS": "您可以使用相机拍摄照片和视频",
+            "PHOTO_COUNT": "{amount} 张照片",
+            "VIDEO_COUNT": "{amount} 个视频",
+    
+            "DELETE_CONTEXT_TITLE": "您想删除 {type} 还是将其从此相册中移除",
+            "THESE_PHOTOS": "这些照片",
+            "THIS_PHOTO": "这张照片",
+            "REMOVE_FROM_ALBUM": "从相册中移除",
+            "ADD_TO_ALBUM": "添加到相册",
+            "ADD_TO_FAVOURITES": "添加到收藏",
+            "REMOVE_FROM_FAVOURITES": "从收藏中移除",
+            "VIDEOS": "视频",
+            "SELFIES": "自拍",
+            "SCREENSHOTS": "截图",
+            "IMPORTS": "导入",
+            "DUPLICATES": "重复项",
+            "YEARS": "年",
+            "MONTHS": "月",
+            "DAYS": "天",
+            "ALL_PHOTOS": "所有照片",
+    
+            "FAVOURITES": "收藏",
+            "RECENTS": "最近"
+        },      
+        "MAIL": {
+            "TITLE": "邮件",
+            "YOU": "你",
+            "UPDATED_NOW": "刚刚更新",
+            "NEW_MESSAGE": "新消息",
+            "INBOX": "收件箱",
+            "TO": "收件人",
+            "FROM": "发件人",
+            "SUBJECT": "主题",
+            "MESSAGE": "信息",
+            "CANCEL": "取消",
+            "SEND": "发送",
+            "EMAIL": "邮箱",
+            "EMAIL_INVALID": "无效的邮箱地址",
+            "EMAIL_EXISTS": "邮箱已存在",
+            "PASSWORD": "密码",
+            "WRONG_PASSWORD": "密码错误",
+            "LOGIN": "登录",
+            "NO_EMAIL": "没有邮箱地址？",
+            "CREATE_ONE": "创建一个",
+            "UNREAD": "未读",
+            "CREATE_MAIL": "创建邮件",
+            "ALREADY_HAVE": "已经有邮箱地址？",
+            "ADD_EMAIL": "添加邮箱",
+            "RE": "回复: {subject}",
+            "CHANGE_ACCOUNT": "更改账户",
+            "CHANGE_PASSWORD": "更改密码",
+            "DELETE_ACCOUNT": "删除账户",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "退出登录",
+                "DESCRIPTION": "您确定要退出登录吗？",
+                "CANCEL": "取消",
+                "PROCEED": "继续"
+            },
+            "DELETE_MAIL_POPUP": {
+                "TITLE": "删除邮件",
+                "DESCRIPTION": "您确定要删除此邮件吗？",
+                "CANCEL": "取消",
+                "DELETE": "删除"
+            }
+        },
+        "VOICEMEMO": {
+            "TITLE": "语音备忘录",
+            "VOICE_RECORDINGS": "语音录音",
+            "SEARCH_RECORDINGS": "搜索录音",
+            "DEFAULT_NAME": "新录音",
+            "DELETE_POPUP": {
+                "TITLE": "删除语音备忘录",
+                "DESCRIPTION": "您确定要删除这个语音备忘录吗？",
+                "CANCEL": "取消",
+                "PROCEED": "继续"
+            },
+            "NO_MICROPHONE_POPUP": {
+                "TITLE": "没有麦克风",
+                "DESCRIPTION": "我们无法访问您的麦克风，请确保连接了麦克风并接受屏幕右上角的弹窗提示",
+                "OK": "确定"
+            },
+            "EMPTY_RECORDING_POPUP": {
+                "TITLE": "空的录音",
+                "DESCRIPTION": "您不能保存没有声音的录音",
+                "OK": "确定"
+            }
+        },
+        "SERVICES": {
+            "ACTIONS": "操作",
+            "COMPANIES": "公司",
+            "MESSAGES": "消息",
+            "SETTINGS": "设置",
+            "CLOSED": "已关闭",
+            "YOUR_MESSAGES": "您的消息",
+            "JOB_MESSAGES": "工作消息",
+            "DUTY": "值班",
+            "DUTY_DESCRIPTION": "切换您的值班状态",
+            "GO_ON_DUTY": "开始值班",
+            "GO_OFF_DUTY": "下班",
+            "JOB_CALLS": "工作电话",
+            "JOB_CALLS_DESCRIPTION": "{toggle} 接受来自客户的电话。",
+            "ENABLE": "启用",
+            "DISABLE": "禁用",
+            "DISABLE_CALLS": "禁用电话",
+            "ENABLE_CALLS": "启用电话",
+            "BALANCE": "余额",
+            "CURRENT_BALANCE": "公司当前余额",
+            "MANAGE_EMPLOYEES": "管理员工",
+            "HIRE": "雇佣",
+            "SET_GRADE": "设置等级",
+            "UNEMPLOYED": "您是无业人员",
+            "ALL": "所有",
+            "AVAILABLE": "可用",
+            "SEARCH_EMPLOYEES": "搜索员工",
+            "PERSONAL": "个人",
+            "JOB": "工作",
+            "PLACEHOLDER": "文本信息",
+            "NOT_DELIVERED": "未送达",
+            "SENT_LOCATION": "共享了他们的位置，点击打开地图",
+            "SENT_LOCATION_SHORT": "共享了他们的位置",
+            "SEND_LOCATION_POPUP": {
+                "TITLE": "共享位置",
+                "TEXT": "您要共享您的位置吗？",
+                "CANCEL": "取消",
+                "SEND": "发送"
+            },
+            "DELETE_CONVERSATION": {
+                "TITLE": "删除对话",
+                "DESCRIPTION": "您确定要删除此对话吗？",
+                "CANCEL": "取消",
+                "DELETE": "删除"
+            },
+            "DEPOSIT_POPUP": {
+                "TITLE": "存款",
+                "DESCRIPTION": "向公司账户存款",
+                "AMOUNT": "金额",
+                "CANCEL": "取消",
+                "PROCEED": "继续"
+            },
+            "WITHDRAW_POPUP": {
+                "TITLE": "取款",
+                "DESCRIPTION": "从公司账户取款",
+                "NOT_ENOUGH_MONEY": "公司账户余额不足",
+                "AMOUNT": "金额",
+                "CANCEL": "取消",
+                "PROCEED": "继续"
+            },
+            "HIRE_POPUP": {
+                "TITLE": "雇佣",
+                "DESCRIPTION": "雇佣新员工",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "取消",
+                "PROCEED": "继续"
+            },
+            "FIRE_POPUP": {
+                "TITLE": "解雇",
+                "DESCRIPTION": "您确定要解雇 {name} 吗？",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "取消",
+                "PROCEED": "继续"
+            }
+        },
+        "POLICE": {
+            "CANCEL": "取消",
+            "CLOSE": "关闭",
+            "BACK": "返回",
+            "EDIT": "编辑",
+            "DELETE": "删除",
+            "REMOVE": "移除",
+            "SAVE": "保存",
+            "CREATE": "创建",
+            "OK": "确定",
+            "ADD": "添加",
+            "NEW": "新建",
+            "PROCEED": "继续",
+            "YES": "是",
+            "NO": "否",
+            "SEARCH": "搜索",
+            "SEARCH_FOR": "搜索 {query} 以开始",
+            "NO_RESULTS_FOR": "没有找到 '{query}' 的结果",
+            "CLEAR_HISTORY": "清除历史记录",
+            "HOME": {
+                "TITLE": "首页",
+                "CREATE": "创建",
+                "RECENT_REPORTS": "最近的报告",
+                "REPORT_FOOTER": "{timestamp} - {author}",
+                "BULLETIN_BOARD": "公告板",
+                "PIN": "置顶",
+                "UNPIN": "取消置顶",
+                "SEARCH_BULLETIN": "搜索公告",
+                "SEARCH_UNITS": "搜索单位",
+                "ADD_BULLETIN": {
+                    "TITLE": "添加公告",
+                    "DESCRIPTION": "创建新公告",
+                    "PLACEHOLDER": "标题",
+                    "CONTENT": "内容",
+                    "CANCEL": "取消",
+                    "PROCEED": "继续"
+                },
+                "DELETE_BULLETIN": {
+                    "TITLE": "删除公告",
+                    "DESCRIPTION": "您确定要删除此公告吗？",
+                    "CANCEL": "取消",
+                    "DELETE": "删除"
+                },
+                "RECENT_WARRANTS": "最近的逮捕令",
+                "ACTIVE_UNITS": "活动单位"
+            },
+            "DISPATCH": {
+                "TITLE": "调度",
+                "TOGGLE_OFFICERS": "切换警员",
+                "TOGGLE_ALARMS": "切换警报",
+                "OFFICERS": "警员",
+                "ALARMS": "警报",
+                "RESPOND": "回应",
+                "RESPONDED": "已回应",
+                "COLLAPSE": "收起",
+                "EXPAND": "展开",
+                "DISMISS": "忽略",
+                "VIEW_IN_TABLET": "在平板中查看",
+                "SET_WAYPOINT": "设置路径点",
+                "PRIORITY": {
+                    "HIGH": "高",
+                    "MEDIUM": "中",
+                    "LOW": "低"
+                },
+                "JUST_NOW": "刚刚",
+                "MINUTES_AGO": "{minutes}分钟前",
+                "HOURS_AGO": "{hours}小时前",
+                "REMOVE_ALARM": {
+                    "TITLE": "移除警报",
+                    "DESCRIPTION": "您确定要移除这个警报吗？（这将移除所有员工的调度）",
+                    "CANCEL": "取消",
+                    "REMOVE": "移除"
+                }
+            },
+
+                "PROFILES": {
+                    "TITLE": "个人资料",
+                    "PERSON": "个人",
+                    "SEARCH": "搜索个人资料",
+                    "REMOVE_AVATAR": "移除头像",
+                    "IDENTIFIER": "标识符",
+                    "FINGERPRINT": "指纹",
+                    "DOB": "出生日期",
+                    "PHONE_NR": "电话号码",
+                    "GENDER": "性别",
+                    "JOB": "工作",
+                    "MALE": "男性",
+                    "FEMALE": "女性",
+                    "NOTES": "备注",
+                    "NOTES_PLACEHOLDER": "在此输入备注...",
+            
+                    "LICENSES": {
+                        "TITLE": "许可证",
+                        "ADD_LICENSE": "添加许可证",
+                        "ADD": "添加",
+                        "NO_LICENSES": "没有许可证",
+                        "REVOKE_LICENSE": {
+                            "TITLE": "撤销许可证",
+                            "DESCRIPTION": "您确定要撤销许可证 {license} 吗？",
+                            "CANCEL": "取消",
+                            "REVOKE": "撤销"
+                        }
+                    },
+            
+                    "ADD_AVATAR": {
+                        "TITLE": "添加头像",
+                        "SET_PHOTO": "设置照片",
+                        "PASTE_URL": "粘贴网址",
+                        "PASTE_URL_DESCRIPTION": "输入图片的网址",
+                        "PASTE_URL_PLACEHOLDER": "图片网址",
+            
+                        "INVALID_URL": "无效的网址",
+                        "INVALID_URL_DESCRIPTION": "您输入的网址不是有效的图片网址",
+                        "OK": "确定"
+                    },
+            
+                    "VEHICLES": "车辆",
+                    "NO_VEHICLES": "没有车辆",
+                    "PROPERTIES": "房产",
+                    "NO_PROPERTIES": "没有房产",
+                    "REPORTS": "报告",
+                    "NO_REPORTS": "没有报告",
+                    "CASES": "案件",
+                    "NO_CASES": "没有案件",
+                    "WEAPONS": "武器",
+                    "NO_WEAPONS": "没有武器",
+                    "WARRANTS": "逮捕令",
+                    "NO_WARRANTS": "没有逮捕令",
+                    "ACTIVE_WARRANTS": "有效的逮捕令"
+                },
+            
+                "VEHICLES": {
+                    "TITLE": "车辆",
+                    "VEHICLE": "车辆",
+                    "SEARCH": "搜索车辆",
+                    "REMOVE_PICTURE": "移除图片",
+                    "DETAILS": "详情",
+            
+                    "ADD_PHOTO": {
+                        "TITLE": "添加照片",
+                        "SELECT_PHOTO": "选择照片",
+                        "PASTE_URL": "粘贴网址",
+                        "PASTE_URL_DESCRIPTION": "输入图片的网址",
+                        "PASTE_URL_PLACEHOLDER": "图片网址",
+            
+                        "INVALID_URL": "无效的网址",
+                        "INVALID_URL_DESCRIPTION": "您输入的网址不是有效的图片网址",
+                        "OK": "确定"
+                    },
+                    "MODEL": "型号",
+                    "PLATE": "车牌",
+                    "COLOR": "颜色",
+                    "LOCATION": "位置",
+                    "OWNER": "车主",
+                    "NOTES": "备注",
+                    "NOTES_PLACEHOLDER": "在此输入备注...",
+                    "SET_WAYPOINT": "设置航点",
+                    "OPEN_IN_MAPS": "在地图中打开",
+                    "WAYPOINT_SET": "航点已设置",
+                    "WAYPOINT_SET_DESCRIPTION": "航点已设置为车辆位置",
+                    "CASES": "案件",
+                    "NO_CASES": "没有案件",
+                    "WARRANTS": "逮捕令",
+                    "NO_WARRANTS": "没有逮捕令",
+                    "ACTIVE_WARRANTS": "有效的逮捕令"
+                },
+            
+                "PROPERTIES": {
+                    "TITLE": "房产",
+                    "PROPERTY": "房产",
+                    "SEARCH": "搜索房产",
+                    "REMOVE_PICTURE": "移除图片",
+                    "DETAILS": "详情",
+                    "ADD_PHOTO": {
+                        "TITLE": "添加照片",
+                        "SELECT_PHOTO": "选择照片",
+                        "PASTE_URL": "粘贴网址",
+                        "PASTE_URL_DESCRIPTION": "输入图片的网址",
+                        "PASTE_URL_PLACEHOLDER": "图片网址",
+            
+                        "INVALID_URL": "无效的网址",
+                        "INVALID_URL_DESCRIPTION": "您输入的网址不是有效的图片网址",
+                        "OK": "确定"
+                    },
+                    "LABEL": "标签",
+                    "ADDRESS": "地址",
+                    "OWNER": "所有者",
+                    "LOCATION": "位置",
+                    "OPEN_IN_MAPS": "在地图中打开",
+                    "NOTES": "备注",
+                    "NOTES_PLACEHOLDER": "在此输入备注..."
+                },
+            
+                "WEAPONS": {
+                    "TITLE": "武器",
+                    "WEAPON": "武器",
+                    "SEARCH": "搜索武器",
+                    "REMOVE_PICTURE": "移除图片",
+                    "DETAILS": "详情",
+                    "ADD_PHOTO": {
+                        "TITLE": "添加照片",
+                        "SELECT_PHOTO": "选择照片",
+                        "PASTE_URL": "粘贴网址",
+                        "PASTE_URL_DESCRIPTION": "输入图片的网址",
+                        "PASTE_URL_PLACEHOLDER": "图片网址",
+            
+                        "INVALID_URL": "无效的网址",
+                        "INVALID_URL_DESCRIPTION": "您输入的网址不是有效的图片网址",
+                        "OK": "确定"
+                    },
+                    "MODEL_MAKE": "型号",
+                    "SERIAL_NUMBER": "序列号",
+                    "NOTES": "备注",
+                    "NOTES_PLACEHOLDER": "在此输入备注...",
+                    "LINKED_REPORTS": "关联报告",
+                    "NO_LINKED_REPORTS": "没有关联报告",
+                    "LINKED_CASES": "关联案件",
+                    "NO_LINKED_CASES": "没有关联案件",
+                    "UNREGISTERED": "未注册",
+                    "OWNER": "所有者",
+                    "SELECT_MODEL": "选择型号",
+                    "SELECT_OWNER": "选择所有者"
+                },
+                    
+                
+                    "REPORTS": {
+                        "TITLE": "报告",
+                        "REPORT": "报告",
+                        "SEARCH": "搜索报告",
+                        "FOOTER": "{author} - 报告 ID: {id}",
+                        "NEW_REPORT_TITLE": "新报告",
+                        "TYPE": "类型",
+                        "DESCRIPTION": "描述",
+                        "DESCRIPTION_PLACEHOLDER": "请输入描述...",
+                        "GALLERY": "图库",
+                        "NO_ATTACHMENTS": "没有附件",
+                        "WEAPONS_INVOLVED": "涉及武器",
+                        "NO_WEAPONS_INVOLVED": "没有涉及武器",
+                        "REMOVE_WEAPON": {
+                            "TITLE": "移除武器",
+                            "DESCRIPTION": "您确定要从报告中移除该武器吗？"
+                        },
+                        "OFFICERS_INVOLVED": "涉及警员",
+                        "NO_OFFICERS_INVOLVED": "没有涉及警员",
+                        "REMOVE_OFFICER": {
+                            "TITLE": "移除警员",
+                            "DESCRIPTION": "您确定要从报告中移除 {name} 吗？"
+                        },
+                        "CIVILLIANS_INVOLVED": "涉及平民",
+                        "NO_CIVILLIANS_INVOLVED": "没有涉及平民",
+                        "REMOVE_CIVILIAN": {
+                            "TITLE": "移除平民",
+                            "DESCRIPTION": "您确定要从报告中移除 {name} 吗？"
+                        },
+                        "SUSPECTS_INVOLVED": "涉及嫌疑人",
+                        "NO_SUSPECTS_INVOLVED": "没有涉及嫌疑人",
+                        "REMOVE_SUSPECT": {
+                            "TITLE": "移除嫌疑人",
+                            "DESCRIPTION": "您确定要从报告中移除 {name} 吗？"
+                        },
+                        "ERROR": {
+                            "TITLE": "错误",
+                            "NO_TYPE": "您必须选择报告类型",
+                            "TITLE_LENGTH": "标题必须至少为 3 个字符",
+                            "DESCRIPTION_LENGTH": "描述必须至少为 10 个字符"
+                        }
+                    },
+                
+                    "CASES": {
+                        "TITLE": "案件",
+                        "SEARCH": "搜索案件",
+                        "CASE": "案件",
+                        "FOOTER": "{author} - 案件 ID: {id}",
+                        "TITLE_PLACEHOLDER": "新案件",
+                        "DESCRIPTION": "描述",
+                        "DESCRIPTION_PLACEHOLDER": "请输入描述...",
+                        "EVIDENCE": "证据",
+                        "NO_EVIDENCE": "没有附件证据",
+                        "OPEN_STASH": "打开藏匿处",
+                        "VEHICLES_INVOLVED": "涉及车辆",
+                        "NO_VEHICLES_INVOLVED": "没有涉及车辆",
+                        "REMOVE_VEHICLE": {
+                            "TITLE": "移除车辆",
+                            "DESCRIPTION": "您确定要从案件中移除该车辆吗？"
+                        },
+                        "OFFICERS_INVOLVED": "涉及警员",
+                        "NO_OFFICERS_INVOLVED": "没有涉及警员",
+                        "REMOVE_OFFICER": {
+                            "TITLE": "移除警员",
+                            "DESCRIPTION": "您确定要从案件中移除该警员吗？"
+                        },
+                        "CIVILLIANS_INVOLVED": "涉及平民",
+                        "NO_CIVILLIANS_INVOLVED": "没有涉及平民",
+                        "REMOVE_CIVILIAN": {
+                            "TITLE": "移除平民",
+                            "DESCRIPTION": "您确定要从案件中移除该平民吗？"
+                        },
+                        "CRIMINALS_INVOLVED": "涉及罪犯",
+                        "NO_CRIMINALS_INVOLVED": "没有涉及罪犯",
+                        "REMOVE_CRIMINAL": {
+                            "TITLE": "移除罪犯",
+                            "DESCRIPTION": "您确定要从案件中移除该罪犯吗？"
+                        },
+                        "ADD_CHARGE": "添加指控",
+                        "RECOMMENDED_FINE": "推荐罚款 ({currency})",
+                        "RECOMMENDED_SENTENCE": "推荐判刑（以月为单位）",
+                        "FINE": "罚款 ({currency})",
+                        "SENTENCE": "判刑（以月为单位）",
+                
+                        "ERROR": {
+                            "TITLE": "错误",
+                            "TITLE_LENGTH": "标题必须至少为 3 个字符",
+                            "DESCRIPTION_LENGTH": "描述必须至少为 10 个字符",
+                            "OK": "确定"
+                        }
+                    },
+                
+                    "WARRANTS": {
+                        "TITLE": "逮捕令",
+                        "SEARCH": "搜索逮捕令",
+                        "HIGH_PRIORITY": "高优先级",
+                        "MEDIUM_PRIORITY": "中优先级",
+                        "LOW_PRIORITY": "低优先级",
+                        "FOOTER": "{author} - 逮捕令 ID: {id}",
+                        "TITLE_PLACEHOLDER": "新逮捕令",
+                        "DESCRIPTION": "描述",
+                        "DESCRIPTION_PLACEHOLDER": "请输入描述...",
+                        "TYPE": "类型",
+                        "STATUS": "状态",
+                        "PRIORITY": "优先级",
+                        "GALLERY": "图库",
+                        "NO_ATTACHMENTS": "没有附件",
+                        "LINKED_REPORTS": "关联报告",
+                        "NO_LINKED_REPORTS": "没有关联报告",
+                        "SELECT_VEHICLE": "选择车辆",
+                        "NO_VEHICLE_SELECTED": "没有选择车辆",
+                        "SELECT_PERSON": "选择人员",
+                        "NO_PERSON_SELECTED": "没有选择人员",
+                        "REMOVE_REPORT": {
+                            "TITLE": "移除报告",
+                            "DESCRIPTION": "您确定要从逮捕令中移除该报告吗？"
+                        },
+                        "ERROR": {
+                            "TITLE": "错误",
+                            "TITLE_LENGTH": "标题必须至少为 3 个字符",
+                            "DESCRIPTION_LENGTH": "描述必须至少为 10 个字符",
+                            "NO_TYPE": "您必须选择逮捕令类型",
+                            "NO_TARGET": "您必须选择逮捕令的目标",
+                            "OK": "确定"
+                        }
+                    },
+                
+                    "OFFENCES": {
+                        "TITLE": "犯罪",
+                        "SEARCH": "搜索犯罪",
+                        "MONTHS": "{amount} 个月",
+                        "FINE": "{amount} 罚款",
+                        "SELECT_SEVERITY": "选择严重程度",
+                        "SEVERITIES": {
+                            "INFRACTION": "轻微违法",
+                            "MISDEMEANOR": "轻罪",
+                            "FELONY": "重罪"
+                        },
+                        "NO_OFFENCES_FOUND": "未找到犯罪记录",
+                        "ADD_OFFENCE": {
+                            "TITLE": "添加犯罪",
+                            "DESCRIPTION": "创建一个新犯罪",
+                            "PLACEHOLDER": "输入犯罪标题",
+                            "DESCRIPTION_PLACEHOLDER": "请输入描述..."
+                        },
+                        "EDIT_OFFENCE": {
+                            "TITLE": "编辑犯罪",
+                            "DESCRIPTION": "编辑犯罪详情"
+                        },
+                        "SET_JAILTIME": {
+                            "TITLE": "推荐监禁时间",
+                            "DESCRIPTION": "设置犯罪的推荐监禁时间",
+                            "PLACEHOLDER": "推荐监禁时间（以月为单位）（0 表示仅罚款）"
+                        },
+                        "SET_FINE": {
+                            "TITLE": "推荐罚款",
+                            "DESCRIPTION": "设置犯罪的推荐罚款",
+                            "PLACEHOLDER": "推荐罚款金额（0 表示仅监禁）"
+                        },
+                        "DELETE_OFFENCE": {
+                            "TITLE": "删除犯罪",
+                            "DESCRIPTION": "您确定要删除该犯罪吗？"
+                        },
+                        "ADD_CATEGORY": {
+                            "TITLE": "添加类别",
+                            "DESCRIPTION": "为犯罪列表添加一个新类别",
+                            "PLACEHOLDER": "输入类别名称"
+                        },
+                        "EDIT_CATEGORY": "编辑类别",
+                        "DELETE_CATEGORY": {
+                            "TITLE": "删除类别",
+                            "DESCRIPTION": "您确定要删除该类别吗？"
+                        }
+                    },
+                
+                    "EMPLOYEES": {
+                        "TITLE": "员工",
+                        "SEARCH": "搜索员工"
+
+                },
+
+                
+                    "CHAT": {
+                        "TITLE": "聊天",
+                        "SEARCH": "搜索聊天",
+                        "PLACEHOLDER": "发送消息...",
+                        "JOINED_CHATS": "加入的聊天",
+                        "PUBLIC_CHATS": "公开聊天",
+                        "JOINED": "已加入",
+                        "PUBLIC": "公开",
+                        "PRIVATE_CHATS": "私人聊天",
+                        "ROOM_ID": "聊天室 ID: {id}",
+                        "TOGGLE_PRIVATE": "切换私密",
+                        "CHANGE_AVATAR": "更改头像",
+                        "SET_AVATAR": "设置头像",
+                        "REMOVE_AVATAR": "移除头像",
+                        "MANAGE": "管理",
+                        "LEAVE": {
+                            "TITLE": "离开",
+                            "DESCRIPTION": "您确定要离开聊天室吗？"
+                        },
+                        "KICK": {
+                            "TITLE": "踢出",
+                            "DESCRIPTION": "您确定要把 {name} 踢出聊天室吗？"
+                        },
+                        "CREATE_CHATROOM": {
+                            "TITLE": "创建聊天室",
+                            "DESCRIPTION": "请输入聊天室名称",
+                            "PLACEHOLDER": "聊天室名称",
+                            "CREATE": "创建",
+                            "SET_VISIBILITY": "设置可见性",
+                            "PUBLIC": "公开",
+                            "PRIVATE": "私人"
+                        },
+                        "JOIN_CHAT": {
+                            "TITLE": "加入聊天",
+                            "DESCRIPTION": "您确定要加入 {channel} 吗？",
+                            "JOIN": "加入"
+                        },
+                        "ERROR": {
+                            "TITLE": "错误",
+                            "FAILED_JOIN": "加入聊天室失败",
+                            "FAILED_INVITE": "邀请 {name} 进入聊天室失败",
+                            "FAILED_SET_AVATAR": "设置聊天室头像失败",
+                            "FAILED_REMOVE_AVATAR": "移除聊天室头像失败",
+                            "FAILED_GET_MEMBERS": "获取聊天室成员失败",
+                            "FAILED_KICK": "踢出 {name} 失败",
+                            "FAILED_LEAVE": "离开聊天室失败"
+                        },
+                        "SUCCESS": {
+                            "TITLE": "成功",
+                            "INVITED": "您已邀请 {name} 进入聊天室",
+                            "KICKED": "您已将 {name} 踢出聊天室"
+                        }
+                    },
+                    "PHONE": {
+                        "TITLE": "电话",
+                        "TRIANGULATE": "定位",
+                        "MESSAGES": "消息",
+                        "CALLS": "通话",
+                        "UNLOCK": "解锁"
+                    },
+                    "JAIL": {
+                        "TITLE": "监狱",
+                        "SEARCH": "搜索囚犯",
+                        "JAILED_PERSON": "被监禁人员",
+                        "JAILED_BY": "监禁者",
+                        "JAILED_BY_NAME": "监禁者 {name}",
+                        "REMAINING_TIME": "剩余时间",
+                        "REMAINING_TIME_DATE": "剩余时间 {time} ({date})",
+                        "ORIGINAL_SENTENCE": "原判刑期",
+                        "RELEASE_DATE": "释放日期",
+                        "DESCRIPTION": "描述",
+                        "DESCRIPTION_PLACEHOLDER": "请输入描述...",
+                        "RELEASED": "已释放",
+                        "LESS_THAN_MINUTE": "不到一分钟",
+                        "UNJAIL": "释放",
+                        "PROFILE": "个人资料",
+                        "JAILED_AT": "监禁地点",
+                        "LINKED_CASE": "关联案件",
+                        "NO_LINKED_CASE": "没有关联案件",
+                        "REMOVE_LINKED_CASE": {
+                            "TITLE": "移除关联案件",
+                            "DESCRIPTION": "您确定要移除该关联案件吗？"
+                        },
+                        "JAIL_PERSON": {
+                            "TITLE": "监禁",
+                            "DESCRIPTION": "填写以下信息以监禁 {name}",
+                            "SENTENCE_PLACEHOLDER": "刑期（分钟）",
+                            "REASON_PLACEHOLDER": "原因",
+                            "JAIL_WITH_CASE": "监禁并关联事件",
+                            "JAIL_WITHOUT_CASE": "监禁不关联事件",
+                            "PROCEED": "继续"
+                        },
+                        "UNJAIL_PERSON": {
+                            "TITLE": "释放",
+                            "DESCRIPTION": "您确定要释放 {name} 吗？",
+                            "PROCEED": "继续"
+                        },
+                        "ERROR": {
+                            "TITLE": "错误",
+                            "MISSING_DETAILS": "您必须输入刑期和原因"
+                        }
+                    },
+                    "LOGS": {
+                        "TITLE": "日志",
+                        "SEARCH": "搜索日志",
+                        "FILTER": "筛选",
+                        "CREATED": "创建",
+                        "UPDATED": "更新",
+                        "DELETED": "删除",
+                        "VIEW_FOOTER": "查看 {type} ({id})",
+                        "TAG_TYPES": {
+                            "PROFILE": "个人资料",
+                            "VEHICLE": "车辆",
+                            "REPORT": "报告",
+                            "WARRANT": "逮捕令",
+                            "INCIDENT": "事件"
+                        },
+                                
+                        "CREATE_TAG_TITLE": "创建标签",
+                        "CREATE_TAG_DESCRIPTION": "创建了一个 {type} 标签 \"{name}\"",
+                        "DELETE_TAG_TITLE": "删除标签",
+                        "DELETE_TAG_DESCRIPTION": "删除了 {type} 标签 \"{name}\"",
+                        "UPDATE_PROFILE_TITLE": "更新个人资料",
+                        "UPDATE_PROFILE_DESCRIPTION": "更新了 {name} 的个人资料",
+                        "UPDATE_VEHICLE_TITLE": "更新车辆",
+                        "UPDATE_VEHICLE_DESCRIPTION": "更新了车辆 {plate}",
+                        "UPDATE_PROPERTY_TITLE": "更新房产",
+                        "UPDATE_PROPERTY_DESCRIPTION": "更新了房产",
+                        "UPDATE_WEAPON_TITLE": "更新武器",
+                        "UPDATE_WEAPON_DESCRIPTION": "更新了序列号为 {serial} 的武器",
+                        "CREATE_REPORT_TITLE": "创建报告",
+                        "CREATE_REPORT_DESCRIPTION": "创建了一个 {type} 类型的报告，标题为 \"{title}\"",
+                        "UPDATE_REPORT_TITLE": "更新报告",
+                        "UPDATE_REPORT_DESCRIPTION": "更新了标题为 \"{title}\" 的 {type} 类型报告",
+                        "DELETE_REPORT_TITLE": "删除报告",
+                        "DELETE_REPORT_DESCRIPTION": "删除了 ID 为 {id} 的报告",
+                        "ISSUED_LICENSE_TITLE": "发放许可证",
+                        "ISSUED_LICENSE_DESCRIPTION": "发放了许可证 {license} 给 {name}",
+                        "REVOKED_LICENSE_TITLE": "撤销许可证",
+                        "REVOKED_LICENSE_DESCRIPTION": "撤销了 {name} 的许可证 {license}",
+                        "PINNED_BULLETIN_TITLE": "置顶公告",
+                        "PINNED_BULLETIN_DESCRIPTION": "置顶了 ID 为 {id} 的公告",
+                        "UNPINNED_BULLETIN_TITLE": "取消置顶公告",
+                        "UNPINNED_BULLETIN_DESCRIPTION": "取消置顶了 ID 为 {id} 的公告",
+                        "CREATE_BULLETIN_TITLE": "创建公告",
+                        "CREATE_BULLETIN_DESCRIPTION": "创建了一个标题为 \"{title}\" 的公告",
+                        "DELETE_BULLETIN_TITLE": "删除公告",
+                        "DELETE_BULLETIN_DESCRIPTION": "删除了 ID 为 {id} 的公告",
+                        "CREATE_WARRANT_TITLE": "创建逮捕令",
+                        "CREATE_WARRANT_DESCRIPTION": "创建了一个 {type} 类型的逮捕令，标题为 \"{title}\"",
+                        "UPDATE_WARRANT_TITLE": "更新逮捕令",
+                        "UPDATE_WARRANT_DESCRIPTION": "更新了标题为 \"{title}\" 的逮捕令",
+                        "CREATE_CASE_TITLE": "创建案件",
+                        "CREATE_CASE_DESCRIPTION": "创建了一个标题为 \"{title}\" 的案件",
+                        "UPDATE_CASE_TITLE": "更新案件",
+                        "UPDATE_CASE_DESCRIPTION": "更新了标题为 \"{title}\" 的案件",
+                        "DELETE_CASE_TITLE": "删除案件",
+                        "DELETE_CASE_DESCRIPTION": "删除了 ID 为 {id} 的案件"
+            },
+
+            "TAGS": {
+                "TITLE": "标签",
+                "ADD": "添加",
+                "NO_TAGS": "没有标签",
+                "CREATE_TAG": {
+                    "TITLE": "创建标签",
+                    "DESCRIPTION": "输入标签名称",
+                    "PLACEHOLDER": "标签名称",
+                    "CANCEL": "取消",
+                    "NEXT": "下一步",
+                    "SELECT_COLOR": "选择颜色"
+                },
+                "DELETE_TAG": {
+                    "TITLE": "删除标签",
+                    "DESCRIPTION": "确定要删除此标签吗？",
+                    "CANCEL": "取消",
+                    "DELETE": "删除"
+                },
+                "REMOVE_TAG": {
+                    "TITLE": "移除标签",
+                    "DESCRIPTION": "确定要移除标签 '{tag}' 吗？",
+                    "CANCEL": "取消",
+                    "REMOVE": "移除"
+                }
+            },
+            "MISC": {
+                "SOON": "即将到来",
+                "UNKNOWN": "未知",
+                "MINUTES": "{minutes}分钟",
+                "HOURS": "{hours}小时",
+                "DAYS": "{days}天",
+                "FORMATTED_DATE": "{day} {month} {year}，{hours}:{minutes}",
+                "CHANGE_AVATAR": "更改头像",
+                "REMOVE_AVATAR": "移除头像",
+                "SET_CALLSIGN": "设置呼号",
+                "CALLSIGN": {
+                    "TITLE": "呼号",
+                    "DESCRIPTION": "输入呼号",
+                    "CANCEL": "取消",
+                    "PROCEED": "继续"
+                }
+            }
+        },
+        "AMBULANCE": {
+            "TITLE": "救护车",
+            "SEARCH": "搜索",
+            "CANCEL": "取消",
+            "CLOSE": "关闭",
+            "BACK": "返回",
+            "EDIT": "编辑",
+            "DELETE": "删除",
+            "REMOVE": "移除",
+            "SAVE": "保存",
+            "CREATE": "创建",
+            "PROCEED": "继续",
+            "OK": "确定",
+            "ADD": "添加",
+            "NEW": "新建",
+    
+            "SEARCH_FOR": "搜索 {query} 开始",
+            "NO_RESULTS_FOR": "未找到与 '{query}' 相关的结果",
+            "CLEAR_HISTORY": "清除历史",
+    
+            "HOME": {
+                "TITLE": "首页",
+                "CREATE": "创建",
+    
+                "RECENT_REPORTS": "最近的报告",
+                "REPORT_FOOTER": "{timestamp} - {author}",
+                "BULLETIN_BOARD": "公告板",
+                "PIN": "置顶",
+                "UNPIN": "取消置顶",
+                "SEARCH_BULLETIN": "搜索公告",
+                "SEARCH_UNITS": "搜索单位",
+                "ADD_BULLETIN": {
+                    "TITLE": "添加公告",
+                    "DESCRIPTION": "创建一个新的公告帖子",
+                    "PLACEHOLDER": "标题",
+                    "CONTENT": "内容",
+                    "CANCEL": "取消",
+                    "PROCEED": "继续"
+                },
+                "DELETE_BULLETIN": {
+                    "TITLE": "删除公告",
+                    "DESCRIPTION": "确定要删除此公告吗？",
+                    "CANCEL": "取消",
+                    "DELETE": "删除"
+                },
+                "ACTIVE_UNITS": "活跃单位"
+            },
+            
+                "DISPATCH": {
+                    "TITLE": "调度",
+                    "TOGGLE_EMPLOYEES": "切换员工",
+                    "TOGGLE_ALARMS": "切换警报",
+                    "EMPLOYEES": "员工",
+                    "ALARMS": "警报",
+                    "RESPOND": "回应",
+                    "RESPONDED": "已回应",
+                    "COLLAPSE": "折叠",
+                    "EXPAND": "展开",
+                    "DISMISS": "忽略",
+                    "VIEW_IN_TABLET": "在平板中查看",
+                    "SET_WAYPOINT": "设置航点",
+                    "PRIORITY": {
+                        "HIGH": "高",
+                        "MEDIUM": "中",
+                        "LOW": "低"
+                    },
+                    "JUST_NOW": "刚刚",
+                    "MINUTES_AGO": "{minutes}分钟前",
+                    "HOURS_AGO": "{hours}小时前"
+                },
+                "JOURNALS": {
+                    "TITLE": "日志",
+                    "PROFILES": "档案",
+                    "PERSON": "个人",
+                    "SEARCH": "搜索档案",
+                    "REMOVE_AVATAR": "删除头像",
+                    "IDENTIFIER": "标识符",
+                    "FINGERPRINT": "指纹",
+                    "DOB": "出生日期",
+                    "PHONE_NR": "电话号码",
+                    "GENDER": "性别",
+                    "JOB": "职位",
+                    "MALE": "男性",
+                    "FEMALE": "女性",
+                    "HEIGHT": "身高",
+                    "HEIGHT_FORMAT": "{height}cm",
+                    "BLOOD_TYPE": "血型",
+                    "NOTES": "备注",
+                    "NOTES_PLACEHOLDER": "在此输入备注...",
+                    "DIAGNOSES_DISEASES": "诊断/疾病",
+                    "NO_DIAGNOSES": "无诊断/疾病",
+                    "REPORTS": "报告",
+                    "NO_REPORTS": "没有报告",
+                    "ADD_AVATAR": {
+                        "TITLE": "添加头像",
+                        "SET_PHOTO": "设置照片",
+                        "PASTE_URL": "粘贴URL",
+                        "PASTE_URL_DESCRIPTION": "输入图片的URL",
+                        "PASTE_URL_PLACEHOLDER": "图片URL",
+                        "INVALID_URL": "无效的URL",
+                        "INVALID_URL_DESCRIPTION": "您输入的URL不是有效的图片URL",
+                        "OK": "确定"
+                    }
+                },
+                "REPORTS": {
+                    "TITLE": "报告",
+                    "REPORT": "报告",
+                    "SEARCH": "搜索报告",
+                    "FOOTER": "{author} - 报告ID: {id}",
+                    "NEW_REPORT_TITLE": "新报告",
+                    "TYPE": "类型",
+                    "DESCRIPTION": "描述",
+                    "DESCRIPTION_PLACEHOLDER": "输入描述...",
+                    "GALLERY": "图库",
+                    "NO_ATTACHMENTS": "无附件",
+                    "INJURIES_CONDITIONS": "伤害/病症",
+                    "NO_INJURIES": "无伤害/病症",
+                    "DOCTORS_INVOLVED": "涉及的医生",
+                    "NO_DOCTORS_INVOLVED": "没有涉及医生",
+                    "ADD_PATIENT": "添加病人",
+                    "REMOVE_INJURY": {
+                        "TITLE": "移除伤害",
+                        "DESCRIPTION": "您确定要从报告中移除伤害吗？"
+                    },
+                    "REMOVE_DOCTOR": {
+                        "TITLE": "移除医生",
+                        "DESCRIPTION": "您确定要从报告中移除{name}吗？"
+                    },
+                    "ERROR": {
+                        "TITLE": "错误",
+                        "NO_TYPE": "您必须选择一个报告类型",
+                        "TITLE_LENGTH": "标题至少需要3个字符",
+                        "DESCRIPTION_LENGTH": "描述至少需要10个字符"
+                    }
+                },
+                "EMPLOYEES": {
+                    "TITLE": "员工",
+                    "SEARCH": "搜索员工"
+                },
+                "CHAT": {
+                    "TITLE": "聊天",
+                    "SEARCH": "搜索聊天",
+                    "PLACEHOLDER": "发送消息...",
+                    "JOINED_CHATS": "已加入的聊天",
+                    "PUBLIC_CHATS": "公开聊天",
+                    "JOINED": "已加入",
+                    "PUBLIC": "公开",
+                    "PRIVATE_CHATS": "私密聊天",
+                    "ROOM_ID": "房间ID: {id}",
+                    "TOGGLE_PRIVATE": "切换私密",
+                    "CHANGE_AVATAR": "更改头像",
+                    "SET_AVATAR": "设置头像",
+                    "REMOVE_AVATAR": "删除头像",
+                    "MANAGE": "管理",
+                    "LEAVE": {
+                        "TITLE": "离开",
+                        "DESCRIPTION": "您确定要离开聊天房间吗？"
+                    },
+                    "KICK": {
+                        "TITLE": "踢出",
+                        "DESCRIPTION": "您确定要将{name}踢出聊天房间吗？"
+                    },
+                    "CREATE_CHATROOM": {
+                        "TITLE": "创建聊天室",
+                        "DESCRIPTION": "输入聊天室的名称",
+                        "PLACEHOLDER": "聊天室名称",
+                        "CREATE": "创建",
+                        "SET_VISIBILITY": "设置可见性",
+                        "PUBLIC": "公开",
+                        "PRIVATE": "私密"
+                    },
+                    "JOIN_CHAT": {
+                        "TITLE": "加入聊天",
+                        "DESCRIPTION": "您确定要加入{channel}吗？",
+                        "JOIN": "加入"
+                    },
+                    "ERROR": {
+                        "TITLE": "错误",
+                        "FAILED_JOIN": "加入聊天房间失败",
+                        "FAILED_INVITE": "邀请{name}加入聊天房间失败",
+                        "FAILED_SET_AVATAR": "设置聊天室头像失败",
+                        "FAILED_REMOVE_AVATAR": "删除聊天室头像失败",
+                        "FAILED_GET_MEMBERS": "获取聊天室成员失败",
+                        "FAILED_KICK": "踢出{name}失败",
+                        "FAILED_LEAVE": "离开聊天室失败"
+                    },
+                    "SUCCESS": {
+                        "TITLE": "成功",
+                        "INVITED": "您已邀请{name}加入聊天室",
+                        "KICKED": "您已将{name}踢出聊天室"
+                    }
+                },
+                        
+                "CONDITIONS": {
+                    "TITLE": "病情",
+                    "CONDITION": "病情",
+                    "SEARCH": "搜索病情",
+                    "SELECT_SEVERITY": "选择严重程度",
+                    "SEVERITIES": {
+                        "MINOR": "轻微",
+                        "MODERATE": "中等",
+                        "SEVERE": "严重",
+                        "CRITICAL": "危急"
+                    },
+                    "NO_CONDITIONS_FOUND": "未找到病情",
+                    "ADD_CONDITION": {
+                        "TITLE": "添加病情",
+                        "DESCRIPTION": "创建新病情",
+                        "PLACEHOLDER": "输入病情标题"
+                    },
+                    "DELETE_CONDITION": {
+                        "TITLE": "删除病情",
+                        "DESCRIPTION": "您确定要删除此病情吗？"
+                    },
+                    "ADD_CATEGORY": {
+                        "TITLE": "添加类别",
+                        "DESCRIPTION": "向病情列表添加新类别",
+                        "PLACEHOLDER": "输入类别名称"
+                    },
+                    "DELETE_CATEGORY": {
+                        "TITLE": "删除类别",
+                        "DESCRIPTION": "您确定要删除此类别吗？"
+                    }
+                },
+            "LOGS": {
+                "TITLE": "Logs"
+            }
+        },
+        "BROWSER": {
+            "TITLE": "浏览器",
+            "SEARCH_PLACEHOLDER": "搜索或输入URL",
+            "FAILED_LOAD_PAGE": "加载页面失败，可能不支持内嵌？"
+        },
+        "REGISTRATION": {
+            "TITLE": "注册",
+            "SELECT_CHARACTER": "选择角色",
+            "PLEASE_SELECT_CHARACTER": "请选择一个角色",
+            "CREATE_NEW": "创建新角色",
+            "EDIT": "编辑",
+            "SAVE": "保存",
+            "DELETE": "删除",
+            "CANCEL": "取消",
+            "DELETE_CHARACTER": "删除角色",
+            "DESCRIPTION": "描述",
+            "DESCRIPTION_PLACEHOLDER": "这是一个描述...",
+            "ADD": "添加",
+            "CHARACTER_INFO": "角色信息",
+            "REMOVE_AVATAR": "删除头像",
+            "FIRSTNAME": "名字",
+            "LASTNAME": "姓氏",
+            "DOB": "出生日期",
+            "PHONE_NUMBER": "电话号码",
+            "GENDER": "性别",
+            "MALE": "男性",
+            "FEMALE": "女性",
+            "JOB": "职位",
+            "HEIGHT": "身高",
+            "FORMATTED_HEIGHT": "{height}cm",
+            "VEHICLES": "车辆",
+            "VEHICLE": "车辆",
+            "REMOVE_PICTURE": "删除照片",
+            "SEARCH_VEHICLES": "搜索车辆",
+            "MODEL": "车型",
+            "PLATE": "车牌",
+            "COLOR": "颜色",
+            "CREATE": "创建",
+            "DELETE_VEHICLE": "删除车辆",
+            "DELETE_VEHICLE_POPUP": {
+                "TITLE": "删除车辆",
+                "DESCRIPTION": "您确定要删除此车辆吗？"
+            },
+            "LICENSES": "许可证",
+            "ADD_LICENSE": "添加许可证",
+            "DELETE_LICENSE_POPUP": {
+                "TITLE": "删除许可证",
+                "DESCRIPTION": "您确定要删除此许可证吗？"
+            },
+            "PROPERTIES": "房产",
+            "ADD_PROPERTY_POPUP": {
+                "TITLE": "新房产",
+                "DESCRIPTION": "创建新房产",
+                "LABEL": "房产标签",
+                "ADDRESS": "房产地址"
+            },
+            "DELETE_PROPERTY_POPUP": {
+                "TITLE": "删除房产",
+                "DESCRIPTION": "您确定要删除此房产吗？"
+            },
+            "ERROR": {
+                "TITLE": "错误",
+                "MISSING_FIELDS": "缺少以下字段: {fields}",
+                "OK": "确定"
+            }
+        }    
+    },
+    "COMPONENTS": {
+        "CONTEXT_MENU": {
+            "CANCEL": "取消"
+        },
+        "IMAGE": {
+            "SAVE_TO_GALLERY": "保存到图库"
+        },
+        "GALLERY": {
+            "CANCEL": "取消",
+            "EXTERNAL_URL": "外部URL",
+            "EXTERNAL_URL_BLACKLISTED": "此URL被列入黑名单",
+            "NO_IMAGES": "没有图片"
+        },
+        "NOTIFICATIONS": {
+            "SENT_PHOTO": "发送了照片",
+            "SENT_GIF": "发送了GIF",
+            "NOW": "现在"
+        },
+        "SHARE": {
+            "COPY_PHOTO": "复制照片",
+            "COPY_VIDEO": "复制视频",
+            "USE_WALLPAPER": "设置为壁纸",
+            "COPY_NUMBER": "复制号码",
+            "COPY_LINK": "复制链接",
+            "AIRDROP_SENT": "已发送",
+            "AIRDROP_ACCEPTED": "已接受",
+            "AIRDROP_DECLINED": "已拒绝",
+            "AIRDROP_NO_USERS": "附近没有手机",
+            "WALLPAPER_POPUP": {
+                "TITLE": "设置为壁纸",
+                "TEXT": "您确定要将此图像设置为壁纸吗？",
+                "CANCEL": "取消",
+                "PROCEED": "继续"
+            },
+            "COPY_POPUP": {
+                "TITLE": "成功",
+                "DESCRIPTION": "成功复制到剪贴板",
+                "OK": "确定"
+            }
+        },        
+        "AIRDROP": {
+            "TITLE": "AirShare",
+            "TEXT": "{sender} 想要分享一个 {type}",
+            "VIDEO": "视频",
+            "PHOTO": "照片",
+            "CONTACT": "联系人",
+            "LOCATION": "位置",
+            "NOTE": "备注",
+            "VOICEMEMO": "语音备忘",
+            "PLAYLIST": "播放列表",
+            "DECLINE": "拒绝",
+            "ACCEPT": "接受"
+        },
+        "BATTERY": {
+            "LOW_BATTERY": "电池低",
+            "BATTERY_REMAINING": "剩余电量: {percent}%",
+            "LOW_POWER_MODE": "低电量模式",
+            "CLOSE": "关闭"
+        },
+        "COLOR_PICKER": {
+            "COLOR": "颜色"
+        }
+    },
+    "SETUP": {
+        "HELLO": "你好",
+        "SELECT_LANGUAGE": "选择你的语言",
+        "NEXT": "点击打开",
+        "APPEARANCE": "主题",
+        "APPEARANCE_TEXT": "选择你的设备的深色或浅色主题",
+        "CONTINUE": "继续",
+        "WELCOME_TO": "欢迎来到",
+        "CLICK": "点击开始"
+    },
+    "HOMESCREEN": {
+        "DONE": "完成",
+        "CLOSE_ALL": "关闭全部",
+        "REMOVE_APP_POPUP": {
+            "TITLE": "删除 '{app}'?",
+            "DESCRIPTION": "删除此应用将不会删除其数据。应用可以稍后从应用商店重新安装。",
+            "CANCEL": "取消",
+            "PROCEED": "删除"
+        }
+    },
+    "LOCKSCREEN": {
+        "DELETE": "删除",
+        "FONT_AND_COLOR": "字体和颜色"
+    },
+    "MISC": {
+        "AIRPLANE_MODE_POPUP": {
+            "TITLE": "错误",
+            "DESCRIPTION": "你正在尝试执行需要互联网访问的操作，请关闭飞行模式以继续。",
+            "OK": "确定"
+        }
+    },
+    "BACKEND": {
+        "CAMERA": {
+            "TAKE_PHOTO": "{key} 拍照",
+            "FLIP_CAMERA": "{key} 翻转",
+            "TOGGLE_FLASH": "{key} 闪光灯",
+            "TOGGLE_CURSOR": "{key} 光标",
+            "CHANGE_MODE": "{key} {key2} 模式",
+            "ROLL": "{key} {key2} 滚动",
+            "FREEZE": "{key} 冻结",
+            "UNFREEZE": "{key} 解冻",
+            "TOGGLE_TIP": "{key} 隐藏"
+        },
+        "SERVICES": {
+            "NEW_MESSAGE": "新消息",
+            "ANONYMOUS": "匿名"
+        },
+        "MISC": {
+            "X_TABLET": "{firstname} 的平板"
+        },
+        "MAIL": {
+            "AUTOMATIC_PASSWORD": {
+                "SENDER": "系统",
+                "SUBJECT": "你的密码",
+                "MESSAGE": "你好，\n\n你的自动邮件地址是 {address}，你的密码是 {password}"
+            }
+        },
+        "LOGS": {
+            "TOOK_PHOTO": "拍了张照片",
+            "TOOK_VIDEO": "拍了个视频",
+            "NEW_DISPATCH": "新派遣: {title}"
+        },
+        "POLICE": {
+            "EVIDENCE_LABEL": "证据: 案件 {id}",
+            "NEW_BULLETIN_NOTIFICATION": {
+                "TITLE": "新公告",
+                "CONTENT": "{title}"
+            },
+            "NEW_CASE_NOTIFICATION": {
+                "TITLE": "新案件",
+                "CONTENT": "{title}"
+            },
+            "NEW_REPORT_NOTIFICATION": {
+                "TITLE": "新报告",
+                "CONTENT": "{title}"
+            },
+            "NEW_WARRANT_NOTIFICATION": {
+                "TITLE": "新逮捕令",
+                "CONTENT": "{title}"
+            },
+            "NEW_CHAT_CHANNEL_NOTIFICATION": {
+                "TITLE": "新对话",
+                "CONTENT": "{channel}"
+            },
+            "CHAT_MESSAGE_NOTIFICATION": {
+                "TITLE": "新消息在 {channel}",
+                "CONTENT": "{message}"
+            },
+            "LOGS": {
+                "CREATE_OFFENCE_CATEGORY": {
+                    "TITLE": "创建了一个罪行类别",
+                    "DESCRIPTION": "创建了类别 '{name}'"
+                },
+                "DELETE_OFFENCE_CATEGORY": {
+                    "TITLE": "删除了一个罪行类别",
+                    "DESCRIPTION": "删除了类别 '{name}'"
+                },
+                "UPDATE_OFFENCE_CATEGORY": {
+                    "TITLE": "更新了一个罪行类别",
+                    "DESCRIPTION": "将罪行类别 '{oldName}' 重命名为 {newName}"
+                },
+                "CREATE_OFFENCE": {
+                    "TITLE": "创建了一个罪行",
+                    "DESCRIPTION": "在 '{category}' 中创建了一个 {class} 罪行 '{name}'"
+                },
+                "DELETE_OFFENCE": {
+                    "TITLE": "删除了一个罪行",
+                    "DESCRIPTION": "删除了 '{category}' 中的罪行 '{name}'"
+                },
+                "UPDATE_OFFENCE": {
+                    "TITLE": "更新了一个罪行",
+                    "DESCRIPTION": "更新了 '{category}' 中的罪行 '{name}'"
+                }
+            }
+        },
+        "AMBULANCE": {
+            "NOTIFICATIONS": {
+                "CHAT": {
+                    "NEW_CHANNEL": {
+                        "TITLE": "新对话",
+                        "CONTENT": "{channel}"
+                    },
+                    "NEW_MESSAGE": {
+                        "TITLE": "新消息在 {channel}",
+                        "CONTENT": "{message}"
+                    }
+                },
+                "NEW_BULLETIN": {
+                    "TITLE": "新公告",
+                    "CONTENT": "{title}"
+                },
+                "NEW_REPORT": {
+                    "TITLE": "新报告",
+                    "CONTENT": "{title}"
+                }
+            },
+            "TAG_TYPES": {
+                "PROFILE": "档案",
+                "REPORT": "报告",
+                "PROPERTY": "财产",
+                "WEAPON": "武器"
+            },
+            "LOGS": {
+                "CREATE_CONDITION_CATEGORY": {
+                    "TITLE": "创建了一个条件类别",
+                    "DESCRIPTION": "创建了类别 '{name}'"
+                },
+                "DELETE_CONDITION_CATEGORY": {
+                    "TITLE": "删除了一个条件类别",
+                    "DESCRIPTION": "删除了类别 '{name}'"
+                },
+                "UPDATE_CONDITION_CATEGORY": {
+                    "TITLE": "更新了一个条件类别",
+                    "DESCRIPTION": "将条件类别 '{oldName}' 重命名为 {newName}"
+                },
+                "CREATE_CONDITION": {
+                    "TITLE": "创建了一个条件",
+                    "DESCRIPTION": "在 '{category}' 中创建了一个 {severity} 条件 '{name}'"
+                },
+                "DELETE_CONDITION": {
+                    "TITLE": "删除了一个条件",
+                    "DESCRIPTION": "删除了条件 '{name}' 在 '{category}'"
+                },
+                "UPDATE_CONDITION": {
+                    "TITLE": "更新了一个条件",
+                    "DESCRIPTION": "更新了条件 '{name}' 在 '{category}'"
+                },
+                "CREATE_BULLETIN": {
+                    "TITLE": "创建了一个公告",
+                    "DESCRIPTION": "创建了公告 '{title}'"
+                },
+                "DELETE_BULLETIN": {
+                    "TITLE": "删除了一个公告",
+                    "DESCRIPTION": "删除了公告，ID 为 {id}"
+                },
+                "PIN_BULLETIN": {
+                    "TITLE": "钉住一个公告",
+                    "DESCRIPTION": "钉住了公告，ID 为 {id}"
+                },
+                "UNPIN_BULLETIN": {
+                    "TITLE": "取消钉住公告",
+                    "DESCRIPTION": "取消钉住公告，ID 为 {id}"
+                },
+                "DELETE_TAG": {
+                    "TITLE": "删除了一个标签",
+                    "DESCRIPTION": "删除了标签 '{name}'"
+                },
+                "UPDATE_PROFILE": {
+                    "TITLE": "更新了一个档案",
+                    "DESCRIPTION": "更新了 {name} 的档案"
+                },
+                "CREATE_REPORT": {
+                    "TITLE": "创建了一个报告",
+                    "DESCRIPTION": "为 {patient} 创建了一个 {type} 报告 '{title}'，ID 为 {id}"
+                },
+                "UPDATE_REPORT": {
+                    "TITLE": "更新了一个报告",
+                    "DESCRIPTION": "更新了 ID 为 {id} 的 {type} 报告 '{title}'"
+                }
+            }
+        }
+    }
+}

@@ -10,6 +10,8 @@
 
     "APP_NAMES": {
         "Police": "Polis",
+        "Ambulance": "Sjukvården",
+        "Registration": "Registration",
         "Notes": "Anteckningar",
         "Browser": "Webbläsare",
         "Settings": "Inställningar",
@@ -66,6 +68,7 @@
             "SOUND_HAPTICS_DESCRIPTION": "Ändra ljud och vibrationer",
             "SOUND_HAPTICS_PATTERNS": "Ljud och haptikmönster",
             "RINGTONE": "Ringsignal",
+            "RINGTONE_VOLUME": "Ringsignalsvolym",
             "TEXT_TONE": "Meddelandesignal",
             "DEFAULT": "Standard",
             "PHONE_STORAGE": "Utrymme surfplatta",
@@ -80,6 +83,7 @@
             "AUTOMATIC": "Automatisk",
             "BRIGHTNESS": "Ljusstyrka",
             "FRAME_COLOR": "Skal färg",
+            "TABLET_SCALE": "Surfplattaskal",
             "WALLPAPER": "Bakgrundsbild",
             "WALLPAPER_DESCRIPTION": "Ändra bakgrundsinställningar",
             "WALLPAPERS": "Bakgrundsbilder",
@@ -89,7 +93,7 @@
             "ALLOW_NOTIFICATIONS": "Tillåt aviseringar",
             "SOUNDS": "Ljud",
             "CLOUD_BACKUP": "Molnbaserad säkerhetskopiering",
-            "YOUR_PROFILE": "Konto",
+            "YOUR_PROFILE": "Din Profil",
             "SUCCESS": "Lyckades",
             "SUCCESS_TEXT": "Surfplattan startas om inom 5 sekunder...",
             "OK": "OK",
@@ -360,6 +364,7 @@
             "DISABLE_CALLS": "Inaktivera samtal",
             "ENABLE_CALLS": "Aktivera samtal",
             "BALANCE": "Saldo",
+            "CURRENT_BALANCE": "Current balance of the company",
             "MANAGE_EMPLOYEES": "Hantera anställda",
             "HIRE": "Anställ",
             "SET_GRADE": "Ställ in grad",
@@ -371,6 +376,22 @@
 
             "PERSONAL": "Personlig",
             "JOB": "Jobb",
+            "PLACEHOLDER": "Textmeddelande",
+            "NOT_DELIVERED": "Ej levererad",
+            "SENT_LOCATION": "Delade sin plats, klicka för att öppna i kartan",
+            "SENT_LOCATION_SHORT": "Delade sin plats",
+            "SEND_LOCATION_POPUP": {
+                "TITLE": "Dela plats",
+                "TEXT": "Vill du dela din plats?",
+                "CANCEL": "Avbryt",
+                "SEND": "Skicka"
+            },
+            "DELETE_CONVERSATION": {
+                "TITLE": "Radera konversation",
+                "DESCRIPTION": "Är du säker på att du vill radera detta konversation?",
+                "CANCEL": "Avbryt",
+                "DELETE": "Radera"
+            },
 
             "DEPOSIT_POPUP": {
                 "TITLE": "Insättning",
@@ -390,14 +411,14 @@
             "HIRE_POPUP": {
                 "TITLE": "Anställ",
                 "DESCRIPTION": "Anställ ny person",
-                "PLACEHOLDER": "ID",
+                "PLACEHOLDER": "Personnummer",
                 "CANCEL": "Avbryt",
                 "PROCEED": "Fortsätt"
             },
             "FIRE_POPUP": {
                 "TITLE": "Sparka",
                 "DESCRIPTION": "Är du säker på att du vill sparka {name}?",
-                "PLACEHOLDER": "ID",
+                "PLACEHOLDER": "Personnummer",
                 "CANCEL": "Avbryt",
                 "PROCEED": "Fortsätt"
             }
@@ -414,8 +435,13 @@
             "OK": "OK",
             "ADD": "Lägg till",
             "NEW": "Ny",
+            "PROCEED": "Forsätt",
+            "YES": "Ja",
+            "NO": "Nej",
+            "ALL": "Alla",
 
-            "SEARCH_FOR": "Sök efter {query} för att komma igång",
+            "SEARCH": "Sök",
+            "SEARCH_FOR": "Sök efter {query}",
             "NO_RESULTS_FOR": "Inga resultat hittas för '{query}'",
             "CLEAR_HISTORY": "Rensa historik",
 
@@ -445,22 +471,31 @@
                     "DELETE": "Radera"
                 },
                 "RECENT_WARRANTS": "Senaste efterlysningarna",
-                "ACTIVE_UNITS": "Aktiva enheter"
+                "ACTIVE_UNITS": "Tillgängliga enheter"
             },
 
             "DISPATCH": {
-                "TITLE": "Enhet",
-                "TOGGLE_OFFICERS": "Växla tjänstepersoner",
-                "TOGGLE_ALARMS": "Växla larm",
-                "OFFICERS": "Tjänstepersoner",
+                "TITLE": "RLC",
+                "SHOW_OFFICERS": "Visa kollegor",
+                "SHOW_EMPLOYEES": "Visa anställda",
+                "SHOW_ALARMS": "Visa larm",
+                "OPTIONS": "Inställningar",
+                "OFFICERS": "Kollegor",
                 "ALARMS": "Larm",
 
                 "RESPOND": "Svara",
+                "RESPONDED": "Besvarad",
                 "COLLAPSE": "Minimera",
                 "EXPAND": "Expandera",
-                "DISMISS": "Avfärda",
+                "DISMISS": "Ta bort",
                 "VIEW_IN_TABLET": "Se i surfplattan",
                 "SET_WAYPOINT": "Ställ in GPS",
+                "LOS_SANTOS": "Los Santos",
+                "CAYO_PERICO": "Cayo Perico",
+                "OLD_NOTIFICATION": "{count} gammalt larm",
+                "OLD_NOTIFICATIONS": "{count} gamla larm",
+                "NEW_NOTIFICATION": "{count} nytt larm",
+                "NEW_NOTIFICATIONS": "{count} nya larm",
 
                 "PRIORITY": {
                     "HIGH": "Hög",
@@ -470,14 +505,24 @@
 
                 "JUST_NOW": "Nyss",
                 "MINUTES_AGO": "{minutes}m sen",
-                "HOURS_AGO": "{hours}h sen"
+                "HOURS_AGO": "{hours}h sen",
+                "REMOVE_ALARM": {
+                    "TITLE": "Ta bort larm",
+                    "DESCRIPTION": "Är du säker på att du vill ta bort larmet? (Detta kommer att ta bort larmet för alla anställda)",
+                    "CANCEL": "Avbryt",
+                    "REMOVE": "Radera"
+                },
+                "REMOVE_FOR_YOURSELF": "Ta bort för dig själv",
+                "REMOVE_FOR_EVERYONE": "Ta bort för alla"
             },
 
             "PROFILES": {
                 "TITLE": "Profil",
                 "PERSON": "Person",
                 "SEARCH": "Sök efter profiler",
-                "REMOVE_AVATAR": "Radera avatar",
+                "REMOVE_AVATAR": "Radera bild",
+                "IDENTIFIER": "Id",
+                "FINGERPRINT": "Fingeravtryck",
                 "DOB": "Födelsedatum",
                 "PHONE_NR": "Telefonnummer",
                 "GENDER": "Kön",
@@ -501,7 +546,7 @@
                 },
 
                 "ADD_AVATAR": {
-                    "TITLE": "Lägg till avatar",
+                    "TITLE": "Lägg till bild",
                     "SET_PHOTO": "Välj bild",
                     "PASTE_URL": "Klistra in URL",
                     "PASTE_URL_DESCRIPTION": "Ange URL till en bild",
@@ -519,7 +564,15 @@
                 "REPORTS": "Avrapporteringar",
                 "NO_REPORTS": "Inga avrapporteringar",
                 "CASES": "Ärenden",
-                "NO_CASES": "Inga ärenden"
+                "NO_CASES": "Inga ärenden",
+                "WEAPON": "Vapen",
+                "NO_WEAPONS": "Inga vapen",
+                "WARRANTS": "Efterlysningar",
+                "NO_WARRANTS": "Inga efterlysningar",
+                "ACTIVE_WARRANTS": "Aktiva efterlysningar",
+                "INVOLVED": "Involverad",
+                "CHARGES": "Åtalspunkter",
+                "NO_CHARGES": "Inga åtalspunkter"
             },
 
             "VEHICLES": {
@@ -552,7 +605,69 @@
                 "WAYPOINT_SET": "GPS inställd",
                 "WAYPOINT_SET_DESCRIPTION": "GPS:en är inställd på fordonets plats",
                 "CASES": "Ärenden",
-                "NO_CASES": "Inga ärenden"
+                "NO_CASES": "Inga ärenden",
+                "WARRANTS": "Efterlysningar",
+                "NO_WARRANTS": "Inga efterlysningar",
+                "ACTIVE_WARRANTS": "Aktiva efterlysningar"
+            },
+            "PROPERTIES": {
+                "TITLE": "Fastigheter",
+                "PROPERTY": "Egendom",
+                "SEARCH": "Sök",
+                "REMOVE_PICTURE": "Ta bort bild",
+                "DETAILS": "Detaljer",
+                "ADD_PHOTO": {
+                    "TITLE": "Lägg till bild",
+                    "SELECT_PHOTO": "Välj bild",
+                    "PASTE_URL": "Klistra in URL",
+                    "PASTE_URL_DESCRIPTION": "Klistra in URL till en bild",
+                    "PASTE_URL_PLACEHOLDER": "Bildens URL",
+
+                    "INVALID_URL": "Ogiltig URL",
+                    "INVALID_URL_DESCRIPTION": "URL-länken du har angett är inte en giltig URL",
+                    "OK": "OK"
+                },
+                "LABEL": "Märkning",
+                "ADDRESS": "Address",
+                "OWNER": "Ägare",
+                "LOCATION": "Plats",
+                "OPEN_IN_MAPS": "Öppna i kartan",
+                "NOTES": "Noteringar",
+                "NOTES_PLACEHOLDER": "Skriv dina noteringar här..."
+            },
+            "WEAPONS": {
+                "TITLE": "Vapen",
+                "WEAPON": "Vapen",
+                "SEARCH": "Sök efter vapen",
+                "REMOVE_PICTURE": "Ta bort bild",
+                "DETAILS": "Detaljer",
+                "ADD_PHOTO": {
+                    "TITLE": "Lägg till bild",
+                    "SELECT_PHOTO": "Välj bild",
+                    "PASTE_URL": "Klistra in URL",
+                    "PASTE_URL_DESCRIPTION": "Klistra in URL till en bild",
+                    "PASTE_URL_PLACEHOLDER": "Bildens URL",
+
+                    "INVALID_URL": "Ogiltig URL",
+                    "INVALID_URL_DESCRIPTION": "URL-länken du har angett är inte en giltig URL",
+                    "OK": "OK"
+                },
+                "MODEL_MAKE": "Modellnamn / Tillverkare",
+                "SERIAL_NUMBER": "Serienummer",
+                "NOTES": "Noteringar",
+                "NOTES_PLACEHOLDER": "Skriv dina noteringar här...",
+                "LINKED_REPORTS": "Länkade avrapporteringar",
+                "NO_LINKED_REPORTS": "Inga länkade avrapporteringar",
+                "LINKED_CASES": "Länkade ärenden",
+                "NO_LINKED_CASES": "Inga länkade ärenden",
+                "UNREGISTERED": "Oregistrerad",
+                "OWNER": "Ägare",
+                "SELECT_MODEL": "Välj modell",
+                "SELECT_OWNER": "Välj ägare",
+                "DELETE_WEAPON": {
+                    "TITLE": "Radera vapen",
+                    "DESCRIPTION": "Är du säker på att du vill radera detta vapen?"
+                }
             },
 
             "REPORTS": {
@@ -566,6 +681,12 @@
                 "DESCRIPTION_PLACEHOLDER": "Ange en beskrivning...",
                 "GALLERY": "Galleri",
                 "NO_ATTACHMENTS": "Inga bilagor",
+                "WEAPONS_INVOLVED": "Vapen inblandade",
+                "NO_WEAPONS_INVOLVED": "Inga vapen inblandade",
+                "REMOVE_WEAPON": {
+                    "TITLE": "Radera vapen",
+                    "DESCRIPTION": "Är du säker på att du vill ta bort vapnet från rapporten?"
+                },
                 "OFFICERS_INVOLVED": "Involverade tjänstepersoner",
                 "NO_OFFICERS_INVOLVED": "Inga tjänstepersoner involverade",
                 "REMOVE_OFFICER": {
@@ -578,13 +699,16 @@
                     "TITLE": "Ta bort civilperson",
                     "DESCRIPTION": "Är du säker på att du vill ta bort {name} från avrapporteringen?"
                 },
-                "SUSPECTS_INVOLVED": "Suspects Involved",
-                "NO_SUSPECTS_INVOLVED": "No Suspects Involved",
+                "SUSPECTS_INVOLVED": "Misstänkta involverade",
+                "NO_SUSPECTS_INVOLVED": "Inga misstänkta involverade",
                 "REMOVE_SUSPECT": {
                     "TITLE": "Ta bort misstänkt",
                     "DESCRIPTION": "Är du säker på att du vill ta bort {name} från avrapporteringen?"
                 },
-
+                "DELETE_REPORT": {
+                    "TITLE": "Ta bort avrapportering",
+                    "DESCRIPTION": "Är du säker på att du vill ta bort avrapporteringen?"
+                },
                 "ERROR": {
                     "TITLE": "Fel",
                     "NO_TYPE": "Du måste välja en avrapporteringstyp",
@@ -603,6 +727,7 @@
                 "DESCRIPTION_PLACEHOLDER": "Ange en beskrivning...",
                 "EVIDENCE": "Bevis",
                 "NO_EVIDENCE": "Inga bifogade bevis",
+                "OPEN_STASH": "Open Stash",
                 "VEHICLES_INVOLVED": "Involverade fordon",
                 "NO_VEHICLES_INVOLVED": "Inga fordon involverade",
                 "REMOVE_VEHICLE": {
@@ -628,10 +753,23 @@
                     "DESCRIPTION": "Är du säker på att du vill ta bort gärningsmannen från ärendet?"
                 },
                 "ADD_CHARGE": "Lägg till åtalspunkter",
-                "RECOMMENDED_FINE": "Rekommenderad böter ({currency})",
+                "RECOMMENDED_FINE": "Rekommenderad böter ({amount})",
                 "RECOMMENDED_SENTENCE": "Rekommenderat straff (i månader)",
-                "FINE": "Böter ({currency})",
+                "FINE": "Böter ({amount})",
                 "SENTENCE": "Straff (i månader)",
+                "SEND_FINE": {
+                    "TITLE": "Skicka böter",
+                    "DESCRIPTION": "Vill du skicka {fine} böter till {name}?"
+                },
+                "JAIL_PLAYER": {
+                    "TITLE": "Fängsla",
+                    "DESCRIPTION": "Vill du skicka {name} till fängelse i {sentence} månader?",
+                    "JAILED_DESCRIPTION": "Fängslad automatiskt för {charges}"
+                },
+                "DELETE_CASE": {
+                    "TITLE": "Ta bort ärende",
+                    "DESCRIPTION": "Är du säker på att du vill ta bort detta ärende?"
+                },
 
                 "ERROR": {
                     "TITLE": "Fel",
@@ -659,24 +797,83 @@
                 "NO_ATTACHMENTS": "Inga bilagor",
                 "LINKED_REPORTS": "Länkade avrapporteringar",
                 "NO_LINKED_REPORTS": "Inga länkade avrapporteringar",
+                "SELECT_VEHICLE": "Välj fordon",
+                "NO_VEHICLE_SELECTED": "Inget fordon valt",
+                "SELECT_PERSON": "Välj person",
+                "NO_PERSON_SELECTED": "Ingen person vald",
+                "ACTIVE": "Aktiv",
+                "INACTIVE": "Inaktiv",
+                "CLOSED": "Avslutad",
                 "REMOVE_REPORT": {
                     "TITLE": "Radera avrapportering",
                     "DESCRIPTION": "Är du säker på att du vill radera avrapporteringen från efterlysningen?"
                 },
+                "DELETE_WARRANT": {
+                    "TITLE": "Ta bort efterlysning",
+                    "DESCRIPTION": "Är du säker på att du vill ta bort efterlysningen?"
+                },
                 "ERROR": {
-                    "TITLE": "Error",
+                    "TITLE": "Fel",
                     "TITLE_LENGTH": "Titeln måste vara minst 3 tecken lång",
                     "DESCRIPTION_LENGTH": "Beskrivningen måste vara minst 10 tecken lång",
                     "NO_TYPE": "Du måste välja en efterlysningstyp",
+                    "NO_TARGET": "Du måste välja en mål för efterlysningen",
                     "OK": "OK"
                 }
             },
 
             "OFFENCES": {
-                "TITLE": "Strafföreläggande",
-                "NO_OFFENCES_FOUND": "Inga strafföreläggningar hittades",
+                "TITLE": "Brott",
+                "SEARCH": "Sök efter brott",
                 "MONTHS": "{amount} Månader",
-                "FINE": "{amount} Böter"
+                "FINE": "{amount} Böter",
+
+                "SELECT_SEVERITY": "Välj allvarlighet",
+                "SEVERITIES": {
+                    "INFRACTION": "Överträdelse",
+                    "MISDEMEANOR": "Misdemeanor",
+                    "FELONY": "Brott"
+                },
+                "NO_OFFENCES_FOUND": "Inget brott hittades",
+                "ADD_OFFENCE": {
+                    "TITLE": "Lägg till brott",
+                    "DESCRIPTION": "Skapa ett nytt brott",
+                    "PLACEHOLDER": "Skriv i åtalspunkt",
+                    "DESCRIPTION_PLACEHOLDER": "Beskrivning..."
+                },
+                "EDIT_OFFENCE": {
+                    "TITLE": "Redigera brott",
+                    "DESCRIPTION": "Redigera brottet"
+                },
+                "SET_JAILTIME": {
+                    "TITLE": "Rekommenderad fängelsetid",
+                    "DESCRIPTION": "Ställ in den rekommenderade fängelsetiden för GM",
+                    "PLACEHOLDER": "Rekommenderad fängelsetid (in months) (0 for fine only)"
+                },
+                "SET_FINE": {
+                    "TITLE": "Rekommenderad böter",
+                    "DESCRIPTION": "Ställ in den rekommenderade bötesbeloppet för brottet",
+                    "PLACEHOLDER": "Rekommenderat bötesbelopp (0 for jail time only)"
+                },
+
+                "DELETE_OFFENCE": {
+                    "TITLE": "Ta bort brott",
+                    "DESCRIPTION": "Är du säker att du vill ta bort detta brott?"
+                },
+                "ADD_CATEGORY": {
+                    "TITLE": "Lägg till kategori",
+                    "DESCRIPTION": "Lägg till en ny kategori i brottslistan",
+                    "PLACEHOLDER": "Ange kategorinamnet"
+                },
+                "EDIT_CATEGORY": {
+                    "TITLE": "Redigera kategori",
+                    "DESCRIPTION": "Redigera kategoriens detaljer",
+                    "PLACEHOLDER": "Ange det nya kategorinamnet"
+                },
+                "DELETE_CATEGORY": {
+                    "TITLE": "Ta bort kategori",
+                    "DESCRIPTION": "Är du säker att du vill ta bort denna kategori?"
+                }
             },
 
             "EMPLOYEES": {
@@ -690,12 +887,14 @@
                 "PLACEHOLDER": "Skicka ett meddelande...",
                 "JOINED_CHATS": "Dina chattar",
                 "PUBLIC_CHATS": "Offentliga chattar",
+                "JOINED": "Gått med",
+                "PUBLIC": "Öppen",
                 "PRIVATE_CHATS": "Privata chattar",
-                "ROOM_ID": "Room ID: {id}",
-                "TOGGLE_PRIVATE": "Toggle Private",
-                "CHANGE_AVATAR": "Change Avatar",
-                "SET_AVATAR": "Set Avatar",
-                "REMOVE_AVATAR": "Remove Avatar",
+                "ROOM_ID": "Rum ID: {id}",
+                "TOGGLE_PRIVATE": "Växla privat",
+                "CHANGE_AVATAR": "Ändra bild",
+                "SET_AVATAR": "Välj bild",
+                "REMOVE_AVATAR": "Ta bort bild",
                 "MANAGE": "Hantera",
                 "LEAVE": {
                     "TITLE": "Lämna",
@@ -712,7 +911,7 @@
                     "PLACEHOLDER": "Chattrum namn",
                     "CREATE": "Skapa",
                     "SET_VISIBILITY": "Ändra synlighet",
-                    "PUBLIC": "Offentlig",
+                    "PUBLIC": "Öppen",
                     "PRIVATE": "Privat"
                 },
                 "JOIN_CHAT": {
@@ -724,8 +923,8 @@
                     "TITLE": "Fel",
                     "FAILED_JOIN": "Misslyckades med att gå med i chattrummet",
                     "FAILED_INVITE": "Misslyckades med att bjuda in {name} till chattrummet",
-                    "FAILED_SET_AVATAR": "Failed to set the chatroom avatar",
-                    "FAILED_REMOVE_AVATAR": "Misslyckades med att radera chattrummets avatar",
+                    "FAILED_SET_AVATAR": "Misslyckades att sätta chattrummets bild",
+                    "FAILED_REMOVE_AVATAR": "Misslyckades med att radera chattrummets bild",
                     "FAILED_GET_MEMBERS": "Misslyckades med att hämta medlemmar från chattrummet",
                     "FAILED_KICK": "Misslyckades med att sparka {name} från chattrummet",
                     "FAILED_LEAVE": "Misslyckades med att lämna chattrummet"
@@ -748,7 +947,7 @@
             "JAIL": {
                 "TITLE": "Fängelse",
                 "SEARCH": "Sök efter intagna",
-                "JAILED_PERSON": "Fängslad person",
+                "JAILED_PERSON": "Intagen",
                 "JAILED_BY": "Fängslad av",
                 "JAILED_BY_NAME": "Fängslad av {name}",
                 "REMAINING_TIME": "Återstående tid",
@@ -773,8 +972,8 @@
                     "DESCRIPTION": "Fyll i uppgifterna nedan för att fängsla {name}",
                     "SENTENCE_PLACEHOLDER": "Straff (i minuter)",
                     "REASON_PLACEHOLDER": "Anledning",
-                    "JAIL_WITH_INCIDENT": "Fängsla med länkad incident",
-                    "JAIL_WITHOUT_INCIDENT": "Fängsla utan länkad incident",
+                    "JAIL_WITH_CASE": "Fängsla med länkad incident",
+                    "JAIL_WITHOUT_CASE": "Fängsla utan länkad incident",
                     "PROCEED": "Fortsätt"
                 },
                 "UNJAIL_PERSON": {
@@ -790,17 +989,18 @@
 
             "LOGS": {
                 "TITLE": "Loggar",
+                "SEARCH": "Sök loggar",
                 "FILTER": "Filtrera",
                 "CREATED": "Skapad",
                 "UPDATED": "Uppdaterad",
                 "DELETED": "Raderad",
                 "VIEW_FOOTER": "Se {type} ({id})",
                 "TAG_TYPES": {
-                    "PROFILE": "profil",
-                    "VEHICLE": "fordon",
-                    "REPORT": "avrapportering",
-                    "WARRANT": "efterlysning",
-                    "INCIDENT": "incident"
+                    "PROFILE": "Profil",
+                    "VEHICLE": "Fordon",
+                    "REPORT": "Avrapportering",
+                    "WARRANT": "Efterlysning",
+                    "INCIDENT": "Incident"
                 },
 
                 "CREATE_TAG_TITLE": "Skapade en tagg",
@@ -811,10 +1011,16 @@
                 "UPDATE_PROFILE_DESCRIPTION": "Uppaderade {name}'s profil",
                 "UPDATE_VEHICLE_TITLE": "Uppdaterade en fordonsbeskrivning",
                 "UPDATE_VEHICLE_DESCRIPTION": "Uppdaterade fordonets {plate}",
+                "UPDATE_PROPERTY_TITLE": "Uppdaterade en fastighet",
+                "UPDATE_PROPERTY_DESCRIPTION": "Uppdaterade en fastighet",
+                "UPDATE_WEAPON_TITLE": "Uppdaterade ett vapen",
+                "UPDATE_WEAPON_DESCRIPTION": "Uppdaterade ett vapen med serienummer {serial}",
                 "CREATE_REPORT_TITLE": "Skapade en avrapportering",
                 "CREATE_REPORT_DESCRIPTION": "Skapade en {type} avrapportering med titeln \"{title}\"",
                 "UPDATE_REPORT_TITLE": "Uppdaterade en avrapportering",
                 "UPDATE_REPORT_DESCRIPTION": "Uppdaterade {type} avrapportering med titeln \"{title}\"",
+                "DELETE_REPORT_TITLE": "Raderade en avrapportering",
+                "DELETE_REPORT_DESCRIPTION": "Raderade en avrapportering med ID {id}",
                 "ISSUED_LICENSE_TITLE": "Utfärdade en licens",
                 "ISSUED_LICENSE_DESCRIPTION": "Utfärdade en licens {license} till {name}",
                 "REVOKED_LICENSE_TITLE": "Återkallade en licens",
@@ -834,7 +1040,9 @@
                 "CREATE_CASE_TITLE": "Skapade ett ärende",
                 "CREATE_CASE_DESCRIPTION": "Skapade ett ärende med titeln \"{title}\"",
                 "UPDATE_CASE_TITLE": "Uppdaterade ett ärende",
-                "UPDATE_CASE_DESCRIPTION": "Uppdaterade ett ärende med titeln \"{title}\""
+                "UPDATE_CASE_DESCRIPTION": "Uppdaterade ett ärende med titeln \"{title}\"",
+                "DELETE_CASE_TITLE": "Raderade ett ärende",
+                "DELETE_CASE_DESCRIPTION": "Raderade ett ärende med ID {id}"
             },
 
             "TAGS": {
@@ -869,14 +1077,333 @@
                 "HOURS": "{hours}h",
                 "DAYS": "{days}d",
                 "FORMATTED_DATE": "{day} {month} {year} at {hours}:{minutes}",
-                "CHANGE_AVATAR": "Byt avatar",
-                "REMOVE_AVATAR": "Ta bort avatar",
+                "CHANGE_AVATAR": "Byt bild",
+                "REMOVE_AVATAR": "Ta bort bild",
+                "SET_CALLSIGN": "Set Callsign",
                 "CALLSIGN": {
                     "TITLE": "Anropssignal",
                     "DESCRIPTION": "Ange en anropssignal",
                     "CANCEL": "Avbryt",
                     "PROCEED": "Fortsätt"
                 }
+            }
+        },
+        "AMBULANCE": {
+            "TITLE": "St:Glenns Sjukhus",
+
+            "SEARCH": "Sök",
+            "CANCEL": "Avbryt",
+            "CLOSE": "Stäng",
+            "BACK": "Bakåt",
+            "EDIT": "Redigera",
+            "DELETE": "Ta bort",
+            "REMOVE": "Radera",
+            "SAVE": "Spara",
+            "CREATE": "Skapa",
+            "PROCEED": "Fortsätt",
+            "OK": "OK",
+            "ADD": "Lägg till",
+            "NEW": "Ny",
+
+            "SEARCH_FOR": "Sök efter {query}",
+            "NO_RESULTS_FOR": "Inga resultat för '{query}'",
+            "CLEAR_HISTORY": "Rensa historik",
+
+            "HOME": {
+                "TITLE": "Hem",
+                "CREATE": "Skapa",
+
+                "RECENT_REPORTS": "Senaste journal",
+                "REPORT_FOOTER": "{timestamp} - {author}",
+                "BULLETIN_BOARD": "Anslagstavla",
+                "PIN": "Pinna",
+                "UNPIN": "Avpinna",
+                "SEARCH_BULLETIN": "Sök anslagstavla",
+                "SEARCH_UNITS": "Sök enheter",
+                "ADD_BULLETIN": {
+                    "TITLE": "Lägg till anslagstavla",
+                    "DESCRIPTION": "Skapa nytt inlägg på anslagstavla",
+                    "PLACEHOLDER": "Titel",
+                    "CONTENT": "Innehåll",
+                    "CANCEL": "Avbryt",
+                    "PROCEED": "Fortsätt"
+                },
+                "DELETE_BULLETIN": {
+                    "TITLE": "Ta bort anslagstavla",
+                    "DESCRIPTION": "Är du säker på att du vill ta bort detta inlägg",
+                    "CANCEL": "Avbryt",
+                    "DELETE": "Ta bort"
+                },
+                "ACTIVE_UNITS": "Tillgängliga enheter"
+            },
+
+            "DISPATCH": {
+                "TITLE": "Larmcentral",
+                "TOGGLE_EMPLOYEES": "Se anställda",
+                "TOGGLE_ALARMS": "Växla larm",
+                "EMPLOYEES": "Personal",
+                "ALARMS": "Larm",
+
+                "RESPOND": "Svara på larm",
+                "RESPONDED": "Besvarad",
+                "COLLAPSE": "Collapse",
+                "EXPAND": "Expandera",
+                "DISMISS": "Avvisa",
+                "VIEW_IN_TABLET": "Visa i paddan",
+                "SET_WAYPOINT": "Sätt Vägbeskrivning",
+                "OLD_NOTIFICATION": "{count} gammalt larm",
+                "OLD_NOTIFICATIONS": "{count} gamla larm",
+                "NEW_NOTIFICATION": "{count} nytt larm",
+                "NEW_NOTIFICATIONS": "{count} nya larm",
+
+                "PRIORITY": {
+                    "HIGH": "Hög",
+                    "MEDIUM": "Medel",
+                    "LOW": "Låg"
+                },
+
+                "JUST_NOW": "Just nu",
+                "MINUTES_AGO": "{minutes}m sedan",
+                "HOURS_AGO": "{hours}h sedan"
+            },
+
+            "JOURNALS": {
+                "TITLE": "Patienter",
+                "PROFILES": "Profiler",
+                "PERSON": "Personer",
+                "SEARCH": "Sök profiler",
+                "REMOVE_AVATAR": "Ta bort bild",
+                "IDENTIFIER": "Id",
+                "FINGERPRINT": "Fingeravtryck",
+                "DOB": "Födelsedatum",
+                "PHONE_NR": "Telefonnummer",
+                "GENDER": "Kön",
+                "JOB": "Arbete",
+                "MALE": "Man",
+                "FEMALE": "Kvinna",
+                "HEIGHT": "Längd",
+                "HEIGHT_FORMAT": "{height}cm",
+                "BLOOD_TYPE": "Blodtyp",
+                "NOTES": "Noteringar",
+                "NOTES_PLACEHOLDER": "Ange anteckning...",
+                "DIAGNOSES_DISEASES": "Diagnoser / Sjukdomar",
+                "NO_DIAGNOSES": "Inga Diagnoser / Sjukdomar",
+                "REPORTS": "Patienter",
+                "NO_REPORTS": "Inga Patienter",
+
+                "ADD_AVATAR": {
+                    "TITLE": "Lägg till bild",
+                    "SET_PHOTO": "Välj foto",
+                    "PASTE_URL": "Klistra in URL",
+                    "PASTE_URL_DESCRIPTION": "Klistra in URL",
+                    "PASTE_URL_PLACEHOLDER": "URL",
+
+                    "INVALID_URL": "Ogiltig URL",
+                    "INVALID_URL_DESCRIPTION": "URL-länken du har angett är inte en giltig URL",
+                    "OK": "OK"
+                }
+            },
+
+            "REPORTS": {
+                "TITLE": "Journaler",
+                "REPORT": "Journal",
+                "SEARCH": "Sök Journaler",
+                "FOOTER": "{author} - Journal ID: {id}",
+                "NEW_REPORT_TITLE": "Ny journal",
+                "TYPE": "Typ",
+                "DESCRIPTION": "Beskrivning",
+                "DESCRIPTION_PLACEHOLDER": "Ange en beskrivning...",
+                "GALLERY": "Galleri",
+                "NO_ATTACHMENTS": "Ingen bilaga",
+                "INJURIES_CONDITIONS": "Skador / Skick",
+                "NO_INJURIES": "Inga skador / Skick",
+                "DOCTORS_INVOLVED": "Läkare involverade",
+                "NO_DOCTORS_INVOLVED": "Inga läkare involverade",
+                "ADD_PATIENT": "Lägg till patient",
+
+                "REMOVE_INJURY": {
+                    "TITLE": "Ta bort skada",
+                    "DESCRIPTION": "Är du säker på att du vill ta bort skada från rapporten?"
+                },
+                "REMOVE_DOCTOR": {
+                    "TITLE": "Ta bort läkare",
+                    "DESCRIPTION": "Är du säker att du vill ta bort {name} från rapporten?"
+                },
+
+                "ERROR": {
+                    "TITLE": "Fel",
+                    "NO_TYPE": "Du måste välja en rapporttyp",
+                    "TITLE_LENGTH": "Titeln måste vara minst 3 tecken lång",
+                    "DESCRIPTION_LENGTH": "Beskrivningen måste vara minst 10 tecken lång"
+                }
+            },
+
+            "EMPLOYEES": {
+                "TITLE": "Anställda",
+                "SEARCH": "Sök Anställda"
+            },
+
+            "CHAT": {
+                "TITLE": "Chatt",
+                "SEARCH": "Sök Chattar",
+                "PLACEHOLDER": "Skicka ett meddelande...",
+                "JOINED_CHATS": "Chattar",
+                "PUBLIC_CHATS": "Öppna chatrrum",
+                "JOINED": "Gått med",
+                "PUBLIC": "Öppen",
+                "PRIVATE_CHATS": "Privata Chattar",
+                "ROOM_ID": "Rum ID: {id}",
+                "TOGGLE_PRIVATE": "Växla privat",
+                "CHANGE_AVATAR": "Ändra bild",
+                "SET_AVATAR": "Välj bild",
+                "REMOVE_AVATAR": "Ta bort bild",
+                "MANAGE": "Hantera",
+                "LEAVE": {
+                    "TITLE": "Lämna",
+                    "DESCRIPTION": "Är du säker på att du vill lämna chattrummet?"
+                },
+                "KICK": {
+                    "TITLE": "Ta bort",
+                    "DESCRIPTION": "Är du säker på att du vill ta bort {name} från chattrummet?"
+                },
+
+                "CREATE_CHATROOM": {
+                    "TITLE": "Skapa chattrum",
+                    "DESCRIPTION": "Skriv in ett namn för chattrummet",
+                    "PLACEHOLDER": "Chattrummets namn",
+                    "CREATE": "Skapa",
+                    "SET_VISIBILITY": "Välj synlighet",
+                    "PUBLIC": "Öppen",
+                    "PRIVATE": "Privat"
+                },
+                "JOIN_CHAT": {
+                    "TITLE": "Gå med i chatt",
+                    "DESCRIPTION": "Är du säker att du vill gå med i {channel}?",
+                    "JOIN": "Gå med"
+                },
+                "ERROR": {
+                    "TITLE": "Fel",
+                    "FAILED_JOIN": "Det gick inte att gå med i chattrum",
+                    "FAILED_INVITE": "Det gick inte att bjuda in {name} till chattrummet",
+                    "FAILED_SET_AVATAR": "Det gick inte att ställa in chattrummets bild",
+                    "FAILED_REMOVE_AVATAR": "Det gick inte att ta bort chattrummets bild",
+                    "FAILED_GET_MEMBERS": "Det gick inte att se chattrumsmedlemmar",
+                    "FAILED_KICK": "Misslyckades med att ta bort {name} från chattrummet",
+                    "FAILED_LEAVE": "Det gick inte att lämna chattrummet"
+                },
+                "SUCCESS": {
+                    "TITLE": "Success",
+                    "INVITED": "Du har bjudit in {name} till chattrummet",
+                    "KICKED": "Du har sparkat {name} från chattrummet"
+                }
+            },
+
+            "CONDITIONS": {
+                "TITLE": "Symptomer",
+                "CONDITION": "Symptom",
+                "SEARCH": "Sök Symptomer",
+
+                "SELECT_SEVERITY": "Välj Allvarighetsgrad",
+                "SEVERITIES": {
+                    "MINOR": "Mindre",
+                    "MODERATE": "Måttlig",
+                    "SEVERE": "Svår",
+                    "CRITICAL": "Kritisk"
+                },
+                "NO_CONDITIONS_FOUND": "Inga symptomer hittades",
+                "ADD_CONDITION": {
+                    "TITLE": "Lägg till Symptomer",
+                    "DESCRIPTION": "Skapa ny symptom",
+                    "PLACEHOLDER": "Ange namnet på symptomen"
+                },
+                "DELETE_CONDITION": {
+                    "TITLE": "Ta bort symptom",
+                    "DESCRIPTION": "Är du säker på att du vill ta bort denna symptom?"
+                },
+                "ADD_CATEGORY": {
+                    "TITLE": "Lägg till kategori",
+                    "DESCRIPTION": "Lägg till en ny kategori till symptomlistan",
+                    "PLACEHOLDER": "Ange kategorinamnet"
+                },
+                "DELETE_CATEGORY": {
+                    "TITLE": "Ta bort kategori",
+                    "DESCRIPTION": "Är du säker på att du vill ta bort den här kategorin?"
+                }
+            },
+
+            "LOGS": {
+                "TITLE": "Logs"
+            }
+        },
+        "BROWSER": {
+            "TITLE": "Webbläsare",
+            "SEARCH_PLACEHOLDER": "Sök eller skriv klistra in en URL",
+            "FAILED_LOAD_PAGE": "Det gick inte att ladda in sidan, försök igen."
+        },
+        "REGISTRATION": {
+            "TITLE": "Registrering",
+            "SELECT_CHARACTER": "Välj karaktär",
+            "PLEASE_SELECT_CHARACTER": "Vänligen välj en karaktär",
+            "CREATE_NEW": "Skapa ny",
+            "EDIT": "Redigera",
+            "SAVE": "Spara",
+            "DELETE": "Radera",
+            "CANCEL": "Avbryt",
+            "DELETE_CHARACTER": "Radera karaktär",
+            "DESCRIPTION": "Beskrivning",
+            "DESCRIPTION_PLACEHOLDER": "Det här är en beskrivning...",
+            "ADD": "Lägg till",
+
+            "CHARACTER_INFO": "Karaktärs information",
+            "REMOVE_AVATAR": "Ta bort bild",
+            "FIRSTNAME": "Förnamn",
+            "LASTNAME": "Efternamn",
+            "DOB": "Födelsedatum",
+            "PHONE_NUMBER": "Telefonnummer",
+            "GENDER": "Kön",
+            "MALE": "Man",
+            "FEMALE": "Kvinna",
+            "JOB": "Arbete",
+            "HEIGHT": "Längd",
+            "FORMATTED_HEIGHT": "{height}cm",
+
+            "VEHICLES": "Fordon",
+            "VEHICLE": "Fordon",
+            "REMOVE_PICTURE": "Ta bort bild",
+            "SEARCH_VEHICLES": "Sök Fordon",
+            "MODEL": "Modell",
+            "PLATE": "Registreringsnummer",
+            "COLOR": "Färg",
+            "CREATE": "Skapa",
+            "DELETE_VEHICLE": "Radera Fordon",
+            "DELETE_VEHICLE_POPUP": {
+                "TITLE": "Radera Fordon",
+                "DESCRIPTION": "Är du säker att du vill radera detta fordon?"
+            },
+
+            "LICENSES": "Körkort",
+            "ADD_LICENSE": "Lägg till körkort",
+            "DELETE_LICENSE_POPUP": {
+                "TITLE": "Ta bort körkort",
+                "DESCRIPTION": "Är du säker att du vill ta bort körkortet?"
+            },
+
+            "PROPERTIES": "Fastigheter",
+            "ADD_PROPERTY_POPUP": {
+                "TITLE": "Ny fastighet",
+                "DESCRIPTION": "Skapa en ny fastighet",
+                "LABEL": "Fastighetsetikett",
+                "ADDRESS": "Fastighetsadress"
+            },
+            "DELETE_PROPERTY_POPUP": {
+                "TITLE": "Ta bort fastighet",
+                "DESCRIPTION": "Är du säker på att du vill ta bort den här fastigheten?"
+            },
+
+            "ERROR": {
+                "TITLE": "Fel",
+                "MISSING_FIELDS": "Du saknar följande fält: {fields}",
+                "OK": "OK"
             }
         }
     },
@@ -944,6 +1471,16 @@
             "COLOR": "Färg"
         }
     },
+    "SETUP": {
+        "HELLO": "Hej",
+        "SELECT_LANGUAGE": "Välj ditt språk",
+        "NEXT": "Klicka för att öppna",
+        "APPEARANCE": "Tema",
+        "APPEARANCE_TEXT": "Välj ett mörkt eller ljust tema för din enhet",
+        "CONTINUE": "Fortsätt",
+        "WELCOME_TO": "Välkommen",
+        "CLICK": "Klicka för att komma igång"
+    },
     "HOMESCREEN": {
         "DONE": "Klar",
         "CLOSE_ALL": "Stäng alla",
@@ -959,6 +1496,10 @@
         "FONT_AND_COLOR": "Teckensnitt och färg"
     },
     "MISC": {
+        "GENDERS": {
+            "MALE": "Man",
+            "FEMALE": "Kvinna"
+        },
         "AIRPLANE_MODE_POPUP": {
             "TITLE": "Fel",
             "DESCRIPTION": "Du försöker utföra en åtgärd som kräver internetåtkomst, inaktivera flygplatsläget för att fortsätta.",
@@ -992,20 +1533,12 @@
             }
         },
         "LOGS": {
-            "MAIL_TITLE": "E-post",
-            "NEW_MAIL": "{sender} skickade ett mail till {recipient}",
-            "MESSAGE_TITLE": "Meddelande",
-            "NEW_MESSAGE": "{sender} skickade ett meddelande till {recipient}: {message}",
-            "NEW_SERVICE_TITLE": "Nytt meddelande",
-            "NEW_SERVICE_CONTENT": "{sender} skickade ett meddelande {channel}: {message}",
-            "RECEIVED_TITLE": "Mottog {amount} kr",
-            "PAID_TITLE": "Betalade {amount} kr",
-            "TRANSACTION": "{number} genomförde en transaktion på {amount} kr till {company}",
-
             "TOOK_PHOTO": "Tog ett foto",
-            "TOOK_VIDEO": "Tog en video"
+            "TOOK_VIDEO": "Tog en video",
+            "NEW_DISPATCH": "Nytt larm: {title}"
         },
         "POLICE": {
+            "EVIDENCE_LABEL": "Bevis: Ärende {id}",
             "NEW_BULLETIN_NOTIFICATION": {
                 "TITLE": "Nytt inlägg",
                 "CONTENT": "{title}"
@@ -1029,6 +1562,118 @@
             "CHAT_MESSAGE_NOTIFICATION": {
                 "TITLE": "Nytt meddelande i {channel}",
                 "CONTENT": "{message}"
+            },
+            "LOGS": {
+                "CREATE_OFFENCE_CATEGORY": {
+                    "TITLE": "Skapade en brottskategori",
+                    "DESCRIPTION": "Skapade brottskategorin '{name}'"
+                },
+                "DELETE_OFFENCE_CATEGORY": {
+                    "TITLE": "Raderade en brottskategori",
+                    "DESCRIPTION": "Raderade kategorin '{name}'"
+                },
+                "UPDATE_OFFENCE_CATEGORY": {
+                    "TITLE": "Uppdaterade en brottskategori",
+                    "DESCRIPTION": "Bytte namn på brottskategorin '{oldName}' till {newName}"
+                },
+                "CREATE_OFFENCE": {
+                    "TITLE": "Skapade ett brott",
+                    "DESCRIPTION": "Skapade ett {class} brott '{name}' i '{category}'"
+                },
+                "DELETE_OFFENCE": {
+                    "TITLE": "Raderade ett brott",
+                    "DESCRIPTION": "Raderade brott '{name}' i '{category}'"
+                },
+                "UPDATE_OFFENCE": {
+                    "TITLE": "Uppdaterade ett brott",
+                    "DESCRIPTION": "Uppdaterade brottet '{name}' i '{category}'"
+                }
+            }
+        },
+        "AMBULANCE": {
+            "NOTIFICATIONS": {
+                "CHAT": {
+                    "NEW_CHANNEL": {
+                        "TITLE": "Ny konversation",
+                        "CONTENT": "{channel}"
+                    },
+                    "NEW_MESSAGE": {
+                        "TITLE": "Nytt meddelande i {channel}",
+                        "CONTENT": "{message}"
+                    }
+                },
+                "NEW_BULLETIN": {
+                    "TITLE": "Nytt inlägg på Anslagstavlan",
+                    "CONTENT": "{title}"
+                },
+                "NEW_REPORT": {
+                    "TITLE": "Ny rapport",
+                    "CONTENT": "{title}"
+                }
+            },
+            "TAG_TYPES": {
+                "PROFILE": "Profil",
+                "REPORT": "Report",
+                "PROPERTY": "Fastighet",
+                "WEAPON": "Vapen"
+            },
+            "LOGS": {
+                "CREATE_CONDITION_CATEGORY": {
+                    "TITLE": "Skapa en tillståndskategori",
+                    "DESCRIPTION": "Skapade kategorin '{name}'"
+                },
+                "DELETE_CONDITION_CATEGORY": {
+                    "TITLE": "Raderade en tillståndskategori",
+                    "DESCRIPTION": "Raderade kategorin '{name}'"
+                },
+                "UPDATE_CONDITION_CATEGORY": {
+                    "TITLE": "Uppdaterade en tillståndskategori",
+                    "DESCRIPTION": "Bytte namn på tillståndskategorin '{oldName}' till {newName}"
+                },
+                "CREATE_CONDITION": {
+                    "TITLE": "Skapa ett tillstånd",
+                    "DESCRIPTION": "Skapade {severity} tillstånd '{name}' i '{category}'"
+                },
+                "DELETE_CONDITION": {
+                    "TITLE": "Raderade ett tillstånd",
+                    "DESCRIPTION": "Raderade tillståndet '{name}' i '{category}'"
+                },
+                "UPDATE_CONDITION": {
+                    "TITLE": "Uppdaterade ett tillstånd",
+                    "DESCRIPTION": "Uppdaterade tillståndet '{name}' i '{category}'"
+                },
+                "CREATE_BULLETIN": {
+                    "TITLE": "Skapade ett inlägg på anslagstavlan",
+                    "DESCRIPTION": "Skapade ett inlägg '{title}'"
+                },
+                "DELETE_BULLETIN": {
+                    "TITLE": "Raderade ett inlägg på anslagstavlan",
+                    "DESCRIPTION": "Raderade ett inlägg med ID {id}"
+                },
+                "PIN_BULLETIN": {
+                    "TITLE": "Pinnade ett inlägg",
+                    "DESCRIPTION": "Pinnade ett inlägg med ID {id}"
+                },
+                "UNPIN_BULLETIN": {
+                    "TITLE": "Avpinnade ett inlägg",
+                    "DESCRIPTION": "Avpinnade ett inlägg med ID {id}"
+                },
+                "DELETE_TAG": {
+                    "TITLE": "Raderade en märkning",
+                    "DESCRIPTION": "Raderade märkning '{name}'"
+                },
+                "UPDATE_PROFILE": {
+                    "TITLE": "Uppdaterade en profil",
+                    "DESCRIPTION": "Uppdaterade {name}'s profil"
+                },
+                "CREATE_REPORT": {
+                    "TITLE": "Skapade en rapport",
+                    "DESCRIPTION": "Skapade en {type} report '{title}' för {patient} med ID {id}"
+                },
+                "UPDATE_REPORT": {
+                    "TITLE": "Uppdaterade en rapport",
+                    "DESCRIPTION": "Uppdatera en {type} rapport '{title}' med ID {id}"
+                }
             }
         }
     }

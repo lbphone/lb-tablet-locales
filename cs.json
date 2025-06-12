@@ -899,8 +899,8 @@
                     "DESCRIPTION": "Vyplňte níže uvedené údaje pro uvěznění {name}",
                     "SENTENCE_PLACEHOLDER": "Trest (v minutách)",
                     "REASON_PLACEHOLDER": "Důvod",
-                    "JAIL_WITH_INCIDENT": "Uvěznit osobu spojenou incidentem",
-                    "JAIL_WITHOUT_INCIDENT": "Uvěznit osobu bez spojení s  incidentem",
+                    "JAIL_WITH_CASE": "Uvěznit osobu spojenou incidentem",
+                    "JAIL_WITHOUT_CASE": "Uvěznit osobu bez spojení s  incidentem",
                     "PROCEED": "Pokračovat"
                 },
                 "UNJAIL_PERSON": {

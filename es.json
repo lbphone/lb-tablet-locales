@@ -810,8 +810,8 @@
                     "DESCRIPTION": "Rellena los detalles a continuación para poner a {name} en prisión",
                     "SENTENCE_PLACEHOLDER": "Sentencia (en minutos)",
                     "REASON_PLACEHOLDER": "Razón",
-                    "JAIL_WITH_INCIDENT": "Poner en prisión con incidente vinculado",
-                    "JAIL_WITHOUT_INCIDENT": "Poner en prisión sin incidente vinculado",
+                    "JAIL_WITH_CASE": "Poner en prisión con incidente vinculado",
+                    "JAIL_WITHOUT_CASE": "Poner en prisión sin incidente vinculado",
                     "PROCEED": "Proceder"
                 },
                 "UNJAIL_PERSON": {

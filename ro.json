@@ -948,8 +948,8 @@
                     "DESCRIPTION": "Completeaza detaliile de mai jos pentru a-l incarceza pe {name}",
                     "SENTENCE_PLACEHOLDER": "Sentinta (in minute)",
                     "REASON_PLACEHOLDER": "Motiv",
-                    "JAIL_WITH_INCIDENT": "Incarcereaza cu incident conectat",
-                    "JAIL_WITHOUT_INCIDENT": "Incarcereaza fara incident conectat",
+                    "JAIL_WITH_CASE": "Incarcereaza cu incident conectat",
+                    "JAIL_WITHOUT_CASE": "Incarcereaza fara incident conectat",
                     "PROCEED": "Continua"
                 },
                 "UNJAIL_PERSON": {

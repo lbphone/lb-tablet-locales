@@ -913,8 +913,8 @@
                     "DESCRIPTION": "Vul de onderstaande details in om {name} te incerneren",
                     "SENTENCE_PLACEHOLDER": "Straf (in minuten)",
                     "REASON_PLACEHOLDER": "Reden",
-                    "JAIL_WITH_INCIDENT": "Incarcereren met gekoppeld incident",
-                    "JAIL_WITHOUT_INCIDENT": "Incarcereren zonder gekoppeld incident",
+                    "JAIL_WITH_CASE": "Incarcereren met gekoppeld incident",
+                    "JAIL_WITHOUT_CASE": "Incarcereren zonder gekoppeld incident",
                     "PROCEED": "Doorgaan"
                 },
                 "UNJAIL_PERSON": {
