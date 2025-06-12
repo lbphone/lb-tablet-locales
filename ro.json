@@ -439,6 +439,7 @@
             "YES": "Da",
             "NO": "Nu",
             "ALL": "Toate",
+            "ADD_TAB": "Adauga Tab",
 
             "SEARCH": "Cauta",
             "SEARCH_FOR": "Cauta {query} pentru a incepe",
@@ -456,14 +457,6 @@
                 "UNPIN": "Desfixeaza",
                 "SEARCH_BULLETIN": "Cauta Anunt",
                 "SEARCH_UNITS": "Cauta Unitati",
-                "ADD_BULLETIN": {
-                    "TITLE": "Adauga Anunt",
-                    "DESCRIPTION": "Creeaza un anunt nou",
-                    "PLACEHOLDER": "Titlu",
-                    "CONTENT": "Continut",
-                    "CANCEL": "Anuleaza",
-                    "PROCEED": "Continua"
-                },
                 "DELETE_BULLETIN": {
                     "TITLE": "Sterge Anuntul",
                     "DESCRIPTION": "Esti sigur ca vrei sa stergi acest anunt?",
@@ -473,15 +466,33 @@
                 "RECENT_WARRANTS": "Mandate Recente",
                 "ACTIVE_UNITS": "Unitati Active"
             },
+            "BULLETIN": {
+                "TITLE": "Anunturi",
+                "LABEL": "Panou cu Anuntur9",
+                "SEARCH": "Cauta Anunturi",
+                "SEARCH_PLACEHOLDER": "Cauta Anunt",
+                "SEARCH_FOR": "Cauta {query} pentru a incepe",
+                "NO_RESULTS_FOR": "Niciun rezultat gasit pentru '{query}'",
+                "NEW_BULLETIN": "Anunt Nou",
+
+                "DELETE_BULLETIN": {
+                    "TITLE": "Sterge Anunt",
+                    "DESCRIPTION": "Esti sigur ca vrei sa stergi acest anunt?"
+                }
+            },
 
             "DISPATCH": {
                 "TITLE": "Dispecerat",
+                "SEARCH_ALARMS": "Cauta Alarme",
                 "SHOW_OFFICERS": "Arata Ofiterii",
                 "SHOW_EMPLOYEES": "Arata Angajati",
                 "SHOW_ALARMS": "Arata Alarme",
+                "SHOW_POPUPS": "Arata Pop-upuri",
                 "OPTIONS": "Optiuni",
                 "OFFICERS": "Ofiteri",
                 "ALARMS": "Alarme",
+                "MAP": "Harta",
+                "LIST": "Lista",
 
                 "RESPOND": "Raspunde",
                 "RESPONDED": "A raspuns",
@@ -492,17 +503,26 @@
                 "SET_WAYPOINT": "Seteaza Punct de Trecere",
                 "LOS_SANTOS": "Los Santos",
                 "CAYO_PERICO": "Cayo Perico",
-
-                "PRIORITY": {
-                    "HIGH": "Inalta",
-                    "MEDIUM": "Medie",
-                    "LOW": "Joasa"
-                },
-
                 "OLD_NOTIFICATION": "{count} notificare veche",
                 "OLD_NOTIFICATIONS": "{count} notificari vechi",
                 "NEW_NOTIFICATION": "{count} notificare noua",
                 "NEW_NOTIFICATIONS": "{count} notificari noi",
+
+                "PRIORITY_LEVELS": {
+                    "HIGH": "Inalta",
+                    "MEDIUM": "Medie",
+                    "LOW": "Joasa"
+                },
+                "PRIORITY": "Prioritate",
+                "TIME": "Timp",
+                "CODE": "Cod",
+                "LOCATION": "Locatie",
+                "RESPONDERS": "Raspunda",
+                "ACTIONS": "Actiuni",
+                "NONE": "Niciuna",
+                "REMOVE": "Sterge",
+                "REMOVE_ALL": "Sterge Toate",
+                "VIEW": "Vezi",
 
                 "JUST_NOW": "Acum",
                 "MINUTES_AGO": "{minutes}m ago",
@@ -512,6 +532,38 @@
                     "DESCRIPTION": "Esti sigur ca vrei sa stergi alarma? (Aceasta va sterge dispeceratul pentru toti angajatii)",
                     "CANCEL": "Anuleaza",
                     "REMOVE": "Sterge"
+                },
+                "REMOVE_ALL_ALARMS": {
+                    "TITLE": "Sterge Toate Alarmele",
+                    "DESCRIPTION": "Esti sigur ca vrei sa stergi toate alarmele? (Aceasta va sterge dispeceratul pentru toti angajatii)"
+                },
+
+                "REMOVE_FOR_YOURSELF": "Sterge pentru Tine",
+                "REMOVE_FOR_EVERYONE": "Sterge pentru Toti"
+            },
+
+            "UNITS": {
+                "TITLE": "Unitati",
+                "AVALIABLE_OFFICERS": "Ofiteri Disponibili",
+                "SEARCH_OFFICERS": "Cauta Ofiteri",
+                "DROP_OFFICER": "Lasa ofiterul aici",
+                "DROP_OFFICER_AVAILABLE": "Lasa ofiterul aici pentru a-l face disponibil",
+                "OFFICER": "Ofiter",
+                "OFFICERS": "Ofiteri",
+                "NO_UNITS": "Adauga o unitate pentru a incepe",
+                "ADD_UNIT": {
+                    "TITLE": "Adauga Unitate",
+                    "DESCRIPTION": "Creeaza o noua unitate",
+                    "PLACEHOLDER": "Numele Unitatii"
+                },
+                "RENAME_UNIT": {
+                    "TITLE": "Redenumeste Unitate",
+                    "DESCRIPTION": "Redenumeste Unitatea",
+                    "PLACEHOLDER": "Numele Unitatii"
+                },
+                "DELETE_UNIT": {
+                    "TITLE": "Sterge Unitate",
+                    "DESCRIPTION": "Esti sigur ca vrei sa stergi aceasta unitate?"
                 }
             },
 
@@ -569,7 +621,9 @@
                 "WARRANTS": "Mandate",
                 "NO_WARRANTS": "Niciun Mandat",
                 "ACTIVE_WARRANTS": "Mandat Activ",
-                "INVOLVED": "Implicat"
+                "INVOLVED": "Implicat",
+                "CHARGES": "Acuzatii",
+                "NO_CHARGES": "Nicio Acuzatie"
             },
 
             "VEHICLES": {
@@ -702,6 +756,10 @@
                     "TITLE": "Sterge Suspectul",
                     "DESCRIPTION": "Esti sigur ca vrei sa-l stergi pe {name} din raport?"
                 },
+                "DELETE_REPORT": {
+                    "TITLE": "Sterge Raport",
+                    "DESCRIPTION": "Esti sigur ca vrei sa stergi acest raport?"
+                },
                 "ERROR": {
                     "TITLE": "Eroare",
                     "NO_TYPE": "Trebuie sa selectezi un tip de raport",
@@ -723,6 +781,9 @@
                 "OPEN_STASH": "Deschide Ascunzisul",
                 "VEHICLES_INVOLVED": "Vehicule Implicate",
                 "NO_VEHICLES_INVOLVED": "Fara Vehicule Implicate",
+                "VIEW_PROFILE": "Vezi Profil",
+                "CHARGES": "{amount} acuzatii",
+                "NO_CHARGES": "Nicio Acuzatie",
                 "REMOVE_VEHICLE": {
                     "TITLE": "Sterge Vehiculul",
                     "DESCRIPTION": "Esti sigur ca vrei sa stergi vehiculul din caz?"
@@ -732,6 +793,10 @@
                 "REMOVE_OFFICER": {
                     "TITLE": "Sterge Ofiterul",
                     "DESCRIPTION": "Esti sigur ca vrei sa stergi ofiterul din caz?"
+                },
+                "REMOVE_WARRANT": {
+                    "TITLE": "Sterge Mandat",
+                    "DESCRIPTION": "Esti sigur ca vrei sa stergi acest mandat?"
                 },
                 "CIVILLIANS_INVOLVED": "Civili Implicati",
                 "NO_CIVILLIANS_INVOLVED": "Fara Civili Implicati",
@@ -746,10 +811,21 @@
                     "DESCRIPTION": "Esti sigur ca vrei sa stergi criminalul din caz?"
                 },
                 "ADD_CHARGE": "Adauga Acuzatie",
-                "RECOMMENDED_FINE": "Amenda Recomandata ({currency})",
-                "RECOMMENDED_SENTENCE": "Sentinta Recomandata (in luni)",
-                "FINE": "Amenda ({currency})",
-                "SENTENCE": "Sentinta (in luni)",
+                "FINE": "Amenda ({amount} recomanda)",
+                "SENTENCE": "Sentina ({amount} recomandat)",
+                "SEND_FINE": {
+                    "TITLE": "Trimite Amenda",
+                    "DESCRIPTION": "Esti sigur ca vrei sa trimiti aceasta amenda  in valoare de {fine} lui {name}?"
+                },
+                "JAIL_PLAYER": {
+                    "TITLE": "Trimite Civil la Inchisoare",
+                    "DESCRIPTION": "Esti sigur ca vrei sa il trimiti pe {name} la inchisoare pentru {sentence} luni?",
+                    "JAILED_DESCRIPTION": "Trimis la inchisoare automat pentru acuzatiile {charges}"
+                },
+                "DELETE_CASE": {
+                    "TITLE": "Sterge Caz",
+                    "DESCRIPTION": "Esti sigur ca vrei sa stergi acest caz?"
+                },
 
                 "ERROR": {
                     "TITLE": "Eroare",
@@ -788,6 +864,10 @@
                     "TITLE": "Sterge Raport",
                     "DESCRIPTION": "Esti sigur ca vrei sa stergi raportul din mandat?"
                 },
+                "DELETE_WARRANT": {
+                    "TITLE": "Sterge Mandat",
+                    "DESCRIPTION": "Esti sigur ca vrei sa stergi acest mandat?"
+                },
                 "ERROR": {
                     "TITLE": "Eroare",
                     "TITLE_LENGTH": "Titlul trebuie sa aiba cel putin 3 caractere",
@@ -796,6 +876,9 @@
                     "NO_TARGET": "Trebuie sa selectezi o tinta pentru mandat",
                     "OK": "OK"
                 }
+            },
+            "EVIDENCE": {
+                "TITLE": "Dovezi"
             },
 
             "OFFENCES": {
@@ -914,10 +997,89 @@
 
             "PHONE": {
                 "TITLE": "Telefon",
-                "TRIANGULATE": "Trianguleaza",
                 "MESSAGES": "Mesaje",
-                "CALLS": "Apeluri",
-                "UNLOCK": "Deblocheaza"
+                "TRIANGULATE": {
+                    "TITLE": "Triangulare",
+                    "DESCRIPTION": "Introdu numarul de telefon pe care vrei sa-l triangulezi",
+                    "PLACEHOLDER": "Nr. de Telefon",
+
+                    "SUCCESS": {
+                        "TITLE": "Triangulare cu Success",
+                        "DESCRIPTION": "Numarul pe care l-ai introdus a fost gasit in apropierea unui Turn de Seman. Uita-te pe Harta pentru a vedea locatia."
+                    },
+                    "FAILED": {
+                        "TITLE": "Triangulare Esuata",
+                        "DESCRIPTION": "Numarul pe care l-ai introdus nu a fost gasit in apropierea niciunui Turn de Semnal."
+                    }
+                },
+                "CALLS": {
+                    "TITLE": "Apeluri",
+                    "CALL_HISTORY": "Istoric Apeluri",
+                    "CALL_STATUS": "Status Apel",
+                    "SEARCH": "Cauta Apel",
+                    "NO_CALLER_ID": "Numar Ascuns",
+                    "UNKNOWN": "Necunoscut",
+                    "INCOMING": "Apel Primit",
+                    "OUTGOING": "Apel Initiat",
+                    "IN_CALL": "In Apel",
+                    "NOT_IN_CALL": "Nu este in Apel",
+                    "SUBSCRIBED": "Abonat",
+                    "NOT_SUBSCRIBED": "Neabonat",
+                    "YES": "Da",
+                    "NO": "Nu",
+                    "GET_NOTIFIED": "Primeste Notificare",
+                    "LISTEN_TO_CALL": "Asculat apelul",
+                    "LISTEN_TO_CALL_DESCRIPTION": "Esti sigur ca vrei sa asculti apelul?",
+                    "STOP_LISTENING": "Opreste-te din a asculta",
+                    "STOP_LISTENING_DESCRIPTION": "Esti sigur ca vrei sa te opresti din a asculta apelul?",
+                    "SUBSCRIBE_TO_CALLS": "Aboneaza-te la Apeluri",
+                    "SUBSCRIBE_TO_CALLS_DESCRIPTION": "Esti sigur ca vrei sa te abonezi la apeluri?",
+                    "UNSUBSCRIBE_FROM_CALLS": "Dezaboneaza-te de la Apeluri",
+                    "UNSUBSCRIBE_FROM_CALLS_DESCRIPTION": "Esti sigur ca vrei sa te dezabonezi de la apel?",
+                    "FOOTER": "de {name}",
+
+                    "WIRETAP_PHONENUMBER": {
+                        "TITLE": "Intercepteaza Numarul",
+                        "DESCRIPTION": "Introdu numarul de telefon pe care vrei sa-l interceptezi",
+                        "PLACEHOLDER": "Numar de Telefon"
+                    },
+                    "REMOVE_WIRETAP": {
+                        "TITLE": "Sterge Interceptare",
+                        "DESCRIPTION": "Esti sigur ca vrei sa stergi interceptarea pentru numarul de telefon {phoneNumber}?"
+                    },
+
+                    "CALL_ENDED": {
+                        "TITLE": "Apel Incheiat",
+                        "DESCRIPTION": "Apelul s-a sfarsit."
+                    }
+                },
+                "UNLOCK": {
+                    "TITLE": "Deblocheaza",
+                    "NO_PHONES": "Nu ai niciun telefon la tine",
+                    "SEARCH": "Cauta un telefon",
+                    "SELECT_PHONE": "Selecteaza un telefon",
+                    "PHONE": "Telefon",
+                    "PROCESSED": "Deblocat",
+                    "PROCESSING": "In Deblocare",
+                    "LOCKED": "Blocat",
+                    "PROCESS_PHONE": "Deblocheaza Telefon",
+                    "PHONE_PROCESSED": "Telefon Deblocat",
+                    "REMAINING_TIME": "Timp Ramas: {time}",
+                    "PROCESSING_PHONE": "Deblochezi telefonul {phone}...",
+                    "ATTEMPTS": "Incercari: {attempts}/{maxAttempts}",
+                    "RESET_PIN": {
+                        "TITLE": "Reseteaza PIN",
+                        "SUCCESS": "Codul PIN a fost resetat cu success."
+                    },
+                    "SUCCESS": {
+                        "TITLE": "Telefon Deblocat",
+                        "DESCRIPTION": "Telefonul a fost deblocat."
+                    },
+                    "FAILED": {
+                        "TITLE": "Deblocarea Telefonului a Esuat",
+                        "DESCRIPTION": "Nu ai reusit sa deblochezi telefonul. Incearca mai tarziu"
+                    }
+                }
             },
 
             "JAIL": {
@@ -948,8 +1110,8 @@
                     "DESCRIPTION": "Completeaza detaliile de mai jos pentru a-l incarceza pe {name}",
                     "SENTENCE_PLACEHOLDER": "Sentinta (in minute)",
                     "REASON_PLACEHOLDER": "Motiv",
-                    "JAIL_WITH_CASE": "Incarcereaza cu incident conectat",
-                    "JAIL_WITHOUT_CASE": "Incarcereaza fara incident conectat",
+                    "JAIL_WITH_CASE": "Incarcereaza cu caz conectat",
+                    "JAIL_WITHOUT_CASE": "Incarcereaza fara caz conectat",
                     "PROCEED": "Continua"
                 },
                 "UNJAIL_PERSON": {
@@ -976,7 +1138,7 @@
                     "VEHICLE": "vehicul",
                     "REPORT": "raport",
                     "WARRANT": "mandat",
-                    "INCIDENT": "incident"
+                    "INCIDENT": "caz"
                 },
 
                 "CREATE_TAG_TITLE": "Creat un Tag",
@@ -1009,6 +1171,8 @@
                 "CREATE_BULLETIN_DESCRIPTION": "Creat un post de buletin cu titlul \"{title}\"",
                 "DELETE_BULLETIN_TITLE": "Sters un post de buletin",
                 "DELETE_BULLETIN_DESCRIPTION": "Sters postul de buletin cu id-ul {id}",
+                "UPDATE_BULLETIN_TITLE": "Modificat un Anunt",
+                "UPDATE_BULLETIN_DESCRIPTION": "Modificat anuntul cu titlul \"{title}\"",
                 "CREATE_WARRANT_TITLE": "Creat un mandat",
                 "CREATE_WARRANT_DESCRIPTION": "Creat un mandat {type} cu titlul \"{title}\"",
                 "UPDATE_WARRANT_TITLE": "Actualizat un mandat",
@@ -1060,7 +1224,11 @@
                     "TITLE": "Indicativ",
                     "DESCRIPTION": "Introdu un indicativ",
                     "CANCEL": "Anuleaza",
-                    "PROCEED": "Continua"
+                    "PROCEED": "Continua",
+                    "ERROR": {
+                        "TITLE": "Eroare",
+                        "DESCRIPTION": "Call-sign introdus nu foloseste format presetat ({format}). Incearca iar."
+                    }
                 }
             }
         },
@@ -1112,6 +1280,9 @@
                 },
                 "ACTIVE_UNITS": "Unitati Active"
             },
+            "BULLETIN": {
+                "TITLE": "Anunturi"
+            },
 
             "DISPATCH": {
                 "TITLE": "Dispecerat",
@@ -1132,7 +1303,7 @@
                 "NEW_NOTIFICATION": "{count} notificare noua",
                 "NEW_NOTIFICATIONS": "{count} notificari noi",
 
-                "PRIORITY": {
+                "PRIORITY_LEVELS": {
                     "HIGH": "Inalta",
                     "MEDIUM": "Medie",
                     "LOW": "Scazuta"
@@ -1141,6 +1312,15 @@
                 "JUST_NOW": "Acum",
                 "MINUTES_AGO": "{minutes}m in urma",
                 "HOURS_AGO": "{hours}h in urma"
+            },
+             "UNITS": {
+                "TITLE": "Unitati",
+                "EMPLOYEE": "Angajat",
+                "EMPLOYEES": "Angajati",
+                "AVALIABLE_EMPLOYEES": "Angajati Disponibili",
+                "SEARCH_EMPLOYEES": "Cauta Angajati",
+                "DROP_EMPLOYEE": "Lasa Angajat",
+                "DROP_EMPLOYEE_AVAILABLE": "Lasa Angajatul pentru a-l face disponibil"
             },
 
             "JOURNALS": {
@@ -1381,6 +1561,9 @@
                 "MISSING_FIELDS": "Iti lipsesc urmatoarele campuri: {fields}",
                 "OK": "OK"
             }
+        },
+        "MAPS": {
+            "GO": "Du-te"
         }
     },
     "COMPONENTS": {
@@ -1513,6 +1696,87 @@
             "TOOK_VIDEO": "A facut un video",
             "NEW_DISPATCH": "Dispecerat Nou: {title}"
         },
+        "BASE_DISPATCH": {
+            "VEHICLE_CLASSES": {
+                "0": "compact",
+                "1": "sedan",
+                "2": "SUV",
+                "3": "coupe",
+                "4": "muscle car",
+                "5": "sports classic",
+                "6": "sports car",
+                "7": "supercar",
+                "8": "motorcycle",
+                "9": "off-road vehicle",
+                "10": "industrial vehicle",
+                "11": "utility vehicle",
+                "12": "van",
+                "13": "bicycle",
+                "14": "boat",
+                "15": "helicopter",
+                "16": "plane",
+                "17": "service vehicle",
+                "18": "emergency vehicle",
+                "19": "military vehicle",
+                "20": "commercial vehicle",
+                "21": "train",
+                "22": "open-wheel car"
+            },
+            "VEHICLE_DATA": {
+                "BODY_TYPE": "Tip Caroserie",
+                "MANUFACTURER": "Producator",
+                "MODEL": "Model",
+                "COLOR": "Culoare",
+                "PLATE": "Numar de Inmatriculare"
+            },
+            "VEHICLE_THEFT": {
+                "CODE": "10-31",
+                "TITLE": "Jaf Vehicul - {plate}",
+                "DESCRIPTION": "Un/O {gender_lower} a fost vazut furand un {class} {manufacturer} {model} {color_lower} cu numarul de inmatriculare {plate}."
+            },
+            "VEHICLE_JACKING": {
+                "CODE": "10-31",
+                "TITLE": "Jaf Auto - {plate}",
+                "DESCRIPTION": "Un/O {gender_lower} a fost vazut furand un {class} {manufacturer} {model} {color_lower} cu numarul de inmatriculare {plate}."
+            },
+            "WEAPON_TYPES": {
+                "DIGISCANNER": "Digiscanner",
+                "FIREEXTINGUISHER": "Extintor",
+                "HACKINGDEVICE": "Device de Hacking",
+                "HEAVY": "Mare",
+                "MELEE": "Arma Alba",
+                "METALDETECTOR": "Detector de Metal",
+                "MG": "Machine Gun",
+                "NIGHTVISION": "Night Vision",
+                "PARACHUTE": "Parasuta",
+                "PETROLCAN": "Canistra",
+                "PISTOL": "Pistol",
+                "RIFLE": "Mitraliera",
+                "SHOTGUN": "Shotgun",
+                "SMG": "SMG",
+                "SNIPER": "Sniper",
+                "STUNGUN": "Stun Gun",
+                "THROWN": "Thrown",
+                "TRANQILIZER": "Tranquilizer",
+                "UNARMED": "Neinarmat",
+                "UNKNOWN": "Firearm"
+            },
+            "GUNSHOT": {
+                "CODE": "10-31",
+                "TITLE": "Focuri de Arma - {location}",
+                "DESCRIPTION": "Un/O {gender_lower} a fost vazut tragand  dintr-o arma de tip {weapon_type_lower} in zona {location}."
+            },
+            "EXPLOSION": {
+                "TITLE": "Explozie",
+                "DESCRIPTION": "O explozie a fost auzita in zona {location}.",
+                "CODE": "10-31"
+            },
+            "ARMED": {
+                "TITLE": "{gender} inarmat",
+                "DESCRIPTION": "Un/O {gender_lower} a fost vazut cu o arma de tip {weapon_type_lower} in zona {location}.",
+                "CODE": "10-31"
+            }
+        },
         "POLICE": {
             "EVIDENCE_LABEL": "Evidenta: Cazul {id}",
             "NEW_BULLETIN_NOTIFICATION": {
@@ -1564,6 +1828,10 @@
                     "TITLE": "Modifica o infractiune",
                     "DESCRIPTION": "A modificat infractiunea '{name}' din categoria '{category}'"
                 }
+            },
+            "WIRETAP_NOTIFICATION": {
+                "TITLE": "Interceptat Apel",
+                "CONTENT": "Numarul supravegheat {number} este intr-un apel."
             }
         },
         "AMBULANCE": {
@@ -1621,6 +1889,10 @@
                 "CREATE_BULLETIN": {
                     "TITLE": "Creat un anunt",
                     "DESCRIPTION": "Creat un anunt '{title}'"
+                },
+                "UPDATE_BULLETIN": {
+                    "TITLE": "Modificat un anunt",
+                    "DESCRIPTION": "Modificat anuntul cu titlu '{title}'"
                 },
                 "DELETE_BULLETIN": {
                     "TITLE": "Sters un anunt",
