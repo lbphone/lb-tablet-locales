@@ -1,146 +1,232 @@
 {
     "LABEL": "Українська",
     "SEARCH": "Пошук",
-    "CANCEL": "Закрити",
-    "NOW": "Зараз",
-    "D": "д",
-    "H": "г",
-    "M": "хв",
-    "S": "сек",
+    "CANCEL": "Скасувати",
+    "NOW": "зараз",
+    "D": "d",
+    "H": "h",
+    "M": "m",
+    "S": "s",
+    "SECONDS": "seconds",
+    "MINUTES": "minutes",
+    "HOURS": "hours",
 
     "APP_NAMES": {
-        "Police": "Поліція",
-        "Ambulance": "Швидка Допомога",
-        "Registration": "Реєстрація",
+        "Phone": "Телефон",
+        "Messages": "Повiдомлення",
         "Notes": "Нотатки",
-        "Browser": "Браузер",
-        "Settings": "Налаштування",
+        "Settings": "Налаштунки",
         "Photos": "Галерея",
         "Camera": "Камера",
+        "Weather": "Погода",
         "Calculator": "Калькулятор",
-        "Apps": "Додатки",
+        "AppStore": "Застосунки",
         "Clock": "Годинник",
         "Maps": "Карти",
+        "YellowPages": "Сторiнки",
+        "MarketPlace": "Торгова площа",
+        "Wallet": "Гаманець",
+        "Home": "Головна",
+        "Garage": "Гараж",
+        "Music": "Музика",
+        "DarkChat": "Дарк-нет",
+        "Crypto": "Криптовалюта",
         "Mail": "Пошта",
         "Services": "Послуги",
-        "VoiceMemo": "Диктофон"
+        "VoiceMemo": "Диктофон",
+        "Twitter": "Пташка",
+        "Instagram": "iнста-пiк",
+        "Tinder": "Знайомства",
+        "TikTok": "ТiкТут"
     },
 
     "APPS": {
         "SETTINGS": {
-            "TITLE": "Налаштування",
+            "TITLE": "Налаштунки",
             "BACK": "Назад",
             "DONE": "Готово",
-            "EDIT": "Редагувати",
+            "EDIT": "Змiнити",
             "AIRPLANE_MODE": "Режим польоту",
-            "AIRPLANE_MODE_DESCRIPTION": "Вимикає дзвінки, передачу даних.",
-            "STREAMER_MODE": "Режим стримера",
-            "STREAMER_MODE_DESCRIPTION": "Розмиває конфіденційну інформацію",
-            "GENERAL": "Загальні",
-            "GENERAL_DESCRIPTION": "Загальні налаштування планшету",
-            "ABOUT": "Про пристрій",
-            "NAME": "Назва",
-            "VERSION": "Версія",
-            "MODEL_NAME": "Назва моделі",
-            "SERIAL_NUMBER": "Серійний номер",
+            "AIRPLANE_MODE_DESCRIPTION": "Вимкнути дзвiнки, мобiльнi данi тощо.",
+            "STREAMER_MODE": "Режим стрiмера",
+            "STREAMER_MODE_DESCRIPTION": "Розмиває конфiденцiйну iнформацiю",
+            "GENERAL": "Загальнi",
+            "GENERAL_DESCRIPTION": "Загальнi налаштування вашого телефону",
+            "ABOUT": "Про",
+            "NAME": "iм'я",
+            "VERSION": "Версiя",
+            "MODEL_NAME": "Назва моделi",
+            "SERIAL_NUMBER": "Серiйний номер",
             "DEVELOPED_BY": "Розроблено",
-            "PURCHASE_AT": "Придбано у",
-            "SONGS": "Музика",
-            "VIDEOS": "Відео",
-            "PHOTOS": "Фотографії",
-            "APPLICATIONS": "Додатки",
-            "CAPACITY": "Ємність",
+            "PURCHASE_AT": "Придбати у",
+            "SONGS": "Пiснi",
+            "VIDEOS": "Вiдео",
+            "PHOTOS": "Фотографiї",
+            "APPLICATIONS": "Застосунки",
+            "CAPACITY": "Ємнiсть",
             "AVAILABLE": "Доступно",
             "SOFTWARE_UPDATE": "Оновлення програмного забезпечення",
             "AUTOMATIC_UPDATES": "Автоматичне оновлення",
             "DATE_TIME": "Дата & Час",
-            "24_HOUR_TIME": "24 Годинний формат",
+            "24_HOUR_TIME": "24-годинний час",
             "SET_AUTOMATICALLY": "Встановити автоматично",
             "TIME_ZONE": "Часовий пояс",
-            "LANGUAGE_REGION": "Мова & Регіон",
+            "LANGUAGE_REGION": "Мова & Регiон",
             "LANGUAGE": "Мова",
             "TEMPERATURE": "Температура",
-            "CELCIUS": "Цельсій",
-            "FAHRENHEIT": "Фаренгейт",
+            "CELCIUS": "За Цельсiєм",
+            "FAHRENHEIT": "За Фаренгейтом",
             "BATTERY": "Батарея",
-            "BATTERY_DESCRIPTION": "Перегляд заряду та використання акумулятора",
-            "SOUND_HAPTICS": "Звук і тактильні ефекти",
-            "SOUND_HAPTICS_DESCRIPTION": "Змінити звуки та вібрації",
-            "SOUND_HAPTICS_PATTERNS": "Шаблони звуку та ефектів",
-            "RINGTONE": "Рінгтон",
-            "RINGTONE_VOLUME": "Гучність рінгтону",
-            "TEXT_TONE": "Тон повідомлень",
+            "BATTERY_DESCRIPTION": "Перегляньте час роботи акумулятора та використання",
+            "SOUND_HAPTICS": "Звук & Тактильнi вiдчуття",
+            "SOUND_HAPTICS_DESCRIPTION": "Змiна звукiв i вiбрацiї",
+            "SOUND_HAPTICS_PATTERNS": "Звуковi та тактильнi вiзерунки",
+            "RINGTONE": "Рiнгтон",
+            "TEXT_TONE": "Тон тексту",
+            "RINGTONE_VOLUME": "Гучнiсть рингтону",
+            "CALL_VOLUME": "Гучність дзвінка",
             "DEFAULT": "За замовчуванням",
-            "PHONE_STORAGE": "Память планшету",
-            "STORAGE": "Сховище",
+            "PHONE_STORAGE": "Пам'ять телефону",
+            "STORAGE": "Доступно",
             "USED": "Використано",
             "OF": "з",
-            "DISPLAY_BRIGHTNESS": "Дисплей & Яскравість",
-            "DISPLAY_BRIGHTNESS_DESCRIPTION": "Налаштувати дисплей & яскравість",
-            "DARK": "Темний",
-            "LIGHT": "Світлий",
-            "APPEARANCE": "Зовнішній вигляд",
+            "DISPLAY_BRIGHTNESS": "Дисплей & яскравiсть",
+            "DISPLAY_BRIGHTNESS_DESCRIPTION": "Вiдрегулюйте дисплей i яскравiсть",
+            "DARK": "Темна",
+            "LIGHT": "Світла",
+            "APPEARANCE": "Зовнiшнiй вигляд",
             "AUTOMATIC": "Автоматично",
-            "BRIGHTNESS": "Яскравість",
-            "FRAME_COLOR": "Колір рамки",
-            "TABLET_SCALE": "Маштаб планшета",
+            "BRIGHTNESS": "Яскравiсть",
+            "PHONE_SCALE": "Масштаб телефону",
+            "FRAME_COLOR": "Колiр рамки",
             "WALLPAPER": "Шпалери",
-            "WALLPAPER_DESCRIPTION": "Змінити шпалери",
+            "WALLPAPER_DESCRIPTION": "Змiнiть шпалери та iншi налаштування фону",
             "WALLPAPERS": "Шпалери",
-            "CHOOSE_NEW_WALLPAPER": "Вибрати нові шпалери",
-            "NOTIFICATIONS": "Сповіщення",
-            "NOTIFICATIONS_DESCRIPTION": "Виберіть які додатки пожуть надсилати сповіщення",
-            "ALLOW_NOTIFICATIONS": "Дозволити сповіщення",
+            "CHOOSE_NEW_WALLPAPER": "Виберiть новi шпалери",
+            "NOTIFICATIONS": "Сповiщення",
+            "NOTIFICATIONS_DESCRIPTION": "Виберiть, якi програми можуть надсилати сповiщення",
+            "ALLOW_NOTIFICATIONS": "Дозволити сповiщення",
             "SOUNDS": "Звуки",
-            "CLOUD_BACKUP": "Резервне копіювання",
-            "YOUR_PROFILE": "Ваш профіль",
-            "SUCCESS": "Успішно",
-            "SUCCESS_TEXT": "Планшет перезавантажиться через 5секунд...",
-            "OK": "Ок",
-            "ON": "Увімк.",
-            "OFF": "Вимк.",
-
+            "PHONE": "Телефон",
+            "PHONE_DESCRIPTION": "Перемикання iдентифiкатора абонента, блокування номерiв тощо.",
+            "BLOCKED_CONTACTS": "Заблокованi контакти",
+            "MY_NUMBER": "Мій номер",
+            "SHOW_CALLER_ID": "Показати iдентифiкатор абонента",
+            "UNBLOCK_POPUP": {
+                "TITLE": "Розблокувати номер",
+                "TEXT": "Ви впевненi, що хочете розблокувати цей номер?",
+                "CANCEL": "Скасувати",
+                "CONFIRM": "Розблокувати"
+            },
+            "FACE_ID_PASSWORD": "Фейс-ID i пароль",
+            "FACE_ID_PASSWORD_DESCRIPTION": "Захистiть свiй телефон",
+            "ENTER_PASSCODE": "Введiть пароль",
+            "PASSCODE": "Пароль",
+            "FACE_ID": "Фейс-ID",
+            "RESET_FACE_ID": "Скинути Фейс-ID",
+            "ENABLE_FACE_ID": "Увiмкнути Фейс-ID",
+            "PIN_CODE": "PIN код",
+            "PIN_CODE_ERROR": {
+                "TITLE": "Помилка",
+                "WRONG": "Неправильний PIN-код",
+                "OK": "OK"
+            },
+            "DISABLE_FACE_ID_POPUP": {
+                "TITLE": "Вимкнiть розблокування обличчям",
+                "TEXT": "Ви впевненi, що хочете вимкнути Фейс-ID?",
+                "CANCEL": "Скасувати",
+                "CONFIRM": "Вимкнути"
+            },
+            "ENABLE_FACE_ID_POPUP": {
+                "TITLE": "Увiмкнути Фейс-ID",
+                "TEXT": "Ви впевненi, що хочете ввiмкнути Фейс-ID?",
+                "CANCEL": "Скасувати",
+                "CONFIRM": "Ввiмкнути"
+            },
+            "DISABLE_PIN_POPUP": {
+                "TITLE": "Вимкнути PIN-код",
+                "TEXT": "Ви впевненi, що хочете вимкнути PIN-код? (Це також вимкне розпiзнавання обличчя)",
+                "CANCEL": "Скасувати",
+                "CONFIRM": "Вимкнути"
+            },
+            "TURN_PASSCODE_OFF": "Вимкнути пароль",
+            "TURN_PASSCODE_ON": "Увiмкнути пароль",
+            "CHANGE_PASSCODE": "Змiнити пароль",
+            "CLOUD_BACKUP": "Резервна копiя",
+            "YOUR_PROFILE": "Ваш профiль",
+            "CREATE_BACKUP": "Створити резервну копiю",
+            "BACKUPS": "Резервні копії",
+            "SAVE_BACKUP_POPUP": {
+                "TITLE": "Зберегти резервну копiю",
+                "TEXT": "Ви впевненi, що хочете зберегти резервну копiю своїх даних? (Буде збережено вашi контакти, фотографiї та налаштування)",
+                "CANCEL": "Скасувати",
+                "CONFIRM": "Зберегти"
+            },
+            "APPLY_BACKUP_POPUP": {
+                "TITLE": "Застосувати резервне копiювання",
+                "TEXT": "Ви впевненi, що бажаєте застосувати цю резервну копiю? (Буде перезаписано вашi контакти, фотографiї та налаштування)",
+                "CANCEL": "Скасувати",
+                "CONFIRM": "Застосувати"
+            },
+            "BACKUP_ERROR_POPUP": {
+                "WARNING": "Попередження",
+                "ERROR": "Помилка",
+                "ALREADY_HAVE": "У вас вже є резервна копія для цього номера",
+                "SAME_PHONE": "Ви не можете застосувати резервну копію, створену з цього ж телефону",
+                "OK": "OK"
+            },
+            "SUCCESS": "Успiшно",
+            "SUCCESS_TEXT": "Телефон перезавантажиться через 5 секунд...",
+            "OK": "OK",
+            "ON": "Увiмкнути",
+            "OFF": "Вимкнути",
+            "REMOVE_BACKUP_POPUP": {
+                "TITLE": "Видалити резервну копiю",
+                "TEXT": "Ви впевненi, що хочете видалити цю резервну копiю?",
+                "CANCEL": "Скасувати",
+                "CONFIRM": "Видалити"
+            },
             "RESET_POPUP": {
                 "TITLE": "Скинути налаштування",
-                "TEXT": "Ви впевнені, що хочете скинути налаштування планшета? [УСІ ДАНІ БУДУТЬ ВИДАЛЕНІ]",
+                "TEXT": "Ви впевненi, що бажаєте скинути налаштування телефону? [ЦЕ ВИДАЛИТЬ УСЕ]",
                 "CANCEL": "Скасувати",
                 "CONFIRM": "Скинути"
             },
-            "UP_TO_DATE": "Ваш планшет оновлений",
-            "BLUR_HOMESCREEN": "Розмиття головного екрану"
+            "UP_TO_DATE": "Ваш телефон оновлено",
+            "BLUR_HOMESCREEN": "Розмиття головного екрана"
         },
         "NOTES": {
             "TITLE": "Нотатки",
             "SEARCH_PLACEHOLDER": "Пошук",
-            "FOOTER": "{amount} нотаток",
-            "NEW_NOTE": "Новий запис",
+            "FOOTER": "{amount} Нотаткiв",
+            "NEW_NOTE": "Нова примiтка",
             "LAST_EDITED": "Останнє редагування: {date}",
             "DELETE_TITLE": "Видалити {title}",
-            "DELETE_TEXT": "Ви впевненні що хочете видалити '{title}'?",
+            "DELETE_TEXT": "Ви впевненi, що хочете видалити '{title}'?",
             "BUTTON_CANCEL": "Скасувати",
             "BUTTON_DELETE": "Видалити"
         },
         "CLOCK": {
             "WORLDCLOCK": {
-                "TITLE": "Світовий годинник",
-                "TODAY": "Сьогодні",
+                "TITLE": "Свiтовий годинник",
+                "TODAY": "Сьогоднi",
                 "TOMORROW": "Завтра",
                 "YESTERDAY": "Вчора",
                 "LOCAL_TIME": "Місцевий час",
                 "HRS": "{time} год"
             },
             "ALARM": {
-               "TITLE": "Будильник",
+                "TITLE": "Будильник",
                 "ADD": "Додати будильник",
                 "CANCEL": "Скасувати",
                 "EDIT": "Редагувати",
                 "DONE": "Готово",
                 "SAVE": "Зберегти",
-                "LABEL": "Мітка",
-                "SOUND": "Звук",
-                "SNOOZE": "Відкласти",
+                "LABEL": "Назва",
+                "SOUND": "Мелодiя",
+                "SNOOZE": "Вiдкласти",
                 "DELETE_TITLE": "Видалити будильник",
-                "DELETE_TEXT": "Ви впевнені, що хочете видалити цей будильник?",
+                "DELETE_TEXT": "Ви впевненi, що хочете видалити цей будильник?",
                 "BUTTON_CANCEL": "Скасувати",
                 "BUTTON_DELETE": "Видалити",
                 "ALARMS": "Будильники",
@@ -148,14 +234,14 @@
                 "EDIT_ALARM": "Редагувати будильник"
             },
             "STOPWATCH": {
-                "TITLE": "Секундомір",
+                "TITLE": "Секундомiр",
                 "START": "Старт",
                 "STOP": "Стоп",
                 "RESET": "Скинути",
-                "LAP": "Коло",
+                "LAP": "iнтервал",
                 "TIME": "Час",
-                "TOTAL": "Загалом",
-                "NO_LAPS": "Немає кіл"
+                "TOTAL": "Всього",
+                "NO_LAPS": "Немає iнтервалiв"
             },
             "TIMER": {
                 "TITLE": "Таймер",
@@ -165,7 +251,7 @@
                 "HOURS": "Години",
                 "MINUTES": "Хвилини",
                 "SECONDS": "Секунди",
-                "NO_RECENTS": "Немає недавніх"
+                "NO_RECENTS": "Немає останнiх"
             },
             "ALERT": {
                 "STOP": "Стоп",
@@ -173,1510 +259,1604 @@
             }
         },
         "CAMERA": {
-            "VIDEO": "Відео",
+            "VIDEO": "Вiдео",
             "PHOTO": "Фото",
-            "LANDSCAPE": "Альбомна орієнтація",
+            "LANDSCAPE": "Пейзажний режим",
             "UPLOADING": "Завантаження"
         },
+        "DARKCHAT": {
+            "TITLE": "Дарк-нет",
+            "SEARCH": "Пошук каналiв",
+            "CANCEL": "Скасувати",
+            "SET": "Встановити",
+            "JOIN": "Приєднатися",
+            "LEAVE": "Вийти",
+            "NEW_ROOM": "Нова кiмната",
+            "NEW_ROOM_TEXT": "Введiть код кiмнати, щоб приєднатися або створити кiмнату",
+            "ROOM_CODE": "Код кiмнати",
+            "LEAVE_ROOM": "Вийти з кiмнати",
+            "LEAVE_ROOM_TEXT": "Ви впевненi, що бажаєте залишити цю кiмнату?",
+            "NOW": "Зараз",
+            "INPUT_PLACEHOLDER": "Введiть повiдомлення...",
+            "NO_CHATS": "Немає чатiв",
+            "NO_CHATS_TEXT": "Ви ще не приєдналися до каналу. Приєднайтеся/створiть, натиснувши знак плюс у верхньому правому кутi.",
+            "MEMBER": "Учасник",
+            "MEMBERS": "Учасники",
+
+            "USERNAME": "iм'я користувача",
+            "PASSWORD": "Пароль",
+            "LOGIN": "Увiйти",
+            "SIGN_UP": "Зареєструватися",
+            "NO_ACCOUNT": "Немає облiкового запису?",
+            "ALREADY_HAVE": "Вже маєте акаунт?",
+            "USERNAME_NOT_ALLOWED": "Ім'я користувача заборонено",
+
+            "CHANGE_ACCOUNT": "Змiнити облiковий запис",
+            "CHANGE_PASSWORD": "Змiнити пароль",
+            "DELETE_ACCOUNT": "Видалити акаунт",
+
+            "ERROR": "Помилка",
+            "INVALID_LENGTH": "Пароль повинен мiстити мiнiмум 3 символи",
+            "USERNAME_TAKEN": "iм'я користувача вже зайнято",
+            "UNKNOWN": "Невiдома помилка",
+            "INVALID_USERNAME": "iм'я користувача не iснує",
+            "INCORRECT_PASSWORD": "Невiрний пароль",
+            "OK": "OK",
+
+            "LEAVE_CHANNEL": {
+                "TITLE": "Вийти з каналу",
+                "DESCRIPTION": "Ви впевненi, що бажаєте залишити цей канал?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Вийти"
+            },
+
+            "SET_PASSWORD_POPUP": {
+                "TITLE": "Встановити пароль",
+                "DESCRIPTION": "Вам потрiбно встановити пароль для свого облiкового запису",
+                "PLACEHOLDER": "Пароль"
+            }
+        },
         "APPSTORE": {
-            "TITLE": "Додатки",
+            "TITLE": "Програми",
             "SEARCH": "Пошук",
             "GET": "Отримати",
-            "OPEN": "Відкрити",
-            "TODAY": "Сьогодні",
-            "POPULAR_APPS": "Популярні додатки",
-            "GAMES": "Ігри",
-            "APPS": "Додатки",
+            "OPEN": "Вiдкрити",
+            "TODAY": "Сьогоднi",
+            "POPULAR_APPS": "Популярнi програми",
+            "GAMES": "iгри",
+            "APPS": "Застосунки",
             "WHAT_WE_PLAYING": "У що ми граємо",
-            "INFORMATION": "Інформація",
-            "PROVIDER": "Розробник",
-            "SIZE": "Розмір",
-            "COMPATIBILITY": "Сумісність",
-            "IN_APP_PURCHASES": "Вбудовані покупки",
-            "WORKS_WITH_PHONE": "Працює на цьому планшеті",
-            "NO": "Ні",
+            "INFORMATION": "iнформацiя",
+            "PROVIDER": "Провайдер",
+            "SIZE": "Розмiр",
+            "COMPATIBILITY": "Сумiснiсть",
+            "IN_APP_PURCHASES": "Покупки через програму",
+            "WORKS_WITH_PHONE": "Працює з цим телефоном",
+            "NO": "Нi",
             "YES": "Так",
             "PURCHASE_APP_POPUP": {
-                "TITLE": "Купівля додатку",
-                "DESCRIPTION": "Ви хочете придбати {app} за {price}?",
+                "TITLE": "Придбати додаток",
+                "DESCRIPTION": "Ви хочете купити {app} за {price}?",
                 "CANCEL": "Скасувати",
-                "PROCEED": "Купити"
+                "PROCEED": "Придбати"
             }
         },
         "PHOTOS": {
-            "TITLE": "Фотографії",
-            "SELECT": "Вибрати",
+            "TITLE": "Галерея",
+            "SELECT": "Обрати",
             "CANCEL": "Скасувати",
+            "PROCEED": "Продовжити",
+            "OK": "OK",
             "EDIT": "Редагувати",
             "DONE": "Готово",
             "DELETE": "Видалити",
-            "SELECT_ITEMS": "Вибрати елемент",
-            "SELECTED_COUNT": "Вибрано {count} елементів",
+            "SELECT_ITEMS": "Оберiть елементи",
+            "SELECTED_COUNT": "{count} елементiв вибрано",
 
-            "PHOTOS": "Фотографії",
+            "PHOTOS": "Фотографiї",
             "ALBUMS": "Альбоми",
-            "LIBRARY": "Бібліотека",
+            "LIBRARY": "Бiблiотека",
             "GALLERY": "Галерея",
             "MY_ALBUMS": "Мої альбоми",
-            "MEDIA_TYPES": "Медіа",
+            "SHARED_ALBUMS": "Спільні альбоми",
+            "MEDIA_TYPES": "Тип медiа",
+            "MANAGE_MEMBERS": "Керування учасниками",
             "NEW_ALBUM_POPUP": {
                 "TITLE": "Новий альбом",
-                "DESCRIPTION": "Введіть назву для цього альбому",
+                "DESCRIPTION": "Введiть назву альбома",
                 "PLACEHOLDER": "Назва",
                 "CANCEL": "Скасувати",
                 "PROCEED": "Зберегти"
             },
             "REMOVE_ALBUM": {
                 "TITLE": "Видалити \"{name}\"",
-                "DESCRIPTION": "Ви впевненні що хочете видалити альбом\"{name}\"? Фотографії не будуть видалені",
-                "CANCEL": "Скасувати",
-                "PROCEED": "Видалити"
+                "DESCRIPTION": "Ви впевненi, що хочете видалити альбом \"{name}\"? Фотографiї не будуть видаленi"
+            },
+            "LEAVE_SHARED_ALBUM": {
+                "TITLE": "Вийти з \"{name}\"",
+                "DESCRIPTION": "Ви впевнені, що хочете вийти з альбому \"{name}\"? Після цього ви більше не зможете завантажувати фото до нього"
             },
             "RENAME_ALBUM_POPUP": {
                 "TITLE": "Перейменувати альбом",
-                "DESCRIPTION": "Введіть нову назву для цього альбому",
+                "DESCRIPTION": "Введiть нову назву для цього альбому",
                 "PLACEHOLDER": "Нова назва альбому",
                 "CANCEL": "Скасувати",
-                "PROCEED": "Продовжити"
+                "PROCEED": "Пiдтвердити"
             },
             "DELETE_IMAGE_POPUP": {
                 "TITLE": "Видалити зображення",
-                "DESCRIPTION": "Ви впевненні що хочете видалити зображення?",
+                "DESCRIPTION": "Ви впевненi, що хочете видалити це зображення?",
                 "CANCEL": "Скасувати",
                 "PROCEED": "Видалити"
             },
             "IMPORT_IMAGE_POPUP": {
-                "TITLE": "Імпорт до альбому",
-                "DESCRIPTION": "Імпортувати зображення до цього альбому",
+                "TITLE": "iмпортувати до альбому",
+                "DESCRIPTION": "iмпортуйте зображення до цього альбому",
                 "CANCEL": "Скасувати",
-                "PROCEED": "Імпорт",
-                "PLACEHOLDER": "URL Зображення"
+                "PROCEED": "iмпортувати",
+                "PLACEHOLDER": "URL зображення"
+            },
+            "ERROR": "Помилка",
+            "SUCCESS": "Успішно",
+            "CONTACT_ALREADY_IN_ALBUM": "Контакт уже додано до альбому",
+            "CONTACT_ADDED_TO_ALBUM": "Контакт додано до альбому",
+            "MEMBERS": "{count} учасників",
+            "INVITE": "Запросити",
+            "LEAVE_ALBUM": "Вийти з альбому",
+            "CREATE_SHARED_ALBUM": "Створити спільний альбом",
+            "MANAGE_SHARED_ALBUM": "Керувати спільним альбомом",
+            "REMOVE_MEMBER": {
+                "TITLE": "Видалити учасника",
+                "DESCRIPTION": "Ви впевнені, що хочете видалити цього учасника з альбому?",
+                "SUCCESS": "Учасника видалено з альбому"
             },
 
-            "NO_PHOTOS": "Немає фото чи відео",
-            "NO_PHOTOS_INSTRUCTIONS": "Ви можете зробити фото та відео за допомогою камери",
-            "PHOTO_COUNT": "{amount} Фото",
-            "VIDEO_COUNT": "{amount} Відео",
+            "NO_PHOTOS": "Немає фото чи вiдео",
+            "NO_PHOTOS_INSTRUCTIONS": "За допомогою камери можна знiмати фотографiї та вiдео",
+            "PHOTO_COUNT": "{amount} Фотографiй",
+            "VIDEO_COUNT": "{amount} Вiдео",
 
-            "DELETE_CONTEXT_TITLE": "Ви хочете видалити {type} або просто прибрати їх з цього альбому?",
-            "THESE_PHOTOS": "ці фотографії",
-            "THIS_PHOTO": "цю фотографію",
-            "REMOVE_FROM_ALBUM": "Прибрати з альбому",
-            "ADD_TO_ALBUM": "Додати до альбому",
-            "ADD_TO_FAVOURITES": "Додати до улюблених",
-            "REMOVE_FROM_FAVOURITES": "Прибрати з улюблених",
-            "VIDEOS": "Відео",
-            "SELFIES": "Селфі",
-            "SCREENSHOTS": "Знімки екрана",
-            "IMPORTS": "Імпорт",
-            "DUPLICATES": "Дублікати",
-            "YEARS": "Роки",
-            "MONTHS": "Місяці",
-            "DAYS": "Дні",
-            "ALL_PHOTOS": "Усі фотографії",
+            "DELETE_CONTEXT_TITLE": "Ви хочете видалити {type} iз цього альбому?",
+            "THESE_PHOTOS": "цi фотографiї",
+            "THIS_PHOTO": "це фото",
+            "REMOVE_FROM_ALBUM": "Видалити з альбому",
+            "ADD_TO_ALBUM": "Додати в альбом",
+            "ADD_TO_FAVOURITES": "Додати в улюблене",
+            "REMOVE_FROM_FAVOURITES": "Видалити з обранного",
+            "VIDEOS": "Вiдео",
+            "SELFIES": "Селфi",
+            "SCREENSHOTS": "Скрiншоти",
+            "IMPORTS": "iмпорт",
+            "DUPLICATES": "Дублiкати",
+            "YEARS": "Рокiв",
+            "MONTHS": "Мiсяцiв",
+            "DAYS": "Днiв",
+            "ALL_PHOTOS": "Всi фото",
 
-            "FAVOURITES": "Улюблені",
-            "RECENTS": "Останні"
+            "FAVOURITES": "Улюбленi",
+            "RECENTS": "Нещодавнi"
+        },
+        "WEATHER": {
+            "TITLE": "Погода",
+            "HOURLY_FORECAST": "Прогноз погоди",
+            "NOW": "Зараз",
+            "FEELS_LIKE": "Вiдчуваєтсья як",
+            "FEELS_LIKE_SAME": "Подiбно до фактичної температури.",
+            "FEELS_LIKE_HUMIDITY": "Вологiсть створює вiдчуття тепла",
+            "FEELS_LIKE_WIND": "Вiд вiтру стає прохолоднiше",
+            "SUNRISE": "Схiд сонця",
+            "SUNSET": "Захiд сонця",
+            "WIND": "Вiтер",
+            "PRECIPITATION": "Опади",
+            "LAST_24H": "за останнi 24 години",
+            "EXPECTED_24H": "очiкується протягом наступних 24 годин",
+            "TYPES": {
+                "CLOUDY": "Хмарно",
+                "LIGHT_RAIN": "Легкий дощ",
+                "HEAVY_RAIN": "Сильний дощ",
+                "RAIN": "Дощ",
+                "SNOW": "Снiг",
+                "FOG": "Туман",
+                "CLEAR": "Ясно",
+                "MOSTLY_CLEAR": "Частково ясно",
+                "THUNDER": "Грiм",
+                "TORNADO": "Торнадо",
+                "WINDY": "Вiтряно"
+            }
+        },
+        "MESSAGES": {
+            "TITLE": "Повiдомлення",
+            "NEW_MESSAGE": "Нове повiдомлення",
+            "PEOPLE": "Люди",
+            "MEMBERS": "Користувачi",
+            "OTHER": "iнше",
+            "SENT_A_PHOTO": "Вiлправити фото",
+            "SENT_AUDIO_MESSAGE": "Вiдправити аудiо",
+            "SENT": "Надiслати",
+            "REQUESTED": "Запити",
+            "MISSED_CALL": "{number} намагався зателефонувати вам, але ви не вiдповiли, натиснiть номер, щоб передзвонити",
+            "NOT_DELIVERED": "Не доставлено",
+            "PLACEHOLDER": "Текстове повiдомлення",
+            "DONE": "Готово",
+            "EDIT": "Редагувати",
+            "READ": "Прочитати",
+            "CANCEL": "Скасувати",
+            "SEND": "Надiслати",
+            "UNKNOWN": "Невiдомо",
+            "TO": "до",
+            "SEARCH": "Пошук",
+            "ADD_MEMBER": "Додати учасника",
+            "SHARE_LOCATION": "Подiлитися моїм мiсцезнаходженням",
+            "LEAVE_GROUP": "Вийти з групи",
+            "SENT_LOCATION": "Подiлилися своїм мiсцезнаходженням, натиснiть, щоб вiдкрити на Картах",
+            "SENT_LOCATION_SHORT": "Переслати мiсцезнаходження",
+            "TRIED_TO_CALL": "{number} намагався додзвонитися до вас",
+            "DELETE": "Видалити",
+            "GROUP": "Група",
+            "GROUP_NAME": "Назва групи",
+            "REMOVE_POPUP": {
+                "TITLE": "Видалити учасника",
+                "TEXT": "Ви впевненi, що хочете видалити {name} з групи?",
+                "REMOVE": "Видалити"
+            },
+            "LEAVE_POPUP": {
+                "TITLE": "Вийти з групи",
+                "TEXT": "Ви впевнені, що бажаєте залишити цю групу?",
+                "LEAVE": "Вийти"
+            },
+            "ADD_POPUP": {
+                "TITLE": "Додати учасника",
+                "TEXT": "Введiть номер, щоб додати до групи '{name}'?",
+                "ADD": "Додати"
+            },
+            "SEND_LOCATION_POPUP": {
+                "TITLE": "Подiлитися мiсцезнаходженням",
+                "TEXT": "Хочете подiлитися своїм мiсцезнаходженням?",
+                "CANCEL": "Скасувати",
+                "SEND": "Надiслати"
+            },
+            "PAY": {
+                "REQUEST": "Запит",
+                "REQUESTED": "Запрошено",
+                "PAY": "Сплатити",
+                "SEND": "Надiслати",
+                "SEND_TITLE": "Вiдправити {amount}",
+                "SEND_DESCRIPTION": "Хочете вiдправити {amount} до {name}?",
+                "SEND_BUTTON_CANCEL": "Скасувати",
+                "SEND_BUTTON_SEND": "Надiслати"
+            },
+            "PAYMENT_FAILED_POPUP": {
+                "TITLE": "Платiж не виконано",
+                "DESCRIPTION": "Помилка: {error}",
+                "CLOSE": "Закрити"
+            },
+            "DELETE_CONVERSATION": {
+                "TITLE": "Видалити бесiду",
+                "DESCRIPTION": "Ви впевненi, що хочете видалити цю розмову?",
+                "CANCEL": "Скасувати",
+                "DELETE": "Видалити"
+            },
+            "REMOVE_AVATAR_POPUP": {
+                "TITLE": "Видалити аватар",
+                "DESCRIPTION": "Ви впевненi, що хочете видалити аватар групи?",
+                "CANCEL": "Скасувати",
+                "REMOVE": "Видалити"
+            },
+            "MARK_AS_READ": "Позначити як прочитане",
+            "MESSAGE_DELETED": "Повiдомлення видалено",
+            "OPEN_IN_MAPS": "Вiдкрити в Картах",
+            "USERS_LOCATION": "Місцезнаходження {user}'s",
+            "START_RECORDING": "Натиснiть кнопку, щоб почати запис",
+            "LOADING": "Завантаження...",
+            "EMPTY_RECORDING": {
+                "TITLE": "Порожнiй запис",
+                "DESCRIPTION": "Ви не можете надiслати порожнiй запис",
+                "OK": "OK"
+            }
+        },
+        "PHONE": {
+            "TITLE": "Телефон",
+            "DONE": "Готово",
+            "EDIT": "Редагувати",
+            "CANCEL": "Скасувати",
+            "CALL": {
+                "CALL_TITLE": "Зателефонувати {name}",
+                "CALL_TEXT": "Ви впевненi, що хочете зателефонувати {name}?",
+                "CALL_BUTTON_CANCEL": "Скасувати",
+                "CALL_BUTTON_CALL": "Телефонувати",
+                "NO_CALLER_ID": "Немає ID абонента",
+                "UNKNOWN": "Невiдомо",
+                "USER_BUSY": "Абонент зайнятий",
+                "USER_UNAVAILABLE": "Абонент недоступний",
+                "CALL_BACK": "Перенабрати",
+                "DECLINE": "Вiдхилити",
+                "ACCEPT": "Пiдтвердити",
+                "END": "Кiнець",
+                "VIDEO_CALL": "Вiдеодзвiнок",
+                "MUTE": "Вимкнути звук",
+                "KEYPAD": "Клавiатура",
+                "SPEAKER": "Динамiк",
+                "ADD_CALL": "Додати виклик",
+                "VIDEO": "Вiдео",
+                "CONTACTS": "Контакти",
+                "MOBILE": "Мобiльний",
+                "VIDEO_CALL_REQUEST": {
+                    "TITLE": "Запит на вiдеодзвiнок",
+                    "DESCRIPTION": "Бажаєте прийняти вiдеодзвiнок?",
+                    "CANCEL": "Скасувати",
+                    "PROCEED": "Пiдтвердити"
+                },
+                "REQUEST_VIDEO": {
+                    "TITLE": "Вiдеодзвiнок",
+                    "DESCRIPTION": "Бажаєте почати вiдеодзвiнок?",
+                    "CANCEL": "Скасувати",
+                    "PROCEED": "Пiдтвердити"
+                },
+                "STOP_VIDEO": {
+                    "TITLE": "Зупинити вiдео",
+                    "DESCRIPTION": "Ви впевненi, що хочете припинити дiлитися своїм вiдео?",
+                    "CANCEL": "Скасувати",
+                    "PROCEED": "Зупинити"
+                }
+            },
+            "CONTACTS": {
+                "TITLE": "Контакти",
+                "FIRST_NAME": "iм'я",
+                "LAST_NAME": "Прiзвище",
+                "PHONE_NUMBER": "Номер телефона",
+                "MY_CARD": "Моя картка",
+                "ADD_PHOTO": "Додати фото",
+                "REMOVE_CONTACT_TITLE": "Видалити iм'я контакту",
+                "REMOVE_CONTACT_TEXT": "Ви впевненi, що хочете видалити цей контакт?",
+                "REMOVE_CONTACT_BUTTON_CANCEL": "Скасувати",
+                "REMOVE_CONTACT_BUTTON_DELETE": "Видалити",
+                "DELETE_CONTACT": "Видалити контакт",
+                "MESSAGE": "повiдомлення",
+                "CALL": "дзвiнок",
+                "VIDEO": "вiдеодзвiнок",
+                "SHARE": "подiлитись",
+                "MAIN": "загальний",
+                "SHARE_CONTACT": "Подiлитися контактом",
+                "SHARE_LOCATION": "Подiлитися моїм мiсцезнаходженням",
+                "REMOVE_FAVORITE": "Видалити з обраного",
+                "ADD_FAVORITE": "Додати в обране",
+                "ADD_CONTACT": "Додати до контактiв",
+                "UNBLOCK_CALLER": "Розблокувати цього абонента",
+                "BLOCK_CALLER": "Заблокувати цього абонента",
+                "UNBLOCK_NUMBER_TITLE": "Розблокувати номер",
+                "UNBLOCK_NUMBER_TEXT": "Ви впевненi, що хочете розблокувати {number}?",
+                "UNBLOCK_NUMBER_BUTTON_CANCEL": "Скасувати",
+                "UNBLOCK_NUMBER_BUTTON_UNBLOCK": "Розблокувати",
+                "BLOCK_NUMBER_TITLE": "Заблокувати номер",
+                "BLOCK_NUMBER_TEXT": "Ви впевненi, що хочете заблокувати {number}?",
+                "BLOCK_NUMBER_BUTTON_CANCEL": "Скасувати",
+                "BLOCK_NUMBER_BUTTON_BLOCK": "Заблокувати",
+                "EMAIL": "Електронна пошта",
+                "ADDRESS": "Адреса",
+                "CHANGE_AVATAR": "Змiнити аватар",
+                "REMOVE_AVATAR": "Видалити аватар"
+            },
+            "FAVOURITES": {
+                "TITLE": "Обране",
+                "REMOVE_TITLE": "Видалити з обраного",
+                "REMOVE_TEXT": "Ви впевненi, що бажаєте видалити цей контакт iз обраного?",
+                "REMOVE_BUTTON_CANCEL": "Скасувати",
+                "REMOVE_BUTTON_REMOVE": "Видалити"
+            },
+            "KEYPAD": {
+                "TITLE": "Клавiатура",
+                "ADD_NUMBER": "Додати номер"
+            },
+            "RECENTS": {
+                "TITLE": "Нещодавні",
+                "ALL": "Усі",
+                "MISSED": "Пропущені",
+                "OUTGOING_CALL": "Вихідний дзвінок",
+                "INCOMING_CALL": "Вхідний дзвінок",
+                "CANCELLED_CALL": "Скасований дзвінок",
+                "MISSED_CALL": "Пропущений дзвінок"
+            },
+            "VOICEMAIL": {
+                "TITLE": "Голосове повiдомлення",
+                "AT": "в",
+                "DELETE_POPUP": {
+                    "TITLE": "Видалити голосове повiдомлення",
+                    "DESCRIPTION": "Ви впевненi, що хочете видалити це голосове повiдомлення?",
+                    "CANCEL": "Скасувати",
+                    "PROCEED": "Видалити"
+                },
+                "CALL_POPUP": {
+                    "TITLE": "Зателефонувати",
+                    "DESCRIPTION": "Ви впевненi, що хочете зателефонувати {number}?",
+                    "CANCEL": "Скасувати",
+                    "PROCEED": "Телефонувати"
+                }
+            }
+        },
+        "WALLET": {
+            "TITLE": "Гаманець",
+            "BALANCE": "Баланс",
+            "SEND": "Надiслати",
+            "NEXT": "Наступне",
+            "DONE": "Готово",
+            "DONE_SUBTITLE": "Ви вiдправили {amount} до {number}",
+            "NO_REFUNDS": "Платежi не повертаються, ще раз перевiрте номер.",
+            "NEW_BALANCE": "Новий баланс",
+            "HOME": "Головна",
+            "LATEST_TRANSACTIONS": "Останнi транзакцiї",
+            "TRANSACTIONS": "Транзакцiї",
+            "ALL_TRANSACTIONS": "Всi транзакцiї",
+            "LATEST_BILLS": "Останнi рахунки",
+            "NOW": "Зараз",
+            "AGO": "тому",
+            "SELECT_CONTACT": "Обрати контакт",
+            "TODAY": "Сьогоднi",
+            "YESTERDAY": "Вчора",
+
+            "INSUFFICIENT_FUNDS": {
+                "TITLE": "Недостатньо грошей",
+                "DESCRIPTION": "У вас недостатньо грошей, щоб надiслати цю суму"
+            },
+            "NUMBER_DOES_NOT_EXIST": {
+                "TITLE": "Не вдалося продовжити",
+                "DESCRIPTION": "Введений номер не iснує або гравець не в мережi"
+            },
+            "AIRPLANE_MODE": {
+                "TITLE": "Помилка",
+                "DESCRIPTION": "Ви намагаєтеся виконати дiю, для якої потрiбен доступ до iнтернету, вимкнiть режим польоту, щоб продовжити."
+            },
+            "INVALID_AMOUNT": {
+                "TITLE": "Недiйсна сума",
+                "DESCRIPTION": "Ви ввели недiйсну суму"
+            },
+            "FAILED_SEND": {
+                "TITLE": "Не вдалося надiслати",
+                "DESCRIPTION": "Не вдалося надiслати грошi (телефон вiдсутнiй)"
+            },
+            "EXCEED_DAILY": {
+                "TITLE": "Перевищено денний лiмiт",
+                "DESCRIPTION": "Ви перевищили щоденний лiмiт"
+            },
+            "EXCEED_WEEKLY": {
+                "TITLE": "Перевищено тижневий лiмiт",
+                "DESCRIPTION": "Ви перевищили тижневий лiмiт"
+            },
+            "FAILED_ADD": {
+                "TITLE": "Не вдалося додати грошi",
+                "DESCRIPTION": "Не вдалося додати грошi на вказаний рахунок"
+            },
+
+            "OK": "OK"
+        },
+        "GARAGE": {
+            "TITLTE": "Гараж",
+            "ACTIONS": "Дiї",
+            "MY_CARS": "Мої авто",
+            "OUT": "Вийти",
+            "GARAGE": "Гараж",
+            "IMPOUNDED": "Конфiсковано",
+            "IMPOUND_INFO": "iнформацiя про конфiскацiю",
+            "LOCATION": "Локацiя",
+            "SUMMON": "Викликати",
+            "VALET": "Камердинер",
+            "STATISTICS": "Статистика",
+            "FUEL": "Паливо",
+            "ENGINE": "Двигун",
+            "BODY": "Кузов",
+            "VEHICLE": "Транспортний засiб",
+            "STATUS": "Статус",
+            "LOCKED": "Заблоковано",
+            "LOCK": "Заблокувати",
+            "UNLOCKED": "Розблоковано",
+            "UNLOCK": "Розблокувати",
+
+            "WAYPOINT_POPUP": {
+                "TITLE": "Встановити маршрут",
+                "TEXT": "Ви хочете встановити маршрут до свого {model}?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "VALET_POPUP": {
+                "TITLE": "Камердинер",
+                "TEXT": "Ви хочете, щоб камердинер доставив {model} ({plate})?",
+                "TEXT_PAID": "Замовити камердинера для {model} ({plate}) за {amount}?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "{toggle} транспортний засiб",
+                "TEXT": "Ви хочете {toggle} Ваш транспортний засiб?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "IMPOUND_REASON": {
+                "REASON": "Причина",
+                "RETRIEVABLE": "Дiстати",
+                "IMPOUNDER": "Конфiсковано",
+                "PRICE": "Вартiсть"
+            }
+        },
+        "HOME": {
+            "TITLE": "Будинок",
+            "MY_HOMES": "Мої будинки",
+            "MY_HOME": "Мiй будинок",
+            "KEY_ACCESS": "Доступ до ключей",
+            "ACTIONS": "Дiї",
+            "FRONT_DOOR": "Вхiднi дверi",
+            "LOCATION": "Розташування",
+            "SET_WAYPOINT": "Встановити маршрут",
+            "UNLOCK": "Розблокувати",
+            "UNLOCKED": "Розблоковано",
+            "LOCK": "Заблокувати",
+            "LOCKED": "Заблоковано",
+            "GIVE_KEY": "Дати ключ",
+            "MANAGE": "Керувати",
+            "WAYPOINT_POPUP": {
+                "TITLE": "Встановити маршрут",
+                "TEXT": "Ви хочете встановити маршрут до {home}?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "LOCK_POPUP": {
+                "TITLE": "{toggle} Будинок",
+                "TEXT": "Ви хочете {toggle} Ваш будинок?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "GIVE_KEY_POPUP": {
+                "TITLE": "Видати ключ",
+                "TEXT": "Введiть ID особи, якiй ви хочете передати ключ",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "REMOVE_KEY_POPUP": {
+                "TITLE": "Забрати ключi",
+                "TEXT": "Ви впевненi, що бажаєте видалити доступ до {name}?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            }
+        },
+        "MARKETPLACE": {
+            "MARKETPLACE": "Торгова площа",
+            "TITLE": "Назва",
+            "SEARCH": "Пошук записiв або номерiв",
+            "HOME": "Головна",
+            "YOUR_POSTS": "Вашi публiкацiї",
+            "PRICE": "Цiна",
+            "DESCRIPTION": "Опис",
+            "IMAGES": "Зображення",
+            "POST": "Опублiкувати",
+            "AMOUNT_OF_TOTAL": "{amount} за {total}",
+            "MESSAGE": "Повiдомлення",
+            "CALL": "Дзвiнок",
+            "REMOVE": "Видалити",
+
+            "ERROR_POPUP": {
+                "TITLE": "Помилка",
+                "NO_TITLE": "Потрiбно ввести назву",
+                "NO_DESCRIPTION": "Потрiбно ввести опис",
+                "NO_PRICE": "Потрiбно ввести цiну",
+                "NO_ATTACHMENTS": "Потрiбно прикрiпити хоча б одне зображення",
+                "OK": "OK"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "Видалити запис",
+                "TEXT": "Ви впевненi, що хочете видалити цей запис?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Видалити"
+            }
+        },
+        "YELLOWPAGES": {
+            "PAGES": "Оголошення",
+            "SEARCH": "Пошук повiдомлень або номерiв",
+            "FROM": "Вiд",
+            "CANCEL": "Скасувати",
+            "NEW_POST": "Нова публiкацiя",
+            "TITLE": "Назва",
+            "DESCRIPTION": "Опис",
+            "PRICE": "Цiна",
+            "POST": "Опублiкувати",
+            "CALL": "Телефонувати",
+            "ERROR_POPUP": {
+                "TITLE": "Помилка",
+                "NO_TITLE": "Потрiбно ввести назву",
+                "NO_DESCRIPTION": "Потрiбно ввести опис",
+                "OK": "OK"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "Видалити публiкацiю",
+                "TEXT": "Ви впевненi, що хочете видалити цю публiкацiю?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Видалити"
+            }
         },
         "MAIL": {
             "TITLE": "Пошта",
             "YOU": "Ви",
             "UPDATED_NOW": "Оновлено щойно",
-            "NEW_MESSAGE": "Нове повідомлення",
-            "INBOX": "Вхідні",
-            "TO": "Кому",
-            "FROM": "Від",
+            "NEW_MESSAGE": "Нове повiдомлення",
+            "INBOX": "Вхiднi",
+            "TO": "До",
+            "FROM": "Вiд",
             "SUBJECT": "Тема",
-            "MESSAGE": "Повідомлення",
+            "MESSAGE": "Повiдомленя",
             "CANCEL": "Скасувати",
-            "SEND": "Надіслати",
+            "SEND": "Надiслати",
             "EMAIL": "Електронна пошта",
-            "EMAIL_INVALID": "Недійсна електронна адреса",
-            "EMAIL_EXISTS": "Ця електронна адреса вже існує",
+            "EMAIL_INVALID": "Недiйсна адреса електронної пошти",
+            "EMAIL_EXISTS": "Електронна адреса вже iснує",
             "PASSWORD": "Пароль",
             "WRONG_PASSWORD": "Неправильний пароль",
-            "LOGIN": "Увійти",
-            "NO_EMAIL": "Немає електронної адреси?",
-            "CREATE_ONE": "Створити",
-            "UNREAD": "Непрочитані",
+            "LOGIN": "Авторизуватися",
+            "NO_EMAIL": "Не маєте електронної адреси?",
+            "CREATE_ONE": "Створити нову",
+            "UNREAD": "Непрочитано",
             "CREATE_MAIL": "Створити електронну пошту",
             "ALREADY_HAVE": "Вже маєте електронну адресу?",
             "ADD_EMAIL": "Додати електронну адресу",
-            "RE": "Re: {subject}",
-            "CHANGE_ACCOUNT": "Змінити акаунт",
-            "CHANGE_PASSWORD": "Змінити пароль",
+            "RE": "Вiд: {subject}",
+            "CHANGE_ACCOUNT": "Змiнити облiковий запис",
+            "CHANGE_PASSWORD": "Змiнити пароль",
             "DELETE_ACCOUNT": "Видалити акаунт",
             "SIGN_OUT_POPUP": {
                 "TITLE": "Вийти",
-                "DESCRIPTION": "Ви впевнені, що хочете вийти?",
+                "DESCRIPTION": "Ви впевненi, що бажаєте вийти?",
                 "CANCEL": "Скасувати",
-                "PROCEED": "Продовжити"
+                "PROCEED": "Пiдтвердити"
             },
             "DELETE_MAIL_POPUP": {
-                "TITLE": "Видалити електронну пошту",
-                "DESCRIPTION": "Ви впевнені, що хочете видалити цей лист?",
-                "CANCEL": "Скасувати",
-                "DELETE": "Видалити"
-            }
-        },
-        "VOICEMEMO": {
-            "TITLE": "Диктофон",
-            "VOICE_RECORDINGS": "Голосовий запис",
-            "SEARCH_RECORDINGS": "Знайти записи",
-            "DEFAULT_NAME": "Новий запис",
-            "DELETE_POPUP": {
-                "TITLE": "Видалити запис",
-                "DESCRIPTION": "Ви впевненні що хочете видалити запис?",
-                "CANCEL": "Скасувати",
-                "PROCEED": "Продовжити"
-            },
-            "NO_MICROPHONE_POPUP": {
-                "TITLE": "Немає мікрофону",
-                "DESCRIPTION": "У нас немає доступу до вашого мікрофона. Переконайтеся, що мікрофон підключений, і прийміть спливаюче повідомлення у верхньому правому куті екрану",
-                "OK": "ОК"
-            },
-            "EMPTY_RECORDING_POPUP": {
-                "TITLE": "Порожній запис",
-                "DESCRIPTION": "Ви не можете зберегти запис без звуку",
-                "OK": "OK"
-            }
-        },
-        "SERVICES": {
-            "ACTIONS": "Дії",
-            "COMPANIES": "Компанії",
-            "MESSAGES": "Повідомлення",
-            "SETTINGS": "Налаштування",
-
-            "CLOSED": "Закрито",
-            "YOUR_MESSAGES": "Ваші повідомлення",
-            "JOB_MESSAGES": "Робочі повідомлення",
-
-            "DUTY": "Зміна",
-            "DUTY_DESCRIPTION": "Перемкнути статус зміни",
-            "GO_ON_DUTY": "Заступити на зміну",
-            "GO_OFF_DUTY": "Знятись зі зміни",
-            "JOB_CALLS": "Робочі виклики",
-            "JOB_CALLS_DESCRIPTION": "{toggle} прийом викликів.",
-
-            "ENABLE": "Увімкнути",
-            "DISABLE": "Вимкнути",
-
-            "DISABLE_CALLS": "Вимкнути виклики",
-            "ENABLE_CALLS": "Увімкнути виклики",
-            "BALANCE": "Баланс",
-            "CURRENT_BALANCE": "Поточний баланс компанії",
-            "MANAGE_EMPLOYEES": "Керування співробітниками",
-            "HIRE": "Найняти",
-            "SET_GRADE": "Встановити ранг",
-            "UNEMPLOYED": "Ви безробітній",
-
-            "ALL": "Усі",
-            "AVAILABLE": "Доступні",
-            "SEARCH_EMPLOYEES": "Пошук співробітників",
-
-            "PERSONAL": "Особисте",
-            "JOB": "Робота",
-            "PLACEHOLDER": "Текстове повідомлення",
-            "NOT_DELIVERED": "Не доставлено",
-            "SENT_LOCATION": "Поділився своєю локацією, натисніть, щоб відкрити на мапі",
-            "SENT_LOCATION_SHORT": "Поділився своєю локацією",
-            "SEND_LOCATION_POPUP": {
-                "TITLE": "Поділитись локацією",
-                "TEXT": "Ви хочете поділитись локацією?",
-                "CANCEL": "Скасувати",
-                "SEND": "Відправити"
-            },
-            "DELETE_CONVERSATION": {
-                "TITLE": "Видалити розмову",
-                "DESCRIPTION": "Ви впевненні що хочете видалити розмову?",
+                "TITLE": "Видалити електронний лист",
+                "DESCRIPTION": "Ви впевненi, що хочете видалити цей електронний лист?",
                 "CANCEL": "Скасувати",
                 "DELETE": "Видалити"
             },
-
-            "DEPOSIT_POPUP": {
-                "TITLE": "Депозит",
-                "DESCRIPTION": "Внести гроші на рахунок компанії",
-                "AMOUNT": "Сума",
-                "CANCEL": "Скасувати",
-                "PROCEED": "Продовжити"
-            },
-            "WITHDRAW_POPUP": {
-                "TITLE": "Зняття коштів",
-                "DESCRIPTION": "Зняття коштів з рахунку компанії",
-                "NOT_ENOUGH_MONEY": "На рахунку компанії недостатньо коштів",
-                "AMOUNT": "Сума",
-                "CANCEL": "Скасувати",
-                "PROCEED": "Продовжити"
-            },
-            "HIRE_POPUP": {
-                "TITLE": "Найняти",
-                "DESCRIPTION": "Найняти нового співробітника",
-                "PLACEHOLDER": "ID",
-                "CANCEL": "Скасувати",
-                "PROCEED": "Продовжити"
-            },
-            "FIRE_POPUP": {
-                "TITLE": "Звільнити",
-                "DESCRIPTION": "Ви впевненні що хочете звільнити {name}?",
-                "PLACEHOLDER": "ID",
-                "CANCEL": "Скасувати",
-                "PROCEED": "Продовжити"
-            }
-        },
-        "POLICE": {
-            "CANCEL": "Скасувати",
-            "CLOSE": "Закрити",
-            "BACK": "Назад",
-            "EDIT": "Редагувати",
-            "DELETE": "Видалити",
-            "REMOVE": "Прибрати",
-            "SAVE": "Зберегти",
-            "CREATE": "Створити",
-            "OK": "OK",
-            "ADD": "Додати",
-            "NEW": "Новий",
-            "PROCEED": "Продовжити",
-            "YES": "Так",
-            "NO": "Ні",
-            "ALL": "Всі",
-
-            "SEARCH": "Пошук",
-            "SEARCH_FOR": "Шукайте {query} щоб розпочати",
-            "NO_RESULTS_FOR": "Немає результатів для '{query}'",
-            "CLEAR_HISTORY": "Очистити історію",
-
-            "HOME": {
-                "TITLE": "Головна",
-                "CREATE": "Створити",
-
-                "RECENT_REPORTS": "Останні звіти",
-                "REPORT_FOOTER": "{timestamp} - {author}",
-                "BULLETIN_BOARD": "Дошка оголошень",
-                "PIN": "Закріпити",
-                "UNPIN": "Відкріпити",
-                "SEARCH_BULLETIN": "Пошук оголошення",
-                "SEARCH_UNITS": "Пошук Юніта",
-                "ADD_BULLETIN": {
-                    "TITLE": "Додати оголошення",
-                    "DESCRIPTION": "Створити нове оголошення",
-                    "PLACEHOLDER": "Заголовок",
-                    "CONTENT": "Зміст",
-                    "CANCEL": "Скасувати",
-                    "PROCEED": "Продовжити"
-                },
-                "DELETE_BULLETIN": {
-                    "TITLE": "Видалити оголошення",
-                    "DESCRIPTION": "Ви впевненні що хочете видалити оголошення?",
-                    "CANCEL": "Скасувати",
-                    "DELETE": "Видалити"
-                },
-                "RECENT_WARRANTS": "Активні розшуки",
-                "ACTIVE_UNITS": "Активні Юніти"
-            },
-
-            "DISPATCH": {
-                "TITLE": "Диспетчер",
-                "SHOW_OFFICERS": "Показати офіцерів",
-                "SHOW_EMPLOYEES": "Показати працівників",
-                "SHOW_ALARMS": "Показати сповіщення",
-                "OPTIONS": "Налаштування",
-                "OFFICERS": "Офіцери",
-                "ALARMS": "Сповіщення",
-
-                "RESPOND": "Відповісти",
-                "RESPONDED": "Відповіли",
-                "COLLAPSE": "Згорнути",
-                "EXPAND": "Розгорнути",
-                "DISMISS": "Закрити",
-                "VIEW_IN_TABLET": "Переглянути на планшеті",
-                "SET_WAYPOINT": "Встановити маршрут",
-                "LOS_SANTOS": "Лос-Сантос",
-                "CAYO_PERICO": "Кайо-Періко",
-                "OLD_NOTIFICATION": "{count} старе сповіщення",
-                "OLD_NOTIFICATIONS": "{count} старих сповіщень",
-                "NEW_NOTIFICATION": "{count} нове сповіщення",
-                "NEW_NOTIFICATIONS": "{count} нових сповіщень",
-
-                "PRIORITY": {
-                    "HIGH": "Високий",
-                    "MEDIUM": "Середній",
-                    "LOW": "Низький"
-                },
-
-                "JUST_NOW": "Щойно",
-                "MINUTES_AGO": "{minutes}хв тому",
-                "HOURS_AGO": "{hours}г тому",
-                "REMOVE_ALARM": {
-                    "TITLE": "Видалити сповіщення",
-                    "DESCRIPTION": "Ви впевненні що хочете видалити це сповіщення(Це видалить його для всіх)",
-                    "CANCEL": "Скасувати",
-                    "REMOVE": "Видалити"
-                },
-                "REMOVE_FOR_YOURSELF": "Видалити для себе",
-                "REMOVE_FOR_EVERYONE": "Видалити для всіх"
-            },
-
-            "PROFILES": {
-                "TITLE": "Профіль",
-                "PERSON": "Особа",
-                "SEARCH": "Пошук",
-                "REMOVE_AVATAR": "Видалити аватар",
-                "IDENTIFIER": "Індетифікатор",
-                "FINGERPRINT": "Відбиток пальця",
-                "DOB": "Дата народження",
-                "PHONE_NR": "Номер телефону",
-                "GENDER": "Стать",
-                "JOB": "Робота",
-                "MALE": "Чоловік",
-                "FEMALE": "Жінка",
-                "NOTES": "Нотатки",
-                "NOTES_PLACEHOLDER": "Впишіть інформацію тут...",
-
-                "LICENSES": {
-                    "TITLE": "Ліцензії",
-                    "ADD_LICENSE": "Додати ліцензію",
-                    "ADD": "Додати",
-                    "NO_LICENSES": "Немає ліцензії",
-                    "REVOKE_LICENSE": {
-                        "TITLE": "Скасувати ліцензію",
-                        "DESCRIPTION": "Ви впевненні що хочете скасувати ліцензію {license}?",
-                        "CANCEL": "Відміна",
-                        "REVOKE": "Скасувати"
-                    }
-                },
-
-                "ADD_AVATAR": {
-                    "TITLE": "Додати аватар",
-                    "SET_PHOTO": "Встановити фото",
-                    "PASTE_URL": "Встановити ЮРЛ",
-                    "PASTE_URL_DESCRIPTION": "Введіть URL зображення",
-                    "PASTE_URL_PLACEHOLDER": "URL",
-
-                    "INVALID_URL": "Недійсний URL",
-                    "INVALID_URL_DESCRIPTION": "Введена вами URL, не є дійсним зображенням ",
-                    "OK": "OK"
-                },
-
-                "VEHICLES": "Транспорт",
-                "NO_VEHICLES": "Немає транспорту",
-                "PROPERTIES": "Майно",
-                "NO_PROPERTIES": "Немає майна",
-                "REPORTS": "Звіти",
-                "NO_REPORTS": "Немає звітів",
-                "CASES": "Справи",
-                "NO_CASES": "Немає справ",
-                "WEAPONS": "Зброя",
-                "NO_WEAPONS": "Немає зброї",
-                "WARRANTS": "Розшук",
-                "NO_WARRANTS": "Немає розшуку",
-                "ACTIVE_WARRANTS": "Активний Розшук",
-                "INVOLVED": "Учасник",
-                "CHARGES": "Звинувачення",
-                "NO_CHARGES": "Без звинувачень"
-            },
-
-            "VEHICLES": {
-                "TITLE": "Транспорт",
-                "VEHICLE": "Транспортний засіб",
-                "SEARCH": "Пошук транспорту",
-                "REMOVE_PICTURE": "Видалити фото",
-                "DETAILS": "Деталі",
-
-                "ADD_PHOTO": {
-                    "TITLE": "Додати фото",
-                    "SELECT_PHOTO": "Обрати фото",
-                    "PASTE_URL": "Встановити URL",
-                    "PASTE_URL_DESCRIPTION": "Введіть URL зображення",
-                    "PASTE_URL_PLACEHOLDER": "URL",
-
-                    "INVALID_URL": "Недійсний URL",
-                    "INVALID_URL_DESCRIPTION": "Введена вами URL, не є дійсним зображенням ",
-                    "OK": "OK"
-                },
-                "MODEL": "Модель",
-                "PLATE": "Номерний знак",
-                "COLOR": "Колір",
-                "LOCATION": "Місцезнаходження",
-                "OWNER": "Власник",
-                "NOTES": "Нотатки",
-                "NOTES_PLACEHOLDER": "Впишіть інформацію тут...",
-                "SET_WAYPOINT": "Встановити маршрут",
-                "OPEN_IN_MAPS": "Відкрити на мапі",
-                "WAYPOINT_SET": "Маршрут встановленно",
-                "WAYPOINT_SET_DESCRIPTION": "Маршрут встановленно до місцезнаходження Т/З",
-                "CASES": "Справи",
-                "NO_CASES": "Немає справ",
-                "WARRANTS": "Розшук",
-                "NO_WARRANTS": "Немає Розшуку",
-                "ACTIVE_WARRANTS": "Активний Розшук"
-            },
-            "PROPERTIES": {
-                "TITLE": "Нерухомість",
-                "PROPERTY": "Майно",
-                "SEARCH": "Пошук нерухомості",
-                "REMOVE_PICTURE": "Видалити фото",
-                "DETAILS": "Деталі",
-                "ADD_PHOTO": {
-                    "TITLE": "Додати фото",
-                    "SELECT_PHOTO": "Обрати фото",
-                    "PASTE_URL": "Встановити URL",
-                    "PASTE_URL_DESCRIPTION": "Введіть URL зображення",
-                    "PASTE_URL_PLACEHOLDER": "URL",
-
-                    "INVALID_URL": "Недійсний URL",
-                    "INVALID_URL_DESCRIPTION": "Введена вами URL, не є дійсним зображенням ",
-                    "OK": "OK"
-                },
-                "LABEL": "Мітка",
-                "ADDRESS": "Адреса",
-                "OWNER": "Власник",
-                "LOCATION": "Місцезнаходження",
-                "OPEN_IN_MAPS": "Відкрити на мапі",
-                "NOTES": "Нотатки",
-                "NOTES_PLACEHOLDER": "Впишіть інформацію тут..."
-            },
-            "WEAPONS": {
-                "TITLE": "Зброя",
-                "WEAPON": "Зброя",
-                "SEARCH": "Пошук зброї",
-                "REMOVE_PICTURE": "Видалити фото",
-                "DETAILS": "Деталі",
-                "ADD_PHOTO": {
-                    "TITLE": "Додати фото",
-                    "SELECT_PHOTO": "Обрати фото",
-                    "PASTE_URL": "Встановити URL",
-                    "PASTE_URL_DESCRIPTION": "Введіть URL зображення",
-                    "PASTE_URL_PLACEHOLDER": "URL",
-
-                    "INVALID_URL": "Недійсний URL",
-                    "INVALID_URL_DESCRIPTION": "Введена вами URL, не є дійсним зображенням ",
-                    "OK": "OK"
-                },
-                "MODEL_MAKE": "Модель",
-                "SERIAL_NUMBER": "Серійний номер",
-                "NOTES": "Нотатки",
-                "NOTES_PLACEHOLDER": "Впишіть інформацію тут...",
-                "LINKED_REPORTS": "Пов'язані звіти",
-                "NO_LINKED_REPORTS": "Немає пов'язаних звітів",
-                "LINKED_CASES": "Пов'язані справи",
-                "NO_LINKED_CASES": "Немає пов'язаних справ",
-                "UNREGISTERED": "Незареєстрована",
-                "OWNER": "Власник",
-                "SELECT_MODEL": "Виберіть модель",
-                "SELECT_OWNER": "Виберіть власника",
-                "DELETE_WEAPON": {
-                    "TITLE": "Видалити зброю",
-                    "DESCRIPTION": "Ви впевнені, що хочете видалити цю зброю?"
-                }
-            },
-
-            "REPORTS": {
-                "TITLE": "Звіти",
-                "REPORT": "Звіт",
-                "SEARCH": "Пошук Звітів",
-                "FOOTER": "{author} - ID Звіту: {id}",
-                "NEW_REPORT_TITLE": "Новий звіт",
-                "TYPE": "Тип",
-                "DESCRIPTION": "Опис",
-                "DESCRIPTION_PLACEHOLDER": "Введіть опис...",
-                "GALLERY": "Галерея",
-                "NO_ATTACHMENTS": "Немає вкладень",
-                "WEAPONS_INVOLVED": "Задіяна зброя",
-                "NO_WEAPONS_INVOLVED": "Зброя не задіяна",
-                "REMOVE_WEAPON": {
-                    "TITLE": "Видалити зброю",
-                    "DESCRIPTION": "Ви впевнені, що хочете видалити цю зброю зі звіту?"
-                },
-                "OFFICERS_INVOLVED": "Задіяні офіцери",
-                "NO_OFFICERS_INVOLVED": "Офіцери не задіяні",
-                "REMOVE_OFFICER": {
-                    "TITLE": "Видалити офіцера",
-                    "DESCRIPTION": "Ви впевненні що хочете видалити {name} зі звіту?"
-                },
-                "CIVILLIANS_INVOLVED": "Задіяні цивільні",
-                "NO_CIVILLIANS_INVOLVED": "Цивільні не задіяні",
-                "REMOVE_CIVILIAN": {
-                    "TITLE": "Видалити цивільного",
-                    "DESCRIPTION": "Ви впевненні що хочете видалити {name} зі звіту?"
-                },
-                "SUSPECTS_INVOLVED": "Підозрювані",
-                "NO_SUSPECTS_INVOLVED": "Підозрювані не задіяні",
-                "REMOVE_SUSPECT": {
-                    "TITLE": "Видалити підозрюваного",
-                    "DESCRIPTION": "Ви впевненні що хочете видалити {name} зі звіту?"
-                },
-                "DELETE_REPORT": {
-                    "TITLE": "Видалити звіт",
-                    "DESCRIPTION": "Ви впевнені, що хочете видалити цей звіт?"
-                },
-                "ERROR": {
-                    "TITLE": "Помилка",
-                    "NO_TYPE": "Ви повині обрати тип звіту",
-                    "TITLE_LENGTH": "Назва має містити щонайменше 3 символи",
-                    "DESCRIPTION_LENGTH": "Опис має містити щонайменше 10 символів"
-                }
-            },
-
-            "CASES": {
-                "TITLE": "Справи",
-                "SEARCH": "Пошук справи",
-                "CASE": "Справа",
-                "FOOTER": "{author} - ID Справи: {id}",
-                "TITLE_PLACEHOLDER": "Нова справа",
-                "DESCRIPTION": "Опис",
-                "DESCRIPTION_PLACEHOLDER": "Введіть опис...",
-                "EVIDENCE": "Докази",
-                "NO_EVIDENCE": "Немає прикріплених доказів",
-                "OPEN_STASH": "Відкрити сховище",
-                "VEHICLES_INVOLVED": "Задіяні транспортні засоби",
-                "NO_VEHICLES_INVOLVED": "Транспортні засоби не задіяні",
-                "REMOVE_VEHICLE": {
-                    "TITLE": "Видалити Т/З",
-                    "DESCRIPTION": "Ви впевненні що хочете видалити Т/З зі справи"
-                },
-                "OFFICERS_INVOLVED": "Задіяні офіцери",
-                "NO_OFFICERS_INVOLVED": "Офіцери не задіяні",
-                "REMOVE_OFFICER": {
-                    "TITLE": "Видалити офіцера",
-                    "DESCRIPTION": "Ви впевнені, що хочете видалити офіцера зі справи?"
-                },
-                "CIVILLIANS_INVOLVED": "Задіяні цивільні",
-                "NO_CIVILLIANS_INVOLVED": "Цивільні не задіяні",
-                "REMOVE_CIVILIAN": {
-                    "TITLE": "Видалити цивільного",
-                    "DESCRIPTION": "Ви впевнені, що хочете видалити цивільного зі справи?"
-                },
-                "CRIMINALS_INVOLVED": "Задіяні злочинці",
-                "NO_CRIMINALS_INVOLVED": "Злочинці не задіяні",
-                "REMOVE_CRIMINAL": {
-                    "TITLE": "Видалити злочинця",
-                    "DESCRIPTION": "Ви впевненні що хочете видалити злочинця зі справи?"
-                },
-                "ADD_CHARGE": "Додати обвинувачення",
-                "FINE": "Штраф ({amount} рекомендовано)",
-                "RECOMMENDED_FINE": "Рекомендований штраф ({currency})",
-                "RECOMMENDED_SENTENCE": "Рекомендований термін (у місяцях)",
-                "SENTENCE": "Термін ув’язнення ({amount} місяців рекомендовано)",
-                "SEND_FINE": {
-                    "TITLE": "Накласти штраф",
-                    "DESCRIPTION": "Бажаєте накласти штраф {fine} для {name}?"
-                },
-                "JAIL_PLAYER": {
-                    "TITLE": "Ув’язнити гравця",
-                    "DESCRIPTION": "Бажаєте ув’язнити {name} на {sentence} місяців?",
-                    "JAILED_DESCRIPTION": "Автоматично ув’язнено за {charges}"
-                },
-                "DELETE_CASE": {
-                    "TITLE": "Видалити справу",
-                    "DESCRIPTION": "Ви впевнені, що хочете видалити цю справу?"
-                },
-
-                "ERROR": {
-                    "TITLE": "Помилка",
-                    "TITLE_LENGTH": "Назва має містити щонайменше 3 символи",
-                    "DESCRIPTION_LENGTH": "Опис має містити щонайменше 10 символів",
-                    "OK": "OK"
-                }
-            },
-
-            "WARRANTS": {
-                "TITLE": "Розшук",
-                "SEARCH": "Пошук Розшукуємих",
-
-                "HIGH_PRIORITY": "Високий пріоритет",
-                "MEDIUM_PRIORITY": "Середній пріоритет",
-                "LOW_PRIORITY": "Низький пріоритет",
-                "FOOTER": "{author} - ID Розшуку: {id}",
-                "TITLE_PLACEHOLDER": "Новий розшук",
-                "DESCRIPTION": "Опис",
-                "DESCRIPTION_PLACEHOLDER": "Введіть опис...",
-                "TYPE": "Тип",
-                "STATUS": "Статус",
-                "PRIORITY": "Пріоритет",
-                "GALLERY": "Галерея",
-                "NO_ATTACHMENTS": "Немає вкладень",
-                "LINKED_REPORTS": "Пов'язані звіти",
-                "NO_LINKED_REPORTS": "Немає пов'язаних звітів",
-                "SELECT_VEHICLE": "Вибрати транспорт",
-                "NO_VEHICLE_SELECTED": "Транспорт не вибрано",
-                "SELECT_PERSON": "Вибрати особу",
-                "NO_PERSON_SELECTED": "Особа не вибрана",
-                "ACTIVE": "Активна",
-                "INACTIVE": "Неактивна",
-                "CLOSED": "Закрита",
-                "REMOVE_REPORT": {
-                    "TITLE": "Видалити звіт",
-                    "DESCRIPTION": "Ви впевнені, що хочете видалити цей звіт з розшуку?"
-                },
-                "DELETE_WARRANT": {
-                    "TITLE": "Видалити ордер",
-                    "DESCRIPTION": "Ви впевнені, що хочете видалити цей ордер?"
-                },
-                "ERROR": {
-                    "TITLE": "Помилка",
-                    "TITLE_LENGTH": "Назва має містити щонайменше 3 символи",
-                    "DESCRIPTION_LENGTH": "Опис має містити щонайменше 10 символів",
-                    "NO_TYPE": "Ви повині обрати тип розшуку",
-                    "NO_TARGET": "Ви повинні обрати ціль розшуку",
-                    "OK": "OK"
-                }
-            },
-
-            "OFFENCES": {
-                "TITLE": "Правопорушення",
-                "SEARCH": "Пошук правопорушень",
-                "MONTHS": "{amount} Місяців(хв)",
-                "FINE": "{amount} Штраф",
-
-                "SELECT_SEVERITY": "Виберіть рівень тяжкості",
-                "SEVERITIES": {
-                    "INFRACTION": "Порушення",
-                    "MISDEMEANOR": "Проступок",
-                    "FELONY": "Злочин"
-                },
-                "NO_OFFENCES_FOUND": "Правопорушень не знайдено",
-                "ADD_OFFENCE": {
-                    "TITLE": "Додати правопорушення",
-                    "DESCRIPTION": "Створити нове правопорушення",
-                    "PLACEHOLDER": "Введіть назву правопорушення",
-                    "DESCRIPTION_PLACEHOLDER": "Введіть опис..."
-                },
-                "EDIT_OFFENCE": {
-                    "TITLE": "Редагувати правопорушення",
-                    "DESCRIPTION": "Редагувати деталі правопорушення"
-                },
-                "SET_JAILTIME": {
-                    "TITLE": "Рекомендований термін ув'язнення",
-                    "DESCRIPTION": "Встановіть рекомендований термін ув'язнення для цього правопорушення",
-                    "PLACEHOLDER": "Рекомендований термін (хв) (0 лише штраф)"
-                },
-                "SET_FINE": {
-                    "TITLE": "Рекомендований штраф",
-                    "DESCRIPTION": "Встановіть рекомендований штраф для цього правопорушення",
-                    "PLACEHOLDER": "Рекомендована сума штрафу (0 лише ув'язнення)"
-                },
-
-                "DELETE_OFFENCE": {
-                    "TITLE": "Видалити правопорушення",
-                    "DESCRIPTION": "Ви впевненні, що хочете видалити правопорушення?"
-                },
-                "ADD_CATEGORY": {
-                    "TITLE": "Додати категорію",
-                    "DESCRIPTION": "Додати нову категорію до списку правопорушень",
-                    "PLACEHOLDER": "Введіть назву категорії"
-                },
-                "EDIT_CATEGORY": {
-                    "TITLE": "Редагувати категорію",
-                    "DESCRIPTION": "Редагувати деталі категорії",
-                    "PLACEHOLDER": "Введіть нову назву категорії"
-                },
-                "DELETE_CATEGORY": {
-                    "TITLE": "Видалити категорію",
-                    "DESCRIPTION": "Ви впевненні, що хочете видалити категорію?"
-                }
-            },
-
-            "EMPLOYEES": {
-                "TITLE": "Працівники",
-                "SEARCH": "Пошук працівників"
-            },
-
-            "CHAT": {
-                "TITLE": "Чат",
-                "SEARCH": "Пошук чатів",
-                "PLACEHOLDER": "Відправити повідомлення...",
-                "JOINED_CHATS": "Приєднані чати",
-                "PUBLIC_CHATS": "Публічні чати",
-                "JOINED": "Приєднано",
-                "PUBLIC": "Публічний",
-                "PRIVATE_CHATS": "Приватні чати",
-                "ROOM_ID": "ID Кімнати: {id}",
-                "TOGGLE_PRIVATE": "Перемкнути приватність",
-                "CHANGE_AVATAR": "Змінити аватар",
-                "SET_AVATAR": "Встановити аватар",
-                "REMOVE_AVATAR": "Видалити аватар",
-                "MANAGE": "Керування",
-                "LEAVE": {
-                    "TITLE": "Вийти",
-                    "DESCRIPTION": "Ви впевненні, що хочете вийти з чату?"
-                },
-                "KICK": {
-                    "TITLE": "Вигнати",
-                    "DESCRIPTION": "Ви впевненні, що хочете вигнати {name} з чату?"
-                },
-
-                "CREATE_CHATROOM": {
-                    "TITLE": "Створити чатрум",
-                    "DESCRIPTION": "Введіть назву чатруму",
-                    "PLACEHOLDER": "Назва чатруму",
-                    "CREATE": "Створити",
-                    "SET_VISIBILITY": "Встановити видимість",
-                    "PUBLIC": "Публічний",
-                    "PRIVATE": "Приватний"
-                },
-                "JOIN_CHAT": {
-                    "TITLE": "Приєднатись до чату",
-                    "DESCRIPTION": "Ви впевненні, що хочете приєднатись до {channel}?",
-                    "JOIN": "Приєднатись"
-                },
-                "ERROR": {
-                    "TITLE": "Помилка",
-                    "FAILED_JOIN": "Не вдалося приєднатись до чатруму",
-                    "FAILED_INVITE": "Не вдалося запросити {name} до чатруму",
-                    "FAILED_SET_AVATAR": "Не вдалося встановити аватар чатруму",
-                    "FAILED_REMOVE_AVATAR": "Не вдалося видалити аватар чатруму",
-                    "FAILED_GET_MEMBERS": "Не вдалось отримати список учасників чатруму",
-                    "FAILED_KICK": "Не вдалося вигнати {name} з чатруму",
-                    "FAILED_LEAVE": "Не вдалося вийти з чатруму"
-                },
-                "SUCCESS": {
-                    "TITLE": "Успіх",
-                    "INVITED": "Ви запросили {name} до чатруму",
-                    "KICKED": "Ви вигнали {name} з чатруму"
-                }
-            },
-
-            "PHONE": {
-                "TITLE": "Телефон",
-                "TRIANGULATE": "Триангуляція",
-                "MESSAGES": "Повідомлення",
-                "CALLS": "Дзвінки",
-                "UNLOCK": "Розблокувати"
-            },
-
-            "JAIL": {
-                "TITLE": "В'язниця",
-                "SEARCH": "Пошук ув'язненого",
-                "JAILED_PERSON": "Ув'язнена особа",
-                "JAILED_BY": "Посадив у в'язницю",
-                "JAILED_BY_NAME": "Посадив у в'язницю {name}",
-                "REMAINING_TIME": "Залишковий час",
-                "REMAINING_TIME_DATE": "Залишковий час {time} ({date})",
-                "ORIGINAL_SENTENCE": "Оригінальний вирок",
-                "RELEASE_DATE": "Дата звільнення",
-                "DESCRIPTION": "Опис",
-                "DESCRIPTION_PLACEHOLDER": "Введіть опис...",
-                "RELEASED": "Звільнений",
-                "LESS_THAN_MINUTE": "Менше хвилини",
-                "UNJAIL": "Звільнити",
-                "PROFILE": "Профіль",
-                "JAILED_AT": "Ув'язнений о",
-                "LINKED_CASE": "Пов'язана справа",
-                "NO_LINKED_CASE": "Немає пов'язаних справ",
-                "REMOVE_LINKED_CASE": {
-                    "TITLE": "Видалити пов'язану справу",
-                    "DESCRIPTION": "Ви впевненні, що хочете видалити пов'язану справу?"
-                },
-                "JAIL_PERSON": {
-                    "TITLE": "Посадити у в'язницю",
-                    "DESCRIPTION": "Заповніть деталі нижче, щоб посадити {name} у в'язницю",
-                    "SENTENCE_PLACEHOLDER": "Вирок (хвилини)",
-                    "REASON_PLACEHOLDER": "Причина",
-                    "JAIL_WITH_CASE": "Посадити з пов'язаним інцидентом",
-                    "JAIL_WITHOUT_CASE": "Посадити без пов'язаного інциденту",
-                    "PROCEED": "Продовжити"
-                },
-                "UNJAIL_PERSON": {
-                    "TITLE": "Звільнити",
-                    "DESCRIPTION": "Ви впевненні, що хочете звільнити {name}?",
-                    "PROCEED": "Продовжити"
-                },
-                "ERROR": {
-                    "TITLE": "Помилка",
-                    "MISSING_DETAILS": "Ви повинні ввести вирок і причину"
-                }
-            },
-
-            "LOGS": {
-                "TITLE": "Журнали",
-                "SEARCH": "Пошук у журналах",
-                "FILTER": "Фільтр",
-                "CREATED": "Створено",
-                "UPDATED": "Оновлено",
-                "DELETED": "Видалено",
-                "VIEW_FOOTER": "Переглянути {type} ({id})",
-                "TAG_TYPES": {
-                    "PROFILE": "Профіль",
-                    "VEHICLE": "Транспорт",
-                    "REPORT": "Звіт",
-                    "WARRANT": "Розшук",
-                    "INCIDENT": "Інцидент"
-                },
-
-                "CREATE_TAG_TITLE": "Створити Тег",
-                "CREATE_TAG_DESCRIPTION": "Створено Тег {type} \"{name}\"",
-                "DELETE_TAG_TITLE": "Видалити Тег",
-                "DELETE_TAG_DESCRIPTION": "Видалено Тег {type} \"{name}\"",
-                "UPDATE_PROFILE_TITLE": "Оновлено профіль",
-                "UPDATE_PROFILE_DESCRIPTION": "Оновлено профіль {name}",
-                "UPDATE_VEHICLE_TITLE": "Оновлено транспортний засіб",
-                "UPDATE_VEHICLE_DESCRIPTION": "Оновлено транспортний засіб {plate}",
-                "UPDATE_PROPERTY_TITLE": "Оновлено нерухомість",
-                "UPDATE_PROPERTY_DESCRIPTION": "Оновлено нерухомість",
-                "UPDATE_WEAPON_TITLE": "Оновлено зброю",
-                "UPDATE_WEAPON_DESCRIPTION": "Оновлено зброю з серійним номером {serial}",
-                "CREATE_REPORT_TITLE": "Створено звіт",
-                "CREATE_REPORT_DESCRIPTION": "Створено звіт {type} із заголовком \"{title}\"",
-                "UPDATE_REPORT_TITLE": "Оновлено звіт",
-                "UPDATE_REPORT_DESCRIPTION": "Оновлено звіт {type} із заголовком \"{title}\"",
-                "DELETE_REPORT_TITLE": "Видалено звіт",
-                "DELETE_REPORT_DESCRIPTION": "Видалено звіт з індетифікатором {id}",
-                "ISSUED_LICENSE_TITLE": "Видано ліцензію",
-                "ISSUED_LICENSE_DESCRIPTION": "Видано ліцензію {license} для {name}",
-                "REVOKED_LICENSE_TITLE": "Вилучено ліцензію",
-                "REVOKED_LICENSE_DESCRIPTION": "Вилучено ліцензію {license} для {name}",
-                "PINNED_BULLETIN_TITLE": "Закріплено оголошення",
-                "PINNED_BULLETIN_DESCRIPTION": "Закріплено оголошення з індетифікатором {id}",
-                "UNPINNED_BULLETIN_TITLE": "Відкріплено оголошення",
-                "UNPINNED_BULLETIN_DESCRIPTION": "Відкріплено оголошення з індетифікатором {id}",
-                "CREATE_BULLETIN_TITLE": "Створено оголошення",
-                "CREATE_BULLETIN_DESCRIPTION": "Створено оголошення із заголовком \"{title}\"",
-                "DELETE_BULLETIN_TITLE": "Видалено оголошення",
-                "DELETE_BULLETIN_DESCRIPTION": "Видалено оголошення з індетифікатором {id}",
-                "CREATE_WARRANT_TITLE": "Подано в розшук",
-                "CREATE_WARRANT_DESCRIPTION": "Створено розшук {type} із заголовком \"{title}\"",
-                "UPDATE_WARRANT_TITLE": "Розшук оновлено",
-                "UPDATE_WARRANT_DESCRIPTION": "Оновлено розшук \"{title}\"",
-                "CREATE_CASE_TITLE": "Створено справу",
-                "CREATE_CASE_DESCRIPTION": "Створено справу із заголовком \"{title}\"",
-                "UPDATE_CASE_TITLE": "Оновлено справу",
-                "UPDATE_CASE_DESCRIPTION": "Оновлено справу із заголовком \"{title}\"",
-                "DELETE_CASE_TITLE": "Видалено справу",
-                "DELETE_CASE_DESCRIPTION": "Видалено справу з індетифікатором {id}"
-            },
-
-            "TAGS": {
-                "TITLE": "Теги",
-                "ADD": "Додати",
-                "NO_TAGS": "Немає тегів",
-                "CREATE_TAG": {
-                    "TITLE": "Створити Тег",
-                    "DESCRIPTION": "Введіть назву тегу",
-                    "PLACEHOLDER": "Назва тегу",
-                    "CANCEL": "Скасувати",
-                    "NEXT": "Наступне",
-                    "SELECT_COLOR": "Виберіть колір"
-                },
-                "DELETE_TAG": {
-                    "TITLE": "Видалити Тег",
-                    "DESCRIPTION": "Ви впевненні, що хочете видалити Тег?",
-                    "CANCEL": "Скасувати",
-                    "DELETE": "Видалити"
-                },
-                "REMOVE_TAG": {
-                    "TITLE": "Прибрати тег",
-                    "DESCRIPTION": "Ви впевненні, що хочете прибрати тег '{tag}'?",
-                    "CANCEL": "Скасувати",
-                    "REMOVE": "Прибрати"
-                }
-            },
-            "MISC": {
-                "SOON": "Скоро",
-                "UNKNOWN": "Невідомо",
-                "MINUTES": "{minutes}хв",
-                "HOURS": "{hours}год",
-                "DAYS": "{days}дн",
-                "FORMATTED_DATE": "{day} {month} {year} о {hours}:{minutes}",
-                "CHANGE_AVATAR": "Змінити аватар",
-                "REMOVE_AVATAR": "Видалити аватар",
-                "SET_CALLSIGN": "Встановити Жетон/позивний",
-                "CALLSIGN": {
-                    "TITLE": "Жетон/позивний",
-                    "DESCRIPTION": "Введіть жетон/позивний",
-                    "CANCEL": "Скасувати",
-                    "PROCEED": "Продовжити"
-                }
-            }
-        },
-        "AMBULANCE": {
-            "TITLE": "Ocean Medical",
-
-            "SEARCH": "Пошук",
-            "CANCEL": "Скасувати",
-            "CLOSE": "Закрити",
-            "BACK": "Назад",
-            "EDIT": "Редагувати",
-            "DELETE": "Видалити",
-            "REMOVE": "Прибрати",
-            "SAVE": "Зберегти",
-            "CREATE": "Створити",
-            "PROCEED": "Продовжити",
-            "OK": "OK",
-            "ADD": "Додати",
-            "NEW": "Новий",
-
-            "SEARCH_FOR": "Шукайте {query} щоб розпочати",
-            "NO_RESULTS_FOR": "Немає результатів для '{query}'",
-            "CLEAR_HISTORY": "Очистити історію",
-
-            "HOME": {
-                "TITLE": "Головна",
-                "CREATE": "Створити",
-
-                "RECENT_REPORTS": "Останні звіти",
-                "REPORT_FOOTER": "{timestamp} - {author}",
-                "BULLETIN_BOARD": "Дошка оголошень",
-                "PIN": "Закріпити",
-                "UNPIN": "Відкріпити",
-                "SEARCH_BULLETIN": "Пошук оголошення",
-                "SEARCH_UNITS": "Пошук Юніта",
-                "ADD_BULLETIN": {
-                    "TITLE": "Додати оголошення",
-                    "DESCRIPTION": "Створити нове оголошення",
-                    "PLACEHOLDER": "Заголовок",
-                    "CONTENT": "Зміст",
-                    "CANCEL": "Скасувати",
-                    "PROCEED": "Продовжити"
-                },
-                "DELETE_BULLETIN": {
-                    "TITLE": "Видалити оголошення",
-                    "DESCRIPTION": "Ви впевненні що хочете видалити оголошення?",
-                    "CANCEL": "Скасувати",
-                    "DELETE": "Видалити"
-                },
-                "ACTIVE_UNITS": "Активні Юніти"
-            },
-
-            "DISPATCH": {
-                "TITLE": "Диспетчер",
-                "TOGGLE_EMPLOYEES": "Перемкнути співробітників",
-                "TOGGLE_ALARMS": "Перемнути сповіщення",
-                "EMPLOYEES": "Співробітники",
-                "ALARMS": "Сповіщення",
-
-                "RESPOND": "Відповісти",
-                "RESPONDED": "Відповіли",
-                "COLLAPSE": "Згорнути",
-                "EXPAND": "Розгорнути",
-                "DISMISS": "Відхилити",
-                "VIEW_IN_TABLET": "Переглянути на планшеті",
-                "SET_WAYPOINT": "Встановити маршрут",
-                "OLD_NOTIFICATION": "{count} старе сповіщення",
-                "OLD_NOTIFICATIONS": "{count} старих сповіщення",
-                "NEW_NOTIFICATION": "{count} нове сповіщення",
-                "NEW_NOTIFICATIONS": "{count} нових сповіщення",
-
-                "PRIORITY": {
-                    "HIGH": "Високий",
-                    "MEDIUM": "Середній",
-                    "LOW": "Низький"
-                },
-
-                "JUST_NOW": "Щойно",
-                "MINUTES_AGO": "{minutes}хв тому",
-                "HOURS_AGO": "{hours}г тому"
-            },
-
-            "JOURNALS": {
-                "TITLE": "Журнали",
-                "PROFILES": "Профілі",
-                "PERSON": "Особа",
-                "SEARCH": "Пошук профілів",
-                "REMOVE_AVATAR": "Видалити аватар",
-                "IDENTIFIER": "Індетифікатор",
-                "FINGERPRINT": "Відбиток пальця",
-                "DOB": "Дата народження",
-                "PHONE_NR": "Номер телефону",
-                "GENDER": "Стать",
-                "JOB": "Робота",
-                "MALE": "Чоловік",
-                "FEMALE": "Жінка",
-                "HEIGHT": "Зріст",
-                "HEIGHT_FORMAT": "{height}см",
-                "BLOOD_TYPE": "Група крові",
-                "NOTES": "Нотатки",
-                "NOTES_PLACEHOLDER": "Впишіть інформацію тут...",
-                "DIAGNOSES_DISEASES": "Діагнози / Захворювання",
-                "NO_DIAGNOSES": "Немає Діагнозів / Захворювань",
-                "REPORTS": "Звіти",
-                "NO_REPORTS": "Немає звітів",
-
-                "ADD_AVATAR": {
-                    "TITLE": "Додати аватар",
-                    "SET_PHOTO": "Встановити фото",
-                    "PASTE_URL": "Встановити URL",
-                    "PASTE_URL_DESCRIPTION": "Введіть URL зображення",
-                    "PASTE_URL_PLACEHOLDER": "URL",
-
-                    "INVALID_URL": "Недійсний URL",
-                    "INVALID_URL_DESCRIPTION": "Введена вами URL, не є дійсним зображенням ",
-                    "OK": "OK"
-                }
-            },
-
-            "REPORTS": {
-                "TITLE": "Звіти",
-                "REPORT": "Звіт",
-                "SEARCH": "Пошук Звітів",
-                "FOOTER": "{author} - ID Звіту: {id}",
-                "NEW_REPORT_TITLE": "Новий звіт",
-                "TYPE": "Тип",
-                "DESCRIPTION": "Опис",
-                "DESCRIPTION_PLACEHOLDER": "Введіть опис...",
-                "GALLERY": "Галерея",
-                "NO_ATTACHMENTS": "Немає вкладень",
-                "INJURIES_CONDITIONS": "Травми / Стан здоров'я",
-                "NO_INJURIES": "Травми відсутні",
-                "DOCTORS_INVOLVED": "Залучені лікарі",
-                "NO_DOCTORS_INVOLVED": "Немає залучених лікарів",
-                "ADD_PATIENT": "Додати пацієнта",
-
-                "REMOVE_INJURY": {
-                    "TITLE": "Видалити травму",
-                    "DESCRIPTION": "Ви впевненні, що хочете видалити травму з цього звіту?"
-                },
-                "REMOVE_DOCTOR": {
-                    "TITLE": "Видалити лікаря",
-                    "DESCRIPTION": "Ви впевненні, що хочете видалити {name} з цього звіту?"
-                },
-
-                "ERROR": {
-                    "TITLE": "Помилка",
-                    "NO_TYPE": "Ви повині обрати тип звіту",
-                    "TITLE_LENGTH": "Назва має містити щонайменше 3 символи",
-                    "DESCRIPTION_LENGTH": "Опис має містити щонайменше 10 символів"
-                }
-            },
-
-            "EMPLOYEES": {
-                "TITLE": "Працівники",
-                "SEARCH": "Пошук працівників"
-            },
-
-            "CHAT": {
-                "TITLE": "Чат",
-                "SEARCH": "Пошук чатів",
-                "PLACEHOLDER": "Відправити повідомлення...",
-                "JOINED_CHATS": "Приєднані чати",
-                "PUBLIC_CHATS": "Публічні чати",
-                "JOINED": "Приєднано",
-                "PUBLIC": "Публічний",
-                "PRIVATE_CHATS": "Приватні чати",
-                "ROOM_ID": "ID Кімнати: {id}",
-                "TOGGLE_PRIVATE": "Перемкнути приватність",
-                "CHANGE_AVATAR": "Змінити аватар",
-                "SET_AVATAR": "Встановити аватар",
-                "REMOVE_AVATAR": "Видалити аватар",
-                "MANAGE": "Керування",
-                "LEAVE": {
-                    "TITLE": "Вийти",
-                    "DESCRIPTION": "Ви впевненні, що хочете вийти з чату?"
-                },
-                "KICK": {
-                    "TITLE": "Вигнати",
-                    "DESCRIPTION": "Ви впевненні, що хочете вигнати {name} з чату?"
-                },
-
-                "CREATE_CHATROOM": {
-                    "TITLE": "Створити чатрум",
-                    "DESCRIPTION": "Введіть назву чатруму",
-                    "PLACEHOLDER": "Назва чатруму",
-                    "CREATE": "Створити",
-                    "SET_VISIBILITY": "Встановити видимість",
-                    "PUBLIC": "Публічний",
-                    "PRIVATE": "Приватний"
-                },
-                "JOIN_CHAT": {
-                    "TITLE": "Приєднатись до чату",
-                    "DESCRIPTION": "Ви впевненні, що хочете приєднатись до {channel}?",
-                    "JOIN": "Приєднатись"
-                },
-                "ERROR": {
-                    "TITLE": "Помилка",
-                    "FAILED_JOIN": "Не вдалося приєднатись до чатруму",
-                    "FAILED_INVITE": "Не вдалося запросити {name} до чатруму",
-                    "FAILED_SET_AVATAR": "Не вдалося встановити аватар чатруму",
-                    "FAILED_REMOVE_AVATAR": "Не вдалося видалити аватар чатруму",
-                    "FAILED_GET_MEMBERS": "Не вдалось отримати список учасників чатруму",
-                    "FAILED_KICK": "Не вдалося вигнати {name} з чатруму",
-                    "FAILED_LEAVE": "Не вдалося вийти з чатруму"
-                },
-                "SUCCESS": {
-                    "TITLE": "Успіх",
-                    "INVITED": "Ви запросили {name} до чатруму",
-                    "KICKED": "Ви вигнали {name} з чатруму"
-                }
-            },
-
-            "CONDITIONS": {
-                "TITLE": "Діагнози",
-                "CONDITION": "Діагноз",
-                "SEARCH": "Пошук",
-
-                "SELECT_SEVERITY": "Виберіть рівень тяжкості",
-                "SEVERITIES": {
-                    "MINOR": "Легкий",
-                    "MODERATE": "Помірний",
-                    "SEVERE": "Тяжкий",
-                    "CRITICAL": "Критичний"
-                },
-                "NO_CONDITIONS_FOUND": "Нічого не знайдено",
-                "ADD_CONDITION": {
-                    "TITLE": "Додати Діагноз",
-                    "DESCRIPTION": "Створити новий діагноз",
-                    "PLACEHOLDER": ""
-                },
-                "DELETE_CONDITION": {
-                    "TITLE": "Видалити діагноз",
-                    "DESCRIPTION": "Ви впевненні, що хочете видалити цей діагноз?"
-                },
-                "ADD_CATEGORY": {
-                    "TITLE": "Додати категорію",
-                    "DESCRIPTION": "Додати нову категорію до списку діагнозів",
-                    "PLACEHOLDER": "Введіть назву категорії"
-                },
-                "DELETE_CATEGORY": {
-                    "TITLE": "Видалити категорію",
-                    "DESCRIPTION": "Ви впевненні, що хочете видалити категорію?"
-                }
-            },
-
-            "LOGS": {
-                "TITLE": "Журнали"
-            }
-        },
-        "BROWSER": {
-            "TITLE": "Браузер",
-            "SEARCH_PLACEHOLDER": "Шукайте або введіть URL",
-            "FAILED_LOAD_PAGE": "Не вдалося завантажити сторінку, можливо вона не підтримую вбудовування?"
-        },
-        "REGISTRATION": {
-            "TITLE": "Реєстрація",
-            "SELECT_CHARACTER": " Виберіть Персонажа",
-            "PLEASE_SELECT_CHARACTER": "Будь ласка, виберіть персонажа",
-            "CREATE_NEW": "Створити нового",
-            "EDIT": "Редагувати",
-            "SAVE": "Зберегти",
-            "DELETE": "Видалити",
-            "CANCEL": "Скасувати",
-            "DELETE_CHARACTER": "Видалити персонажа",
-            "DESCRIPTION": "Опис",
-            "DESCRIPTION_PLACEHOLDER": "Введіть опис...",
-            "ADD": "Додати",
-
-            "CHARACTER_INFO": "Інформація про персонажа",
-            "REMOVE_AVATAR": "Видалити аватар",
-            "FIRSTNAME": "Ім'я",
-            "LASTNAME": "Прізвище",
-            "DOB": "Дата народження",
-            "PHONE_NUMBER": "Номер телефону",
-            "GENDER": "Стать",
-            "MALE": "Чоловік",
-            "FEMALE": "Жінка",
-            "JOB": "Робота",
-            "HEIGHT": "Вага",
-            "FORMATTED_HEIGHT": "{height}см",
-
-            "VEHICLES": "Транспорт",
-            "VEHICLE": "Транспорт",
-            "REMOVE_PICTURE": "Видалити фото",
-            "SEARCH_VEHICLES": "Знайти фото",
-            "MODEL": "Модель",
-            "PLATE": "Номерний знак",
-            "COLOR": "Колір",
-            "CREATE": "Створити",
-            "DELETE_VEHICLE": "Видалити транспорт",
-            "DELETE_VEHICLE_POPUP": {
-                "TITLE": "Видалити транспорт",
-                "DESCRIPTION": "Ви впевненні, що хочете видалити транспорт?"
-            },
-
-            "LICENSES": "Ліцензії",
-            "ADD_LICENSE": "Додати ліцензію",
-            "DELETE_LICENSE_POPUP": {
-                "TITLE": "Видалити ліцензію",
-                "DESCRIPTION": "Ви впевненні, що хочете видалити цю ліцензію?"
-            },
-
-            "PROPERTIES": "Нерухомість",
-            "ADD_PROPERTY_POPUP": {
-                "TITLE": "Нова нерухомість",
-                "DESCRIPTION": "Створити нову нерухомість",
-                "LABEL": "Назва нерухомості",
-                "ADDRESS": "Адреса"
-            },
-            "DELETE_PROPERTY_POPUP": {
-                "TITLE": "Видалити нерухомість",
-                "DESCRIPTION": "Ви впевненні, що хочете видалити цю нерухомість?"
-            },
-
-            "ERROR": {
-                "TITLE": "Помилка",
-                "MISSING_FIELDS": "Ви не заповнили наступні поля: {fields}",
+            "FAILED_SEND": {
+                "TITLE": "Не вдалося надіслати",
+                "DESCRIPTION": "Не вдалося надіслати лист (чи існує одержувач?)",
                 "OK": "OK"
             }
         },
         "MAPS": {
-            "GO": "Go"
+            "TITLE": "Карти",
+            "GO": "Вперед",
+            "ADD": "Додати",
+            "EDIT": "Редагувати",
+            "DELETE": "Видалити",
+            "SET_WAYPOINT": "Встановити маршрут",
+            "SHARE": "Подiлитись",
+
+            "ADD_LOCATION_POPUP": {
+                "TITLE": "Додати мiсцезнаходження",
+                "DESCRIPTION": "Введiть назву мiсця, яке потрiбно додати",
+                "PLACEHOLDER": "Назва",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "CHANGE_NAME_POPUP": {
+                "TITLE": "Змiнити назву",
+                "DESCRIPTION": "Введiть нову назву локацiї",
+                "PLACEHOLDER": "Назва",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            }
+        },
+        "MUSIC": {
+            "TITLE": "Музика",
+            "HOME": "Головна",
+            "RECENTLY_ADDED": "Нещодавно додані",
+            "CATEGORIES": "Категорії",
+            "PLAYLISTS": "Плейлисти",
+            "LIBRARY": "Бібліотека",
+            "SEARCH": "Пошук",
+            "ADD_QUEUE": "Додати в чергу",
+            "ADD_PLAYLIST": "Додати до плейлiста",
+            "REMOVE_SONG": "Видалити пiсню",
+            "NOT_PLAYING": "Не грає",
+            "EDIT_PLAYLIST": "Редагувати плейлiст",
+            "DELETE_PLAYLIST": "Видалити плейлiст",
+            "SEARCH_PLACEHOLDER": "Виконавцi, пiснi, альбоми, плейлiсти",
+            "SONGS": "Пiснi",
+            "ALBUMS": "Альбоми",
+            "ARTISTS": "Виконавці",
+            "PLAY": "Грати",
+            "SHUFFLE": "Перетасувати",
+            "ARTIST": "Виконавець",
+            "ALBUM": "Альбом",
+            "PLAYLIST": "Плейлiст",
+            "SONG": "Пiсня",
+            "SONG_EXISTS_POPUP": {
+                "TITLE": "Пiсня вже iснує",
+                "DESCRIPTION": "Ця пiсня вже iснує в цьому плейлiстi",
+                "CANCEL": "Скасувати"
+            },
+            "NEW_PLAYLIST_POPUP": {
+                "TITLE": "Новий плейлiст",
+                "DESCRIPTION": "Створити плейлiст",
+                "PLACEHOLDER": "Назва плейлiста",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "REMOVE_SONG_POPUP": {
+                "TITLE": "Видалити пiсню",
+                "DESCRIPTION": "Ви впевненi, що хочете видалити цю пiсню iз плейлiста?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            }
+        },
+        "TINDER": {
+            "TITLE": "iскра",
+            "LIKES_YOU_TOO": "ти теж подобаєшся!",
+            "KEEP_SWIPING": "Продовжити гортати",
+            "SAY_SOMETHING_NICE": "Напишiть щось приємне",
+            "NO_MORE": "Ви переглянули всю стрiчку, повертайтесь пiзнiше!",
+            "SEND": "Надiслати",
+            "AGREE_TERMS": "Натискаючи «Створити облiковий запис», Ви погоджуєтеся з нашими Умовами обслуговування та Полiтикою конфiденцiйностi",
+            "CREATE_ACCOUNT": "Створити облiковий запис",
+            "AGE_PUBLIC": "Ваш вiк буде вiдкритим для всiх",
+            "BE_OVER_18": "Щоб скористатися цiєю послугою, вам має бути бiльше 18 рокiв",
+            "NAME_MINIMUM": "Ваше iм'я має мiстити принаймнi 3 символи",
+            "ADD_PHOTOS": "Додати фотографiю",
+            "PHOTOS_MINIMUM": "Ви повиннi мати хоча б одну фотографiю",
+            "DESCRIPTION": "Розкажiть нам трохи про себе",
+            "DESCRIPTION_MINIMUM": "Ваш опис має мiстити принаймнi 10 символiв",
+            "SHOW_ME": "Показати менi",
+            "WOMEN": "Жiнках",
+            "MEN": "Чоловiках",
+            "EVERYONE": "Всi",
+            "EVERYTHING": "Все",
+            "I_AM": "Я є",
+            "MALE": "Чоловiк",
+            "FEMALE": "Жiнка",
+            "CONTINUE": "Продовжити",
+            "NAME": "iм'я",
+            "PHOTOS": "Фото",
+            "ABOUT_ME": "Про мене",
+            "INTERESTED_IN": "Зацiкавлений в",
+            "GENDER": "Стать",
+            "SAVE": "Зберегти",
+            "NEW_MATCHES": "Новi спiвпадiння",
+            "MESSAGES": "Повiдомлення",
+            "VISIBILITY": "Видимiсть профiлю",
+            "VISIBLE": "Вiдкритий",
+            "HIDDEN": "Закритий",
+            "HIDDEN_WARNING": "Ваш облiковий запис зараз приховано. Вас не бачитимуть iншi користувачi, i ви не зможете гортати.",
+            "HIDDEN_PROFILE": "Ваш профiль неактивний. Ви можете активувати свiй профiль в налаштуваннях.",
+            "SEARCH_MATCHES": "Пошук спiвпадiнь",
+            "DELETE_ACCOUNT": "Видалити акаунт"
+        },
+        "INSTAGRAM": {
+            "TITLE": "iнста-Пiк",
+            "SEND": "Надiслати",
+            "POST": "Публiкувати",
+            "MESSAGE_PLACEHOLDER": "Повiдомлення...",
+            "NEW_MESSAGE": "Нове повiдомлення",
+            "NOW": "Зараз",
+            "GO_LIVE_POPUP": {
+                "TITLE": "Прямий етер",
+                "DESCRIPTION": "Ви впевненi, що хочете вийти в прямому етерi?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "END_LIVE_POPUP": {
+                "TITLE": "Закiнчити етер",
+                "DESCRIPTION": "Ви впевненi, що хочете {action} ций етер?",
+                "CANCEL": "Скасувати",
+                "END": "Закiнчити",
+                "LEAVE": "Вийти"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Вiдписатися",
+                "DESCRIPTION": "Ви впевненi, що хочете вiдписатися вiд {name}?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "DELETE_POST_POPUP": {
+                "TITLE": "Видалити публiкацiю",
+                "DESCRIPTION": "Ви впевненi, що хочете видалити цю публiкацiю?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Вийти",
+                "DESCRIPTION": "Ви впевненi, що бажаєте вийти?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "DELETE_STORY": {
+                "TITLE": "Видалити iсторiю",
+                "DESCRIPTION": "Ви впевненi, що хочете видалити цю iсторiю?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "INVITE_LIVE_POPUP": {
+                "TITLE": "Запросити в прямий етер",
+                "DESCRIPTION": "{username} запросив(ла) Вас до свого прямого етеру. Хочете приєднатися?",
+                "NO": "Нi",
+                "YES": "Так"
+            },
+            "REMOVE_LIVE_POPUP": {
+                "TITLE": "Видалити {username}",
+                "DESCRIPTION": "Ви впевненi, що хочете видалити {username} з вашого етеру?",
+                "CANCEL": "Скасувати",
+                "REMOVE": "Видалити"
+            },
+            "LEAVE_LIVE_POPUP": {
+                "TITLE": "Залишити Етер",
+                "DESCRIPTION": "Ви впевненi, що бажаєте залишити цей прямий етер?",
+                "LEAVE": "Вийти"
+            },
+            "LIVE_ENDED": "Прямий етер закiнчився",
+            "COMMENT_PLACEHOLDER": "Коментар",
+            "LIVE": "Етер",
+            "YOUR_STORY": "Ваша iсторiя",
+            "CREATE_STORY": "Створити iсторiю",
+            "GO_LIVE": "Вийти в прямому етер",
+            "EMPTY_FEED": "Почнiть слiдкувати за людьми, щоб бачити тут їхнi фотографiї та вiдео",
+            "COMMENTS": "Коментарi",
+            "ADD_COMMENT_AS": "Додати коментар вiд {name}",
+            "NEW_POST": "Нова публiкацiя",
+            "NEXT": "Далi",
+            "CAPTION_PLACEHOLDER": "Пiдпишiть публiкацiю...",
+            "ACTIVITY": "Дiяльнiсть",
+            "FOLLOW": "Стежити",
+            "FOLLOWING": "Вiдстежує",
+            "FOLLOWERS": "Читачi",
+            "FOLLOWER": "Стежить",
+            "REQUESTED": "Запити",
+            "LIKES": "Вподобайки",
+            "LIKED_BY": "Сподобалось",
+            "VIEW_ALL_COMMENTS": "Переглянути всi {count} коментарi",
+            "FIRST_COMMENT": "Залиште перший коментар...",
+            "LOG_IN": "Увiйти",
+            "CREATE_ACCOUNT": "Створити акаунт",
+            "USERNAME_PLACEHOLDER": "iм'я користувача",
+            "NAME_PLACEHOLDER": "iм'я",
+            "PASSWORD_PLACEHOLDER": "Пароль",
+            "NOT_HAVE_ACCOUNT": "Немає облiкового запису?",
+            "HAVE_ACCOUNT": "Є облiковий запис?",
+            "LIKED_PHOTO": "сподобалося ваше фото.",
+            "LIKED_COMMENT": "сподобався ваш коментар: {comment}",
+            "COMMENTED": "прокоментував вашу публiкацiю: {comment}",
+            "FOLLOWED": "почав стежити за вами.",
+            "DONE": "Готово",
+            "EDIT_PROFILE": "Редагувати профiль",
+            "CHANGE_PICTURE": "Змiнити зображення профiлю",
+            "NAME": "iм'я",
+            "BIO": "Бiо",
+            "PRIVATE": "Приватна сторiнка",
+            "SIGN_OUT": "Вийти",
+            "CHANGE_PASSWORD": "Змiнити пароль",
+            "DELETE_ACCOUNT": "Видалити акаунт",
+            "POSTS": "Публiкацiї",
+            "MESSAGE": "Повiдомлення",
+            "SENT_A_PHOTO": "надiслав фото",
+            "TO": "до",
+            "SEND_A_MESSAGE": "Надiслати повiдомлення...",
+            "STORY_VIEWERS": "Глядачiв",
+            "PARTICIPANTS": "Учасникiв",
+            "SEEN_BY": "Переглянуто {count}",
+            "ADD_ACCOUNT": "Додати облiковий запис",
+            "INVITE": "Запросити",
+            "INVITED": "Запрошено",
+            "REMOVE": "Видалити",
+            "IN_THIS_ROOM": "У цiй кiмнатi",
+            "WHOS_WATCHING": "Хто дивиться",
+            "FOLLOW_REQUESTS": "Виконати запити",
+            "CONFIRM": "Пiдтвердити",
+            "DELETE": "Видалити",
+            "ANDOTHERS": "{username} + {amount} iнших",
+            "PRIVATE_ACCOUNT": "Ця сторiнка приватна",
+            "PRIVATE_ACCOUNT_DESCRIPTION": "Пiдпишiться на цей облiковий запис, щоб переглянути їхнi фото та вiдео.",
+            "ERROR": "Помилка",
+            "USERNAME_TAKEN": "iм'я користувача вже зайнято",
+            "UNKNOWN": "Невiдома помилка",
+            "UNKNOWN_ACCOUNT": "Облiкового запису не iснує",
+            "INVALID_USERNAME": "Недійсне ім'я користувача",
+            "INCORRECT_PASSWORD": "Невірний пароль",
+            "USERNAME_NOT_ALLOWED": "Ім'я користувача заборонено",
+            "OK": "ОК",
+            "LOCATION": "Розташування",
+            "CHOOSE_LOCATION": {
+                "TITLE": "Оберіть Розташування",
+                "DESCRIPTION": "Оберіть місце для цієї публікації",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Продовжити"
+            },
+            "REPLIED_TO_YOUR_STORY": "Відповів(ла) на вашу історію",
+            "REPLIED_TO_YOUR_STORY_CONTENT": "Відповів(ла) на вашу історію: {content}",
+
+            "SHARE_TO_STORY": {
+                "TITLE": "Поділитися в історії",
+                "SUCCESS": "Допис опубліковано",
+                "DESCRIPTION": "Ваш допис додано до історії"
+            },
+            "VIEW_POST": "Переглянути допис"
+        },
+        "TWITTER": {
+            "TITLE": "Цьвiрк",
+            "SEARCH_FOR": "Шукати '{search}'",
+            "START_SEARCHING": "Почнiть пошук, щоб дослiдити Цьвiрк",
+            "TRENDING_HASHTAGS": "Популярнi хештеги",
+            "SENT_ATTACHMENT": "надiслав вкладення",
+            "TO": "до",
+            "TWEETS": "Пости",
+            "REPLIES": "Вiдповiдi",
+            "MEDIA": "Медiа",
+            "LIKES": "Вподобайки",
+            "CANCEL": "Скасувати",
+            "TWEET": "Цьвiркнути",
+            "TWEET_REPLY": "Опублiкуйте свою вiдповiдь",
+            "TWEET_GENERAL": "Що вiдбувається?",
+            "EDIT_PROFILE": "Редагувати профiль",
+            "SAVE": "Зберегти",
+            "NAME": "iм'я",
+            "JOIN_DATE": "Дата приєднання",
+            "PROTECTED_POSTS": "Захистiть свої публiкацiї",
+            "BIO": "Бiо",
+            "SIGN_OUT": "Вийти",
+            "CHANGE_PASSWORD": "Змiнити пароль",
+            "DELETE_ACCOUNT": "Видалити акаунт",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "Вийти",
+                "DESCRIPTION": "Ви впевненi, що бажаєте вийти?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Вiдписатися",
+                "DESCRIPTION": "Ви впевненi, що хочете вiдписатися вiд {name}?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "RETWEET_POPUP": {
+                "RETWEET": "Репост",
+                "UNDO_RETWEET": "Скасувати репост",
+                "DESCRIPTION": "Ви впевненi, що хочете {action}?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "DELETE_POPUP": {
+                "TITLE": "Видалити публiкацiю",
+                "DESCRIPTION": "Ви впевненi, що хочете видалити цю публiкацiю?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "NOTIFICATIONS_POPUP": {
+                "TITLE": "Сповiщення",
+                "DESCRIPTION": "Ви впевненi, що хочете {action} сповiщення для @{name}?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити",
+                "ENABLE": "Увiмкнути",
+                "DISABLE": "Вимкнути"
+            },
+            "PROMOTE_POPUP": {
+                "TITLE": "Просувати пост",
+                "DESCRIPTION": "Ви хочете просувати цю публiкацiю за {price} для {views} глядачiв?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "YOU": "Ви",
+            "FOLLOW": "Стежити",
+            "PENDING": "В очiкуваннi",
+            "FOLLOWING": "Вiдстежує",
+            "FOLLOWERS": "Читачi",
+            "RETWEETED": "Перепублiкував",
+            "REPLYING_TO": "Вiдповiсти на {name}",
+            "RETWEETED_BY": "Перепублiковано",
+            "LIKED_BY": "Сподобалось",
+            "ALL": "Всi",
+            "NOTIFICATIONS": "Сповiщення",
+            "FOLLOWS_YOU": "Слiдкує за вами",
+            "JOINED": "Приєднався {date}",
+            "PINNED_POST": "Pinned Post",
+            "LIKED_TWEET": "сподобався ваш пост",
+            "RETWEETED_TWEET": "перепублiкував ваш пост",
+            "FOLLOWED": "стежить за вами",
+            "SIGN_UP_TEXT": "Подивiться, що зараз вiдбувається у свiтi",
+            "TERMS_OF_SERVICE": "Реєструючись, ви погоджуєтеся з нашими Умовами обслуговування та Полiтикою конфiденцiйностi.",
+            "HAS_ACCOUNT": "Вже маєте акаунт?",
+            "CREATE_YOUR_ACCOUNT": "Створiть свiй акаунт",
+            "NAME_PLACEHOLDER": "iм'я",
+            "USERNAME_PLACEHOLDER": "iм'я користувача",
+            "PASSWORD_PLACEHOLDER": "Пароль",
+            "GET_STARTED": "Щоб почати, спочатку введiть своє @iм'якористувача",
+            "FORGOT_PASSWORD": "Забули пароль?",
+            "ENTER_PASSWORD": "Введiть свiй пароль",
+            "SEARCH_DIRECT_MESSAGES": "Пошук повiдомлень",
+            "SEARCH_TWITTER": "Пошук Цьвiрк",
+            "MESSAGE_PLACEHOLDER": "Повiдомлення...",
+            "NOW": "Зараз",
+            "LOGIN": "Увiйти",
+            "NEXT": "Наступне",
+            "CREATE_ACCOUNT": "Створити акаунт",
+            "PROMOTE": "Просувати",
+            "PIN": "Закрiпити публiкацiю",
+            "UNPIN": "Вiдкрiпити публiкацiю",
+            "NEW_MESSAGE": "Нове повiдомлення",
+            "PROMOTED": "Просували",
+            "ADD_ACCOUNT": "Додати облiковий запис",
+            "FOLLOWER_REQUESTS": "Запити пiдписникiв",
+            "NEW_POSTS": "Новi публiкацiї",
+            "NEW_POST": "Нова публiкацiя",
+            "PROTECTED_TWEETS_TITLE": "Цi публiкацiї захищенi.",
+            "PROTECTED_TWEETS_DESCRIPTION": "Лише пiдтвердженi читачi мають доступ до публiкацiй i повного профiлю @{username}. Натиснiсть 'Стежити', щоб надiслати запит на пiдписку.",
+            "INVALID_ACCOUNT": "Недійсний акаунт",
+            "INVALID_PASSWORD": "Недійсний пароль",
+            "USERNAME_TAKEN": "Ім'я користувача вже зайнято",
+            "USERNAME_NOT_ALLOWED": "Ім'я користувача заборонено"
+        },
+        "SERVICES": {
+            "ACTIONS": "Подiї",
+            "COMPANIES": "Компанiї",
+            "MESSAGES": "Повiдомлення",
+            "SETTINGS": "Налаштунки",
+
+            "CLOSED": "Недоступно",
+            "YOUR_MESSAGES": "Вашi повiдомлення",
+            "JOB_MESSAGES": "Робочi повiдомлення",
+
+            "DUTY": "Чергування",
+            "DUTY_DESCRIPTION": "Перемкнiть свiй статус чергування",
+            "GO_ON_DUTY": "Стати на чергування",
+            "GO_OFF_DUTY": "Знятись з чергування",
+            "JOB_CALLS": "Вакансiї",
+            "JOB_CALLS_DESCRIPTION": "{toggle} прийом дзвiнкiв вiд клiєнтiв.",
+
+            "ENABLE": "Увiмкнути",
+            "DISABLE": "Вимкнути",
+
+            "DISABLE_CALLS": "Вимкнути вхiднi дзвiнки",
+            "ENABLE_CALLS": "Увiмкнути вхiднi дзвiнки",
+            "BALANCE": "Баланс",
+            "MANAGE_EMPLOYEES": "Керувати спiвробiтниками",
+            "HIRE": "Найняти",
+            "SET_GRADE": "Встановити ранг",
+            "UNEMPLOYED": "Ти безробiтний",
+
+            "ALL": "Всi",
+            "AVAILABLE": "Доступнi",
+            "SEARCH_EMPLOYEES": "Пошук спiвробiтникiв",
+
+            "PERSONAL": "Особистi",
+            "JOB": "Робота",
+
+            "DEPOSIT_POPUP": {
+                "TITLE": "Покласти",
+                "DESCRIPTION": "Покласти грошi на рахунок компанiї",
+                "AMOUNT": "Сума",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "WITHDRAW_POPUP": {
+                "TITLE": "Зняти",
+                "DESCRIPTION": "Зняти грошi з рахунку компанiї",
+                "NOT_ENOUGH_MONEY": "На рахунку компанiї недостатньо грошей",
+                "AMOUNT": "Сума",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "HIRE_POPUP": {
+                "TITLE": "Найняти",
+                "DESCRIPTION": "Наймiть нового працiвника",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "FIRE_POPUP": {
+                "TITLE": "Звiльнити",
+                "DESCRIPTION": "Ви впевненi, що хочете звiльнити {name}?",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "CALL_POPUP": {
+                "TITLE": "Зателефонувати",
+                "DESCRIPTION": "Ви впевненi, що хочете зателефонувати {name}?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            }
+        },
+        "CRYPTO": {
+            "TITLE": "Бiржа",
+            "BALANCE": "Розрахунковий баланс",
+            "BUY": "Купити",
+            "SELL": "Продати",
+            "TRANSFER": "Перевести",
+            "SELL_ALL": "Продати все",
+            "NO_MONEY": "Вам не вистачає грошей",
+            "NO_COINS": "У вас немає цiєї монети",
+            "NOT_ENOUGH_COINS": "У вас недостатньо монет",
+            "ATLEAST_ONE_COIN": "Ви повиннi {action} принаймнi одну {currency}",
+            "INVALID_COIN": "Недiйсна монета",
+            "NO_NUMBER": "Номер телефону не вказано",
+            "INVALID_NUMBER": "Недiйсний номер телефону (можливо, користувач не в мережi)",
+            "ERROR": "Помилка",
+            "CLOSE": "Закрити",
+            "BUY_POPUP": {
+                "TITLE": "Купити {coin}",
+                "DESCRIPTION": "Введiть кiлькiсть {coin} (у доларах), яку ви хочете купити",
+                "PLACEHOLDER": "$1000",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "SELL_POPUP": {
+                "TITLE": "Продати {coin}",
+                "DESCRIPTION": "Введiть кiлькiсть {coin} (у доларах), яку ви хочете продати",
+                "PLACEHOLDER": "$1000"
+            },
+            "SELL_ALL_POPUP": {
+                "TITLE": "Продати всi {coin}",
+                "DESCRIPTION": "Ви впевненi, що хочете продати всi свої {coin} за ${amount}?"
+            },
+            "TRANSFER_POPUP": {
+                "TITLE": "Перевести {coin}",
+                "DESCRIPTION": "Введiть кiлькiсть {coin} (у доларах), яку ви хочете перевести (оберiть контакт на наступному кроцi)",
+                "PLACEHOLDER": "$1000",
+                "NEXT": "Далi"
+            },
+            "SUCCESSFULLY_TRANSFERED_POPUP": {
+                "TITLE": "Успiшно переведено",
+                "DESCRIPTION": "Ви успiшно переказали ${amount} у розмiрi {coin} до {number}",
+                "CLOSE": "Закрити"
+            }
+        },
+        "TIKTOK": {
+            "TITLE": "Тренди",
+
+            "HOME": "Головна",
+            "DISCOVER": "Пошук",
+            "INBOX": "Вхiднi",
+            "PROFILE": "Профiль",
+
+            "COMMENTS_TITLE": "{count} коментарiв",
+            "REPLY": "Вiдповiсти",
+            "VIEW_REPLIES": "Переглянути вiдповiдi",
+            "ADD_COMMENT": "Додати коментар...",
+            "REPLY_TO": "Вiдповiсти {name}",
+            "PIN_COMMENT": "Закрiпити коментар",
+            "UNPIN_COMMENT": "Вiдкрiпити коментар",
+            "DELETE_COMMENT": "Видалити коментар",
+            "DELETE": "Видалити",
+            "PINNED": "Закрiплено",
+            "PIN_VIDEO": "Закрiпити вiдео",
+            "UNPIN_VIDEO": "Вiдкрiпити вiдео",
+            "PIN": "закрiпити",
+            "UNPIN": "вiдкрiпити",
+            "MAX_PINNED_TITLE": "Максимум закрiпiв",
+            "MAX_PINNED_DESCRIPTION": "Ви можете закрiпити не бiльше 3 вiдео",
+            "OK": "OK",
+            "CREATOR": "Автор",
+            "LIKED_BY_CREATOR": "Подобається автору",
+
+            "PIN_VIDEO_POPUP": {
+                "TITLE": "Закрiпити вiдео",
+                "DESCRIPTION": "Ви впевненi, що хочете {action} це вiдео?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "DELETE_VIDEO_POPUP": {
+                "TITLE": "Видалити вiдео",
+                "DESCRIPTION": "Ви впевненi, що хочете видалити це вiдео?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "FAILED_UPLOAD_POPUP": {
+                "TITLE": "Не вдалося завантажити TTS",
+                "DESCRIPTION": "Власник сервера неправильно налаштував завантаження аудiо. Зв’яжiться з ними, щоб вирiшити цю проблему.",
+                "CANCEL": "Скасувати",
+                "PROCEED": "iгнорувати"
+            },
+
+            "SHARE_TITLE": "Подiлитися з",
+            "SHARE": "Подiлiться",
+            "REPORT": "Скарга",
+            "SAVE_VIDEO": "Зберегти вiдео",
+            "ADD_FAVOURITE": "Додати в обране",
+            "CANCEL": "Скасувати",
+            "GO_BACK": "Назад",
+
+            "FOLLOWING": "Вiдстежує",
+            "FOLLOWERS": "Читачi",
+            "UNFOLLOW": "Вiдписатися",
+            "FOLLOW": "Стежити",
+            "FOR_YOU": "Для Вас",
+            "VIDEOS": "Вiдео",
+            "LIKES": "Вподобайки",
+
+            "UNFOLLOW_POPUP": {
+                "TITLE": "Вiдписатися",
+                "DESCRIPTION": "Ви впевненi, що хочете вiдписатися вiд {name}?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+
+            "LOGIN_TITLE": "Увiйдiть у Тренди",
+            "LOGIN_SUBTITLE": "Керуйте сповiщеннями про перевiрку облiкового запису, коментуйте вiдео тощо.",
+            "SIGNUP_TITLE": "Зареєструватися у Тренди",
+            "SIGNUP_SUBTITLE": "Створiть профiль, пiдпишiться на iншi облiковi записи, створiть власнi вiдео тощо.",
+            "NAME": "iм'я",
+            "USERNAME": "iм'я користувача",
+            "PASSWORD": "Пароль",
+            "BIO": "Бiо",
+            "SHOW_LIKES": "Показати лайки",
+
+            "LOGIN": "Увiйти",
+            "SIGNUP": "Зареєструватись",
+            "NO_ACCOUNT": "Немає облiкового запису?",
+            "ALREADY_ACCOUNT": "Вже маєте акаунт?",
+            "SEARCH_PLACEHOLDER": "Пошук користувачiв",
+
+            "STARTED_FOLLOWING": "почав стежити за вами.",
+            "LIKED_VIDEO": "сподобалося ваше вiдео.",
+            "LIKED_COMMENT": "сподобався ваш коментар.",
+            "SAVED_VIDEO": "додав ваше вiдео до обраного.",
+            "COMMENTED": "прокоментував: {comment}",
+            "REPLIED": "вiдповiв на ваш коментар: {comment}",
+
+            "EDIT_PROFILE": "Редагувати профiль",
+            "MESSAGE": "Повiдомлення",
+            "CHANGE_PHOTO": "Змiнити фото",
+            "LOGOUT": "Вийти",
+            "CHANGE_PASSWORD": "Змiнити пароль",
+            "DELETE_ACCOUNT": "Видалити акаунт",
+            "ADD_TO_YOUR_PROFILE": "Додайте до вашого профiлю",
+            "LIKED_HIDDEN_TITLE": "Вiдео, якi сподобалися цьому користувачу, є приватними.",
+            "LIKED_HIDDEN_SUBTITLE": "Вiдео, якi сподобалися {name} наразi приховано.",
+
+            "INVALID_ACCOUNT_POPUP": {
+                "TITLE": "Недiйсний {name}",
+                "DESCRIPTION": "Ви не ввiйшли в облiковий запис {name} який ви ввели, виправте це.",
+                "OK": "OK"
+            },
+            "REMOVE_ACCOUNT_POPUP": {
+                "TITLE": "Видалити облiковий запис {name}",
+                "DESCRIPTION": "Ви впевненi, що хочете видалити свiй облiковий запис {name} зi свого профiлю?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+
+            "ADD_ACCOUNT_TITLE": "Додати облiковий запис",
+            "ADD_ACCOUNT": "Додайте {name} до свого профiлю",
+            "UPLOAD_VIDEO": "Завантажити вiдео",
+            "UPLOAD": "Завантажити",
+            "PREVIEW": "Попереднiй перегляд",
+            "CAPTION": "Пiдпис",
+            "CAPTION_PLACEHOLDER": "Додати пiдпис...",
+            "TTS": "Озвучити текст (TTS)",
+            "TTS_PLACEHOLDER": "Додати текст для озвучування...",
+            "MUSIC": "Музика",
+            "SELECT_MUSIC": "Оберiть музику",
+            "OPTIONAL": "Додатково",
+
+            "DIRECT_MESSAGES": "Приватнi повiдомлення",
+            "ALL_ACTIVITY": "Усi дiї",
+            "NO_NOTIFICATIONS": "Сповiщення недоступнi",
+            "NO_NOTIFICATIONS_SUBTITLE": "Тут з’являтимуться сповiщення про ваш облiковий запис.",
+            "NO_FOLLOWING_TITLE": "Почнiть стежити за людьми, i їхнi вiдео з’являться тут.",
+            "NO_MESSAGES_TITLE": "Надiшлiть повiдомлення друзям",
+            "NO_MESSAGES_SUBTITLE": "Подiлiться вiдео або почнiть бесiду"
+        },
+        "VOICEMEMO": {
+            "TITLE": "Диктофон",
+            "VOICE_RECORDINGS": "Голосовi записи",
+            "SEARCH_RECORDINGS": "Пошук записiв",
+            "DEFAULT_NAME": "Новий запис",
+            "DELETE_POPUP": {
+                "TITLE": "Видалити голосовi записи",
+                "DESCRIPTION": "Ви впевненi, що хочете видалити цей голосовий запис?",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            },
+            "NO_MICROPHONE_POPUP": {
+                "TITLE": "Немає мiкрофона",
+                "DESCRIPTION": "Немає доступу до вашого мiкрофона. Переконайтеся, що вiн пiдключений, i пiдтвердiть спливаюче вiкно у верхньому правому кутi екрана",
+                "OK": "OK"
+            },
+            "EMPTY_RECORDING_POPUP": {
+                "TITLE": "Порожнiй запис",
+                "DESCRIPTION": "Ви не можете зберегти запис без аудiо",
+                "OK": "OK"
+            }
         }
     },
     "COMPONENTS": {
         "CONTEXT_MENU": {
-            "CANCEL": "Скасувати"
+            "CANCEL": "Скасувати",
+            "CALL": "Виклик",
+            "VIDEO_CALL": "Вiдеодзвiнок",
+            "MESSAGE": "Повiдомлення"
         },
         "IMAGE": {
             "SAVE_TO_GALLERY": "Зберегти в галерею"
         },
         "GALLERY": {
             "CANCEL": "Скасувати",
-            "EXTERNAL_URL": "Зовнішній URL",
-            "EXTERNAL_URL_BLACKLISTED": "Цей URL в чорному списку",
+            "EXTERNAL_URL": "URL-адреса",
+            "EXTERNAL_URL_BLACKLISTED": "Ця URL-адреса занесена в чорний список",
             "NO_IMAGES": "Немає зображень"
         },
         "NOTIFICATIONS": {
-            "SENT_PHOTO": "Надіслати фото",
-            "SENT_GIF": "Надіслати GIF",
+            "SENT_PHOTO": "Надiслати фото",
+            "SENT_GIF": "Надiслати GIF",
             "NOW": "зараз"
         },
         "SHARE": {
-            "COPY_PHOTO": "Копіювати фото",
-            "COPY_VIDEO": "Копіювати відео",
+            "COPY_PHOTO": "Копiювати фото",
+            "COPY_VIDEO": "Копiювати вiдео",
             "USE_WALLPAPER": "Встановити як шпалери",
-            "COPY_NUMBER": "Копіювати номер",
+            "COPY_NUMBER": "Копiювати номер",
             "COPY_LINK": "Копіювати посилання",
-            "AIRDROP_SENT": "Надіслано",
-            "AIRDROP_ACCEPTED": "Прийнято",
-            "AIRDROP_DECLINED": "Відхилено",
-            "AIRDROP_NO_USERS": "Немає телефонів поруч",
+            "AIRDROP_SENT": "Вiдправленi",
+            "AIRDROP_ACCEPTED": "Прийнятi",
+            "AIRDROP_DECLINED": "Вiдхиленi",
+            "AIRDROP_NO_USERS": "Немає телефонiв поблизу",
             "WALLPAPER_POPUP": {
                 "TITLE": "Встановити як шпалери",
-                "TEXT": "Ви впевнені, що хочете встановити це зображення як шпалери?",
+                "TEXT": "Ви впевненi, що хочете встановити це зображення як шпалери?",
                 "CANCEL": "Скасувати",
-                "PROCEED": "Продовжити"
+                "PROCEED": "Пiдтвердити"
             },
             "COPY_POPUP": {
-                "TITLE": "Успіх",
-                "DESCRIPTION": "Успішно скопійовано до буферу обміну",
+                "TITLE": "Успiшно",
+                "DESCRIPTION": "Успiшно скопiйовано в буфер обмiну",
                 "OK": "OK"
             }
         },
         "AIRDROP": {
-            "TITLE": "AirShare",
-            "TEXT": "{sender} хоче поділитися {type}",
-            "VIDEO": "Відео",
-            "PHOTO": "Фото",
-            "CONTACT": "Контактом",
-            "LOCATION": "Місцезнаходженням",
-            "NOTE": "Нотатком",
-            "VOICEMEMO": "Голосовим повідомленням",
-            "PLAYLIST": "плейлістом",
-            "DECLINE": "Відхилити",
-            "ACCEPT": "Прийняти"
+            "TITLE": "Блютуз",
+            "TEXT": "{sender} бажаєте вiдправити {type}",
+            "VIDEO": "вiдео",
+            "PHOTO": "фото",
+            "CONTACT": "номер",
+            "LOCATION": "мiсцезнаходження",
+            "NOTE": "нотатки",
+            "VOICEMEMO": "голосовий",
+            "PLAYLIST": "плейлiст",
+            "ALBUM": "альбом",
+            "DECLINE": "Скасувати",
+            "ACCEPT": "Пiдтвердити"
         },
-
+        "DYNAMICISLAND": {
+            "SILENT": "Без звуку",
+            "RING": "Звук",
+            "TIMER": "Таймер"
+        },
+        "MUSIC_SELECTOR": {
+            "CANCEL": "Скасувати",
+            "NO-RESULTS": "Музику не налаштовано, повiдомте власнику сервера додати пiснi",
+            "SEARCH": "Пошук пiснi",
+            "SELECT_POPUP": {
+                "TITLE": "Виберiть пiсню",
+                "DESCRIPTION": "Ви впевненi, що хочете обрати? {song}",
+                "CANCEL": "Скасувати",
+                "PROCEED": "Пiдтвердити"
+            }
+        },
         "BATTERY": {
-            "LOW_BATTERY": "Низький рівень заряду",
-            "BATTERY_REMAINING": "{percent}% Залишилось",
+            "LOW_BATTERY": "Низький заряд батареї",
+            "BATTERY_REMAINING": "{percent}% заряду батареї",
             "LOW_POWER_MODE": "Режим низького енергоспоживання",
             "CLOSE": "Закрити"
         },
         "COLOR_PICKER": {
-            "COLOR": "Колір"
+            "COLOR": "Колiр"
+        },
+        "GIF_SELECTOR": {
+            "SEARCH": "Пошук GIF",
+            "BACK": "Назад"
         }
     },
     "SETUP": {
-        "HELLO": "Приві",
-        "SELECT_LANGUAGE": "Оберіть мову",
-        "NEXT": "Натисніть, щоб відкрити",
+        "HELLO": "Привiт",
+        "SELECT_LANGUAGE": "Оберiть свою мову",
+        "NEXT": "Натиснiть, щоб вiдкрити",
+        "CREATE_PASSCODE": "Встановiть PIN-код",
+        "CREATE_PASSCODE_TEXT": "PIN-код використовується для захисту вашого пристрою та потрiбен для його розблокування.",
+        "SKIP": "Пропустити",
+        "FACE_ID_SETUP": "Face-ID",
+        "FACE_ID_TEXT": "Налаштуйте Face-ID, щоб розблокувати телефон обличчям без використання PIN-коду.",
+        "FACE_ID_TEXT_ALT": "Face-ID працює лише тодi, коли ваше обличчя не прикрите.",
+        "ENABLE_FACE_ID": "Увiмкнути Face-ID",
         "APPEARANCE": "Тема",
-        "APPEARANCE_TEXT": "Виберіть світлу або темну тему для пристрою",
+        "APPEARANCE_TEXT": "Оберiть темну або свiтлу тему для свого пристрою",
         "CONTINUE": "Продовжити",
-        "WELCOME_TO": "Ласкаво просимо до",
-        "CLICK": "Натисніть, щоб розпочати"
+        "WELCOME_TO": "Ласкаво просимо у",
+        "CLICK": "Натиснiть, щоб почати"
     },
     "HOMESCREEN": {
         "DONE": "Готово",
-        "CLOSE_ALL": "Закрити всі",
+        "CLOSE_ALL": "Закрити все",
         "REMOVE_APP_POPUP": {
             "TITLE": "Видалити '{app}'?",
-            "DESCRIPTION": "Видалення цього додатка НЕ призведе до видалення його даних. Додаток можна буде перевстановити з App Store.",
+            "DESCRIPTION": "Видалення цiєї програми НЕ призведе до видалення її даних. Пiзнiше програму можна повторно встановити з App Store.",
             "CANCEL": "Скасувати",
             "PROCEED": "Видалити"
         }
     },
     "LOCKSCREEN": {
+        "ENTER_PASSCODE": "Введiть пароль",
         "DELETE": "Видалити",
-        "FONT_AND_COLOR": "Шрифт & Колір"
+        "FONT_AND_COLOR": "Шрифт i колiр"
     },
     "MISC": {
-        "GENDERS": {
-            "MALE": "Чоловік",
-            "FEMALE": "Жінка"
-        },
         "AIRPLANE_MODE_POPUP": {
             "TITLE": "Помилка",
-            "DESCRIPTION": "Ви намагаєтесь виконати дію, яка потребує доступу до інтернету. Вимкніть режим польоту, щоб продовжити.",
+            "DESCRIPTION": "Ви намагаєтеся виконати дiю, для якої потрiбен доступ до iнтернету, вимкнiть режим польоту, щоб продовжити.",
+            "OK": "OK"
+        },
+        "TODAY_TIME": "Сьогоднi, {hours}:{minutes}",
+        "YESTERDAY_TIME": "Вчора, {hours}:{minutes}",
+        "CHANGE_PASSWORD": {
+            "TITLE": "Змiнити пароль",
+            "DESCRIPTION": "Будь ласка, заповнiть свiй {type} {app} пароль",
+            "ERROR": "Не вдалося змiнити пароль",
+            "CURRENT": "поточний",
+            "NEW": "новий",
+            "PLACEHOLDER_CURRENT": "Поточний пароль",
+            "PLACEHOLDER_NEW": "Новий пароль",
+            "CANCEL": "Скасувати",
+            "NEXT": "Далi",
+            "PROCEED": "Пiдтвердити",
+            "SUCCESS": "Пароль успiшно змiнено",
+            "OK": "OK"
+        },
+        "DELETE_ACCOUNT": {
+            "TITLE": "Видалити акаунт",
+            "DESCRIPTION": "Щоб видалити свiй облiковий запис {app}, будь ласка, введiть свiй пароль нижче. ПРИМiТКА. Ця дiя незворотна.",
+            "ERROR": "Не вдалося видалити облiковий запис",
+            "PLACEHOLDER": "Пароль",
+            "CANCEL": "Скасувати",
+            "PROCEED": "Пiдтвердити",
             "OK": "OK"
         }
     },
     "BACKEND": {
+        "CALLS": {
+            "NO_CALLER_ID": "Немає ID абонента",
+            "MISSED_CALL": "Пропущений дзвiнок",
+            "NEW_VOICEMAIL": "Голосове повiдомлення"
+        },
+        "GARAGE": {
+            "VALET": "Камердинер",
+            "COULDNT_FIND": "Не вдалося знайти транспортний засiб.",
+            "ALREADY_OUT": "Транспортний засiб уже виїхав.",
+            "NO_MONEY": "Вам не вистачає грошей.",
+            "ON_WAY": "Ваш автомобiль уже в дорозi.",
+            "MARKED": "Ваш автомобiль позначено на вашому GPS."
+        },
+        "INSTAGRAM": {
+            "NOT_ALLOWED_LIVE": "Вам заборонено вести прямий етер",
+            "NOT_ALLOWED_STORY": "Вам заборонено публiкувати iсторiї",
+            "STARTED_LIVE": "{username} почав прямий етер",
+            "JOINED_LIVE": "{invitee} в етерi з {inviter}.",
+            "LIKED_PHOTO": "{username} сподобалося ваше фото",
+            "LIKED_COMMENT": "{username} сподобався вашу публiкацiю",
+            "COMMENTED": "{username} прокоментував ваш допис",
+            "NEW_FOLLOWER": "{username} почав стежити за вами",
+            "FOLLOW_REQUEST_ACCEPTED_TITLE": "Запит прийнято",
+            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "{displayName} ({username}) прийняв ваш запит на пiдписку.",
+            "NEW_FOLLOW_REQUEST_TITLE": "Новий запит на пiдписку",
+            "NEW_FOLLOW_REQUEST_DESCRIPTION": "{displayName} ({username}) вiдправив запрос, щоб стежити за вами."
+        },
+        "TINDER": {
+            "NEW_MATCH": "Новi спiвпадiння",
+            "MATCHED_WITH": "Ви спiвпали з {name}"
+        },
         "CAMERA": {
-            "TAKE_PHOTO": "{key} Зробити фото",
-            "FLIP_CAMERA": "{key} Перевернути",
-            "TOGGLE_FLASH": "{key} Спалах",
-            "TOGGLE_CURSOR": "{key} Курсор",
-            "CHANGE_MODE": "{key} {key2} Режим",
-            "ROLL": "{key} {key2} Поворот",
-            "FREEZE": "{key} Заморозити",
-            "UNFREEZE": "{key} Разморозити",
-            "TOGGLE_TIP": "{key} Приховати"
+            "TAKE_PHOTO": "Натиснiсть {key}, щоб зробити фото",
+            "FLIP_CAMERA": "Натиснiсть {key}, щоб перевернути камеру",
+            "TOGGLE_FLASH": "Натиснiсть {key}, щоб увiмкнути лiхтарик",
+            "TOGGLE_CURSOR": "Натиснiсть {key}, щоб перемкнути курсор i подивитися навколо",
+            "CHANGE_MODE": "Натиснiсть {key} {key2}, щоб змiнити режим камери",
+            "ROLL": "Натиснiсть {key} {key2} крутити камеру",
+            "FREEZE": "Натиснiсть {key} щоб зафіксувати камеру"
         },
         "SERVICES": {
-            "NEW_MESSAGE": "Нове повідомлення",
-            "ANONYMOUS": "Анонімно"
+            "NEW_MESSAGE": "Нове повiдомлення",
+            "ANONYMOUS": "Анонiм"
+        },
+        "TWITTER": {
+            "LIKE": "{displayName} вподобав:",
+            "RETWEET": "{displayName} перепублiкував:",
+            "REPLY": "{displayName} вiдповiв:",
+            "FOLLOW": "{username} почав стежити за вами",
+            "TWEET": "{username} щойно опублiкував",
+            "FOLLOW_REQUEST_ACCEPTED_DESCRIPTION": "@{username} прийняв ваш запит на пiдписку.",
+            "NEW_FOLLOW_REQUEST": "@{username} надiслав запит на пiдписку на вас!"
+        },
+        "TIKTOK": {
+            "LIKE": "{displayName} сподобалось ваше вiдео.",
+            "COMMENT": "{displayName} прокоментував ваше вiдео.",
+            "FOLLOW": "{displayName} почав стежити за вами.",
+            "SAVE": "{displayName} додав ваше вiдео до обраного.",
+            "LIKED_COMMENT": "{displayName} сподобався ваш коментар.",
+            "REPLIED_COMMENT": "{displayName} вiдповiв на ваш коментар.",
+            "DM": "{displayName}"
         },
         "MISC": {
-            "X_TABLET": "Планшет {firstname}"
+            "VERIFIED": "Ваш облiковий запис перевiрено",
+            "X_PHONE": "Телефон {name}",
+
+            "LOGGED_OUT_PASSWORD": {
+                "TITLE": "Ви вийшли з системи",
+                "DESCRIPTION": "Ви вийшли зi свого облiкового запису, оскiльки ваш пароль було змiнено."
+            },
+
+            "DELETED_NOTIFICATION": {
+                "TITLE": "Облiковий запис видалено",
+                "DESCRIPTION": "Ваш облiковий запис видалено."
+            }
+        },
+        "CRYPTO": {
+            "RECEIVED_TRANSFER_TITLE": "Отримано {coin}",
+            "RECEIVED_TRANSFER_DESCRIPTION": "Ви отримали {amount} {coin} вартiстю ${value}"
         },
         "MAIL": {
             "AUTOMATIC_PASSWORD": {
                 "SENDER": "Система",
-                "SUBJECT": "Ваш пароль",
-                "MESSAGE": "Привіт,\n\nВаша автоматична електронна адреса: {address}, а ваш пароль: {password}"
+                "SUBJECT": "Ваша електронна адреса",
+                "MESSAGE": "Привiт,\n\nВаша адреса електронної пошти автоматично згенерована як {address}, i ваш пароль - {password}"
             }
         },
         "LOGS": {
-            "TOOK_PHOTO": "Зроблено фото",
-            "TOOK_VIDEO": "Знято відео",
-            "NEW_DISPATCH": "Нове сповіщення: {title}"
-        },
-        "POLICE": {
-            "EVIDENCE_LABEL": "Доказ: Справа {id}",
-            "NEW_BULLETIN_NOTIFICATION": {
-                "TITLE": "Нове оголошення",
-                "CONTENT": "{title}"
+            "MAIL_TITLE": "Електронна пошта",
+            "NEW_MAIL": "{sender} надiслав електронний лист до {recipient}",
+
+            "MESSAGE_TITLE": "Текстове повiдомлення",
+            "NEW_MESSAGE": "{sender} надiслав повiдомлення до {recipient}: {message}",
+
+            "CALL_ENDED": "Дзвiнок завершено",
+            "CALL_DESCRIPTION": "Дзвiнок мiж `{caller}` та `{callee}`, який тривав {duration}с, закiнчився. Вiдповiли: `{answered}`",
+
+            "NEW_SERVICE_TITLE": "Нове повiдомлення",
+            "NEW_SERVICE_CONTENT": "{sender} надiслав повiдомлення в {channel}: {message}",
+
+            "RECEIVED_TITLE": "Отримано ${amount}",
+            "PAID_TITLE": "Сплачено ${amount}",
+            "TRANSACTION": "{number} здiйснив транзакцiю ${amount} в {company}",
+
+            "BOUGHT_CRYPTO": "Куплено криптовалюту",
+            "SOLD_CRYPTO": "Продано криптовалюту",
+            "CRYPTO_DETAILS": "**Монета**: {coin}\n**Кiлькiсть**: {amount}\n**Цiна**: ${price}",
+            "TRANSFERRED_CRYPTO": "Вiдправлено криптовалюту",
+            "TRANSFERRED_CRYPTO_DETAILS": "**Монета**: {coin}\n**Кiлькiсть**: {amount}\n**До**: {to}\n**Вiд**: {from}",
+
+            "DARKCHAT_CREATED_TITLE": "Створений канал",
+            "DARKCHAT_CREATED_DESCRIPTION": "{creator} створив канал пiд назвою {channel}",
+            "DARKCHAT_MESSAGE_TITLE": "Нове повiдомлення",
+            "DARKCHAT_MESSAGE_DESCRIPTION": "{sender} надiслав повiдомлення в {channel}: {message}",
+
+            "MARKETPLACE_NEW_TITLE": "Нова публiкацiя",
+            "MARKETPLACE_NEW_DESCRIPTION": "**Продавець**: {seller}\n**Назва**: {title}\n**Цiна**: ${price}\n**Опис**: {description}\n**Додатково**: {attachments}\n**ID:** {id}",
+            "MARKETPLACE_DELETED": "Публiкацiю видалено",
+
+            "YELLOWPAGES_NEW_TITLE": "Нова публiкацiя",
+            "YELLOWPAGES_NEW_DESCRIPTION": "**Назва**: {title}\n**Опис**: {description}\n**Додатково**: {attachment}\n**ID:** {id}",
+            "YELLOWPAGES_DELETED": "Публiкацiю видалено",
+
+            "LIVE_TITLE": "Прямий етер",
+            "STARTED_LIVE": "{username} почав прямий етер",
+            "ENDED_LIVE": "{username} завершив прямий етер",
+            "ADDED_STORY": "{username} додав фото до своєї iсторiї",
+
+            "TRENDY_UPLOAD_TITLE": "Нове вiдео",
+            "TRENDY_UPLOAD_DESCRIPTION": "{username} завантажив нове вiдео iз описом {caption} та {id} ",
+            "TRENDY_DELETE_TITLE": "Вiдео видалено",
+            "TRENDY_DELETE_DESCRIPTION": "{username} видалив вiдео з {id} ID",
+
+            "UPLOADED_MEDIA": "Завантаженi медiа",
+            "UPLOADED_MEDIA_DESCRIPTION": "Взяв {type} з iдентифiкатором {id}\n{link}",
+            "VIDEO": "вiдео",
+            "PHOTO": "фото",
+
+            "CHANGED_PASSWORD": {
+                "TITLE": "Пароль змiнено",
+                "DESCRIPTION": "{number} змiнив пароль для облiкового запису {username} в {app}."
             },
-            "NEW_CASE_NOTIFICATION": {
-                "TITLE": "Нова справа",
-                "CONTENT": "{title}"
-            },
-            "NEW_REPORT_NOTIFICATION": {
-                "TITLE": "Новий звіт",
-                "CONTENT": "{title}"
-            },
-            "NEW_WARRANT_NOTIFICATION": {
-                "TITLE": "Новий розшук",
-                "CONTENT": "{title}"
-            },
-            "NEW_CHAT_CHANNEL_NOTIFICATION": {
-                "TITLE": "Нова розмова",
-                "CONTENT": "{channel}"
-            },
-            "CHAT_MESSAGE_NOTIFICATION": {
-                "TITLE": "Нове повідомлення {channel}",
-                "CONTENT": "{message}"
-            },
-            "LOGS": {
-                "CREATE_OFFENCE_CATEGORY": {
-                    "TITLE": "Створена категорія правопорушень",
-                    "DESCRIPTION": "Створено категорію '{name}'"
-                },
-                "DELETE_OFFENCE_CATEGORY": {
-                    "TITLE": "Видалено категорію правопорушень",
-                    "DESCRIPTION": "Видалено категорію '{name}'"
-                },
-                "UPDATE_OFFENCE_CATEGORY": {
-                    "TITLE": "Оновлено категорію правопорушення",
-                    "DESCRIPTION": "Категорію правопорушення '{oldName}' перейменовано на '{newName}'"
-                },
-                "CREATE_OFFENCE": {
-                    "TITLE": "Створене правопорушення",
-                    "DESCRIPTION": "Створено {class} правопорушення '{name}' в '{category}'"
-                },
-                "DELETE_OFFENCE": {
-                    "TITLE": "Видалено правопорушення",
-                    "DESCRIPTION": "Видалено правопорушення '{name}' в '{category}'"
-                },
-                "UPDATE_OFFENCE": {
-                    "TITLE": "Оновлено правопорушення",
-                    "DESCRIPTION": "Оновлено правопорушення '{name}' у категорії '{category}'"
-                }
-            }
-        },
-        "AMBULANCE": {
-            "NOTIFICATIONS": {
-                "CHAT": {
-                    "NEW_CHANNEL": {
-                        "TITLE": "Нова розмова",
-                        "CONTENT": "{channel}"
-                    },
-                    "NEW_MESSAGE": {
-                        "TITLE": "Нове повідомлення {channel}",
-                        "CONTENT": "{message}"
-                    }
-                },
-                "NEW_BULLETIN": {
-                    "TITLE": "Нове оголошення",
-                    "CONTENT": "{title}"
-                },
-                "NEW_REPORT": {
-                    "TITLE": "Новий звіт",
-                    "CONTENT": "{title}"
-                }
-            },
-            "TAG_TYPES": {
-                "PROFILE": "Профіль",
-                "REPORT": "Звіт",
-                "PROPERTY": "Нерухомість",
-                "WEAPON": "Зброя"
-            },
-            "LOGS": {
-                "CREATE_CONDITION_CATEGORY": {
-                    "TITLE": "Створено категорію діагнозів",
-                    "DESCRIPTION": "Створено категорію '{name}'"
-                },
-                "DELETE_CONDITION_CATEGORY": {
-                    "TITLE": "Видалено категорію діагнозів",
-                    "DESCRIPTION": "Видалено категорію '{name}'"
-                },
-                "UPDATE_CONDITION_CATEGORY": {
-                    "TITLE": "Оновлено категорію стану",
-                    "DESCRIPTION": "Категорію стану '{oldName}' перейменовано на '{newName}'"
-                },
-                "CREATE_CONDITION": {
-                    "TITLE": "Створено діагноз",
-                    "DESCRIPTION": "Створено {severity} діагноз '{name}' у '{category}'"
-                },
-                "DELETE_CONDITION": {
-                    "TITLE": "Видалено діагноз",
-                    "DESCRIPTION": "Видалено діагноз '{name}' у '{category}'"
-                },
-                "UPDATE_CONDITION": {
-                    "TITLE": "Оновлено стан",
-                    "DESCRIPTION": "Оновлено стан '{name}' у категорії '{category}'"
-                },
-                "CREATE_BULLETIN": {
-                    "TITLE": "Створено оголошення",
-                    "DESCRIPTION": "Створено оголошення '{title}'"
-                },
-                "DELETE_BULLETIN": {
-                    "TITLE": "Видалено оголошення",
-                    "DESCRIPTION": "Видалено оголошення з індетифікатором {id}"
-                },
-                "PIN_BULLETIN": {
-                    "TITLE": "Закріплено оголошення",
-                    "DESCRIPTION": "Закріплено оголошення з індетифікатором {id}"
-                },
-                "UNPIN_BULLETIN": {
-                    "TITLE": "Відкріплено оголошення",
-                    "DESCRIPTION": "Відкіплено оголошення з індетифікатором {id}"
-                },
-                "DELETE_TAG": {
-                    "TITLE": "Видалений Тег",
-                    "DESCRIPTION": "Видалено Тег '{name}'"
-                },
-                "UPDATE_PROFILE": {
-                    "TITLE": "Оновлено профіль",
-                    "DESCRIPTION": "Оновлено профіль {name}"
-                },
-                "CREATE_REPORT": {
-                    "TITLE": "Створено звіт",
-                    "DESCRIPTION": "Створено {type} звіт '{title}' для {patient} з ID {id}"
-                },
-                "UPDATE_REPORT": {
-                    "TITLE": "Оновлено звіт",
-                    "DESCRIPTION": "Оновлено {type} звіт '{title}' з ID {id}"
-                }
+
+            "DELETED_ACCOUNT": {
+                "TITLE": "Акаунт видалено",
+                "DESCRIPTION": "{number} видалив облiковий запис {username} в {app}."
             }
         }
     }
