@@ -1865,6 +1865,10 @@
             "WIRETAP_NOTIFICATION": {
                 "TITLE": "Prisluškivan poziv",
                 "CONTENT": "Prisluškivan broj {number} je u pozivu."
+            },
+            "CANT_JAIL_YOURSELF_NOTIFICATION": {
+                "TITLE": "Zatvaranje nije moguće",
+                "CONTENT": "Ne možete zatvoriti sami sebe."
             }
         },
         "AMBULANCE": {
