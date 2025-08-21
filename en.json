@@ -1865,6 +1865,10 @@
             "WIRETAP_NOTIFICATION": {
                 "TITLE": "Wiretapped Call",
                 "CONTENT": "The wiretapped phone number {number} is in a call."
+            },
+            "CANT_JAIL_YOURSELF_NOTIFICATION": {
+                "TITLE": "Unable to jail",
+                "CONTENT": "You can not jail yourself."
             }
         },
         "AMBULANCE": {

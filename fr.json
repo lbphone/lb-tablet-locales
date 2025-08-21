@@ -1865,6 +1865,10 @@
             "WIRETAP_NOTIFICATION": {
                 "TITLE": "Appel sur écoute",
                 "CONTENT": "Le numéro de téléphone mis sur écoute {number} est dans un appel."
+            },
+            "CANT_JAIL_YOURSELF_NOTIFICATION": {
+                "TITLE": "Impossible d'emprisonner",
+                "CONTENT": "Vous ne pouvez pas vous emprisonner vous-même."
             }
         },
         "AMBULANCE": {

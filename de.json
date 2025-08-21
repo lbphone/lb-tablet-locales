@@ -1865,6 +1865,10 @@
             "WIRETAP_NOTIFICATION": {
                 "TITLE": "Abgehörter Anruf",
                 "CONTENT": "Die abgehörte Telefonnummer {number} befindet sich in einem Anruf."
+            },
+            "CANT_JAIL_YOURSELF_NOTIFICATION": {
+                "TITLE": "Unmöglich einzusperren",
+                "CONTENT": "Du kannst dich nicht selbst einsperren."
             }
         },
         "AMBULANCE": {
