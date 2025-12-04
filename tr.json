@@ -118,7 +118,9 @@
             "DELETE_TITLE": "{title} Sil",
             "DELETE_TEXT": "'{title}' adlı notu silmek istediğinize emin misiniz?",
             "BUTTON_CANCEL": "İptal",
-            "BUTTON_DELETE": "Sil"
+            "BUTTON_DELETE": "Sil",
+            "PHONE": "Telefon",
+            "TABLET": "Tablet"
         },
         "CLOCK": {
             "WORLDCLOCK": {
@@ -219,6 +221,7 @@
             "GALLERY": "Galeri",
             "MY_ALBUMS": "Albümlerim",
             "MEDIA_TYPES": "Medya Türleri",
+            "FROM_MY_PHONE": "Telefonumdan",
             "NEW_ALBUM_POPUP": {
                 "TITLE": "Yeni Albüm",
                 "DESCRIPTION": "Bu albüm için bir ad girin",
@@ -622,8 +625,24 @@
                 "ACTIVE_WARRANTS": "Aktif Aramalar",
                 "INVOLVED": "İlgililer",
                 "CHARGES": "Suçlamalar",
-                "NO_CHARGES": "Suçlama Yok"
-            },
+                "NO_CHARGES": "Herhangi bir suç yok",
+                "FINE_PLAYER": {
+                    "TITLE": "Oyuncuya Ceza",
+                    "DESCRIPTION": "{name} adlı oyuncuya ceza vermek istiyor musunuz?",
+                    "DESCRIPTION_DETAILS": "Lütfen miktarı ve açıklamayı doldurun",
+                    "FINE_WITH_OFFENCE": "Suç ile ceza",
+                    "FINE_WITHOUT_OFFENCE": "Suç olmadan ceza",
+                    "CANCEL": "İptal",
+                    "PROCEED": "Devam Et",
+                    "FINE": "Ceza",
+                    "AMOUNT_PLACEHOLDER": "Miktar",
+                    "DESCRIPTION_PLACEHOLDER": "Açıklama",
+                    "SEND_FINE": "Cezayı Gönder",
+                    "SUCCESS": "Başarılı",
+                    "FINE_SENT": "Ceza {name} adlı oyuncuya gönderildi",
+                    "OK": "Tamam"
+                }
+            },    
 
             "VEHICLES": {
                 "TITLE": "Araçlar",
@@ -1357,8 +1376,22 @@
                     "INVALID_URL": "Geçersiz URL",
                     "INVALID_URL_DESCRIPTION": "Girdiğiniz URL geçerli bir resim URL'si değil",
                     "OK": "Tamam"
-                }
             },
+
+            "BILL_PLAYER": {
+                "TITLE": "Oyuncuya Fatura",
+                "DESCRIPTION": "{name} adlı oyuncuya fatura kesmek istiyor musunuz?",
+                "BILL": "Fatura",
+                "DESCRIPTION_DETAILS": "Lütfen miktarı ve açıklamayı doldurun",
+                "AMOUNT_PLACEHOLDER": "Miktar",
+                "DESCRIPTION_PLACEHOLDER": "Açıklama",
+                "CANCEL": "İptal",
+                "PROCEED": "Devam Et",
+                "SUCCESS": "Başarılı",
+                "BILL_SENT": "Fatura {name} adlı oyuncuya gönderildi",
+                "OK": "OK"
+                }
+            },                
 
             "REPORTS": {
                 "TITLE": "Raporlar",
