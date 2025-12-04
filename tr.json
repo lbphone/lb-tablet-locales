@@ -1865,7 +1865,11 @@
             "WIRETAP_NOTIFICATION": {
                 "TITLE": "Dinlenen Arama",
                 "CONTENT": "Dinlenen telefon numarası {number} bir aramada."
-            }
+            },
+            "CANT_JAIL_YOURSELF_NOTIFICATION": {
+                "TITLE": "Hapsetme Başarısız",
+                "CONTENT": "Kendinizi hapsedemezsiniz."
+            }            
         },
         "AMBULANCE": {
             "NOTIFICATIONS": {
