@@ -591,6 +591,8 @@
                     "CHANGE_POINTS_TITLE": "Pontok beállítása",
                     "CHANGE_POINTS_DESCRIPTION": "Pontok a(z) {license} engedélyhez (0–{limit})",
                     "CHANGE_POINTS_PLACEHOLDER": "Pontok",
+                    "NO_LICENSES_AVAILABLE": "Nincs elérhető engedély a hozzáadáshoz",
+
                     "REVOKE_LICENSE": {
                         "TITLE": "Engedély visszavonása",
                         "DESCRIPTION": "Biztosan visszavonod a(z) {license} engedélyt?",
@@ -612,29 +614,47 @@
                 "PROPERTIES": "Ingatlanok",
                 "REPORTS": "Jelentések",
                 "WEAPONS": "Fegyverek",
-                "INVOLVED": "Érintett",
+                "INVOLVED": "Érintett személyek",
                 "CHARGES": "Vádak",
                 "NO_CHARGES": "Nincsenek vádak",
-                "FINE_PLAYER": {
-                    "TITLE": "Játékos megbírságolása",
-                    "DESCRIPTION": "Meg szeretnéd bírságolni {name} személyt?",
-                    "DESCRIPTION_DETAILS": "Kérjük add meg az összeget és a leírást",
-                    "FINE_WITH_X": "Bírság ezzel: {catalogLabel}",
-                    "FINE_WITHOUT_X": "Bírság enélkül {catalogLabel}",
-                    "X_ADDED": "{catalogLabel} hozzáadva",
-                    "ADD_MORE_X": "Hozzáadva: {catalogLabel}. Hozzáadsz mégegyet {catalogLabel}?",
-                    "ADD_ANOTHER": "Hozzáadás",
-                    "CANCEL": "Mégse",
-                    "PROCEED": "Folytatás",
-                    "FINE": "Bírság",
-                    "AMOUNT_PLACEHOLDER": "Összeg",
-                    "DESCRIPTION_PLACEHOLDER": "Leírás",
-                    "SEND_FINE": "Bírság küldése",
-                    "SUCCESS": "Sikeres",
-                    "FINE_SENT": "Bírság elküldve {name} személynek",
-                    "ERROR": "Hiba",
-                    "FINE_FAILED": "Nem sikerült elküldeni a bírságot {name} személynek",
-                    "OK": "OK"
+                "PUNISHMENT": {
+                    "SHARED": {
+                        "OFFENCES_LABEL": "Bűncselekmények/Szabálysértések",
+                        "OFFENCES_HINT": "Kattints az egyikre az eltávolításhoz",
+                        "ADD_OFFENCE": "{catalogName} hozzáadása",
+                        "CANCEL": "Mégse",
+                        "SUCCESS_TITLE": "Sikeres művelet",
+                        "ERROR_TITLE": "Hiba",
+                        "OK": "OK"
+                    },
+                    "FINE": {
+                        "DEFAULT_ACTION": "Bírság",
+                        "DEFAULT_ACTION_LOWER": "bírság",
+                        "BUTTON": "{action}",
+                        "TITLE": "{action} - {name}",
+                        "SEND": "{action} kiküldése",
+                        "AMOUNT_LABEL": "Összeg",
+                        "AMOUNT_HINT": "Kiszámított végösszeg felülbírálása",
+                        "TOTAL_LABEL": "Összes {actionLower}",
+                        "DESCRIPTION_LABEL": "Leírás",
+                        "DESCRIPTION_PLACEHOLDER": "Indoklás a következőhöz: {actionLower}",
+                        "SUCCESS_DESCRIPTION": "{action} sikeresen kiküldve neki: {name}",
+                        "ERROR_DESCRIPTION": "Nem sikerült a(z) {actionLower} kiküldése neki: {name}"
+                    },
+                    "JAIL": {
+                        "DEFAULT_ACTION": "Börtön",
+                        "BUTTON": "{action}",
+                        "TITLE": "{action} - {name}",
+                        "SEND": "Küldés a következőre: {action}",
+                        "SENTENCE_LABEL": "Büntetés (hónap)",
+                        "SENTENCE_HINT": "Kiszámított időtartam felülbírálása",
+                        "TOTAL_LABEL": "Teljes büntetés",
+                        "TOTAL_SUFFIX": "hónap",
+                        "REASON_LABEL": "Indok",
+                        "REASON_PLACEHOLDER": "Büntetés indoklása",
+                        "SUCCESS_DESCRIPTION": "{name} börtönbe zárva {sentence} hónapra",
+                        "ERROR_DESCRIPTION": "Nem sikerült börtönbe zárni a következőt: {name}"
+                    }
                 }
             },
             "VEHICLES": {
@@ -873,7 +893,10 @@
                 "SEVERITIES": {
                     "INFRACTION": "Szabálysértés",
                     "MISDEMEANOR": "Vétség",
-                    "FELONY": "Bűntett"
+                    "FELONY": "Bűntett",
+                    "PARTS": "Alkatrészek",
+                    "LABOR": "Munkadíj",
+                    "SERVICE": "Szolgáltatás"
                 },
                 "NO_ITEMS_FOUND": "Nem található elem",
                 "ADD_ITEM": {
@@ -1047,9 +1070,11 @@
                     "READ": "Elolvasva",
                     "DELIVERED": "Kézbesítve",
                     "SENT": "Elküldve",
+
                     "NO_MESSAGES_FOUND": "Nem található üzenet ebben a beszélgetésben.",
                     "CHOOSE_CONVERSATION": "Válassz egy beszélgetést a bal oldalon az üzenetek megtekintéséhez.",
                     "NO_MESSAGE_CONTENT": "Nincs üzenettartalom",
+
                     "WIRETAP": {
                         "TITLE": "Lehallgatás",
                         "DESCRIPTION": "Add meg a lehallgatni kívánt telefonszámot.",
@@ -2020,6 +2045,7 @@
                 "UNITS": "Egységek",
                 "VEHICLES": "Járművek",
                 "SERVICEREPORTS": "Szervizjelentések",
+                "CATALOG": "Katalógus",
                 "EMPLOYEES": "Alkalmazottak",
                 "CHAT": "Chat",
                 "LOGS": "Naplók"
