@@ -1,0 +1,1852 @@
+{
+    "LABEL": "日本語",
+    "SEARCH": "検索",
+    "CANCEL": "キャンセル",
+    "NOW": "たった今",
+    "D": "日",
+    "H": "時間",
+    "M": "分",
+    "S": "秒",
+
+    "APP_NAMES": {
+        "Police": "警察",
+        "Ambulance": "救急",
+        "Registration": "登録",
+        "Notes": "メモ",
+        "Browser": "ブラウザ",
+        "Settings": "設定",
+        "Photos": "写真",
+        "Camera": "カメラ",
+        "Calculator": "電卓",
+        "Apps": "アプリ",
+        "Clock": "時計",
+        "Maps": "マップ",
+        "Mail": "メール",
+        "Services": "サービス",
+        "VoiceMemo": "ボイスメモ"
+    },
+
+    "APPS": {
+        "SETTINGS": {
+            "TITLE": "設定",
+            "BACK": "戻る",
+            "DONE": "完了",
+            "EDIT": "編集",
+            "AIRPLANE_MODE": "機内モード",
+            "AIRPLANE_MODE_DESCRIPTION": "通話、モバイルデータ通信などを無効にします。",
+            "STREAMER_MODE": "ストリーマーモード",
+            "STREAMER_MODE_DESCRIPTION": "機密情報をぼかします。",
+            "GENERAL": "一般",
+            "GENERAL_DESCRIPTION": "タブレットの一般設定",
+            "ABOUT": "情報",
+            "NAME": "名前",
+            "VERSION": "バージョン",
+            "MODEL_NAME": "モデル名",
+            "SERIAL_NUMBER": "シリアル番号",
+            "DEVELOPED_BY": "開発元",
+            "PURCHASE_AT": "購入場所",
+            "SONGS": "曲",
+            "VIDEOS": "ビデオ",
+            "PHOTOS": "写真",
+            "APPLICATIONS": "アプリケーション",
+            "CAPACITY": "容量",
+            "AVAILABLE": "利用可能",
+            "SOFTWARE_UPDATE": "ソフトウェア・アップデート",
+            "AUTOMATIC_UPDATES": "自動アップデート",
+            "DATE_TIME": "日付と時刻",
+            "24_HOUR_TIME": "24時間表示",
+            "SET_AUTOMATICALLY": "自動設定",
+            "TIME_ZONE": "時間帯",
+            "LANGUAGE_REGION": "言語と地域",
+            "LANGUAGE": "言語",
+            "TEMPERATURE": "温度",
+            "CELCIUS": "摂氏",
+            "FAHRENHEIT": "華氏",
+            "BATTERY": "バッテリー",
+            "BATTERY_DESCRIPTION": "バッテリーの寿命と使用状況を表示",
+            "SOUND_HAPTICS": "サウンドと触覚",
+            "SOUND_HAPTICS_DESCRIPTION": "サウンドとバイブレーションを変更",
+            "SOUND_HAPTICS_PATTERNS": "サウンドと触覚のパターン",
+            "RINGTONE": "着信音",
+            "RINGTONE_VOLUME": "着信音の音量",
+            "TEXT_TONE": "メッセージの着信音",
+            "DEFAULT": "デフォルト",
+            "PHONE_STORAGE": "タブレットストレージ",
+            "STORAGE": "ストレージ",
+            "USED": "使用済み",
+            "OF": "/",
+            "DISPLAY_BRIGHTNESS": "画面表示と明るさ",
+            "DISPLAY_BRIGHTNESS_DESCRIPTION": "画面表示と明るさを調整",
+            "DARK": "ダーク",
+            "LIGHT": "ライト",
+            "APPEARANCE": "外観モード",
+            "AUTOMATIC": "自動",
+            "BRIGHTNESS": "明るさ",
+            "FRAME_COLOR": "フレームカラー",
+            "TABLET_SCALE": "タブレットのスケール",
+            "WALLPAPER": "壁紙",
+            "WALLPAPER_DESCRIPTION": "壁紙やその他の背景設定を変更",
+            "WALLPAPERS": "壁紙",
+            "CHOOSE_NEW_WALLPAPER": "新しい壁紙を選択",
+            "NOTIFICATIONS": "通知",
+            "NOTIFICATIONS_DESCRIPTION": "通知を送信できるアプリを選択",
+            "ALLOW_NOTIFICATIONS": "通知を許可",
+            "SOUNDS": "サウンド",
+            "CLOUD_BACKUP": "クラウドバックアップ",
+            "YOUR_PROFILE": "あなたのプロフィール",
+            "SUCCESS": "成功",
+            "SUCCESS_TEXT": "5秒後にタブレットが再起動します...",
+            "OK": "OK",
+            "ON": "オン",
+            "OFF": "オフ",
+
+            "RESET_POPUP": {
+                "TITLE": "タブレットをリセット",
+                "TEXT": "タブレットをリセットしてもよろしいですか？ [これによりすべてのデータが削除されます]",
+                "CANCEL": "キャンセル",
+                "CONFIRM": "リセット"
+            },
+            "UP_TO_DATE": "お使いのタブレットは最新です",
+            "BLUR_HOMESCREEN": "ホーム画面をぼかす"
+        },
+        "NOTES": {
+            "TITLE": "メモ",
+            "SEARCH_PLACEHOLDER": "検索",
+            "FOOTER": "{amount}件のメモ",
+            "NEW_NOTE": "新規メモ",
+            "LAST_EDITED": "最終編集日: {date}",
+            "DELETE_TITLE": "{title}を削除",
+            "DELETE_TEXT": "'{title}'を削除してもよろしいですか？",
+            "BUTTON_CANCEL": "キャンセル",
+            "BUTTON_DELETE": "削除"
+        },
+        "CLOCK": {
+            "WORLDCLOCK": {
+                "TITLE": "世界時計",
+                "TODAY": "今日",
+                "TOMORROW": "明日",
+                "YESTERDAY": "昨日",
+                "LOCAL_TIME": "現地時間",
+                "HRS": "{time}時間"
+            },
+            "ALARM": {
+                "TITLE": "アラーム",
+                "ADD": "アラームを追加",
+                "CANCEL": "キャンセル",
+                "EDIT": "編集",
+                "DONE": "完了",
+                "SAVE": "保存",
+                "LABEL": "ラベル",
+                "SOUND": "サウンド",
+                "SNOOZE": "スヌーズ",
+                "DELETE_TITLE": "アラームを削除",
+                "DELETE_TEXT": "このアラームを削除してもよろしいですか？",
+                "BUTTON_CANCEL": "キャンセル",
+                "BUTTON_DELETE": "削除",
+                "ALARMS": "アラーム",
+                "NEW_ALARM": "新規アラーム",
+                "EDIT_ALARM": "アラームを編集"
+            },
+            "STOPWATCH": {
+                "TITLE": "ストップウォッチ",
+                "START": "開始",
+                "STOP": "停止",
+                "RESET": "リセット",
+                "LAP": "ラップ",
+                "TIME": "タイム",
+                "TOTAL": "合計",
+                "NO_LAPS": "ラップなし"
+            },
+            "TIMER": {
+                "TITLE": "タイマー",
+                "START": "開始",
+                "STOP": "停止",
+                "CANCEL": "キャンセル",
+                "HOURS": "時間",
+                "MINUTES": "分",
+                "SECONDS": "秒",
+                "NO_RECENTS": "履歴なし"
+            },
+            "ALERT": {
+                "STOP": "停止",
+                "RESTART": "再開"
+            }
+        },
+        "CAMERA": {
+            "VIDEO": "ビデオ",
+            "PHOTO": "写真",
+            "LANDSCAPE": "風景",
+            "UPLOADING": "アップロード中"
+        },
+        "APPSTORE": {
+            "TITLE": "アプリ",
+            "SEARCH": "検索",
+            "GET": "入手",
+            "OPEN": "開く",
+            "TODAY": "Today",
+            "POPULAR_APPS": "人気アプリ",
+            "GAMES": "ゲーム",
+            "APPS": "アプリ",
+            "WHAT_WE_PLAYING": "おすすめゲーム",
+            "INFORMATION": "情報",
+            "PROVIDER": "提供元",
+            "SIZE": "サイズ",
+            "COMPATIBILITY": "互換性",
+            "IN_APP_PURCHASES": "App内課金",
+            "WORKS_WITH_PHONE": "このタブレットで動作",
+            "NO": "いいえ",
+            "YES": "はい",
+            "PURCHASE_APP_POPUP": {
+                "TITLE": "アプリを購入",
+                "DESCRIPTION": "{app}を{price}で購入しますか？",
+                "CANCEL": "キャンセル",
+                "PROCEED": "購入"
+            }
+        },
+        "PHOTOS": {
+            "TITLE": "写真",
+            "SELECT": "選択",
+            "CANCEL": "キャンセル",
+            "EDIT": "編集",
+            "DONE": "完了",
+            "DELETE": "削除",
+            "SELECT_ITEMS": "項目を選択",
+            "SELECTED_COUNT": "{count}個の項目を選択中",
+            "PHOTOS": "写真",
+            "ALBUMS": "アルバム",
+            "LIBRARY": "ライブラリ",
+            "GALLERY": "ギャラリー",
+            "MY_ALBUMS": "マイアルバム",
+            "MEDIA_TYPES": "メディアタイプ",
+            "NEW_ALBUM_POPUP": {
+                "TITLE": "新規アルバム",
+                "DESCRIPTION": "このアルバムの名前を入力してください",
+                "PLACEHOLDER": "タイトル",
+                "CANCEL": "キャンセル",
+                "PROCEED": "保存"
+            },
+            "REMOVE_ALBUM": {
+                "TITLE": "「{name}」を削除",
+                "DESCRIPTION": "アルバム「{name}」を削除してもよろしいですか？写真は削除されません",
+                "CANCEL": "キャンセル",
+                "PROCEED": "削除"
+            },
+            "RENAME_ALBUM_POPUP": {
+                "TITLE": "アルバム名を変更",
+                "DESCRIPTION": "このアルバムの新しい名前を入力してください",
+                "PLACEHOLDER": "新しいアルバム名",
+                "CANCEL": "キャンセル",
+                "PROCEED": "続行"
+            },
+            "DELETE_IMAGE_POPUP": {
+                "TITLE": "画像を削除",
+                "DESCRIPTION": "この画像を削除してもよろしいですか？",
+                "CANCEL": "キャンセル",
+                "PROCEED": "削除"
+            },
+            "IMPORT_IMAGE_POPUP": {
+                "TITLE": "アルバムに読み込む",
+                "DESCRIPTION": "このアルバムに画像を読み込みます",
+                "CANCEL": "キャンセル",
+                "PROCEED": "読み込む",
+                "PLACEHOLDER": "画像URL"
+            },
+            "NO_PHOTOS": "写真またはビデオがありません",
+            "NO_PHOTOS_INSTRUCTIONS": "カメラを使って写真やビデオを撮影できます",
+            "PHOTO_COUNT": "{amount}枚の写真",
+            "VIDEO_COUNT": "{amount}本のビデオ",
+            "DELETE_CONTEXT_TITLE": "{type}を削除しますか、それともこのアルバムから削除しますか",
+            "THESE_PHOTOS": "これらの写真",
+            "THIS_PHOTO": "この写真",
+            "REMOVE_FROM_ALBUM": "アルバムから削除",
+            "ADD_TO_ALBUM": "アルバムに追加",
+            "ADD_TO_FAVOURITES": "お気に入りに追加",
+            "REMOVE_FROM_FAVOURITES": "お気に入りから削除",
+            "VIDEOS": "ビデオ",
+            "SELFIES": "セルフィー",
+            "SCREENSHOTS": "スクリーンショット",
+            "IMPORTS": "読み込み",
+            "DUPLICATES": "重複",
+            "YEARS": "年",
+            "MONTHS": "月",
+            "DAYS": "日",
+            "ALL_PHOTOS": "すべての写真",
+            "FAVOURITES": "お気に入り",
+            "RECENTS": "最近の項目"
+        },
+        "MAIL": {
+            "TITLE": "メール",
+            "YOU": "あなた",
+            "UPDATED_NOW": "たった今更新",
+            "NEW_MESSAGE": "新規メッセージ",
+            "INBOX": "受信トレイ",
+            "TO": "宛先",
+            "FROM": "差出人",
+            "SUBJECT": "件名",
+            "MESSAGE": "メッセージ",
+            "CANCEL": "キャンセル",
+            "SEND": "送信",
+            "EMAIL": "メール",
+            "EMAIL_INVALID": "無効なメールアドレス",
+            "EMAIL_EXISTS": "メールアドレスはすでに存在します",
+            "PASSWORD": "パスワード",
+            "WRONG_PASSWORD": "間違ったパスワード",
+            "LOGIN": "ログイン",
+            "NO_EMAIL": "メールアドレスをお持ちではありませんか？",
+            "CREATE_ONE": "作成する",
+            "UNREAD": "未読",
+            "CREATE_MAIL": "メールを作成",
+            "ALREADY_HAVE": "すでにメールアドレスをお持ちですか？",
+            "ADD_EMAIL": "メールを追加",
+            "RE": "Re: {subject}",
+            "CHANGE_ACCOUNT": "アカウントを変更",
+            "CHANGE_PASSWORD": "パスワードを変更",
+            "DELETE_ACCOUNT": "アカウントを削除",
+            "SIGN_OUT_POPUP": {
+                "TITLE": "サインアウト",
+                "DESCRIPTION": "サインアウトしてもよろしいですか？",
+                "CANCEL": "キャンセル",
+                "PROCEED": "続行"
+            },
+            "DELETE_MAIL_POPUP": {
+                "TITLE": "メールを削除",
+                "DESCRIPTION": "このメールを削除してもよろしいですか？",
+                "CANCEL": "キャンセル",
+                "DELETE": "削除"
+            }
+        },
+        "VOICEMEMO": {
+            "TITLE": "ボイスメモ",
+            "VOICE_RECORDINGS": "音声録音",
+            "SEARCH_RECORDINGS": "録音を検索",
+            "DEFAULT_NAME": "新規録音",
+            "DELETE_POPUP": {
+                "TITLE": "ボイスメモを削除",
+                "DESCRIPTION": "このボイスメモを削除してもよろしいですか？",
+                "CANCEL": "キャンセル",
+                "PROCEED": "続行"
+            },
+            "NO_MICROPHONE_POPUP": {
+                "TITLE": "マイクがありません",
+                "DESCRIPTION": "マイクにアクセスできません。マイクが接続されていることを確認し、画面右上のポップアップを承認してください",
+                "OK": "OK"
+            },
+            "EMPTY_RECORDING_POPUP": {
+                "TITLE": "空の録音",
+                "DESCRIPTION": "音声のない録音は保存できません",
+                "OK": "OK"
+            }
+        },
+        "SERVICES": {
+            "ACTIONS": "アクション",
+            "COMPANIES": "会社",
+            "MESSAGES": "メッセージ",
+            "SETTINGS": "設定",
+            "CLOSED": "閉店",
+            "YOUR_MESSAGES": "あなたのメッセージ",
+            "JOB_MESSAGES": "仕事のメッセージ",
+            "DUTY": "勤務",
+            "DUTY_DESCRIPTION": "勤務状況を切り替える",
+            "GO_ON_DUTY": "勤務開始",
+            "GO_OFF_DUTY": "勤務終了",
+            "JOB_CALLS": "仕事の電話",
+            "JOB_CALLS_DESCRIPTION": "顧客からの電話を受けるかどうかを{toggle}します。",
+            "ENABLE": "有効",
+            "DISABLE": "無効",
+            "DISABLE_CALLS": "電話を無効にする",
+            "ENABLE_CALLS": "電話を有効にする",
+            "BALANCE": "残高",
+            "CURRENT_BALANCE": "会社の現在の残高",
+            "MANAGE_EMPLOYEES": "従業員を管理",
+            "HIRE": "雇用",
+            "SET_GRADE": "等級を設定",
+            "UNEMPLOYED": "あなたは失業中です",
+            "ALL": "すべて",
+            "AVAILABLE": "利用可能",
+            "SEARCH_EMPLOYEES": "従業員を検索",
+            "PERSONAL": "個人",
+            "JOB": "仕事",
+            "PLACEHOLDER": "テキストメッセージ",
+            "NOT_DELIVERED": "未配信",
+            "SENT_LOCATION": "位置情報を共有しました。クリックしてマップで開く",
+            "SENT_LOCATION_SHORT": "位置情報を共有しました",
+            "SEND_LOCATION_POPUP": {
+                "TITLE": "位置情報を共有",
+                "TEXT": "位置情報を共有しますか？",
+                "CANCEL": "キャンセル",
+                "SEND": "送信"
+            },
+            "DELETE_CONVERSATION": {
+                "TITLE": "会話を削除",
+                "DESCRIPTION": "この会話を削除してもよろしいですか？",
+                "CANCEL": "キャンセル",
+                "DELETE": "削除"
+            },
+            "DEPOSIT_POPUP": {
+                "TITLE": "預金",
+                "DESCRIPTION": "会社の口座にお金を入金する",
+                "AMOUNT": "金額",
+                "CANCEL": "キャンセル",
+                "PROCEED": "続行"
+            },
+            "WITHDRAW_POPUP": {
+                "TITLE": "引き出し",
+                "DESCRIPTION": "会社の口座からお金を引き出す",
+                "NOT_ENOUGH_MONEY": "会社の口座に十分なお金がありません",
+                "AMOUNT": "金額",
+                "CANCEL": "キャンセル",
+                "PROCEED": "続行"
+            },
+            "HIRE_POPUP": {
+                "TITLE": "雇用",
+                "DESCRIPTION": "新しい従業員を雇用する",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "キャンセル",
+                "PROCEED": "続行"
+            },
+            "FIRE_POPUP": {
+                "TITLE": "解雇",
+                "DESCRIPTION": "{name}を解雇してもよろしいですか？",
+                "PLACEHOLDER": "ID",
+                "CANCEL": "キャンセル",
+                "PROCEED": "続行"
+            }
+        },
+        "POLICE": {
+            "CANCEL": "キャンセル",
+            "CLOSE": "閉じる",
+            "BACK": "戻る",
+            "EDIT": "編集",
+            "DELETE": "削除",
+            "REMOVE": "削除",
+            "SAVE": "保存",
+            "CREATE": "作成",
+            "OK": "OK",
+            "ADD": "追加",
+            "NEW": "新規",
+            "PROCEED": "続行",
+            "YES": "はい",
+            "NO": "いいえ",
+            "ALL": "すべて",
+            "ADD_TAB": "タブを追加",
+            "SEARCH": "検索",
+            "SEARCH_FOR": "{query}を検索して開始します",
+            "NO_RESULTS_FOR": "'{query}'の検索結果はありませんでした",
+            "CLEAR_HISTORY": "履歴を消去",
+            "HOME": {
+                "TITLE": "ホーム",
+                "CREATE": "作成",
+                "RECENT_REPORTS": "最近のレポート",
+                "REPORT_FOOTER": "{timestamp} - {author}",
+                "BULLETIN_BOARD": "掲示板",
+                "PIN": "ピン留め",
+                "UNPIN": "ピン留めを外す",
+                "SEARCH_BULLETIN": "掲示板を検索",
+                "SEARCH_UNITS": "ユニットを検索",
+                "DELETE_BULLETIN": {
+                    "TITLE": "掲示を削除",
+                    "DESCRIPTION": "この掲示板の投稿を削除してもよろしいですか？",
+                    "CANCEL": "キャンセル",
+                    "DELETE": "削除"
+                },
+                "RECENT_WARRANTS": "最近の令状",
+                "ACTIVE_UNITS": "活動中のユニット"
+            },
+            "BULLETIN": {
+                "TITLE": "掲示板",
+                "LABEL": "掲示板",
+                "SEARCH": "掲示板を検索",
+                "SEARCH_PLACEHOLDER": "掲示板を検索",
+                "SEARCH_FOR": "{query}を検索して開始します",
+                "NO_RESULTS_FOR": "'{query}'の検索結果はありませんでした",
+                "NEW_BULLETIN": "新規掲示",
+                "DELETE_BULLETIN": {
+                    "TITLE": "掲示を削除",
+                    "DESCRIPTION": "この掲示板の投稿を削除してもよろしいですか？"
+                }
+            },
+            "DISPATCH": {
+                "TITLE": "ディスパッチ",
+                "SEARCH_ALARMS": "アラームを検索",
+                "SHOW_OFFICERS": "警官を表示",
+                "SHOW_EMPLOYEES": "従業員を表示",
+                "SHOW_ALARMS": "アラームを表示",
+                "SHOW_POPUPS": "ポップアップを表示",
+                "OPTIONS": "オプション",
+                "OFFICERS": "警官",
+                "ALARMS": "アラーム",
+                "MAP": "マップ",
+                "LIST": "リスト",
+                "RESPOND": "応答",
+                "RESPONDED": "応答済み",
+                "COLLAPSE": "折りたたむ",
+                "EXPAND": "展開",
+                "DISMISS": "閉じる",
+                "VIEW_IN_TABLET": "タブレットで表示",
+                "SET_WAYPOINT": "ウェイポイントを設定",
+                "LOS_SANTOS": "ロスサントス",
+                "CAYO_PERICO": "カヨ・ペリコ",
+                "OLD_NOTIFICATION": "古い通知{count}件",
+                "OLD_NOTIFICATIONS": "古い通知{count}件",
+                "NEW_NOTIFICATION": "新しい通知{count}件",
+                "NEW_NOTIFICATIONS": "新しい通知{count}件",
+                "PRIORITY_LEVELS": {
+                    "HIGH": "高",
+                    "MEDIUM": "中",
+                    "LOW": "低"
+                },
+                "PRIORITY": "優先度",
+                "TIME": "時間",
+                "CODE": "コード",
+                "LOCATION": "場所",
+                "RESPONDERS": "応答者",
+                "ACTIONS": "アクション",
+                "NONE": "なし",
+                "REMOVE": "削除",
+                "REMOVE_ALL": "すべて削除",
+                "VIEW": "表示",
+                "JUST_NOW": "たった今",
+                "MINUTES_AGO": "{minutes}分前",
+                "HOURS_AGO": "{hours}時間前",
+                "REMOVE_ALARM": {
+                    "TITLE": "アラームを削除",
+                    "DESCRIPTION": "アラームを削除してもよろしいですか？（これにより、すべての従業員のディスパッチが削除されます）",
+                    "CANCEL": "キャンセル",
+                    "REMOVE": "削除"
+                },
+                "REMOVE_ALL_ALARMS": {
+                    "TITLE": "すべてのアラームを削除",
+                    "DESCRIPTION": "すべてのアラームを削除してもよろしいですか？（これにより、すべての従業員のディスパッチが削除されます）"
+                },
+                "REMOVE_FOR_YOURSELF": "自分用に削除",
+                "REMOVE_FOR_EVERYONE": "全員用に削除"
+            },
+            "UNITS": {
+                "TITLE": "ユニット",
+                "AVALIABLE_OFFICERS": "利用可能な警官",
+                "SEARCH_OFFICERS": "警官を検索",
+                "DROP_OFFICER": "ここに警官をドロップ",
+                "DROP_OFFICER_AVAILABLE": "ここに警官をドロップして利用可能にする",
+                "OFFICER": "警官",
+                "OFFICERS": "警官",
+                "NO_UNITS": "ユニットを追加して開始してください",
+                "ADD_UNIT": {
+                    "TITLE": "ユニットを追加",
+                    "DESCRIPTION": "新しいユニットを作成",
+                    "PLACEHOLDER": "ユニット名"
+                },
+                "RENAME_UNIT": {
+                    "TITLE": "ユニット名を変更",
+                    "DESCRIPTION": "ユニット名を変更します",
+                    "PLACEHOLDER": "ユニット名"
+                },
+                "DELETE_UNIT": {
+                    "TITLE": "ユニットを削除",
+                    "DESCRIPTION": "このユニットを削除してもよろしいですか？"
+                }
+            },
+            "PROFILES": {
+                "TITLE": "プロフィール",
+                "PERSON": "人物",
+                "SEARCH": "プロフィールを検索",
+                "REMOVE_AVATAR": "アバターを削除",
+                "IDENTIFIER": "識別子",
+                "FINGERPRINT": "指紋",
+                "DOB": "生年月日",
+                "PHONE_NR": "電話番号",
+                "GENDER": "性別",
+                "JOB": "職業",
+                "MALE": "男性",
+                "FEMALE": "女性",
+                "NOTES": "メモ",
+                "NOTES_PLACEHOLDER": "ここにメモを入力...",
+                "LICENSES": {
+                    "TITLE": "ライセンス",
+                    "ADD_LICENSE": "ライセンスを追加",
+                    "ADD": "追加",
+                    "NO_LICENSES": "ライセンスなし",
+                    "REVOKE_LICENSE": {
+                        "TITLE": "ライセンスを取り消す",
+                        "DESCRIPTION": "ライセンス{license}を取り消してもよろしいですか？",
+                        "CANCEL": "キャンセル",
+                        "REVOKE": "取り消す"
+                    }
+                },
+                "ADD_AVATAR": {
+                    "TITLE": "アバターを追加",
+                    "SET_PHOTO": "写真を設定",
+                    "PASTE_URL": "URLを貼り付け",
+                    "PASTE_URL_DESCRIPTION": "画像のURLを入力してください",
+                    "PASTE_URL_PLACEHOLDER": "画像URL",
+                    "INVALID_URL": "無効なURL",
+                    "INVALID_URL_DESCRIPTION": "入力されたURLは有効な画像URLではありません",
+                    "OK": "OK"
+                },
+                "VEHICLES": "車両",
+                "NO_VEHICLES": "車両なし",
+                "PROPERTIES": "不動産",
+                "NO_PROPERTIES": "不動産なし",
+                "REPORTS": "レポート",
+                "NO_REPORTS": "レポートなし",
+                "CASES": "事件",
+                "NO_CASES": "事件なし",
+                "WEAPONS": "武器",
+                "NO_WEAPONS": "武器なし",
+                "WARRANTS": "令状",
+                "NO_WARRANTS": "令状なし",
+                "ACTIVE_WARRANTS": "有効な令状",
+                "INVOLVED": "関与",
+                "CHARGES": "容疑",
+                "NO_CHARGES": "容疑なし"
+            },
+            "VEHICLES": {
+                "TITLE": "車両",
+                "VEHICLE": "車両",
+                "SEARCH": "車両を検索",
+                "REMOVE_PICTURE": "写真を削除",
+                "DETAILS": "詳細",
+                "ADD_PHOTO": {
+                    "TITLE": "写真を追加",
+                    "SELECT_PHOTO": "写真を選択",
+                    "PASTE_URL": "URLを貼り付け",
+                    "PASTE_URL_DESCRIPTION": "画像のURLを入力してください",
+                    "PASTE_URL_PLACEHOLDER": "画像URL",
+                    "INVALID_URL": "無効なURL",
+                    "INVALID_URL_DESCRIPTION": "入力されたURLは有効な画像URLではありません",
+                    "OK": "OK"
+                },
+                "MODEL": "モデル",
+                "PLATE": "ナンバープレート",
+                "COLOR": "色",
+                "LOCATION": "場所",
+                "OWNER": "所有者",
+                "NOTES": "メモ",
+                "NOTES_PLACEHOLDER": "ここにメモを入力...",
+                "SET_WAYPOINT": "ウェイポイントを設定",
+                "OPEN_IN_MAPS": "マップで開く",
+                "WAYPOINT_SET": "ウェイポイント設定完了",
+                "WAYPOINT_SET_DESCRIPTION": "ウェイポイントが車両の場所に設定されました",
+                "CASES": "事件",
+                "NO_CASES": "事件なし",
+                "WARRANTS": "令状",
+                "NO_WARRANTS": "令状なし",
+                "ACTIVE_WARRANTS": "有効な令状"
+            },
+            "PROPERTIES": {
+                "TITLE": "不動産",
+                "PROPERTY": "不動産",
+                "SEARCH": "不動産を検索",
+                "REMOVE_PICTURE": "写真を削除",
+                "DETAILS": "詳細",
+                "ADD_PHOTO": {
+                    "TITLE": "写真を追加",
+                    "SELECT_PHOTO": "写真を選択",
+                    "PASTE_URL": "URLを貼り付け",
+                    "PASTE_URL_DESCRIPTION": "画像のURLを入力してください",
+                    "PASTE_URL_PLACEHOLDER": "画像URL",
+                    "INVALID_URL": "無効なURL",
+                    "INVALID_URL_DESCRIPTION": "入力されたURLは有効な画像URLではありません",
+                    "OK": "OK"
+                },
+                "LABEL": "ラベル",
+                "ADDRESS": "住所",
+                "OWNER": "所有者",
+                "LOCATION": "場所",
+                "OPEN_IN_MAPS": "マップで開く",
+                "NOTES": "メモ",
+                "NOTES_PLACEHOLDER": "ここにメモを入力..."
+            },
+            "WEAPONS": {
+                "TITLE": "武器",
+                "WEAPON": "武器",
+                "SEARCH": "武器を検索",
+                "REMOVE_PICTURE": "写真を削除",
+                "DETAILS": "詳細",
+                "ADD_PHOTO": {
+                    "TITLE": "写真を追加",
+                    "SELECT_PHOTO": "写真を選択",
+                    "PASTE_URL": "URLを貼り付け",
+                    "PASTE_URL_DESCRIPTION": "画像のURLを入力してください",
+                    "PASTE_URL_PLACEHOLDER": "画像URL",
+                    "INVALID_URL": "無効なURL",
+                    "INVALID_URL_DESCRIPTION": "入力されたURLは有効な画像URLではありません",
+                    "OK": "OK"
+                },
+                "MODEL_MAKE": "モデル",
+                "SERIAL_NUMBER": "シリアル番号",
+                "NOTES": "メモ",
+                "NOTES_PLACEHOLDER": "ここにメモを入力...",
+                "LINKED_REPORTS": "関連レポート",
+                "NO_LINKED_REPORTS": "関連レポートなし",
+                "LINKED_CASES": "関連事件",
+                "NO_LINKED_CASES": "関連事件なし",
+                "UNREGISTERED": "未登録",
+                "OWNER": "所有者",
+                "SELECT_MODEL": "モデルを選択",
+                "SELECT_OWNER": "所有者を選択",
+                "DELETE_WEAPON": {
+                    "TITLE": "武器を削除",
+                    "DESCRIPTION": "この武器を削除してもよろしいですか？"
+                }
+            },
+            "REPORTS": {
+                "TITLE": "レポート",
+                "REPORT": "レポート",
+                "SEARCH": "レポートを検索",
+                "FOOTER": "{author} - レポートID: {id}",
+                "NEW_REPORT_TITLE": "新規レポート",
+                "TYPE": "種類",
+                "DESCRIPTION": "説明",
+                "DESCRIPTION_PLACEHOLDER": "説明を入力...",
+                "GALLERY": "ギャラリー",
+                "NO_ATTACHMENTS": "添付ファイルなし",
+                "WEAPONS_INVOLVED": "関与した武器",
+                "NO_WEAPONS_INVOLVED": "関与した武器なし",
+                "REMOVE_WEAPON": {
+                    "TITLE": "武器を削除",
+                    "DESCRIPTION": "レポートから武器を削除してもよろしいですか？"
+                },
+                "OFFICERS_INVOLVED": "関与した警官",
+                "NO_OFFICERS_INVOLVED": "関与した警官なし",
+                "REMOVE_OFFICER": {
+                    "TITLE": "警官を削除",
+                    "DESCRIPTION": "レポートから{name}を削除してもよろしいですか？"
+                },
+                "CIVILLIANS_INVOLVED": "関与した市民",
+                "NO_CIVILLIANS_INVOLVED": "関与した市民なし",
+                "REMOVE_CIVILIAN": {
+                    "TITLE": "市民を削除",
+                    "DESCRIPTION": "レポートから{name}を削除してもよろしいですか？"
+                },
+                "SUSPECTS_INVOLVED": "関与した容疑者",
+                "NO_SUSPECTS_INVOLVED": "関与した容疑者なし",
+                "REMOVE_SUSPECT": {
+                    "TITLE": "容疑者を削除",
+                    "DESCRIPTION": "レポートから{name}を削除してもよろしいですか？"
+                },
+                "DELETE_REPORT": {
+                    "TITLE": "レポートを削除",
+                    "DESCRIPTION": "このレポートを削除してもよろしいですか？"
+                },
+                "ERROR": {
+                    "TITLE": "エラー",
+                    "NO_TYPE": "レポートの種類を選択する必要があります",
+                    "TITLE_LENGTH": "タイトルは3文字以上である必要があります",
+                    "DESCRIPTION_LENGTH": "説明は10文字以上である必要があります"
+                }
+            },
+            "CASES": {
+                "TITLE": "事件",
+                "SEARCH": "事件を検索",
+                "CASE": "事件",
+                "FOOTER": "{author} - 事件ID: {id}",
+                "TITLE_PLACEHOLDER": "新規事件",
+                "DESCRIPTION": "説明",
+                "DESCRIPTION_PLACEHOLDER": "説明を入力...",
+                "EVIDENCE": "証拠",
+                "NO_EVIDENCE": "添付された証拠はありません",
+                "OPEN_STASH": "隠し場所を開く",
+                "VEHICLES_INVOLVED": "関与した車両",
+                "NO_VEHICLES_INVOLVED": "関与した車両なし",
+                "VIEW_PROFILE": "プロフィールを表示",
+                "CHARGES": "{amount}件の容疑",
+                "NO_CHARGES": "容疑なし",
+                "REMOVE_VEHICLE": {
+                    "TITLE": "車両を削除",
+                    "DESCRIPTION": "事件から車両を削除してもよろしいですか？"
+                },
+                "REMOVE_WARRANT": {
+                    "TITLE": "令状を削除",
+                    "DESCRIPTION": "事件から令状を削除してもよろしいですか？"
+                },
+                "OFFICERS_INVOLVED": "関与した警官",
+                "NO_OFFICERS_INVOLVED": "関与した警官なし",
+                "REMOVE_OFFICER": {
+                    "TITLE": "警官を削除",
+                    "DESCRIPTION": "事件から警官を削除してもよろしいですか？"
+                },
+                "CIVILLIANS_INVOLVED": "関与した市民",
+                "NO_CIVILLIANS_INVOLVED": "関与した市民なし",
+                "REMOVE_CIVILIAN": {
+                    "TITLE": "市民を削除",
+                    "DESCRIPTION": "事件から市民を削除してもよろしいですか？"
+                },
+                "CRIMINALS_INVOLVED": "関与した犯罪者",
+                "NO_CRIMINALS_INVOLVED": "関与した犯罪者なし",
+                "REMOVE_CRIMINAL": {
+                    "TITLE": "犯罪者を削除",
+                    "DESCRIPTION": "事件から犯罪者を削除してもよろしいですか？"
+                },
+                "ADD_CHARGE": "容疑を追加",
+                "FINE": "罰金（推奨{amount}）",
+                "SENTENCE": "刑期（推奨{amount}ヶ月）",
+                "SEND_FINE": {
+                    "TITLE": "罰金を送る",
+                    "DESCRIPTION": "{name}に{fine}の罰金を送りますか？"
+                },
+                "JAIL_PLAYER": {
+                    "TITLE": "プレイヤーを収監",
+                    "DESCRIPTION": "{name}を{sentence}ヶ月間収監しますか？",
+                    "JAILED_DESCRIPTION": "{charges}の容疑で自動的に収監されました"
+                },
+                "DELETE_CASE": {
+                    "TITLE": "事件を削除",
+                    "DESCRIPTION": "この事件を削除してもよろしいですか？"
+                },
+                "ERROR": {
+                    "TITLE": "エラー",
+                    "TITLE_LENGTH": "タイトルは3文字以上である必要があります",
+                    "DESCRIPTION_LENGTH": "説明は10文字以上である必要があります",
+                    "OK": "OK"
+                }
+            },
+            "WARRANTS": {
+                "TITLE": "令状",
+                "SEARCH": "令状を検索",
+                "HIGH_PRIORITY": "高優先度",
+                "MEDIUM_PRIORITY": "中優先度",
+                "LOW_PRIORITY": "低優先度",
+                "FOOTER": "{author} - 令状ID: {id}",
+                "TITLE_PLACEHOLDER": "新規令状",
+                "DESCRIPTION": "説明",
+                "DESCRIPTION_PLACEHOLDER": "説明を入力...",
+                "TYPE": "種類",
+                "STATUS": "ステータス",
+                "PRIORITY": "優先度",
+                "GALLERY": "ギャラリー",
+                "NO_ATTACHMENTS": "添付ファイルなし",
+                "LINKED_REPORTS": "関連レポート",
+                "NO_LINKED_REPORTS": "関連レポートなし",
+                "SELECT_VEHICLE": "車両を選択",
+                "NO_VEHICLE_SELECTED": "車両が選択されていません",
+                "SELECT_PERSON": "人物を選択",
+                "NO_PERSON_SELECTED": "人物が選択されていません",
+                "ACTIVE": "有効",
+                "INACTIVE": "無効",
+                "CLOSED": "クローズ",
+                "REMOVE_REPORT": {
+                    "TITLE": "レポートを削除",
+                    "DESCRIPTION": "令状からレポートを削除してもよろしいですか？"
+                },
+                "DELETE_WARRANT": {
+                    "TITLE": "令状を削除",
+                    "DESCRIPTION": "この令状を削除してもよろしいですか？"
+                },
+                "ERROR": {
+                    "TITLE": "エラー",
+                    "TITLE_LENGTH": "タイトルは3文字以上である必要があります",
+                    "DESCRIPTION_LENGTH": "説明は10文字以上である必要があります",
+                    "NO_TYPE": "令状の種類を選択する必要があります",
+                    "NO_TARGET": "令状の対象を選択する必要があります",
+                    "OK": "OK"
+                }
+            },
+            "EVIDENCE": {
+                "TITLE": "証拠"
+            },
+            "OFFENCES": {
+                "TITLE": "犯罪",
+                "SEARCH": "犯罪を検索",
+                "MONTHS": "{amount}ヶ月",
+                "FINE": "罰金{amount}",
+                "SELECT_SEVERITY": "深刻度を選択",
+                "SEVERITIES": {
+                    "INFRACTION": "違反",
+                    "MISDEMEANOR": "軽犯罪",
+                    "FELONY": "重罪"
+                },
+                "NO_OFFENCES_FOUND": "犯罪が見つかりません",
+                "ADD_OFFENCE": {
+                    "TITLE": "犯罪を追加",
+                    "DESCRIPTION": "新しい犯罪を作成",
+                    "PLACEHOLDER": "犯罪のタイトルを入力",
+                    "DESCRIPTION_PLACEHOLDER": "説明を入力..."
+                },
+                "EDIT_OFFENCE": {
+                    "TITLE": "犯罪を編集",
+                    "DESCRIPTION": "犯罪の詳細を編集"
+                },
+                "SET_JAILTIME": {
+                    "TITLE": "推奨収監期間",
+                    "DESCRIPTION": "犯罪の推奨収監期間を設定",
+                    "PLACEHOLDER": "推奨収監期間（月単位）（罰金のみの場合は0）"
+                },
+                "SET_FINE": {
+                    "TITLE": "推奨罰金額",
+                    "DESCRIPTION": "犯罪の推奨罰金額を設定",
+                    "PLACEHOLDER": "推奨罰金額（収監のみの場合は0）"
+                },
+                "DELETE_OFFENCE": {
+                    "TITLE": "犯罪を削除",
+                    "DESCRIPTION": "この犯罪を削除してもよろしいですか？"
+                },
+                "ADD_CATEGORY": {
+                    "TITLE": "カテゴリを追加",
+                    "DESCRIPTION": "犯罪リストに新しいカテゴリを追加",
+                    "PLACEHOLDER": "カテゴリ名を入力"
+                },
+                "EDIT_CATEGORY": {
+                    "TITLE": "カテゴリを編集",
+                    "DESCRIPTION": "カテゴリの詳細を編集",
+                    "PLACEHOLDER": "新しいカテゴリ名を入力"
+                },
+                "DELETE_CATEGORY": {
+                    "TITLE": "カテゴリを削除",
+                    "DESCRIPTION": "このカテゴリを削除してもよろしいですか？"
+                }
+            },
+            "EMPLOYEES": {
+                "TITLE": "従業員",
+                "SEARCH": "従業員を検索"
+            },
+            "CHAT": {
+                "TITLE": "チャット",
+                "SEARCH": "チャットを検索",
+                "PLACEHOLDER": "メッセージを送信...",
+                "JOINED_CHATS": "参加中のチャット",
+                "PUBLIC_CHATS": "公開チャット",
+                "JOINED": "参加済み",
+                "PUBLIC": "公開",
+                "PRIVATE_CHATS": "プライベートチャット",
+                "ROOM_ID": "ルームID: {id}",
+                "TOGGLE_PRIVATE": "プライベートを切り替え",
+                "CHANGE_AVATAR": "アバターを変更",
+                "SET_AVATAR": "アバターを設定",
+                "REMOVE_AVATAR": "アバターを削除",
+                "MANAGE": "管理",
+                "LEAVE": {
+                    "TITLE": "退出",
+                    "DESCRIPTION": "チャットルームから退出してもよろしいですか？"
+                },
+                "KICK": {
+                    "TITLE": "追放",
+                    "DESCRIPTION": "{name}をチャットルームから追放してもよろしいですか？"
+                },
+                "CREATE_CHATROOM": {
+                    "TITLE": "チャットルームを作成",
+                    "DESCRIPTION": "チャットルームの名前を入力してください",
+                    "PLACEHOLDER": "チャットルーム名",
+                    "CREATE": "作成",
+                    "SET_VISIBILITY": "公開設定",
+                    "PUBLIC": "公開",
+                    "PRIVATE": "プライベート"
+                },
+                "JOIN_CHAT": {
+                    "TITLE": "チャットに参加",
+                    "DESCRIPTION": "{channel}に参加してもよろしいですか？",
+                    "JOIN": "参加"
+                },
+                "ERROR": {
+                    "TITLE": "エラー",
+                    "FAILED_JOIN": "チャットルームへの参加に失敗しました",
+                    "FAILED_INVITE": "{name}をチャットルームに招待できませんでした",
+                    "FAILED_SET_AVATAR": "チャットルームのアバターの設定に失敗しました",
+                    "FAILED_REMOVE_AVATAR": "チャットルームのアバターの削除に失敗しました",
+                    "FAILED_GET_MEMBERS": "チャットルームのメンバーの取得に失敗しました",
+                    "FAILED_KICK": "{name}をチャットルームから追放できませんでした",
+                    "FAILED_LEAVE": "チャットルームからの退出に失敗しました"
+                },
+                "SUCCESS": {
+                    "TITLE": "成功",
+                    "INVITED": "{name}をチャットルームに招待しました",
+                    "KICKED": "{name}をチャットルームから追放しました"
+                }
+            },
+            "PHONE": {
+                "TITLE": "電話",
+                "MESSAGES": "メッセージ",
+                "TRIANGULATE": {
+                    "TITLE": "三角測量",
+                    "DESCRIPTION": "三角測量したい電話番号を入力してください",
+                    "PLACEHOLDER": "電話番号",
+                    "SUCCESS": {
+                        "TITLE": "三角測量成功",
+                        "DESCRIPTION": "三角測量しようとしている電話番号は、この地域のセルタワーに登録されています。場所はマップで確認してください。"
+                    },
+                    "FAILED": {
+                        "TITLE": "三角測量失敗",
+                        "DESCRIPTION": "三角測量しようとしている電話番号は、この地域のどのセルタワーにも登録されていません。"
+                    }
+                },
+                "CALLS": {
+                    "TITLE": "通話",
+                    "CALL_HISTORY": "通話履歴",
+                    "CALL_STATUS": "通話状況",
+                    "SEARCH": "通話を検索",
+                    "NO_CALLER_ID": "発信者番号なし",
+                    "UNKNOWN": "不明",
+                    "INCOMING": "着信",
+                    "OUTGOING": "発信",
+                    "IN_CALL": "通話中",
+                    "NOT_IN_CALL": "通話中ではない",
+                    "SUBSCRIBED": "登録済み",
+                    "NOT_SUBSCRIBED": "未登録",
+                    "YES": "はい",
+                    "NO": "いいえ",
+                    "GET_NOTIFIED": "通知を受け取る",
+                    "LISTEN_TO_CALL": "通話を盗聴",
+                    "LISTEN_TO_CALL_DESCRIPTION": "この通話を盗聴してもよろしいですか？",
+                    "STOP_LISTENING": "盗聴を停止",
+                    "STOP_LISTENING_DESCRIPTION": "この通話の盗聴を停止してもよろしいですか？",
+                    "SUBSCRIBE_TO_CALLS": "通話に登録",
+                    "SUBSCRIBE_TO_CALLS_DESCRIPTION": "通話に登録してもよろしいですか？",
+                    "UNSUBSCRIBE_FROM_CALLS": "通話の登録を解除",
+                    "UNSUBSCRIBE_FROM_CALLS_DESCRIPTION": "通話の登録を解除してもよろしいですか？",
+                    "FOOTER": "{name}より",
+                    "WIRETAP_PHONENUMBER": {
+                        "TITLE": "電話番号を盗聴",
+                        "DESCRIPTION": "盗聴したい電話番号を入力してください",
+                        "PLACEHOLDER": "電話番号"
+                    },
+                    "REMOVE_WIRETAP": {
+                        "TITLE": "盗聴を解除",
+                        "DESCRIPTION": "電話番号{phoneNumber}からの盗聴を解除してもよろしいですか？"
+                    },
+                    "CALL_ENDED": {
+                        "TITLE": "通話終了",
+                        "DESCRIPTION": "盗聴していた通話は終了しました。"
+                    }
+                },
+                "UNLOCK": {
+                    "TITLE": "ロック解除",
+                    "NO_PHONES": "インベントリに電話がありません",
+                    "SEARCH": "電話を検索",
+                    "SELECT_PHONE": "電話を選択",
+                    "PHONE": "電話",
+                    "PROCESSED": "処理済み",
+                    "PROCESSING": "処理中",
+                    "LOCKED": "ロック中",
+                    "PROCESS_PHONE": "電話を処理",
+                    "PHONE_PROCESSED": "電話処理済み",
+                    "REMAINING_TIME": "残り: {time}",
+                    "PROCESSING_PHONE": "{phone}を処理中...",
+                    "ATTEMPTS": "試行回数: {attempts}/{maxAttempts}",
+                    "RESET_PIN": {
+                        "TITLE": "PINをリセット",
+                        "SUCCESS": "電話のPINのリセットに成功しました。"
+                    },
+                    "SUCCESS": {
+                        "TITLE": "電話処理済み",
+                        "DESCRIPTION": "電話の処理に成功しました。"
+                    },
+                    "FAILED": {
+                        "TITLE": "電話の処理に失敗",
+                        "DESCRIPTION": "電話を処理できませんでした。もう一度お試しください。"
+                    }
+                }
+            },
+            "JAIL": {
+                "TITLE": "収監",
+                "SEARCH": "収監者を検索",
+                "JAILED_PERSON": "収監者",
+                "JAILED_BY": "収監した人",
+                "JAILED_BY_NAME": "{name}により収監",
+                "REMAINING_TIME": "残り時間",
+                "REMAINING_TIME_DATE": "残り時間 {time} ({date})",
+                "ORIGINAL_SENTENCE": "元の刑期",
+                "RELEASE_DATE": "釈放日",
+                "DESCRIPTION": "説明",
+                "DESCRIPTION_PLACEHOLDER": "説明を入力...",
+                "RELEASED": "釈放済み",
+                "LESS_THAN_MINUTE": "1分未満",
+                "UNJAIL": "釈放",
+                "PROFILE": "プロフィール",
+                "JAILED_AT": "収監日時",
+                "LINKED_CASE": "関連事件",
+                "NO_LINKED_CASE": "関連事件なし",
+                "REMOVE_LINKED_CASE": {
+                    "TITLE": "関連事件を削除",
+                    "DESCRIPTION": "関連事件を削除してもよろしいですか？"
+                },
+                "JAIL_PERSON": {
+                    "TITLE": "収監",
+                    "DESCRIPTION": "{name}を収監するために以下の詳細を入力してください",
+                    "SENTENCE_PLACEHOLDER": "刑期（分単位）",
+                    "REASON_PLACEHOLDER": "理由",
+                    "JAIL_WITH_CASE": "関連事件ありで収監",
+                    "JAIL_WITHOUT_CASE": "関連事件なしで収監",
+                    "PROCEED": "続行"
+                },
+                "UNJAIL_PERSON": {
+                    "TITLE": "釈放",
+                    "DESCRIPTION": "{name}を釈放してもよろしいですか？",
+                    "PROCEED": "続行"
+                },
+                "ERROR": {
+                    "TITLE": "エラー",
+                    "MISSING_DETAILS": "刑期と理由を入力する必要があります"
+                }
+            },
+            "LOGS": {
+                "TITLE": "ログ",
+                "SEARCH": "ログを検索",
+                "FILTER": "フィルタ",
+                "CREATED": "作成済み",
+                "UPDATED": "更新済み",
+                "DELETED": "削除済み",
+                "VIEW_FOOTER": "{type} ({id}) を表示",
+                "TAG_TYPES": {
+                    "PROFILE": "プロフィール",
+                    "VEHICLE": "車両",
+                    "REPORT": "レポート",
+                    "WARRANT": "令状",
+                    "INCIDENT": "事件"
+                },
+                "CREATE_TAG_TITLE": "タグを作成",
+                "CREATE_TAG_DESCRIPTION": "{type}タグ「{name}」を作成しました",
+                "DELETE_TAG_TITLE": "タグを削除",
+                "DELETE_TAG_DESCRIPTION": "{type}タグ「{name}」を削除しました",
+                "UPDATE_PROFILE_TITLE": "プロフィールを更新",
+                "UPDATE_PROFILE_DESCRIPTION": "{name}のプロフィールを更新しました",
+                "UPDATE_VEHICLE_TITLE": "車両を更新",
+                "UPDATE_VEHICLE_DESCRIPTION": "車両{plate}を更新しました",
+                "UPDATE_PROPERTY_TITLE": "不動産を更新",
+                "UPDATE_PROPERTY_DESCRIPTION": "不動産を更新しました",
+                "UPDATE_WEAPON_TITLE": "武器を更新",
+                "UPDATE_WEAPON_DESCRIPTION": "シリアル番号{serial}の武器を更新しました",
+                "CREATE_REPORT_TITLE": "レポートを作成",
+                "CREATE_REPORT_DESCRIPTION": "タイトル「{title}」の{type}レポートを作成しました",
+                "UPDATE_REPORT_TITLE": "レポートを更新",
+                "UPDATE_REPORT_DESCRIPTION": "タイトル「{title}」の{type}レポートを更新しました",
+                "DELETE_REPORT_TITLE": "レポートを削除",
+                "DELETE_REPORT_DESCRIPTION": "ID {id} のレポートを削除しました",
+                "ISSUED_LICENSE_TITLE": "ライセンスを発行",
+                "ISSUED_LICENSE_DESCRIPTION": "{name}に{license}ライセンスを発行しました",
+                "REVOKED_LICENSE_TITLE": "ライセンスを取り消し",
+                "REVOKED_LICENSE_DESCRIPTION": "{name}から{license}ライセンスを取り消しました",
+                "PINNED_BULLETIN_TITLE": "掲示板の投稿をピン留め",
+                "PINNED_BULLETIN_DESCRIPTION": "ID {id} の掲示板の投稿をピン留めしました",
+                "UNPINNED_BULLETIN_TITLE": "掲示板の投稿のピン留めを解除",
+                "UNPINNED_BULLETIN_DESCRIPTION": "ID {id} の掲示板の投稿のピン留めを解除しました",
+                "CREATE_BULLETIN_TITLE": "掲示板の投稿を作成",
+                "CREATE_BULLETIN_DESCRIPTION": "タイトル「{title}」の掲示板の投稿を作成しました",
+                "UPDATE_BULLETIN_TITLE": "掲示板の投稿を更新",
+                "UPDATE_BULLETIN_DESCRIPTION": "タイトル「{title}」の掲示板の投稿を更新しました",
+                "DELETE_BULLETIN_TITLE": "掲示板の投稿を削除",
+                "DELETE_BULLETIN_DESCRIPTION": "ID {id} の掲示板の投稿を削除しました",
+                "CREATE_WARRANT_TITLE": "令状を作成",
+                "CREATE_WARRANT_DESCRIPTION": "タイトル「{title}」の{type}令状を作成しました",
+                "UPDATE_WARRANT_TITLE": "令状を更新",
+                "UPDATE_WARRANT_DESCRIPTION": "令状「{title}」を更新しました",
+                "CREATE_CASE_TITLE": "事件を作成",
+                "CREATE_CASE_DESCRIPTION": "タイトル「{title}」の事件を作成しました",
+                "UPDATE_CASE_TITLE": "事件を更新",
+                "UPDATE_CASE_DESCRIPTION": "タイトル「{title}」の事件を更新しました",
+                "DELETE_CASE_TITLE": "事件を削除",
+                "DELETE_CASE_DESCRIPTION": "ID {id} の事件を削除しました"
+            },
+            "TAGS": {
+                "TITLE": "タグ",
+                "ADD": "追加",
+                "NO_TAGS": "タグなし",
+                "CREATE_TAG": {
+                    "TITLE": "タグを作成",
+                    "DESCRIPTION": "タグ名を入力してください",
+                    "PLACEHOLDER": "タグ名",
+                    "CANCEL": "キャンセル",
+                    "NEXT": "次へ",
+                    "SELECT_COLOR": "色を選択"
+                },
+                "DELETE_TAG": {
+                    "TITLE": "タグを削除",
+                    "DESCRIPTION": "このタグを削除してもよろしいですか？",
+                    "CANCEL": "キャンセル",
+                    "DELETE": "削除"
+                },
+                "REMOVE_TAG": {
+                    "TITLE": "タグを削除",
+                    "DESCRIPTION": "タグ'{tag}'を削除してもよろしいですか？",
+                    "CANCEL": "キャンセル",
+                    "REMOVE": "削除"
+                }
+            },
+            "MISC": {
+                "SOON": "近日公開",
+                "UNKNOWN": "不明",
+                "MINUTES": "{minutes}分",
+                "HOURS": "{hours}時間",
+                "DAYS": "{days}日",
+                "FORMATTED_DATE": "{year}年{month}月{day}日 {hours}:{minutes}",
+                "CHANGE_AVATAR": "アバターを変更",
+                "REMOVE_AVATAR": "アバターを削除",
+                "SET_CALLSIGN": "コールサインを設定",
+                "CALLSIGN": {
+                    "TITLE": "コールサイン",
+                    "DESCRIPTION": "コールサインを入力してください",
+                    "CANCEL": "キャンセル",
+                    "PROCEED": "続行",
+                    "ERROR": {
+                        "TITLE": "エラー",
+                        "DESCRIPTION": "入力されたコールサインは必要な形式（{format}）に従っていません。もう一度お試しください。"
+                    }
+                }
+            }
+        },
+        "AMBULANCE": {
+            "TITLE": "救急",
+            "SEARCH": "検索",
+            "CANCEL": "キャンセル",
+            "CLOSE": "閉じる",
+            "BACK": "戻る",
+            "EDIT": "編集",
+            "DELETE": "削除",
+            "REMOVE": "削除",
+            "SAVE": "保存",
+            "CREATE": "作成",
+            "PROCEED": "続行",
+            "OK": "OK",
+            "ADD": "追加",
+            "NEW": "新規",
+            "SEARCH_FOR": "{query}を検索して開始します",
+            "NO_RESULTS_FOR": "'{query}'の検索結果はありませんでした",
+            "CLEAR_HISTORY": "履歴を消去",
+            "HOME": {
+                "TITLE": "ホーム",
+                "CREATE": "作成",
+                "RECENT_REPORTS": "最近のレポート",
+                "REPORT_FOOTER": "{timestamp} - {author}",
+                "BULLETIN_BOARD": "掲示板",
+                "PIN": "ピン留め",
+                "UNPIN": "ピン留めを外す",
+                "SEARCH_BULLETIN": "掲示板を検索",
+                "SEARCH_UNITS": "ユニットを検索",
+                "ADD_BULLETIN": {
+                    "TITLE": "掲示を追加",
+                    "DESCRIPTION": "新しい掲示板の投稿を作成",
+                    "PLACEHOLDER": "タイトル",
+                    "CONTENT": "内容",
+                    "CANCEL": "キャンセル",
+                    "PROCEED": "続行"
+                },
+                "DELETE_BULLETIN": {
+                    "TITLE": "掲示を削除",
+                    "DESCRIPTION": "この掲示板の投稿を削除してもよろしいですか？",
+                    "CANCEL": "キャンセル",
+                    "DELETE": "削除"
+                },
+                "ACTIVE_UNITS": "活動中のユニット"
+            },
+            "BULLETIN": {
+                "TITLE": "掲示板"
+            },
+            "DISPATCH": {
+                "TITLE": "ディスパッチ",
+                "TOGGLE_EMPLOYEES": "従業員を切り替え",
+                "TOGGLE_ALARMS": "アラームを切り替え",
+                "EMPLOYEES": "従業員",
+                "ALARMS": "アラーム",
+                "RESPOND": "応答",
+                "RESPONDED": "応答済み",
+                "COLLAPSE": "折りたたむ",
+                "EXPAND": "展開",
+                "DISMISS": "閉じる",
+                "VIEW_IN_TABLET": "タブレットで表示",
+                "SET_WAYPOINT": "ウェイポイントを設定",
+                "OLD_NOTIFICATION": "古い通知{count}件",
+                "OLD_NOTIFICATIONS": "古い通知{count}件",
+                "NEW_NOTIFICATION": "新しい通知{count}件",
+                "NEW_NOTIFICATIONS": "新しい通知{count}件",
+                "PRIORITY_LEVELS": {
+                    "HIGH": "高",
+                    "MEDIUM": "中",
+                    "LOW": "低"
+                },
+                "JUST_NOW": "たった今",
+                "MINUTES_AGO": "{minutes}分前",
+                "HOURS_AGO": "{hours}時間前"
+            },
+            "UNITS": {
+                "TITLE": "ユニット",
+                "EMPLOYEE": "従業員",
+                "EMPLOYEES": "従業員",
+                "AVALIABLE_EMPLOYEES": "利用可能な従業員",
+                "SEARCH_EMPLOYEES": "従業員を検索",
+                "DROP_EMPLOYEE": "従業員をドロップ",
+                "DROP_EMPLOYEE_AVAILABLE": "ここにドロップして従業員を利用可能にする"
+            },
+            "JOURNALS": {
+                "TITLE": "ジャーナル",
+                "PROFILES": "プロフィール",
+                "PERSON": "人物",
+                "SEARCH": "プロフィールを検索",
+                "REMOVE_AVATAR": "アバターを削除",
+                "IDENTIFIER": "識別子",
+                "FINGERPRINT": "指紋",
+                "DOB": "生年月日",
+                "PHONE_NR": "電話番号",
+                "GENDER": "性別",
+                "JOB": "職業",
+                "MALE": "男性",
+                "FEMALE": "女性",
+                "HEIGHT": "身長",
+                "HEIGHT_FORMAT": "{height}cm",
+                "BLOOD_TYPE": "血液型",
+                "NOTES": "メモ",
+                "NOTES_PLACEHOLDER": "ここにメモを入力...",
+                "DIAGNOSES_DISEASES": "診断/疾患",
+                "NO_DIAGNOSES": "診断/疾患なし",
+                "REPORTS": "レポート",
+                "NO_REPORTS": "レポートなし",
+                "ADD_AVATAR": {
+                    "TITLE": "アバターを追加",
+                    "SET_PHOTO": "写真を設定",
+                    "PASTE_URL": "URLを貼り付け",
+                    "PASTE_URL_DESCRIPTION": "画像のURLを入力してください",
+                    "PASTE_URL_PLACEHOLDER": "画像URL",
+                    "INVALID_URL": "無効なURL",
+                    "INVALID_URL_DESCRIPTION": "入力されたURLは有効な画像URLではありません",
+                    "OK": "OK"
+                }
+            },
+            "REPORTS": {
+                "TITLE": "レポート",
+                "REPORT": "レポート",
+                "SEARCH": "レポートを検索",
+                "FOOTER": "{author} - レポートID: {id}",
+                "NEW_REPORT_TITLE": "新規レポート",
+                "TYPE": "種類",
+                "DESCRIPTION": "説明",
+                "DESCRIPTION_PLACEHOLDER": "説明を入力...",
+                "GALLERY": "ギャラリー",
+                "NO_ATTACHMENTS": "添付ファイルなし",
+                "INJURIES_CONDITIONS": "怪我/状態",
+                "NO_INJURIES": "怪我/状態なし",
+                "DOCTORS_INVOLVED": "関与した医師",
+                "NO_DOCTORS_INVOLVED": "関与した医師なし",
+                "ADD_PATIENT": "患者を追加",
+                "REMOVE_INJURY": {
+                    "TITLE": "怪我を削除",
+                    "DESCRIPTION": "レポートから怪我を削除してもよろしいですか？"
+                },
+                "REMOVE_DOCTOR": {
+                    "TITLE": "医師を削除",
+                    "DESCRIPTION": "レポートから{name}を削除してもよろしいですか？"
+                },
+                "ERROR": {
+                    "TITLE": "エラー",
+                    "NO_TYPE": "レポートの種類を選択する必要があります",
+                    "TITLE_LENGTH": "タイトルは3文字以上である必要があります",
+                    "DESCRIPTION_LENGTH": "説明は10文字以上である必要があります"
+                }
+            },
+            "EMPLOYEES": {
+                "TITLE": "従業員",
+                "SEARCH": "従業員を検索"
+            },
+            "CHAT": {
+                "TITLE": "チャット",
+                "SEARCH": "チャットを検索",
+                "PLACEHOLDER": "メッセージを送信...",
+                "JOINED_CHATS": "参加中のチャット",
+                "PUBLIC_CHATS": "公開チャット",
+                "JOINED": "参加済み",
+                "PUBLIC": "公開",
+                "PRIVATE_CHATS": "プライベートチャット",
+                "ROOM_ID": "ルームID: {id}",
+                "TOGGLE_PRIVATE": "プライベートを切り替え",
+                "CHANGE_AVATAR": "アバターを変更",
+                "SET_AVATAR": "アバターを設定",
+                "REMOVE_AVATAR": "アバターを削除",
+                "MANAGE": "管理",
+                "LEAVE": {
+                    "TITLE": "退出",
+                    "DESCRIPTION": "チャットルームから退出してもよろしいですか？"
+                },
+                "KICK": {
+                    "TITLE": "追放",
+                    "DESCRIPTION": "{name}をチャットルームから追放してもよろしいですか？"
+                },
+                "CREATE_CHATROOM": {
+                    "TITLE": "チャットルームを作成",
+                    "DESCRIPTION": "チャットルームの名前を入力してください",
+                    "PLACEHOLDER": "チャットルーム名",
+                    "CREATE": "作成",
+                    "SET_VISIBILITY": "公開設定",
+                    "PUBLIC": "公開",
+                    "PRIVATE": "プライベート"
+                },
+                "JOIN_CHAT": {
+                    "TITLE": "チャットに参加",
+                    "DESCRIPTION": "{channel}に参加してもよろしいですか？",
+                    "JOIN": "参加"
+                },
+                "ERROR": {
+                    "TITLE": "エラー",
+                    "FAILED_JOIN": "チャットルームへの参加に失敗しました",
+                    "FAILED_INVITE": "{name}をチャットルームに招待できませんでした",
+                    "FAILED_SET_AVATAR": "チャットルームのアバターの設定に失敗しました",
+                    "FAILED_REMOVE_AVATAR": "チャットルームのアバターの削除に失敗しました",
+                    "FAILED_GET_MEMBERS": "チャットルームのメンバーの取得に失敗しました",
+                    "FAILED_KICK": "{name}をチャットルームから追放できませんでした",
+                    "FAILED_LEAVE": "チャットルームからの退出に失敗しました"
+                },
+                "SUCCESS": {
+                    "TITLE": "成功",
+                    "INVITED": "{name}をチャットルームに招待しました",
+                    "KICKED": "{name}をチャットルームから追放しました"
+                }
+            },
+            "CONDITIONS": {
+                "TITLE": "状態",
+                "CONDITION": "状態",
+                "SEARCH": "状態を検索",
+                "SELECT_SEVERITY": "深刻度を選択",
+                "SEVERITIES": {
+                    "MINOR": "軽度",
+                    "MODERATE": "中等度",
+                    "SEVERE": "重度",
+                    "CRITICAL": "危機的"
+                },
+                "NO_CONDITIONS_FOUND": "状態が見つかりません",
+                "ADD_CONDITION": {
+                    "TITLE": "状態を追加",
+                    "DESCRIPTION": "新しい状態を作成",
+                    "PLACEHOLDER": "状態のタイトルを入力"
+                },
+                "DELETE_CONDITION": {
+                    "TITLE": "状態を削除",
+                    "DESCRIPTION": "この状態を削除してもよろしいですか？"
+                },
+                "ADD_CATEGORY": {
+                    "TITLE": "カテゴリを追加",
+                    "DESCRIPTION": "状態リストに新しいカテゴリを追加",
+                    "PLACEHOLDER": "カテゴリ名を入力"
+                },
+                "DELETE_CATEGORY": {
+                    "TITLE": "カテゴリを削除",
+                    "DESCRIPTION": "このカテゴリを削除してもよろしいですか？"
+                }
+            },
+            "LOGS": {
+                "TITLE": "ログ"
+            }
+        },
+        "BROWSER": {
+            "TITLE": "ブラウザ",
+            "SEARCH_PLACEHOLDER": "検索またはURLを入力",
+            "FAILED_LOAD_PAGE": "ページの読み込みに失敗しました。iframeに対応していない可能性があります。"
+        },
+        "REGISTRATION": {
+            "TITLE": "登録",
+            "SELECT_CHARACTER": "キャラクターを選択",
+            "PLEASE_SELECT_CHARACTER": "キャラクターを選択してください",
+            "CREATE_NEW": "新規作成",
+            "EDIT": "編集",
+            "SAVE": "保存",
+            "DELETE": "削除",
+            "CANCEL": "キャンセル",
+            "DELETE_CHARACTER": "キャラクターを削除",
+            "DESCRIPTION": "説明",
+            "DESCRIPTION_PLACEHOLDER": "これは説明です...",
+            "ADD": "追加",
+            "CHARACTER_INFO": "キャラクター情報",
+            "REMOVE_AVATAR": "アバターを削除",
+            "FIRSTNAME": "名",
+            "LASTNAME": "姓",
+            "DOB": "生年月日",
+            "PHONE_NUMBER": "電話番号",
+            "GENDER": "性別",
+            "MALE": "男性",
+            "FEMALE": "女性",
+            "JOB": "職業",
+            "HEIGHT": "身長",
+            "FORMATTED_HEIGHT": "{height}cm",
+            "VEHICLES": "車両",
+            "VEHICLE": "車両",
+            "REMOVE_PICTURE": "写真を削除",
+            "SEARCH_VEHICLES": "車両を検索",
+            "MODEL": "モデル",
+            "PLATE": "ナンバープレート",
+            "COLOR": "色",
+            "CREATE": "作成",
+            "DELETE_VEHICLE": "車両を削除",
+            "DELETE_VEHICLE_POPUP": {
+                "TITLE": "車両を削除",
+                "DESCRIPTION": "この車両を削除してもよろしいですか？"
+            },
+            "LICENSES": "ライセンス",
+            "ADD_LICENSE": "ライセンスを追加",
+            "DELETE_LICENSE_POPUP": {
+                "TITLE": "ライセンスを削除",
+                "DESCRIPTION": "このライセンスを削除してもよろしいですか？"
+            },
+            "PROPERTIES": "不動産",
+            "ADD_PROPERTY_POPUP": {
+                "TITLE": "新規不動産",
+                "DESCRIPTION": "新しい不動産を作成",
+                "LABEL": "不動産ラベル",
+                "ADDRESS": "不動産住所"
+            },
+            "DELETE_PROPERTY_POPUP": {
+                "TITLE": "不動産を削除",
+                "DESCRIPTION": "この不動産を削除してもよろしいですか？"
+            },
+            "ERROR": {
+                "TITLE": "エラー",
+                "MISSING_FIELDS": "次のフィールドが不足しています: {fields}",
+                "OK": "OK"
+            }
+        },
+        "MAPS": {
+            "GO": "行く"
+        }
+    },
+    "COMPONENTS": {
+        "CONTEXT_MENU": {
+            "CANCEL": "キャンセル"
+        },
+        "IMAGE": {
+            "SAVE_TO_GALLERY": "ギャラリーに保存"
+        },
+        "GALLERY": {
+            "CANCEL": "キャンセル",
+            "EXTERNAL_URL": "外部リンク",
+            "EXTERNAL_URL_BLACKLISTED": "このURLはブラックリストに登録されています",
+            "NO_IMAGES": "画像がありません"
+        },
+        "NOTIFICATIONS": {
+            "SENT_PHOTO": "写真を送信しました",
+            "SENT_GIF": "GIFを送信しました",
+            "NOW": "たった今"
+        },
+        "SHARE": {
+            "COPY_PHOTO": "写真をコピー",
+            "COPY_VIDEO": "ビデオをコピー",
+            "USE_WALLPAPER": "壁紙として使用",
+            "COPY_NUMBER": "番号をコピー",
+            "COPY_LINK": "リンクをコピー",
+            "AIRDROP_SENT": "送信済み",
+            "AIRDROP_ACCEPTED": "承認済み",
+            "AIRDROP_DECLINED": "拒否済み",
+            "AIRDROP_NO_USERS": "近くに電話がありません",
+            "WALLPAPER_POPUP": {
+                "TITLE": "壁紙として使用",
+                "TEXT": "この画像を壁紙として設定してもよろしいですか？",
+                "CANCEL": "キャンセル",
+                "PROCEED": "続行"
+            },
+            "COPY_POPUP": {
+                "TITLE": "成功",
+                "DESCRIPTION": "クリップボードに正常にコピーされました",
+                "OK": "OK"
+            }
+        },
+        "AIRDROP": {
+            "TITLE": "AirShare",
+            "TEXT": "{sender}が{type}を共有しようとしています",
+            "VIDEO": "ビデオ",
+            "PHOTO": "写真",
+            "CONTACT": "連絡先",
+            "LOCATION": "位置情報",
+            "NOTE": "メモ",
+            "VOICEMEMO": "ボイスメモ",
+            "PLAYLIST": "プレイリスト",
+            "DECLINE": "拒否",
+            "ACCEPT": "承認"
+        },
+        "BATTERY": {
+            "LOW_BATTERY": "バッテリー残量低下",
+            "BATTERY_REMAINING": "バッテリー残量{percent}%",
+            "LOW_POWER_MODE": "低電力モード",
+            "CLOSE": "閉じる"
+        },
+        "COLOR_PICKER": {
+            "COLOR": "色"
+        }
+    },
+    "SETUP": {
+        "HELLO": "こんにちは",
+        "SELECT_LANGUAGE": "言語を選択してください",
+        "NEXT": "クリックして開く",
+        "APPEARANCE": "テーマ",
+        "APPEARANCE_TEXT": "デバイスのダークまたはライトテーマを選択してください",
+        "CONTINUE": "続ける",
+        "WELCOME_TO": "ようこそ",
+        "CLICK": "クリックして開始"
+    },
+    "HOMESCREEN": {
+        "DONE": "完了",
+        "CLOSE_ALL": "すべて閉じる",
+        "REMOVE_APP_POPUP": {
+            "TITLE": "'{app}'を削除しますか？",
+            "DESCRIPTION": "このアプリを削除しても、そのデータは削除されません。アプリは後でApp Storeから再インストールできます。",
+            "CANCEL": "キャンセル",
+            "PROCEED": "削除"
+        }
+    },
+    "LOCKSCREEN": {
+        "DELETE": "削除",
+        "FONT_AND_COLOR": "フォントと色"
+    },
+    "MISC": {
+        "GENDERS": {
+            "MALE": "男性",
+            "FEMALE": "女性"
+        },
+        "AIRPLANE_MODE_POPUP": {
+            "TITLE": "エラー",
+            "DESCRIPTION": "インターネットアクセスが必要な操作を実行しようとしています。続けるには機内モードを無効にしてください。",
+            "OK": "OK"
+        }
+    },
+    "BACKEND": {
+        "CAMERA": {
+            "TAKE_PHOTO": "{key} 撮影",
+            "FLIP_CAMERA": "{key} 反転",
+            "TOGGLE_FLASH": "{key} フラッシュ",
+            "TOGGLE_CURSOR": "{key} カーソル",
+            "CHANGE_MODE": "{key} {key2} モード",
+            "ROLL": "{key} {key2} ロール",
+            "FREEZE": "{key} フリーズ",
+            "UNFREEZE": "{key} フリーズ解除",
+            "TOGGLE_TIP": "{key} 非表示"
+        },
+        "SERVICES": {
+            "NEW_MESSAGE": "新規メッセージ",
+            "ANONYMOUS": "匿名"
+        },
+        "MISC": {
+            "X_TABLET": "{firstname}のタブレット"
+        },
+        "MAIL": {
+            "AUTOMATIC_PASSWORD": {
+                "SENDER": "システム",
+                "SUBJECT": "あなたのパスワード",
+                "MESSAGE": "こんにちは、\n\nあなたの自動メールアドレスは {address} で、パスワードは {password} です。"
+            }
+        },
+        "LOGS": {
+            "TOOK_PHOTO": "写真を撮影しました",
+            "TOOK_VIDEO": "ビデオを撮影しました",
+            "NEW_DISPATCH": "新規ディスパッチ: {title}"
+        },
+        "BASE_DISPATCH": {
+            "VEHICLE_CLASSES": {
+                "0": "コンパクトカー",
+                "1": "セダン",
+                "2": "SUV",
+                "3": "クーペ",
+                "4": "マッスルカー",
+                "5": "スポーツクラシック",
+                "6": "スポーツカー",
+                "7": "スーパーカー",
+                "8": "オートバイ",
+                "9": "オフロード車",
+                "10": "産業車両",
+                "11": "ユーティリティ車両",
+                "12": "バン",
+                "13": "自転車",
+                "14": "ボート",
+                "15": "ヘリコプター",
+                "16": "飛行機",
+                "17": "サービス車両",
+                "18": "緊急車両",
+                "19": "軍用車両",
+                "20": "商用車両",
+                "21": "電車",
+                "22": "オープンホイールカー"
+            },
+            "VEHICLE_DATA": {
+                "BODY_TYPE": "ボディタイプ",
+                "MANUFACTURER": "メーカー",
+                "MODEL": "モデル",
+                "COLOR": "色",
+                "PLATE": "ナンバープレート"
+            },
+            "VEHICLE_THEFT": {
+                "CODE": "10-31",
+                "TITLE": "車両盗難 - {plate}",
+                "DESCRIPTION": "{gender_lower}が、ナンバープレート{plate}の{color_lower}の{class} {manufacturer} {model}を盗んでいるのが目撃されました。"
+            },
+            "VEHICLE_JACKING": {
+                "CODE": "10-31",
+                "TITLE": "カージャック - {plate}",
+                "DESCRIPTION": "{gender_lower}が、ナンバープレート{plate}の{color_lower}の{class} {manufacturer} {model}をジャックしているのが目撃されました。"
+            },
+            "WEAPON_TYPES": {
+                "DIGISCANNER": "デジスキャナー",
+                "FIREEXTINGUISHER": "消火器",
+                "HACKINGDEVICE": "ハッキングデバイス",
+                "HEAVY": "重火器",
+                "MELEE": "近接武器",
+                "METALDETECTOR": "金属探知機",
+                "MG": "マシンガン",
+                "NIGHTVISION": "暗視ゴーグル",
+                "PARACHUTE": "パラシュート",
+                "PETROLCAN": "ガソリン缶",
+                "PISTOL": "ピストル",
+                "RIFLE": "ライフル",
+                "SHOTGUN": "ショットガン",
+                "SMG": "SMG",
+                "SNIPER": "スナイパー",
+                "STUNGUN": "スタンガン",
+                "THROWN": "投擲武器",
+                "TRANQILIZER": "麻酔銃",
+                "UNARMED": "素手",
+                "UNKNOWN": "銃器"
+            },
+            "GUNSHOT": {
+                "CODE": "10-31",
+                "TITLE": "銃声 - {location}",
+                "DESCRIPTION": "{gender_lower}が{location}で{weapon_type_lower}を発砲しているのが目撃されました。"
+            },
+            "EXPLOSION": {
+                "TITLE": "爆発",
+                "DESCRIPTION": "{location}で爆発音が聞こえました。",
+                "CODE": "10-31"
+            },
+            "ARMED": {
+                "TITLE": "武装した{gender}",
+                "DESCRIPTION": "{gender_lower}が{location}で{weapon_type_lower}で武装しているのが目撃されました。",
+                "CODE": "10-31"
+            }
+        },
+        "POLICE": {
+            "EVIDENCE_LABEL": "証拠: 事件 {id}",
+            "NEW_BULLETIN_NOTIFICATION": {
+                "TITLE": "新規掲示",
+                "CONTENT": "{title}"
+            },
+            "NEW_CASE_NOTIFICATION": {
+                "TITLE": "新規事件",
+                "CONTENT": "{title}"
+            },
+            "NEW_REPORT_NOTIFICATION": {
+                "TITLE": "新規レポート",
+                "CONTENT": "{title}"
+            },
+            "NEW_WARRANT_NOTIFICATION": {
+                "TITLE": "新規令状",
+                "CONTENT": "{title}"
+            },
+            "NEW_CHAT_CHANNEL_NOTIFICATION": {
+                "TITLE": "新規会話",
+                "CONTENT": "{channel}"
+            },
+            "CHAT_MESSAGE_NOTIFICATION": {
+                "TITLE": "{channel}での新規メッセージ",
+                "CONTENT": "{message}"
+            },
+            "LOGS": {
+                "CREATE_OFFENCE_CATEGORY": {
+                    "TITLE": "犯罪カテゴリを作成しました",
+                    "DESCRIPTION": "カテゴリ「{name}」を作成しました"
+                },
+                "DELETE_OFFENCE_CATEGORY": {
+                    "TITLE": "犯罪カテゴリを削除しました",
+                    "DESCRIPTION": "カテゴリ「{name}」を削除しました"
+                },
+                "UPDATE_OFFENCE_CATEGORY": {
+                    "TITLE": "犯罪カテゴリを更新しました",
+                    "DESCRIPTION": "犯罪カテゴリ名を「{oldName}」から「{newName}」に変更しました"
+                },
+                "CREATE_OFFENCE": {
+                    "TITLE": "犯罪を作成しました",
+                    "DESCRIPTION": "「{category}」に{class}の犯罪「{name}」を作成しました"
+                },
+                "DELETE_OFFENCE": {
+                    "TITLE": "犯罪を削除しました",
+                    "DESCRIPTION": "「{category}」の犯罪「{name}」を削除しました"
+                },
+                "UPDATE_OFFENCE": {
+                    "TITLE": "犯罪を更新しました",
+                    "DESCRIPTION": "「{category}」の犯罪「{name}」を更新しました"
+                }
+            },
+            "WIRETAP_NOTIFICATION": {
+                "TITLE": "盗聴中の通話",
+                "CONTENT": "盗聴中の電話番号{number}が通話中です。"
+            }
+        },
+        "AMBULANCE": {
+            "NOTIFICATIONS": {
+                "CHAT": {
+                    "NEW_CHANNEL": {
+                        "TITLE": "新規会話",
+                        "CONTENT": "{channel}"
+                    },
+                    "NEW_MESSAGE": {
+                        "TITLE": "{channel}での新規メッセージ",
+                        "CONTENT": "{message}"
+                    }
+                },
+                "NEW_BULLETIN": {
+                    "TITLE": "新規掲示",
+                    "CONTENT": "{title}"
+                },
+                "NEW_REPORT": {
+                    "TITLE": "新規レポート",
+                    "CONTENT": "{title}"
+                }
+            },
+            "TAG_TYPES": {
+                "PROFILE": "プロフィール",
+                "REPORT": "レポート",
+                "PROPERTY": "不動産",
+                "WEAPON": "武器"
+            },
+            "LOGS": {
+                "CREATE_CONDITION_CATEGORY": {
+                    "TITLE": "状態カテゴリを作成しました",
+                    "DESCRIPTION": "カテゴリ「{name}」を作成しました"
+                },
+                "DELETE_CONDITION_CATEGORY": {
+                    "TITLE": "状態カテゴリを削除しました",
+                    "DESCRIPTION": "カテゴリ「{name}」を削除しました"
+                },
+                "UPDATE_CONDITION_CATEGORY": {
+                    "TITLE": "状態カテゴリを更新しました",
+                    "DESCRIPTION": "状態カテゴリ名を「{oldName}」から「{newName}」に変更しました"
+                },
+                "CREATE_CONDITION": {
+                    "TITLE": "状態を作成しました",
+                    "DESCRIPTION": "「{category}」に{severity}の状態「{name}」を作成しました"
+                },
+                "DELETE_CONDITION": {
+                    "TITLE": "状態を削除しました",
+                    "DESCRIPTION": "「{category}」の状態「{name}」を削除しました"
+                },
+                "UPDATE_CONDITION": {
+                    "TITLE": "状態を更新しました",
+                    "DESCRIPTION": "「{category}」の状態「{name}」を更新しました"
+                },
+                "CREATE_BULLETIN": {
+                    "TITLE": "掲示板の投稿を作成しました",
+                    "DESCRIPTION": "掲示板の投稿「{title}」を作成しました"
+                },
+                "UPDATE_BULLETIN": {
+                    "TITLE": "掲示板の投稿を更新しました",
+                    "DESCRIPTION": "掲示板の投稿「{title}」を更新しました"
+                },
+                "DELETE_BULLETIN": {
+                    "TITLE": "掲示板の投稿を削除しました",
+                    "DESCRIPTION": "ID {id} の掲示板の投稿を削除しました"
+                },
+                "PIN_BULLETIN": {
+                    "TITLE": "掲示板の投稿をピン留めしました",
+                    "DESCRIPTION": "ID {id} の掲示板の投稿をピン留めしました"
+                },
+                "UNPIN_BULLETIN": {
+                    "TITLE": "掲示板の投稿のピン留めを解除しました",
+                    "DESCRIPTION": "ID {id} の掲示板の投稿のピン留めを解除しました"
+                },
+                "DELETE_TAG": {
+                    "TITLE": "タグを削除しました",
+                    "DESCRIPTION": "タグ「{name}」を削除しました"
+                },
+                "UPDATE_PROFILE": {
+                    "TITLE": "プロフィールを更新しました",
+                    "DESCRIPTION": "{name}のプロフィールを更新しました"
+                },
+                "CREATE_REPORT": {
+                    "TITLE": "レポートを作成しました",
+                    "DESCRIPTION": "患者{patient}に関する{type}レポート「{title}」（ID {id}）を作成しました"
+                },
+                "UPDATE_REPORT": {
+                    "TITLE": "レポートを更新しました",
+                    "DESCRIPTION": "ID {id} の{type}レポート「{title}」を更新しました"
+                }
+            }
+        }
+    }
+}
