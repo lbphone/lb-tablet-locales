@@ -464,6 +464,7 @@
             "DISPATCH": {
                 "TITLE": "Dispatch",
                 "SEARCH_ALARMS": "Recherche d'alarme",
+                "SEARCH_HISTORY": "Rechercher l'historique des interventions",
                 "SHOW_EMPLOYEES": "Afficher Employés",
                 "SHOW_ALARMS": "Afficher Alarmes",
                 "SHOW_POPUPS": "Afficher les Popups",
@@ -472,6 +473,7 @@
                 "ALARMS": "Alarmes",
                 "MAP": "Carte",
                 "LIST": "Liste",
+                "HISTORY": "Historique",
                 "RESPOND": "Répondre",
                 "RESPONDED": "Accepter",
                 "COLLAPSE": "Réduire",
@@ -494,9 +496,11 @@
                 "TIME": "Heure",
                 "CODE": "Code",
                 "LOCATION": "Lieux",
+                "DISPATCH_TITLE": "Titre",
                 "RESPONDERS": "Intervenants",
                 "ACTIONS": "Actions",
                 "NONE": "Aucun",
+                "NO_HISTORY": "Aucune intervention trouvée",
                 "REMOVE": "Retirer",
                 "REMOVE_ALL": "Retirer tous",
                 "VIEW": "Voir",
@@ -739,6 +743,7 @@
                 "NOTES_PLACEHOLDER": "Saisir vos notes...",
                 "UNREGISTERED": "Non enregistré",
                 "OWNER": "Propriétaire",
+                "REQUIRED": "Requis",
                 "SELECT_MODEL": "Sélectionner le modèle",
                 "SELECT_OWNER": "Sélectionner le Propriétaire",
                 "REMOVE_OWNER": {
@@ -1308,6 +1313,11 @@
                         "DESCRIPTION": "Arme avec le numéro de série {serialNumber} supprimée"
                     }
                 }
+            },
+            "IFRAME": {
+                "FAILED_LOAD": "Échec de chargement de la page",
+                "FAILED_LOAD_DESCRIPTION": "La page n'a pas pu s'afficher. Elle est peut-être indisponible ou son intégration est bloquée.",
+                "RETRY": "Réessayer"
             },
             "TAGS": {
                 "TITLE": "Tags",
