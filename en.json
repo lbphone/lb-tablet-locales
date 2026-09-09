@@ -464,6 +464,7 @@
             "DISPATCH": {
                 "TITLE": "Dispatch",
                 "SEARCH_ALARMS": "Search Alarms",
+                "SEARCH_HISTORY": "Search Dispatch History",
                 "SHOW_EMPLOYEES": "Show Employees",
                 "SHOW_ALARMS": "Show Alarms",
                 "SHOW_POPUPS": "Show Popups",
@@ -472,6 +473,7 @@
                 "ALARMS": "Alarms",
                 "MAP": "Map",
                 "LIST": "List",
+                "HISTORY": "History",
                 "RESPOND": "Respond",
                 "RESPONDED": "Responded",
                 "COLLAPSE": "Collapse",
@@ -493,10 +495,12 @@
                 "PRIORITY": "Priority",
                 "TIME": "Time",
                 "CODE": "Code",
+                "DISPATCH_TITLE": "Title",
                 "LOCATION": "Location",
                 "RESPONDERS": "Responders",
                 "ACTIONS": "Actions",
                 "NONE": "None",
+                "NO_HISTORY": "No dispatches found",
                 "REMOVE": "Remove",
                 "REMOVE_ALL": "Remove All",
                 "VIEW": "View",
@@ -739,6 +743,7 @@
                 "NOTES_PLACEHOLDER": "Enter notes here...",
                 "UNREGISTERED": "Unregistered",
                 "OWNER": "Owner",
+                "REQUIRED": "Required",
                 "SELECT_MODEL": "Select Model",
                 "SELECT_OWNER": "Select Owner",
                 "REMOVE_OWNER": {
@@ -1310,6 +1315,11 @@
                         "DESCRIPTION": "Deleted the weapon with the serial number {serialNumber}"
                     }
                 }
+            },
+            "IFRAME": {
+                "FAILED_LOAD": "Failed to load page",
+                "FAILED_LOAD_DESCRIPTION": "The page could not be displayed. It may be unavailable or blocked from being embedded.",
+                "RETRY": "Retry"
             },
             "TAGS": {
                 "TITLE": "Tags",
