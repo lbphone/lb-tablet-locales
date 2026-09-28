@@ -464,6 +464,7 @@
             "DISPATCH": {
                 "TITLE": "Diszpécser",
                 "SEARCH_ALARMS": "Riasztások keresése",
+                "SEARCH_HISTORY": "Riasztási előzmények keresése",
                 "SHOW_EMPLOYEES": "Alkalmazottak mutatása",
                 "SHOW_ALARMS": "Riasztások mutatása",
                 "SHOW_POPUPS": "Felugró ablakok mutatása",
@@ -472,6 +473,7 @@
                 "ALARMS": "Riasztások",
                 "MAP": "Térkép",
                 "LIST": "Lista",
+                "HISTORY": "Előzmények",
                 "RESPOND": "Reagálás",
                 "RESPONDED": "Reagált",
                 "COLLAPSE": "Összecsukás",
@@ -493,10 +495,12 @@
                 "PRIORITY": "Prioritás",
                 "TIME": "Idő",
                 "CODE": "Kód",
+                "DISPATCH_TITLE": "Cím",
                 "LOCATION": "Helyszín",
                 "RESPONDERS": "Reagálók",
                 "ACTIONS": "Műveletek",
                 "NONE": "Nincs",
+                "NO_HISTORY": "Nem található új riasztás",
                 "REMOVE": "Eltávolítás",
                 "REMOVE_ALL": "Összes eltávolítása",
                 "VIEW": "Megtekintés",
@@ -739,6 +743,7 @@
                 "NOTES_PLACEHOLDER": "Írj ide megjegyzést...",
                 "UNREGISTERED": "Nem regisztrált",
                 "OWNER": "Tulajdonos",
+                "REQUIRED": "Szükséges",
                 "SELECT_MODEL": "Modell kiválasztása",
                 "SELECT_OWNER": "Tulajdonos kiválasztása",
                 "REMOVE_OWNER": {
@@ -1310,6 +1315,11 @@
                         "DESCRIPTION": "Törölte a(z) {serialNumber} sorozatszámú fegyvert"
                     }
                 }
+            },
+            "IFRAME": {
+                "FAILED_LOAD": "Oldal betöltése sikertelen",
+                "FAILED_LOAD_DESCRIPTION": "Az oldal nem megjeleníthető. Lehet nem elérhető vagy blockolja a beágyazást.",
+                "RETRY": "Újrapróbál"
             },
             "TAGS": {
                 "TITLE": "Címkék",
