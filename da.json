@@ -435,6 +435,9 @@
             "SEARCH_FOR": "Søg for {query} to get started",
             "NO_RESULTS_FOR": "Nej results found for '{query}'",
             "CLEAR_HISTORY": "Clear History",
+            "REGISTERED_TO": "Ryd historik",
+            "FILED_BY": "Arkiveret",
+            "UPDATED": "Opdateret",
             "EXPORT": {
                 "TITLE": "Export",
                 "DESCRIPTION": "Export the report to a item",
@@ -1328,10 +1331,8 @@
                     "DELETE": "Slet"
                 },
                 "REMOVE_TAG": {
-                    "TITLE": "Fjern Tag",
-                    "DESCRIPTION": "Are you sure you want to remove the tag '{tag}'?",
-                    "CANCEL": "Annuller",
-                    "REMOVE": "Fjern"
+                    "FROM_RECORD": "Fjern fra denne post",
+                    "EVERYWHERE": "Slet overalt"
                 },
                 "COLORS": {
                     "GREY": "Grey",
