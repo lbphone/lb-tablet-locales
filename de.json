@@ -435,6 +435,9 @@
             "SEARCH_FOR": "Suche nach {query}, um zu starten",
             "NO_RESULTS_FOR": "Keine Ergebnisse gefunden für '{query}'",
             "CLEAR_HISTORY": "Verlauf löschen",
+            "REGISTERED_TO": "Registriert bei",
+            "FILED_BY": "Eingereicht von",
+            "UPDATED": "Aktualisiert",
             "EXPORT": {
                 "TITLE": "Exportieren",
                 "DESCRIPTION": "Bericht als Gegenstand exportieren",
@@ -1328,10 +1331,8 @@
                     "DELETE": "Löschen"
                 },
                 "REMOVE_TAG": {
-                    "TITLE": "Tag entfernen",
-                    "DESCRIPTION": "Bist du sicher, dass du das Tag '{tag}' entfernen möchtest?",
-                    "CANCEL": "Abbrechen",
-                    "REMOVE": "Entfernen"
+                    "FROM_RECORD": "Vom Datensatz entfernen",
+                    "EVERYWHERE": "Überall löschen"
                 },
                 "COLORS": {
                     "GREY": "Grau",
