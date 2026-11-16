@@ -435,6 +435,9 @@
             "SEARCH_FOR": "Keress rá a(z) {query} kifejezésre a kezdéshez",
             "NO_RESULTS_FOR": "Nincs találat erre: '{query}'",
             "CLEAR_HISTORY": "Előzmények törlése",
+            "REGISTERED_TO": "Hozzá regisztrálva: ",
+            "FILED_BY": "Általa benyújtva: ",
+            "UPDATED": "Frissítve",
             "EXPORT": {
                 "TITLE": "Exportálás",
                 "DESCRIPTION": "Jelentés exportálása tárgyhoz",
@@ -1341,10 +1344,8 @@
                     "DELETE": "Törlés"
                 },
                 "REMOVE_TAG": {
-                    "TITLE": "Címke eltávolítása",
-                    "DESCRIPTION": "Biztosan eltávolítod a(z) '{tag}' címkét?",
-                    "CANCEL": "Mégse",
-                    "REMOVE": "Eltávolítás"
+                    "FROM_RECORD": "Ezen felvétel eltávolítása",
+                    "EVERYWHERE": "Törlés mindenhol"
                 },
                 "COLORS": {
                     "GREY": "Szürke",
