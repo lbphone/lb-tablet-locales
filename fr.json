@@ -435,6 +435,9 @@
             "SEARCH_FOR": "Chercher {query} pour démarrer",
             "NO_RESULTS_FOR": "Aucun résultat pour '{query}'",
             "CLEAR_HISTORY": "Effacer l'historique",
+            "REGISTERED_TO": "Inscrit auprès de",
+            "FILED_BY": "Déposé par",
+            "UPDATED": "Mis à jour",
             "EXPORT": {
                 "TITLE": "Exportation",
                 "DESCRIPTION": "Exporter le rapport vers un item",
@@ -1339,10 +1342,8 @@
                     "DELETE": "Supprimer"
                 },
                 "REMOVE_TAG": {
-                    "TITLE": "Retirer le Tag",
-                    "DESCRIPTION": "Êtes-vous sur de vouloir retirer le tag '{tag}'?",
-                    "CANCEL": "Annuler",
-                    "REMOVE": "Retirer"
+                    "FROM_RECORD": "Supprimer de cette fiche",
+                    "EVERYWHERE": "Supprimer partout"
                 },
                 "COLORS": {
                     "GREY": "Gris",
