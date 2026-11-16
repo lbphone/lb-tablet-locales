@@ -435,6 +435,9 @@
             "SEARCH_FOR": "Search for {query} to get started",
             "NO_RESULTS_FOR": "No results found for '{query}'",
             "CLEAR_HISTORY": "Clear History",
+            "REGISTERED_TO": "Registered to",
+            "FILED_BY": "Filed by",
+            "UPDATED": "Updated",
             "EXPORT": {
                 "TITLE": "Export",
                 "DESCRIPTION": "Export the report to a item",
@@ -1341,10 +1344,8 @@
                     "DELETE": "Delete"
                 },
                 "REMOVE_TAG": {
-                    "TITLE": "Remove Tag",
-                    "DESCRIPTION": "Are you sure you want to remove the tag '{tag}'?",
-                    "CANCEL": "Cancel",
-                    "REMOVE": "Remove"
+                    "FROM_RECORD": "Remove from this record",
+                    "EVERYWHERE": "Delete everywhere"
                 },
                 "COLORS": {
                     "GREY": "Grey",
